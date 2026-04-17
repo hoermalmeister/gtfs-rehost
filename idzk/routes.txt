@@ -1,0 +1,384 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
+BUS_MHD:001101_1425_2026-02-16,1690,101,Vsetín-Horní Lideč-Střelná-Púchov,308901 (SK),3,102d69,ffffff
+BUS_MHD:771155_312_2021-03-07,1690,155,Holešov-Ludslavice-Lechotice-Otrokovice,,3,162D66,FFFFFF
+BUS_MHD:771160_312_2021-03-07,1690,160,Kroměříž-Tlumačov-Otrokovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:771161_312_2021-03-07,1690,161,Velké Těšany-Nová Dědina-Kvasice-Otrokovice,,3,162D66,FFFFFF
+BUS_MHD:771165_312_2022-12-11,1690,165,Kroměříž-Otrokovice-Babice-Uherské Hradiště,,3,162D66,FFFFFF
+BUS_MHD:771240_312_2021-03-07,1690,240,Bystřice p.Host.-Bystřice p. Host.-Hlinsko-Rusava,,3,162D66,FFFFFF
+BUS_MHD:771242_312_2021-03-07,1690,242,Bystřice p.Host.-Hostýn,,3,162D66,FFFFFF
+BUS_MHD:771250_312_2021-03-07,1690,250,Bystřice p.Host.-Holešov-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:771251_312_2021-03-07,1690,251,Holešov-Prusinovice-Brusné-Bystřice p.Host.,,3,162D66,FFFFFF
+BUS_MHD:771252_312_2021-03-07,1690,252,Holešov-Bořenovice,,3,162D66,FFFFFF
+BUS_MHD:771253_312_2023-12-10,1690,253,Kostelec u Holešova-Hulín-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:771258_312_2023-12-10,1690,258,Holešov-Holešov-PZ -Holešov-Žopy,,3,162D66,FFFFFF
+BUS_MHD:771263_312_2021-03-07,1690,263,Kroměříž-Bařice-Velké Těšany-Lubná,,3,162D66,FFFFFF
+BUS_MHD:771264_312_2021-03-07,1690,264,Kroměříž-Kvasice-Bělov-Karolín-Lubná,,3,162D66,FFFFFF
+BUS_MHD:771265_312_2023-12-10,1690,265,Kroměříž-Hulín-Míškovice-Tlumačov-Kvasice,,3,162D66,FFFFFF
+BUS_MHD:771270_312_2025-12-14,1690,270,Kroměříž-Zdounky-Střílky-Koryčany,,3,162D66,FFFFFF
+BUS_MHD:771271_312_2021-03-07,1690,271,Kroměříž-Kostelany,,3,162D66,FFFFFF
+BUS_MHD:771272_312_2023-12-10,1690,272,Kroměříž-Zdounky-Zborovice-Morkovice-Slížany,,3,162D66,FFFFFF
+BUS_MHD:771273_312_2025-12-14,1690,273,Kroměříž-Rataje-Litenčice-Kunkovice,,3,,
+BUS_MHD:771280_312_2025-12-14,1690,280,Kroměříž-Věžky-Morkovice-Slížany-Pačlavice,,3,162D66,FFFFFF
+BUS_MHD:771283_312_2025-12-14,1690,283,Morkovice-Slížany-Střílky-Koryčany,,3,162D66,FFFFFF
+BUS_MHD:771290_312_2023-12-10,1690,290,Kroměříž-Chropyně-Záříčí,,3,162D66,FFFFFF
+BUS_MHD:771931_312_2021-03-07,1690,931,Kroměříž-Kojetín-Prostějov,,3,162D66,FFFFFF
+BUS_MHD:771933_312_2021-03-07,1690,933,"Morkovice-Slížany-Dřínov-Věžky,Vlčí Doly",,3,162D66,FFFFFF
+BUS_MHD:771940_312_2021-03-07,1690,940,Kroměříž-Kyselovice-Chropyně-Přerov,,3,162D66,FFFFFF
+BUS_MHD:771941_312_2021-03-07,1690,941,"Bystřice p.Host.-Bystřice p.Host.,Rychlov-Lipová",,3,162D66,FFFFFF
+BUS_MHD:771942_312_2023-12-10,1690,942,Holešov-Kostelec u Holešova-Přerov,,3,162D66,FFFFFF
+BUS_MHD:771945_312_2022-12-11,1690,945,Rajnochovice-Podhradní Lhota-Všechovice,,3,162D66,FFFFFF
+BUS_MHD:771946_312_2022-12-11,1690,946,Bystřice p.Host.-Všechovice-Kelč,,3,162D66,FFFFFF
+BUS_MHD:771950_312_2021-03-07,1690,950,Bystřice p.Host.-Býškovice-Hranice,,3,162D66,FFFFFF
+BUS_MHD:771981_312_2025-12-14,1690,981,Kroměříž-Vyškov-Brno,,3,162D66,FFFFFF
+BUS_MHD:771983_312_2025-12-14,1690,983,Morkovice-Slížany-Pačlavice-Vyškov-Brno,,3,162D66,FFFFFF
+BUS_MHD:772165_263_2022-12-11,1690,165,Kroměříž-Otrokovice-Babice-Uherské Hradiště,,3,162D66,FFFFFF
+BUS_MHD:773160_88_2022-03-06,1690,160,Kroměříž-Tlumačov-Otrokovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:773165_88_2022-12-11,1690,165,Kroměříž-Otrokovice-Babice-Uherské Hradiště,,3,162D66,FFFFFF
+BUS_MHD:773250_88_2022-12-11,1690,250,Bystřice p.Host.-Holešov-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:773251_88_2023-12-10,1690,251,Holešov-Prusinovice-Brusné-Bystřice p.Host.,,3,162D66,FFFFFF
+BUS_MHD:773777_88_2025-06-15,1690,777,Holešov-Zlín-Luhačovice-Slavičín-Valašské Klobouky-Vsetín-Bystřička,,3,32746E,FFFFFF
+BUS_MHD:773942_88_2023-12-10,1690,942,Holešov-Kostelec u Holešova-Přerov,,3,162D66,FFFFFF
+BUS_MHD:775001,1690,1,Nádraží - Milíčovo náměstí - Nemocnice - Výzkumný ústav,,3,FFFFFF,E95000
+BUS_MHD:775002,1690,2,"Nádraží - Dolní Zahrady,Ovocná - Bílany,točna",,3,FFFFFF,E95000
+BUS_MHD:775003,1690,3,"Nádraží - Oskol,Spáčilova - Milíčovo náměstí - Nemocnice,parkoviště - Vážany,za přejezdem",,3,FFFFFF,E95000
+BUS_MHD:775004,1690,4,"Nádraží - Oskol,Spáčilova - Slovan,Vrobelova - Nemocnice,parkoviště - Lindovka - Milíčovo náměstí - Nádraží",,3,FFFFFF,E95000
+BUS_MHD:775005,1690,5,"Nádraží - Hulínská,Magneton - Kaplanova,Plastika - Horní Zahrady,točna",,3,FFFFFF,E95000
+BUS_MHD:775006,1690,6,"Nádraží - Milíčovo náměstí - Lindovka - Nemocnice,parkoviště - Slovan,Vrobelova - Oskol,Spáčilova - Nádraží",,3,FFFFFF,E95000
+BUS_MHD:775007,1690,7,"Nádraží - Milíčovo náměstí - Slovan,Vrobelova - Nemocnice - Výzkumný ústav",,3,FFFFFF,E95000
+BUS_MHD:775008,1690,8,"Nádraží - Dolní Zahrady,Ovocná - Dolní Zahrady,točna",,3,FFFFFF,E95000
+BUS_MHD:777250_1425_2023-12-10,1690,250,Bystřice p.Host.-Holešov-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:801900_312_2021-03-07,1690,900,Staré Hutě-Koryčany-Kyjov,,3,162D66,FFFFFF
+BUS_MHD:802170_263_2019-12-15,1690,170,Uherské Hradiště-Babice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:802175_263_2022-12-11,1690,175,Uherské Hradiště-Babice-Otrokovice-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:802180_263_2019-12-15,1690,180,Uherské Hradiště-Březolupy-Zlín,,3,162D66,FFFFFF
+BUS_MHD:802181_263_2019-12-15,1690,181,Uherské Hradiště-Topolná-Zlín,,3,162D66,FFFFFF
+BUS_MHD:802185_263_2019-12-15,1690,185,Uherské Hradiště-Topolná-Otrokovice,,3,162D66,FFFFFF
+BUS_MHD:802190_263_2019-12-15,1690,190,Uherský Brod-Luhačovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:802192_263_2019-12-15,1690,192,Uherský Brod-Velký Ořechov-Zlín,,3,162D66,FFFFFF
+BUS_MHD:802300_263_2024-03-03,1690,300,Kunovice-Uherské Hradiště-Staré Město,,3,A69DCD,FFFFFF
+BUS_MHD:802320_263_2019-12-15,1690,320,"Uherský Brod,Újezdec-Uherský Brod,Havřice-Nivnice",,3,162D66,FFFFFF
+BUS_MHD:802321_263_2019-12-15,1690,321,"Uherský Brod,Slovácké strojírny-Uherský Brod,poliklinika-Nivnice",,3,162D66,FFFFFF
+BUS_MHD:802322_263_2019-12-15,1690,322,"Uherský Brod,,dopravní terminál-Uherský Brod,sídliště Olšava-Uherský Brod,Dům kultury-Uherský Brod,dopravní terminál-Nivnice",,3,162D66,FFFFFF
+BUS_MHD:802323_263_2019-12-15,1690,323,"Uherský Brod,dopravní terminál-Uherský Brod,Dům kultury-Uherský Brod,sídliště Olšava-Uherský Brod,dopravní terminál-Nivnice",,3,162D66,FFFFFF
+BUS_MHD:802330_263_2019-12-15,1690,330,Uherský Brod-Starý Hrozenkov-Vyškovec/Vápenice,,3,162D66,FFFFFF
+BUS_MHD:802331_263_2023-12-10,1690,331,Uherský Brod-Lopeník-Březová,,3,162D66,FFFFFF
+BUS_MHD:802333_263_2019-12-15,1690,333,Uherský Brod-Bánov-Suchá Loz-Nivnice-Uherský Brod,,3,162D66,FFFFFF
+BUS_MHD:802340_263_2023-12-10,1690,340,"Uherský Brod-Korytná-Strání,Květná",,3,162D66,FFFFFF
+BUS_MHD:802341_263_2019-12-15,1690,341,"Uherský Brod-Nivnice-Březová-Strání,Květná",,3,162D66,FFFFFF
+BUS_MHD:802342_263_2019-12-15,1690,342,"Uherský Brod-Slavkov-Strání,Květná",,3,162D66,FFFFFF
+BUS_MHD:802343_263_2023-12-10,1690,343,Uherský Brod-Nivnice-Suchá Loz-Bánov-Uherský Brod,,3,162D66,FFFFFF
+BUS_MHD:802345_263_2023-12-10,1690,345,Uherský Brod-Horní Němčí,,3,162D66,FFFFFF
+BUS_MHD:802346_263_2023-12-10,1690,346,Uherský Brod-Nivnice-Hluk,,3,162D66,FFFFFF
+BUS_MHD:802350_263_2019-12-15,1690,350,Uherské Hradiště-Veletiny-Uherský Brod,,3,162D66,FFFFFF
+BUS_MHD:802351_263_2019-12-15,1690,351,Uherské Hradiště-Vlčnov-Uherský Brod,,3,162D66,FFFFFF
+BUS_MHD:802352_263_2019-12-15,1690,352,"Uherské Hradiště-Hluk-Strání,Květná",,3,162D66,FFFFFF
+BUS_MHD:802353_263_2023-12-10,1690,353,Hluk-Vlčnov-Uherský Brod,,3,162D66,FFFFFF
+BUS_MHD:802355_263_2019-12-15,1690,355,Uherské Hradiště-Horní Němčí-Boršice u Blatnice,,3,162D66,FFFFFF
+BUS_MHD:802356_263_2019-12-15,1690,356,Uherské Hradiště-Ostrožská Lhota-Dolní Němčí,,3,162D66,FFFFFF
+BUS_MHD:802360_263_2019-12-15,1690,360,Uherské Hradiště-Staré Hutě-Koryčany-Střílky,,3,162D66,FFFFFF
+BUS_MHD:802361_263_2019-12-15,1690,361,Uherské Hradiště-Břestek-Buchlovice,,3,162D66,FFFFFF
+BUS_MHD:802365_263_2019-12-15,1690,365,Uherské Hradiště-Tučapy-Ořechov,,3,162D66,FFFFFF
+BUS_MHD:802366_263_2019-12-15,1690,366,Uherské Hradiště-Boršice-Osvětimany,,3,162D66,FFFFFF
+BUS_MHD:802371_263_2023-12-10,1690,371,Uherské Hradiště-Velehrad-Buchlovice,,3,162D66,FFFFFF
+BUS_MHD:802374_263_2019-12-15,1690,374,Kunovice-Uherské Hradiště-Jalubí,,3,162D66,FFFFFF
+BUS_MHD:802375_263_2019-12-15,1690,375,Uherské Hradiště-Velehrad-Salaš,,3,162D66,FFFFFF
+BUS_MHD:802376_263_2019-12-15,1690,376,Uherské Hradiště-Kudlovice,,3,162D66,FFFFFF
+BUS_MHD:802377_263_2019-12-15,1690,377,Uherské Hradiště-Traplice-Jankovice,,3,162D66,FFFFFF
+BUS_MHD:802380_263_2023-12-10,1690,380,Uherské Hradiště-Březolupy-Zlámanec,,3,162D66,FFFFFF
+BUS_MHD:802381_263_2021-01-01,1690,381,Uherské Hradiště-Nedachlebice-Zlámanec,,3,162D66,FFFFFF
+BUS_MHD:802382_263_2019-12-15,1690,382,Uherské Hradiště-Bílovice-Uherský Brod,,3,162D66,FFFFFF
+BUS_MHD:802385_263_2023-12-10,1690,385,Bílovice-Velký Ořechov,,3,162D66,FFFFFF
+BUS_MHD:802390_263_2019-12-15,1690,390,Uherský Brod-Rudice-Bojkovice,,3,162D66,FFFFFF
+BUS_MHD:802391_263_2019-12-15,1690,391,Bojkovice-Luhačovice,,3,162D66,FFFFFF
+BUS_MHD:802395_263_2019-12-15,1690,395,Bojkovice-Komňa-Vyškovec,,3,162D66,FFFFFF
+BUS_MHD:802397_263_2019-12-15,1690,397,Bojkovice-Žítková-Starý Hrozenkov-Vyškovec,,3,162D66,FFFFFF
+BUS_MHD:802770_263_2024-06-09,1690,770,Staré Město-Modrá,,3,32746E,FFFFFF
+BUS_MHD:802771_263_2024-06-09,1690,771,Staré Město-Velehrad,,3,32746E,FFFFFF
+BUS_MHD:802775_263_2024-06-09,1690,775,Uherské Hradiště-Modrá,,3,32746E,FFFFFF
+BUS_MHD:802956_263_2019-12-15,1690,956,Uherské Hradiště-Uherský Ostroh-Veselí nad Moravou,,3,162D66,FFFFFF
+BUS_MHD:802975_263_2021-01-01,1690,975,Uherský Brod-Vsetín-Ostrava,,3,ED1C24,FFFFFF
+BUS_MHD:803170_88_2022-12-11,1690,170,Uherské Hradiště-Babice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:803180_88_2022-03-06,1690,180,Uherské Hradiště-Březolupy-Zlín,,3,162D66,FFFFFF
+BUS_MHD:804180_263_2021-01-01,1690,180,Uherské Hradiště-Březolupy-Zlín,,3,162D66,FFFFFF
+BUS_MHD:804190_263_2021-01-01,1690,190,Uherský Brod-Luhačovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:804192_263_2021-01-01,1690,192,Uherský Brod-Velký Ořechov-Zlín,,3,162D66,FFFFFF
+BUS_MHD:804330_263_2021-01-01,1690,330,Uherský Brod-Starý Hrozenkov-Vyškovec/Vápenice,,3,162D66,FFFFFF
+BUS_MHD:804331_263_2023-12-10,1690,331,Uherský Brod-Lopeník-Březová,,3,162D66,FFFFFF
+BUS_MHD:804351_263_2021-01-01,1690,351,Uherské Hradiště-Vlčnov-Uherský Brod,,3,162D66,FFFFFF
+BUS_MHD:804390_263_2021-12-12,1690,390,Uherský Brod-Rudice-Bojkovice,,3,162D66,FFFFFF
+BUS_MHD:804391_263_2023-12-10,1690,391,Bojkovice-Luhačovice,,3,162D66,FFFFFF
+BUS_MHD:804395_263_2021-01-01,1690,395,Bojkovice-Komňa-Vyškovec,,3,162D66,FFFFFF
+BUS_MHD:804975_263_2021-01-01,1690,975,Uherský Brod-Vsetín-Ostrava,,3,ED1C24,FFFFFF
+BUS_MHD:805301_1114_2025-02-01,1690,301,"Uherské Hradiště, Štěpnice-Uherské Hradiště, Mařatice",,3,D03430,FFFFFF
+BUS_MHD:805302_1114_2025-02-01,1690,302,"Uherské Hradiště, Štěpnice-Uherské Hradiště, Východ-Uherské Hradiště, Míkovice",,3,EC8425,FFFFFF
+BUS_MHD:805303_1114_2025-02-01,1690,303,"Staré Město, žel.st.-Uherské Hradiště, Východ-Uherské Hradiště, Na Rybníku",,3,EDC437,000000
+BUS_MHD:805304_1114_2025-02-01,1690,304,"Uherské Hradiště, Štěpnice-Uherské Hradiště, Jarošov",,3,57B32B,FFFFFF
+BUS_MHD:805305_1114_2025-02-01,1690,305,"Uherské Hradiště, aut. nádr.-Uherské Hradiště, Jarošov",,3,EDA990,000000
+BUS_MHD:805306_1114_2025-02-01,1690,306,"Uherské Hradiště, nemocnice-Uherské Hradiště, Míkovice",,3,32746E,FFFFFF
+BUS_MHD:805310_1114_2025-02-01,1690,310,"Staré Město, žel. st.-Uherské Hradiště, Východ",,3,4dbaeb,FFFFFF
+BUS_MHD:805314_1114_2025-02-01,1690,314,"Uherské Hradiště, Jarošov-Uherské Hradiště, Východ-Kunovice, Let",,3,4DBAEB,FFFFFF
+BUS_MHD:805315_1114_2025-02-01,1690,315,"Uherské Hradiště, Jarošov-Uherské Hradiště, Míkovice-Kunovice, Na Rynku",,3,4DBAEB,FFFFFF
+BUS_MHD:805316_1114_2025-02-01,1690,316,"Uherské Hradiště, Štěpnice-Kunovice, Let",,3,4DBAEB,FFFFFF
+BUS_MHD:821141_312_2021-03-07,1690,141,Zlín-Držková-Chvalčov-Bystřice p.Host.,,3,162D66,FFFFFF
+BUS_MHD:821150_312_2023-12-10,1690,150,Zlín-Fryšták-Holešov-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:821152_312_2023-12-10,1690,152,Zlín-Fryšták-Lukoveček-Přílepy-Holešov,,3,162D66,FFFFFF
+BUS_MHD:821153_312_2021-03-07,1690,153,Zlín-Racková-Žeranovice-Holešov,,3,162D66,FFFFFF
+BUS_MHD:821154_312_2022-06-12,1690,154,Zlín-Malenovice-Holešov,,3,162D66,FFFFFF
+BUS_MHD:822122_263_2023-12-10,1690,122,Luhačovice-Vizovice-Vsetín,,3,162D66,FFFFFF
+BUS_MHD:822193_263_2021-01-01,1690,193,Slavičín-Šanov-Bojkovice,,3,162D66,FFFFFF
+BUS_MHD:822520_263_2023-12-10,1690,520,Luhačovice-Dolní Lhota-Zlín,,3,162D66,FFFFFF
+BUS_MHD:822522_263_2021-01-01,1690,522,"Luhačovice-Podhradí-Luhačovice,Řetechov",,3,162D66,FFFFFF
+BUS_MHD:822955_263_2021-12-12,1690,955,Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:822990_263_2023-12-10,1690,990,Valašské Klobouky-Luhačovice-Uherské Hradiště-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:822995_263_2023-12-10,1690,995,Zlín-Uherské Hradiště-Střílky-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:823122_88_2023-12-10,1690,122,Luhačovice-Vizovice-Vsetín,,3,162D66,FFFFFF
+BUS_MHD:823130_88_2022-03-06,1690,130,Zlín-Všemina-Vsetín,,3,162D66,FFFFFF
+BUS_MHD:823141_88_2022-03-06,1690,141,Zlín-Držková-Chvalčov-Bystřice p.Host.,,3,162D66,FFFFFF
+BUS_MHD:823150_88_2023-12-10,1690,150,Zlín-Fryšták-Holešov-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:823152_88_2023-12-10,1690,152,Zlín-Fryšták-Lukoveček-Přílepy-Holešov,,3,162D66,FFFFFF
+BUS_MHD:823153_88_2022-03-06,1690,153,Zlín-Racková-Žeranovice-Holešov,,3,162D66,FFFFFF
+BUS_MHD:823154_88_2022-03-06,1690,154,Zlín-Malenovice-Holešov,,3,162D66,FFFFFF
+BUS_MHD:823410_88_2022-03-06,1690,410,Luhačovice-Ludkovice-Provodov-Zlín,,3,162D66,FFFFFF
+BUS_MHD:823411_88_2022-03-06,1690,411,Luhačovice-Ludkovice-Provodov-Zlín,,3,162D66,FFFFFF
+BUS_MHD:823421_88_2022-03-06,1690,421,Zlín-Vizovice-Chrastěšov-Ublo,,3,162D66,FFFFFF
+BUS_MHD:823425_88_2022-03-06,1690,425,Zlín-Hvozdná-Ostrata-Hrobice-Slušovice,,3,162D66,FFFFFF
+BUS_MHD:823430_88_2022-03-06,1690,430,Zlín-Hrobice-Podkopná Lhota,,3,162D66,FFFFFF
+BUS_MHD:823431_88_2022-03-06,1690,431,Slušovice-Zádveřice-Raková-Vizovice,,3,162D66,FFFFFF
+BUS_MHD:823432_88_2022-03-06,1690,432,Zlín-Slušovice-Hrobice-Ostrata,,3,162D66,FFFFFF
+BUS_MHD:823440_88_2022-03-06,1690,440,Zlín-Lukov-Vlčková-Držková,,3,162D66,FFFFFF
+BUS_MHD:823442_88_2022-03-06,1690,442,Zlín-Fryšták-Lukov,,3,162D66,FFFFFF
+BUS_MHD:823443_88_2022-03-06,1690,443,Zlín-Fryšták-Lukov-Držková,,3,162D66,FFFFFF
+BUS_MHD:823445_88_2022-03-06,1690,445,Zlín-Zlín-Štípa-Ostrata-Držková,,3,162D66,FFFFFF
+BUS_MHD:823456_88_2022-03-06,1690,456,Otrokovice-Mysločovice-Lechotice,,3,162D66,FFFFFF
+BUS_MHD:823460_88_2022-03-06,1690,460,Zlín-Lhota-Zlín,,3,162D66,FFFFFF
+BUS_MHD:823471_88_2022-03-06,1690,471,Zlín-Otrokovice-Halenkovice,,3,162D66,FFFFFF
+BUS_MHD:823472_88_2022-03-06,1690,472,Zlín-Otrokovice-Žlutava,,3,162D66,FFFFFF
+BUS_MHD:823473_88_2022-03-06,1690,473,Zlín-Napajedla-Komárov,,3,162D66,FFFFFF
+BUS_MHD:823474_88_2022-03-06,1690,474,Otrokovice-Napajedla-Oldřichovice-Komárov,,3,162D66,FFFFFF
+BUS_MHD:823480_88_2022-03-06,1690,480,Zlín-Březnice,,3,162D66,FFFFFF
+BUS_MHD:823520_88_2022-03-06,1690,520,Luhačovice-Dolní Lhota-Zlín,,3,162D66,FFFFFF
+BUS_MHD:823532_88_2022-03-06,1690,532,Ludkovice-Podhradí-Luhačovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:823952_88_2023-12-10,1690,952,Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:823955_88_2022-03-06,1690,955,Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:823971_88_2022-03-06,1690,971,Zlín-Vsetín-Nový Jičín-Ostrava,,3,ED1C24,FFFFFF
+BUS_MHD:823975_88_2023-12-10,1690,975,Luhačovice-Vsetín-Ostrava,,3,ED1C24,FFFFFF
+BUS_MHD:823995_88_2023-12-10,1690,995,Zlín-Uherské Hradiště-Střílky-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:824100_263_2021-01-01,1690,100,Valašské Klobouky-Horní Lideč-Vsetín,,3,162D66,FFFFFF
+BUS_MHD:824102_263_2021-01-01,1690,102,"Valašské Klobouky-Horní Lideč-Francova Lhota,Pulčín",,3,162D66,FFFFFF
+BUS_MHD:824122_263_2021-01-01,1690,122,Luhačovice-Vizovice-Vsetín,,3,162D66,FFFFFF
+BUS_MHD:824193_263_2021-01-01,1690,193,Slavičín-Šanov-Bojkovice,,3,162D66,FFFFFF
+BUS_MHD:824410_263_2021-01-01,1690,410,Luhačovice-Ludkovice-Provodov-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824431_263_2021-01-01,1690,431,Slušovice-Zádveřice-Raková-Vizovice,,3,162D66,FFFFFF
+BUS_MHD:824480_263_2021-01-01,1690,480,Zlín-Březnice,,3,162D66,FFFFFF
+BUS_MHD:824500_263_2021-01-01,1690,500,Valašské Klobouky-Horní Lideč-Vizovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824501_263_2021-01-01,1690,501,Valašské Klobouky-Horní Lideč-Valašská Senice,,3,162D66,FFFFFF
+BUS_MHD:824502_263_2021-01-01,1690,502,Valašské Klobouky-Horní Lideč-Lačnov,,3,162D66,FFFFFF
+BUS_MHD:824503_263_2021-01-01,1690,503,Valašské Klobouky-Nedašov-Nedašova Lhota,,3,162D66,FFFFFF
+BUS_MHD:824504_263_2021-01-01,1690,504,"Valašské Klobouky-Brumov-Bylnice,Sidonie",,3,162D66,FFFFFF
+BUS_MHD:824505_263_2021-01-01,1690,505,Valašské Klobouky-Štítná nad Vl.-Popov-Slavičín,,3,162D66,FFFFFF
+BUS_MHD:824506_263_2021-01-01,1690,506,Valašské Klobouky-Vlachovice-Slavičín,,3,162D66,FFFFFF
+BUS_MHD:824510_263_2021-01-01,1690,510,Valašské Klobouky-Drnovice-Dolní Lhota-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824511_263_2021-01-01,1690,511,Valašské Klobouky-Tichov-Loučka,,3,162D66,FFFFFF
+BUS_MHD:824515_263_2021-01-01,1690,515,Slavičín-Loučka-Dolní Lhota-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824516_263_2021-01-01,1690,516,Slavičín-Újezd,,3,162D66,FFFFFF
+BUS_MHD:824520_263_2021-01-01,1690,520,Luhačovice-Dolní Lhota-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824521_263_2021-01-01,1690,521,Luhačovice-Dolní Lhota-Drnovice-Valašské Klobouky,,3,162D66,FFFFFF
+BUS_MHD:824522_263_2021-01-01,1690,522,"Luhačovice-Podhradí-Luhačovice,Řetechov",,3,162D66,FFFFFF
+BUS_MHD:824523_263_2021-01-01,1690,523,Slavičín-Rudimov-Petrůvka,,3,162D66,FFFFFF
+BUS_MHD:824525_263_2021-01-01,1690,525,Slavičín-Dolní Lhota-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824532_263_2021-01-01,1690,532,Ludkovice-Podhradí-Luhačovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824535_263_2021-01-01,1690,535,Slavičín-Luhačovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:824952_263_2021-01-01,1690,952,Luhačovice-Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:824955_263_2021-01-01,1690,955,Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:824990_263_2021-01-01,1690,990,Valašské Klobouky-Luhačovice-Uherské Hradiště-Brno,,3,ED1C24,FFFFFF
+BUS_MHD:825001,367,1,"Zlín,Lužkovice,Na Gruntech - Zlín,Prštné,Náves",,3,F6C309,162D66
+BUS_MHD:825002,367,2,"Zlín,Bartošova Čtvrť - Otrokovice,Štěrkoviště",,3,F6C309,162D66
+BUS_MHD:825003,367,3,"Zlín,Lesní Čtvrť - Zlín,Louky,točna",,3,F6C309,162D66
+BUS_MHD:825004,367,4,"Zlín,Lešná,zoo - Zlín,Podhoří,točna",,3,F6C309,162D66
+BUS_MHD:825005_367_2019-04-01,367,5,"Zlín,Lešná,zoo - Zlín,Podhoří,točna",,3,F6C309,162D66
+BUS_MHD:825006,367,6,"Zlín,Jižní Svahy,Kocanda - Otrokovice,žel.st.",,3,F6C309,162D66
+BUS_MHD:825007,367,7,"Zlín,Jižní Svahy,Kocanda - Zlín,Antonínova",,3,F6C309,162D66
+BUS_MHD:825008,367,8,"Zlín,Jižní Svahy,Kocanda - Zlín,Jižní Svahy,Kocanda",,3,F6C309,162D66
+BUS_MHD:825009,367,9,"Zlín,Jižní Svahy,Středová - Zlín,Jižní Svahy,Středová",,3,F6C309,162D66
+BUS_MHD:825010,367,10,"Zlín,Jižní Svahy,Středová - Zlín,Malenovice,Centro",,3,F6C309,162D66
+BUS_MHD:825011,367,11,"Zlín,Lužkovice,Na Gruntech - Zlín,Prštné,Náves",,3,F6C309,162D66
+BUS_MHD:825012,367,12,"Želechovice n.Dřev.,točna u školy - Zlín,Sportovní hala",,3,F6C309,162D66
+BUS_MHD:825013,367,13,"Zlín,Lesní Čtvrť - Zlín,Antonínova",,3,F6C309,162D66
+BUS_MHD:825014,367,14,"Zlín,Jižní Svahy,Středová - Zlín,Antonínova",,3,F6C309,162D66
+BUS_MHD:825031,367,31,"Zlín,Jaroslavice,točna - Zlín,Mladcová,Bartošův dům",,3,5DC1EF,FFFFFF
+BUS_MHD:825032,367,32,"Zlín,Kudlov,točna - Zlín,Kudlov,točna",,3,5DC1EF,FFFFFF
+BUS_MHD:825033,367,33,"Zlín,Zlínské Paseky,točna - Zlín,Bartošova Čtvrť,zdrav.škola",,3,5DC1EF,FFFFFF
+BUS_MHD:825035,367,35,"Zlín,Velíková,točna - Zlín,Antonínova",,3,5DC1EF,FFFFFF
+BUS_MHD:825036,367,36,"Zlín,Velíková,točna - Zlín,Antonínova",,3,5DC1EF,FFFFFF
+BUS_MHD:825038,367,38,"Zlín,Příluky,Za Kapličkou - Zlín,Příluky,Za Kapličkou",,3,5DC1EF,FFFFFF
+BUS_MHD:825046_367_2019-04-01,367,46,"Zlín,Velíková,točna - Zlín,Velíková,točna",,3,5DC1EF,FFFFFF
+BUS_MHD:825047_367_2019-04-01,367,47,"Zlín,Štípa,U Kapličky - Zlín,Štípa,U Kapličky",,3,5DC1EF,FFFFFF
+BUS_MHD:825051,367,51,"Zlín,Malenovice,Centro - Zlín,Malenovice,křiž.",,3,5DC1EF,FFFFFF
+BUS_MHD:825052,367,52,"Zlín,Malenovice,točna - Zlín,Chlum",,3,5DC1EF,FFFFFF
+BUS_MHD:825053,367,53,"Zlín,Malenovice,točna - Zlín,Salaš,točna",,3,5DC1EF,FFFFFF
+BUS_MHD:825070,367,70,"Zlín,Podvesná XVII - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
+BUS_MHD:825090,367,90,"Zlín,Sportovní hala - Želechovice n.Dřev.,točna u školy",,3,5DC1EF,FFFFFF
+BUS_MHD:825092_367_2020-09-01,367,92,"Zlín,Podhoří,škola - Zlín,Louky,točna",,3,5DC1EF,FFFFFF
+BUS_MHD:825099_367_2025-08-30,367,N,"Zlín,Jižní Svahy,Kocanda - Otrokovice,Štěrkoviště",,3,000000,FFFFFF
+BUS_MHD:825155_367_2022-07-01,367,55,"Otrokovice,Kvítkovice,hřbitov - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
+BUS_MHD:826055,367,55,"Otrokovice,Kvítkovice,hřbitov - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
+BUS_MHD:826056_367_2023-09-02,367,56,"Otrokovice,Kvítkovice,hřbitov - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
+BUS_MHD:826057_367_2023-09-02,367,57,"Otrokovice,žel.st. - Bělov,točna",,3,5DC1EF,FFFFFF
+BUS_MHD:826093_367_2023-09-02,367,93,"Otrokovice,Kvítkovice,náves - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
+BUS_MHD:827102_1425_2021-01-01,1690,102,"Valašské Klobouky-Horní Lideč-Francova Lhota,Pulčín",,3,162D66,FFFFFF
+BUS_MHD:827130_1425_2021-01-01,1690,130,Zlín-Všemina-Vsetín,,3,162D66,FFFFFF
+BUS_MHD:827152_1425_2023-12-10,1690,152,Zlín-Fryšták-Lukoveček-Přílepy-Holešov,,3,162D66,FFFFFF
+BUS_MHD:827431_1425_2021-01-01,1690,431,Slušovice-Zádveřice-Raková-Vizovice,,3,162D66,FFFFFF
+BUS_MHD:827502_1425_2021-01-01,1690,502,Valašské Klobouky-Horní Lideč-Lačnov,,3,162D66,FFFFFF
+BUS_MHD:827971_1425_2021-01-01,1690,971,Zlín-Vsetín-Nový Jičín-Ostrava,,3,ED1C24,FFFFFF
+BUS_MHD:827976_1425_2026-03-01,1690,976,Luhačovice-Valašské Meziříčí-Rožnov p.Radh.-Ostrava-Havířov,,3,ed1c24,ffffff
+BUS_MHD:828130_1005_2021-01-01,1690,130,Zlín-Všemina-Vsetín,,3,162D66,FFFFFF
+BUS_MHD:829592_88_2026-02-16,1690,xS2,Horní Lideč-Brumov-Bylnice,,3,a69dcd,102d69
+BUS_MHD:863980_267_2023-09-30,1690,980,Ostrava-Paskov-Frýdek-Místek-Frenštát pod Radhoštěm-Rožnov pod Radhoštěm,,3,FFFFFF,162D66
+BUS_MHD:863985_267_2023-09-30,1690,985,Ostrava-Paskov-Frýdek-Místek-Metylovice-Frenštát pod Radhoštěm-Rožnov pod Radhoštěm,,3,FFFFFF,162D66
+BUS_MHD:882987,1690,987,Nový Jičín-Hodslavice-Valašské Meziříčí,,3,FFFFFF,162D66
+BUS_MHD:882988,1690,988,Nový Jičín-Starý Jičín-Lešná-Valašské Meziříčí,,3,FFFFFF,162D66
+BUS_MHD:883980_312_2022-12-11,1690,980,Ostrava-Paskov-Frýdek-Místek-Frenštát pod Radhoštěm-Rožnov pod Radhoštěm,,3,FFFFFF,162D66
+BUS_MHD:883985,1690,985,Ostrava-Paskov-Frýdek-Místek-Metylovice-Frenštát pod Radhoštěm-Rožnov pod Radhoštěm,,3,FFFFFF,162D66
+BUS_MHD:912990_267_2021-01-01,1690,990,Havířov - Frýdek-Místek - Ostravice - Bílá - Rožnov pod Radhoštěm,,3,FFFFFF,162D66
+BUS_MHD:941125_312_2023-12-10,1690,125,Valašské Meziříčí-Podhradní Lhota-Bystřice p.Host.,,3,162D66,FFFFFF
+BUS_MHD:943110_88_2022-03-06,1690,110,Vsetín-Valašská Polanka-Vizovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:943120_88_2022-03-06,1690,120,Rožnov pod Radhoštěm-Valašské Meziříčí-Vsetín-Zlín,,3,162D66,FFFFFF
+BUS_MHD:943941_88_2022-03-06,1690,941,Vsetín-Bystřice p.Host.-Přerov,,3,162D66,FFFFFF
+BUS_MHD:944101_263_2021-01-01,1690,101,Vsetín-Horní Lideč-Valašská Senice,,3,162D66,FFFFFF
+BUS_MHD:944110_263_2021-01-01,1690,110,Vsetín-Valašská Polanka-Vizovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:944641_263_2024-03-03,1690,641,"Vsetín-Ústí,točna",,3,162D66,FFFFFF
+BUS_MHD:945601_312_2024-03-03,1690,601,Jasenice-aut.nádr.-Rokytnice-aut. nádr.-Jasenice,,3,57B32B,FFFFFF
+BUS_MHD:945602_312_2024-03-03,1690,602,Jasenka-náměstí-aut.nádr.,,3,57B32B,FFFFFF
+BUS_MHD:945603_312_2024-03-03,1690,603,Semetín-náměstí-aut.nádr.,,3,57B32B,FFFFFF
+BUS_MHD:945604_312_2024-03-03,1690,604,aut.nádr.-Janišov-aut.nádr.,,3,57B32B,FFFFFF
+BUS_MHD:945605_312_2024-03-03,1690,605,"Trávníky, točna-aut.nádr.-Ohrada-aut.nádr.-Trávníky, točna",,3,57B32B,FFFFFF
+BUS_MHD:945606_312_2024-03-03,1690,606,Horní náměstí-aut. nádr.-náměstí-Sychrov,,3,57B32B,FFFFFF
+BUS_MHD:945607_312_2024-03-03,1690,607,aut. nádr.-náměstí-Rybníky-náměstí-aut. nádr.,,3,57B32B,FFFFFF
+BUS_MHD:945608_312_2024-03-03,1690,608,Jasenice-Ohrada-Sychrov-Jasenka-Rybníky,,3,57B32B,FFFFFF
+BUS_MHD:945609_312_2024-03-03,1690,609,"Trávníky,točna-Rybníky-Rokytnice-Rybníky",,3,57B32B,FFFFFF
+BUS_MHD:945616_312_2024-03-03,1690,616,aut. nádr.-náměstí-Sychrov-aut. nádr.,,3,57B32B,FFFFFF
+BUS_MHD:946001_1005_2022-06-12,1690,1,Krhová - stan.MHD u náměstí - Poličná,,3,FFFFFF,DA291C
+BUS_MHD:946003_1005_2022-06-12,1690,3,Podlesí - Valašské Meziříčí stan.MHD u náměstí- Bynina,,3,FFFFFF,DA291C
+BUS_MHD:946005_1005_2022-06-12,1690,5,Juřinka - Valašské Meziříčí stan.MHD u náměstí - Juřinka,,3,FFFFFF,DA291C
+BUS_MHD:946006_1005_2022-06-12,1690,6,Hrachovec - Na Štěpánově - nemocnice - žel.st.,,3,FFFFFF,DA291C
+BUS_MHD:946007_1005_2022-06-12,1690,7,"Hrachovec - Valašské Meziříčí, žel.st. - Hrachovec",,3,FFFFFF,DA291C
+BUS_MHD:946008_1005_2022-06-12,1690,8,DEZA I - aut.st.,,3,FFFFFF,DA291C
+BUS_MHD:946010_1005_2022-06-12,1690,10,"Valašské Meziříčí,žel.st. - Valašské Meziříčí,žel.st.",,3,FFFFFF,DA291C
+BUS_MHD:947101_1425_2021-01-01,1690,101,Vsetín-Horní Lideč-Valašská Senice,,3,162D66,FFFFFF
+BUS_MHD:947110_1425_2021-01-01,1690,110,Vsetín-Valašská Polanka-Vizovice-Zlín,,3,162D66,FFFFFF
+BUS_MHD:947120_1425_2021-01-01,1690,120,Rožnov pod Radhoštěm-Valašské Meziříčí-Vsetín-Zlín,,3,162D66,FFFFFF
+BUS_MHD:947125_1425_2023-12-10,1690,125,Valašské Meziříčí-Podhradní Lhota-Bystřice p.Host.,,3,162D66,FFFFFF
+BUS_MHD:947140_1425_2021-01-01,1690,140,Vsetín-Hošťálková-Zlín,,3,162D66,FFFFFF
+BUS_MHD:947620_1425_2021-01-01,1690,620,Vsetín-Valašské Meziříčí-Rožnov pod Radhoštěm,,3,162D66,FFFFFF
+BUS_MHD:947621_1425_2021-01-01,1690,621,Vsetín-Malá Bystřice-Rožnov pod Radhoštěm,,3,162D66,FFFFFF
+BUS_MHD:947623_1425_2021-01-01,1690,623,Růžďka-Oznice,,3,162D66,FFFFFF
+BUS_MHD:947624_1425_2021-01-01,1690,624,Vsetín-Mikulůvka,,3,162D66,FFFFFF
+BUS_MHD:947626_1425_2021-01-01,1690,626,Rožnov pod Radhoštěm-Valašská Bystřice,,3,162D66,FFFFFF
+BUS_MHD:947627_1425_2021-01-01,1690,627,Bystřička-Mikulůvka-Oznice-Růžďka,,3,162D66,FFFFFF
+BUS_MHD:947628_1425_2024-03-03,1690,628,Hošťálková-Kateřinice-Valašské Meziříčí,,3,162D66,FFFFFF
+BUS_MHD:947631_1425_2024-06-09,1690,631,Valašské Meziříčí-Kunovice-Všechovice-Kelč,,3,162D66,FFFFFF
+BUS_MHD:947640_1425_2021-01-01,1690,640,"Vsetín-Velké Karlovice-Bílá,Bumbálka",,3,162D66,FFFFFF
+BUS_MHD:947641_1425_2024-03-03,1690,641,Vsetín-Seninka,,3,162D66,FFFFFF
+BUS_MHD:947643_1425_2024-03-03,1690,643,"Vsetín-Ústí,točna-Hovězí,Hovízky-Hovězí,Hořansko",,3,162D66,FFFFFF
+BUS_MHD:947644_1425_2024-03-03,1690,644,Jablůnka-Vsetín-Zděchov,,3,162D66,FFFFFF
+BUS_MHD:947645_1425_2024-03-03,1690,645,"Huslenky,Uherská-Halenkov,Černé",,3,162D66,FFFFFF
+BUS_MHD:947646_1425_2024-03-03,1690,646,"Huslenky,Kychová-Huslenky,žel.st.-Halenkov,Dinotice",,3,162D66,FFFFFF
+BUS_MHD:947647_1425_2024-03-03,1690,647,"Halenkov,střed-Nový Hrozenkov,Břežitá-Halenkov,Lušová",,3,162D66,FFFFFF
+BUS_MHD:947648_1425_2024-03-03,1690,648,"Nový Hrozenkov,Vranča-Velké Karlovice,Miloňov",,3,162D66,FFFFFF
+BUS_MHD:947649_1425_2024-03-03,1690,649,"Karolinka, Stanovnice-Velké Karlovice, Pluskovec-Velké Karlovice, Tísňavy",,3,162D66,FFFFFF
+BUS_MHD:947650_1425_2024-06-09,1690,650,"Rožnov p.Radh.,Dolní Paseky-Rožnov p.Radh.,u náměstí",,3,162D66,FFFFFF
+BUS_MHD:947651_1425_2023-12-10,1690,651,Rožnov pod Radhoštěm-Vidče-Zašová-Valašské Meziříčí,,3,162D66,FFFFFF
+BUS_MHD:947661_1425_2021-01-01,1690,661,Rožnov pod Radhoštěm-Velké Karlovice,,3,162D66,FFFFFF
+BUS_MHD:947662_1425_2023-12-10,1690,662,"Rožnov pod Radhoštěm-Hutisko-Solanec-Prostřední Bečva,Pustevny",,3,162D66,FFFFFF
+BUS_MHD:947762_1425_2024-06-09,1690,762,"Rožnov pod Radhoštěm-Hutisko-Solanec-Dolní Bečva-Prostřední Bečva,Pustevny",,3,32746E,FFFFFF
+BUS_MHD:947941_1425_2021-01-01,1690,941,Vsetín-Bystřice p.Host.-Přerov,,3,162D66,FFFFFF
+BUS_MHD:947978_1425_2021-01-01,1690,978,"Velké Karlovice-Horní Bečva-Prostřední Bečva,Pustevny",,3,162D66,FFFFFF
+BUS_MHD:947979_1425_2022-12-11,1690,979,Rožnov pod Radhoštěm-Dolní Bečva-Horní Bečva-Bílá,,3,162D66,FFFFFF
+BUS_MHD:948120_1005_2021-01-01,1690,120,Rožnov pod Radhoštěm-Valašské Meziříčí-Vsetín-Zlín,,3,162D66,FFFFFF
+BUS_MHD:948125_1005_2023-12-10,1690,125,Valašské Meziříčí-Podhradní Lhota-Bystřice p.Host.,,3,162D66,FFFFFF
+BUS_MHD:948620_1005_2021-01-01,1690,620,Vsetín-Valašské Meziříčí-Rožnov pod Radhoštěm,,3,162D66,FFFFFF
+BUS_MHD:948621_1005_2021-01-01,1690,621,Vsetín-Malá Bystřice-Rožnov pod Radhoštěm,,3,162D66,FFFFFF
+BUS_MHD:948622_1005_2021-01-01,1690,622,Lešná-Valašské Meziříčí-Malá Bystřice,,3,162D66,FFFFFF
+BUS_MHD:948625_1005_2021-01-01,1690,625,Valašské Meziříčí-Velká Lhota,,3,162D66,FFFFFF
+BUS_MHD:948626_1005_2021-01-01,1690,626,Rožnov pod Radhoštěm-Valašská Bystřice,,3,162D66,FFFFFF
+BUS_MHD:948630_1005_2021-01-01,1690,630,Valašské Meziříčí-Choryně-Kladeruby-Kelč,,3,162D66,FFFFFF
+BUS_MHD:948631_1005_2021-01-01,1690,631,Valašské Meziříčí-Kunovice-Všechovice-Kelč,,3,162D66,FFFFFF
+BUS_MHD:948632_1005_2021-01-01,1690,632,Valašské Meziříčí-Lešná-Choryně-Kelč,,3,162D66,FFFFFF
+BUS_MHD:948633_1005_2021-01-01,1690,633,"Valašské Meziříčí-Lešná,Jasenice",,3,162D66,FFFFFF
+BUS_MHD:948640_1005_2024-03-03,1690,640,"Vsetín-Velké Karlovice-Bílá, Bumbálka",,3,162D66,FFFFFF
+BUS_MHD:948650_1005_2021-01-01,1690,650,"Rožnov p.Radh.,Dolní Paseky - Rožnov p. Radh.,u náměstí",,3,162D66,FFFFFF
+BUS_MHD:948651_1005_2021-01-01,1690,651,Rožnov pod Radhoštěm-Vidče-Zašová-Valašské Meziříčí,,3,162D66,FFFFFF
+BUS_MHD:948652_1005_2021-01-01,1690,652,Rožnov pod Radhoštěm-Zubří-Valašské Meziříčí,,3,162D66,FFFFFF
+BUS_MHD:948653_1005_2021-01-01,1690,653,Rožnov pod Radhoštěm-Zubří-Rožnov pod Radhoštěm,,3,162D66,FFFFFF
+BUS_MHD:948654_1005_2021-01-01,1690,654,Rožnov pod Radhoštěm-Střítež nad Bečvou-Rožnov pod Radhoštěm,,3,162D66,FFFFFF
+BUS_MHD:948662_1005_2021-01-01,1690,662,"Rožnov pod Radhoštěm-Hutisko-Solanec-Prostřední Bečva,Pustevny",,3,162D66,FFFFFF
+BUS_MHD:948663_1005_2021-01-01,1690,663,"Rožnov pod Radhoštěm-Hutisko-Solanec-Dolní Bečva,Rozpité-Rožnov pod Radhoštěm",,3,162D66,FFFFFF
+BUS_MHD:948762_1005_2024-06-09,1690,762,"Rožnov pod Radhoštěm-Hutisko-Solanec-Dolní Bečva-Prostřední Bečva,Pustevny",,3,32746E,FFFFFF
+BUS_MHD:948979_1005_2021-01-01,1690,979,Rožnov pod Radhoštěm-Dolní Bečva-Horní Bečva-Bílá,,3,162D66,FFFFFF
+Ex2,1690,Ex2,Praha - Olomouc - Vsetín - Horní Lideč,,2,,
+R13,1690,R13,Brno - Břeclav - Přerov - Olomouc,,2,,
+R18,1690,R18,Praha - Olomouc - Luhačovice / Veselí nad Moravou,,2,,
+R56,1690,R56,R Brno - Kyjov - Veselí nad Moravou - Staré Město u Uh. Hradiště / Bojkovice - Vlárský průsmyk,,2,,
+S1,1690,S1,Kroměříž - Hulín - Otrokovice - Zlín (- Vizovice),,2,,
+S11,1690,S11,Otrokovice - Vizovice,,2,,
+S2,1690,S2,(Rožnov pod Radhoštěm -) Valašské Meziříčí - Vsetín - Horní Lideč - Bylnice,,2,,
+S22,1690,S22,(Vsetín -) Horní Lideč - Střelná (- ZSSK),,2,,
+S23,1690,S23,Vsetín - Velké Karlovice,,2,,
+S3,1690,S3,(Olomouc -) Přerov - Valašské Meziříčí - Vsetín,,2,,
+S4,1690,S4,Kojetín - Kroměříž - Hulín - Valašské Meziříčí - Rožnov pod Radhoštěm,,2,,
+S42,1690,S42,Valašské Meziříčí - Rožnov pod Radhoštěm,,2,,
+S43,1690,S43,Kroměříž - Zborovice,,2,,
+S5,1690,S5,Staré Město u Uherského Hradiště - Uherské Hradiště - Újezdec u Luhačovic - Bojkovice - Bylnice (- Vlárský průsmyk / ZSSK),,2,,
+S53,1690,S53,(Uherský Brod -) Újezdec u Luhačovic - Luhačovice,,2,,
+S6,1690,S6,Staré Město u Uherského Hradiště - Uherské Hradiště - Veselí nad Moravou,,2,,
+S9,1690,S9,Břeclav - Hodonín - Staré Město u Uh. Hradiště - Otrokovice - Hulín - Přerov,,2,,
+Sp1,1690,Sp1,Sp Přerov - Otrokovice - Zlín (- Vizovice),,2,,
+Sp5,1690,Sp5,Sp Staré Město u Uherského Hradiště - Uherské Hradiště - Újezdec u Luhačovic - Bojkovice - Bylnice,,2,,
+TRAIN:1425,1690,Sp 1425,Sp 1425,,2,,
+TRAIN:1426,1690,Sp 1426,Sp 1426,,2,,
+TRAIN:1429,1690,Sp 1429,Sp 1429,,2,,
+TRAIN:3200,1690,Os 3200,Os 3200,,2,,
+TRAIN:3201,1690,Os 3201,Os 3201,,2,,
+TRAIN:3202,1690,Os 3202,Os 3202,,2,,
+TRAIN:3203,1690,Os 3203,Os 3203,,2,,
+TRAIN:3204,1690,Os 3204,Os 3204,,2,,
+TRAIN:3205,1690,Os 3205,Os 3205,,2,,
+TRAIN:3206,1690,Os 3206,Os 3206,,2,,
+TRAIN:3207,1690,Os 3207,Os 3207,,2,,
+TRAIN:3208,1690,Os 3208,Os 3208,,2,,
+TRAIN:3211,1690,Os 3211,Os 3211,,2,,
+TRAIN:3212,1690,Os 3212,Os 3212,,2,,
+TRAIN:3213,1690,Os 3213,Os 3213,,2,,
+TRAIN:3214,1690,Os 3214,Os 3214,,2,,
+TRAIN:3215,1690,Os 3215,Os 3215,,2,,
+TRAIN:3216,1690,Os 3216,Os 3216,,2,,
+TRAIN:3217,1690,Os 3217,Os 3217,,2,,
+TRAIN:3218,1690,Os 3218,Os 3218,,2,,
+TRAIN:3219,1690,Os 3219,Os 3219,,2,,
+TRAIN:3220,1690,Os 3220,Os 3220,,2,,
+TRAIN:3221,1690,Os 3221,Os 3221,,2,,
+TRAIN:3222,1690,Os 3222,Os 3222,,2,,
+TRAIN:3223,1690,Os 3223,Os 3223,,2,,
+TRAIN:3224,1690,Os 3224,Os 3224,,2,,
+TRAIN:3225,1690,Os 3225,Os 3225,,2,,
+TRAIN:3227,1690,Os 3227,Os 3227,,2,,
+TRAIN:3228,1690,Os 3228,Os 3228,,2,,
+TRAIN:3230,1690,Os 3230,Os 3230,,2,,
+TRAIN:3231,1690,Os 3231,Os 3231,,2,,
+TRAIN:3232,1690,Os 3232,Os 3232,,2,,
+TRAIN:3233,1690,Os 3233,Os 3233,,2,,
+TRAIN:3235,1690,Os 3235,Os 3235,,2,,
+TRAIN:3237,1690,Os 3237,Os 3237,,2,,
+TRAIN:3238,1690,Os 3238,Os 3238,,2,,
+TRAIN:93204,1690,Os 93204,Os 93204,,2,,
+TRAIN:93206,1690,Os 93206,Os 93206,,2,,
+TRAIN:93208,1690,Os 93208,Os 93208,,2,,
+TRAIN:93212,1690,Os 93212,Os 93212,,2,,
+TRAIN:93214,1690,Os 93214,Os 93214,,2,,
+TRAIN:93216,1690,Os 93216,Os 93216,,2,,
+TRAIN:93218,1690,Os 93218,Os 93218,,2,,
+TRAIN:93220,1690,Os 93220,Os 93220,,2,,
+TRAIN:93224,1690,Os 93224,Os 93224,,2,,
+TRAIN:93238,1690,Os 93238,Os 93238,,2,,
+TRAIN:95926,1690,Sp 95926,Sp 95926,,2,,
