@@ -6,16 +6,44 @@ def filter_gtfs():
     routes = pd.read_csv('routes.txt', dtype=str)
     valid_types = ['2'] + [str(i) for i in range(100, 200)]
     routes = routes[routes['route_type'].isin(valid_types)]
+
+    # --- NEW: MERGE IDENTICAL ROUTES ---
+    # Fill empty names with blanks so Pandas can group them properly
+    routes['route_short_name'] = routes['route_short_name'].fillna('')
+    routes['route_long_name'] = routes['route_long_name'].fillna('')
+    
+    # We group by agency, short name, and long name to ensure accuracy
+    group_cols = ['route_short_name', 'route_long_name']
+    if 'agency_id' in routes.columns:
+        group_cols = ['agency_id'] + group_cols
+
+    # Assign the first route_id of each group to all members of that group
+    routes['unified_route_id'] = routes.groupby(group_cols)['route_id'].transform('first')
+    
+    # Create a dictionary to map the old route_ids to our new unified ones
+    route_mapping = dict(zip(routes['route_id'], routes['unified_route_id']))
+    
+    # Update the route_id column and remove the redundant route rows
+    routes['route_id'] = routes['unified_route_id']
+    routes = routes.drop(columns=['unified_route_id']).drop_duplicates(subset=['route_id'])
+    
     valid_routes = set(routes['route_id'])
     routes.to_csv('routes.txt', index=False)
 
-    # 2. Filter trips based on valid routes
+    # 2. Filter trips based on valid routes AND update their route_ids
     valid_trips = set()
     valid_services = set()
     valid_shapes = set()
     if os.path.exists('trips.txt'):
         trips = pd.read_csv('trips.txt', dtype=str)
+        
+        # --- NEW: Apply the dictionary mapping to update the trips ---
+        # If a trip's route_id is in our mapping, it gets updated to the unified ID.
+        trips['route_id'] = trips['route_id'].map(route_mapping).fillna(trips['route_id'])
+        
+        # Keep only the trips that belong to our valid rail routes
         trips = trips[trips['route_id'].isin(valid_routes)]
+        
         valid_trips = set(trips['trip_id'])
         valid_services = set(trips['service_id'].dropna())
         valid_shapes = set(trips['shape_id'].dropna()) if 'shape_id' in trips.columns else set()
@@ -70,7 +98,6 @@ def filter_gtfs():
     # 8. Filter transfers (train-to-train only)
     if os.path.exists('transfers.txt'):
         transfers = pd.read_csv('transfers.txt', dtype=str)
-        # Keep the transfer only if BOTH the origin and destination stops are in our train stops list
         transfers = transfers[transfers['from_stop_id'].isin(stops_to_keep) & transfers['to_stop_id'].isin(stops_to_keep)]
         transfers.to_csv('transfers.txt', index=False)
 
