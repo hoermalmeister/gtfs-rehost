@@ -10,6 +10,9 @@ def filter_gtfs():
     routes.to_csv('routes.txt', index=False)
 
     # 2. Filter trips based on valid routes
+    valid_trips = set()
+    valid_services = set()
+    valid_shapes = set()
     if os.path.exists('trips.txt'):
         trips = pd.read_csv('trips.txt', dtype=str)
         trips = trips[trips['route_id'].isin(valid_routes)]
@@ -19,6 +22,7 @@ def filter_gtfs():
         trips.to_csv('trips.txt', index=False)
 
     # 3. Filter stop_times based on valid trips
+    valid_stops = set()
     if os.path.exists('stop_times.txt'):
         stop_times = pd.read_csv('stop_times.txt', dtype=str)
         stop_times = stop_times[stop_times['trip_id'].isin(valid_trips)]
@@ -26,6 +30,7 @@ def filter_gtfs():
         stop_times.to_csv('stop_times.txt', index=False)
 
     # 4. Filter stops based on valid stop_times (including parent stations)
+    stops_to_keep = valid_stops
     if os.path.exists('stops.txt'):
         all_stops = pd.read_csv('stops.txt', dtype=str)
         direct_stops = all_stops[all_stops['stop_id'].isin(valid_stops)]
@@ -61,6 +66,20 @@ def filter_gtfs():
             agency = pd.read_csv('agency.txt', dtype=str)
             agency = agency[agency['agency_id'].isin(valid_agencies)]
             agency.to_csv('agency.txt', index=False)
+
+    # 8. Filter transfers (train-to-train only)
+    if os.path.exists('transfers.txt'):
+        transfers = pd.read_csv('transfers.txt', dtype=str)
+        # Keep the transfer only if BOTH the origin and destination stops are in our train stops list
+        transfers = transfers[transfers['from_stop_id'].isin(stops_to_keep) & transfers['to_stop_id'].isin(stops_to_keep)]
+        transfers.to_csv('transfers.txt', index=False)
+
+    # 9. Drop unwanted files entirely
+    files_to_drop = ['pathways.txt', 'levels.txt']
+    for file_name in files_to_drop:
+        if os.path.exists(file_name):
+            os.remove(file_name)
+            print(f"Dropped {file_name}")
 
 if __name__ == "__main__":
     filter_gtfs()
