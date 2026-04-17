@@ -1,0 +1,67 @@
+name: Daily GTFS Rehost - CZ Rail
+
+on:
+  schedule:
+    - cron: '30 2 * * *'
+  workflow_dispatch: 
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    env:
+      FEED_FOLDER: czrail
+      FILE_NAME: jizdnirady-gtfs.zip
+      FEED_URL: https://www.spojenka.cz/jrdata/jizdnirady-gtfs.zip
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install Pandas
+        run: pip install pandas
+
+      - name: Download and extract GTFS
+        run: |
+          mkdir -p ${{ env.FEED_FOLDER }}
+          cd ${{ env.FEED_FOLDER }}
+          
+          echo "Downloading ${{ env.FILE_NAME }}..."
+          curl -k -L -o ${{ env.FILE_NAME }} ${{ env.FEED_URL }}
+          
+          echo "Unzipping..."
+          unzip -o ${{ env.FILE_NAME }}
+
+      - name: Filter out non-rail data and orphans
+        run: |
+          # Move into the extracted feed folder
+          cd ${{ env.FEED_FOLDER }}
+          
+          # Run the Python script located in your repository's .github/scripts folder
+          echo "Running Python filter..."
+          python $GITHUB_WORKSPACE/.github/scripts/filter_czrail.py
+          
+          # Re-zip the newly filtered files
+          echo "Re-zipping filtered data..."
+          zip -j ${{ env.FILE_NAME }} *.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add ${{ env.FEED_FOLDER }}/
+          
+          if git diff --staged --quiet; then
+            echo "No changes detected in ${{ env.FEED_FOLDER }} today."
+          else
+            git commit -m "Automated update and filter of ${{ env.FEED_FOLDER }} GTFS feed"
+            git push
+          fi
