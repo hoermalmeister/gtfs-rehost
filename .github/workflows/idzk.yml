@@ -1,0 +1,51 @@
+name: Daily GTFS Rehost - IDZK
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch: 
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      
+    # Change these three variables when duplicating for a new feed!
+    env:
+      FEED_FOLDER: idzk
+      FILE_NAME: id-zk-all.zip
+      FEED_URL: https://dataportal-files.bileto.net/id-zk-all.zip
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Download and extract GTFS
+        run: |
+          # Create the specific feed directory
+          mkdir -p ${{ env.FEED_FOLDER }}
+          cd ${{ env.FEED_FOLDER }}
+          
+          # Download using the variables
+          echo "Downloading ${{ env.FILE_NAME }}..."
+          curl -k -L -o ${{ env.FILE_NAME }} ${{ env.FEED_URL }}
+          
+          # Unzip using the variables
+          echo "Unzipping..."
+          unzip -o ${{ env.FILE_NAME }}
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Stage only the folder specific to this feed
+          git add ${{ env.FEED_FOLDER }}/
+          
+          if git diff --staged --quiet; then
+            echo "No changes detected in ${{ env.FEED_FOLDER }} today."
+          else
+            git commit -m "Automated update of ${{ env.FEED_FOLDER }} GTFS feed"
+            git push
+          fi
