@@ -6,11 +6,28 @@ def filter_gtfs():
     # Get today's date in GTFS format (YYYYMMDD)
     today = datetime.now().strftime('%Y%m%d')
 
-    # 1. Process Routes (Load, Filter by Type, Unify Identical Routes)
+    # 1. Process Routes (Load, Filter by Type)
     routes = pd.read_csv('routes.txt', dtype=str)
     valid_types = ['2'] + [str(i) for i in range(100, 200)]
     routes = routes[routes['route_type'].isin(valid_types)]
 
+    # --- UPDATED: APPLY RELATIONS MAPPING ---
+    # Because you put it in the czrail folder, it's right here in the current directory!
+    if os.path.exists('relations.txt'):
+        relations = pd.read_csv('relations.txt', dtype=str)
+        relations = relations.rename(columns={'route_short_name': 'mapped_short_name'})
+        
+        if 'agency_id' in routes.columns:
+            routes = routes.merge(relations, on=['agency_id', 'route_long_name'], how='left')
+            mask = routes['mapped_short_name'].notna()
+            routes.loc[mask, 'route_short_name'] = routes.loc[mask, 'mapped_short_name']
+            routes = routes.drop(columns=['mapped_short_name'])
+            print("Successfully applied relations.txt mapping from local folder.")
+    else:
+        print("relations.txt not found in current folder, skipping name mapping.")
+    # ------------------------------------
+
+    # 2. Unify Identical Routes
     routes['route_short_name'] = routes['route_short_name'].fillna('')
     routes['route_long_name'] = routes['route_long_name'].fillna('')
     
@@ -26,24 +43,20 @@ def filter_gtfs():
     
     valid_routes_initial = set(routes['route_id'])
 
-    # 2. Determine Future Valid Services (Services that operate today or in the future)
+    # 3. Determine Future Valid Services (Services that operate today or in the future)
     future_valid_services = set()
     
-    # Check regular calendar
     if os.path.exists('calendar.txt'):
         cal = pd.read_csv('calendar.txt', dtype=str)
-        # Keep services where the end date is today or later
         valid_cal = cal[cal['end_date'] >= today]
         future_valid_services.update(valid_cal['service_id'])
 
-    # Check calendar exceptions (added days)
     if os.path.exists('calendar_dates.txt'):
         cal_d = pd.read_csv('calendar_dates.txt', dtype=str)
-        # Exception type '1' means service has been added for that date
         valid_cal_d = cal_d[(cal_d['date'] >= today) & (cal_d['exception_type'] == '1')]
         future_valid_services.update(valid_cal_d['service_id'])
 
-    # 3. Filter Trips
+    # 4. Filter Trips
     valid_trips = set()
     valid_services_final = set()
     valid_shapes = set()
@@ -53,7 +66,6 @@ def filter_gtfs():
         trips = pd.read_csv('trips.txt', dtype=str)
         trips['route_id'] = trips['route_id'].map(route_mapping).fillna(trips['route_id'])
         
-        # Keep the trip ONLY IF it belongs to a valid rail route AND operates in the future
         trips = trips[
             trips['route_id'].isin(valid_routes_initial) & 
             trips['service_id'].isin(future_valid_services)
@@ -62,18 +74,15 @@ def filter_gtfs():
         valid_trips = set(trips['trip_id'])
         valid_services_final = set(trips['service_id'].dropna())
         valid_shapes = set(trips['shape_id'].dropna()) if 'shape_id' in trips.columns else set()
-        
-        # This set now only contains routes that actually have future trips!
         valid_routes_final = set(trips['route_id'].dropna())
         
         trips.to_csv('trips.txt', index=False)
 
-    # 4. Save Final Filtered Routes
-    # We drop any routes that didn't make it into valid_routes_final
+    # 5. Save Final Filtered Routes
     routes = routes[routes['route_id'].isin(valid_routes_final)]
     routes.to_csv('routes.txt', index=False)
 
-    # 5. Filter stop_times based on valid trips
+    # 6. Filter stop_times
     valid_stops = set()
     if os.path.exists('stop_times.txt'):
         stop_times = pd.read_csv('stop_times.txt', dtype=str)
@@ -81,7 +90,7 @@ def filter_gtfs():
         valid_stops = set(stop_times['stop_id'])
         stop_times.to_csv('stop_times.txt', index=False)
 
-    # 6. Filter stops based on valid stop_times (including parent stations)
+    # 7. Filter stops (including parent stations)
     stops_to_keep = valid_stops
     if os.path.exists('stops.txt'):
         all_stops = pd.read_csv('stops.txt', dtype=str)
@@ -95,7 +104,7 @@ def filter_gtfs():
         final_stops = all_stops[all_stops['stop_id'].isin(stops_to_keep)]
         final_stops.to_csv('stops.txt', index=False)
 
-    # 7. Filter calendar and calendar_dates
+    # 8. Filter calendar and calendar_dates
     if os.path.exists('calendar.txt'):
         cal = pd.read_csv('calendar.txt', dtype=str)
         cal = cal[cal['service_id'].isin(valid_services_final)]
@@ -105,13 +114,13 @@ def filter_gtfs():
         cal_d = cal_d[cal_d['service_id'].isin(valid_services_final)]
         cal_d.to_csv('calendar_dates.txt', index=False)
 
-    # 8. Filter shapes
+    # 9. Filter shapes
     if os.path.exists('shapes.txt'):
         shapes = pd.read_csv('shapes.txt', dtype=str)
         shapes = shapes[shapes['shape_id'].isin(valid_shapes)]
         shapes.to_csv('shapes.txt', index=False)
         
-    # 9. Filter agency
+    # 10. Filter agency
     if os.path.exists('agency.txt') and 'agency_id' in routes.columns:
         valid_agencies = set(routes['agency_id'].dropna())
         if valid_agencies:
@@ -119,13 +128,13 @@ def filter_gtfs():
             agency = agency[agency['agency_id'].isin(valid_agencies)]
             agency.to_csv('agency.txt', index=False)
 
-    # 10. Filter transfers (train-to-train only)
+    # 11. Filter transfers (train-to-train only)
     if os.path.exists('transfers.txt'):
         transfers = pd.read_csv('transfers.txt', dtype=str)
         transfers = transfers[transfers['from_stop_id'].isin(stops_to_keep) & transfers['to_stop_id'].isin(stops_to_keep)]
         transfers.to_csv('transfers.txt', index=False)
 
-    # 11. Drop unwanted files entirely
+    # 12. Drop unwanted files entirely
     files_to_drop = ['pathways.txt', 'levels.txt']
     for file_name in files_to_drop:
         if os.path.exists(file_name):
