@@ -10,8 +10,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      issues: write
       
-    # Change these three variables when duplicating for a new feed!
     env:
       FEED_FOLDER: idzk
       FILE_NAME: id-zk-all.zip
@@ -23,17 +23,45 @@ jobs:
 
       - name: Download and extract GTFS
         run: |
-          # Create the specific feed directory
           mkdir -p ${{ env.FEED_FOLDER }}
           cd ${{ env.FEED_FOLDER }}
           
-          # Download using the variables
           echo "Downloading ${{ env.FILE_NAME }}..."
           curl -k -L -o ${{ env.FILE_NAME }} ${{ env.FEED_URL }}
           
-          # Unzip using the variables
           echo "Unzipping..."
           unzip -o ${{ env.FILE_NAME }}
+
+      - name: Check feed expiry
+        run: |
+          # Move into the feed's folder
+          cd ${{ env.FEED_FOLDER }}
+          
+          # Run the universal script, passing the feed folder name as an argument
+          echo "Checking expiration date..."
+          python $GITHUB_WORKSPACE/.github/scripts/check_expiry.py ${{ env.FEED_FOLDER }}
+
+      - name: Notify via GitHub Issue
+        # Check if the Python script created an alert file in the root workspace
+        if: hashFiles('expiry_alert.txt') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Automated Alert: ${{ env.FEED_FOLDER }} GTFS Feed Expiring"
+          BODY=$(cat expiry_alert.txt)
+          
+          # Check if an alert issue is ALREADY open for this specific feed
+          EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
+          
+          if [ -z "$EXISTING" ]; then
+            echo "Creating new issue..."
+            gh issue create --title "$TITLE" --body "$BODY"
+          else
+            echo "Alert already open (Issue #$EXISTING). Skipping spam."
+          fi
+          
+          # Delete the alert file so it doesn't accidentally get committed
+          rm expiry_alert.txt
 
       - name: Commit and push changes
         run: |
