@@ -1,49 +1,76 @@
 import requests
-import hashlib
 import os
 import sys
+import difflib
 from bs4 import BeautifulSoup
 
 def check_website(site_name, website_url):
     alerts = []
     
-    # --- UPDATED DIRECTORY LOGIC ---
-    # Ensure the folder exists (e.g., /slavonski_brod/)
+    # Ensure the folder exists
     os.makedirs(site_name, exist_ok=True)
-    # Put the hash file inside that folder
-    hash_file = os.path.join(site_name, "hash.txt")
-    # -------------------------------
+    
+    content_file = os.path.join(site_name, "content.txt")
+    html_file = os.path.join(site_name, "page.html") # <-- NEW: Define the HTML file path
 
     try:
         response = requests.get(website_url)
         response.raise_for_status()
+
+        # --- NEW: Save the raw HTML archive immediately ---
+        with open(html_file, 'w', encoding='utf-8') as f:
+            f.write(response.text)
+        # --------------------------------------------------
         
         soup = BeautifulSoup(response.text, 'html.parser')
         
         if soup.body:
-            body_content = soup.body.get_text(separator=' ', strip=True)
-        else:
-            body_content = response.text
+            body_content = soup.body.get_text(separator='\n', strip=True)
+            links = [a.get('href') for a in soup.body.find_all('a') if a.get('href')]
+            images = [img.get('src') for img in soup.body.find_all('img') if img.get('src')]
+            iframes = [iframe.get('src') for iframe in soup.body.find_all('iframe') if iframe.get('src')]
             
-        current_hash = hashlib.md5(body_content.encode('utf-8')).hexdigest()
+            tracked_content = "--- VISIBLE TEXT ---\n" + body_content + "\n"
+            if links:
+                tracked_content += "\n--- LINKS ---\n" + "\n".join(links) + "\n"
+            if images:
+                tracked_content += "\n--- IMAGES ---\n" + "\n".join(images) + "\n"
+            if iframes:
+                tracked_content += "\n--- IFRAMES ---\n" + "\n".join(iframes) + "\n"
+        else:
+            tracked_content = response.text
 
-        previous_hash = ""
-        if os.path.exists(hash_file):
-            with open(hash_file, 'r') as f:
-                previous_hash = f.read().strip()
+        previous_content = ""
+        if os.path.exists(content_file):
+            with open(content_file, 'r', encoding='utf-8') as f:
+                previous_content = f.read()
 
-        if current_hash != previous_hash and previous_hash != "":
-            alerts.append(f"🌐 **Website Change Detected:** The readable content at {website_url} has been updated!")
+        if tracked_content != previous_content and previous_content != "":
+            diff = list(difflib.unified_diff(
+                previous_content.splitlines(),
+                tracked_content.splitlines(),
+                fromfile='Yesterday',
+                tofile='Today',
+                lineterm=''
+            ))
+            
+            diff_text = "\n".join(diff[:50])
+            if len(diff) > 50:
+                diff_text += "\n\n... (diff truncated because it was too large)"
+
+            alert_msg = f"🌐 **Website Change Detected:** The readable content at {website_url} has been updated!\n\n**What changed:**\n```diff\n{diff_text}\n```"
+            alerts.append(alert_msg)
         
-        with open(hash_file, 'w') as f:
-            f.write(current_hash)
+        # Save the readable content for tomorrow's diff comparison
+        with open(content_file, 'w', encoding='utf-8') as f:
+            f.write(tracked_content)
             
     except Exception as e:
         alerts.append(f"⚠️ Error checking {site_name} ({website_url}): {e}")
 
     if alerts:
         print(f"Alerts found for {site_name}! Writing to file...")
-        with open("alerts.txt", "a") as f:
+        with open("alerts.txt", "a", encoding='utf-8') as f:
             f.write("\n\n".join(alerts) + "\n\n")
     else:
         print(f"{site_name} body is unchanged. No alerts today.")
