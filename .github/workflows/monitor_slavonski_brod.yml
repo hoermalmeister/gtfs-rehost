@@ -82,17 +82,18 @@ jobs:
           # Clean up the expiry alert file
           rm expiry_alert.txt
 
-      - name: Commit new website hash
+      - name: Commit tracking files
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Target the hash file inside the site's folder
-          git add ${{ env.SITE_NAME }}/hash.txt
+          # Explicitly add BOTH the text content and the raw HTML archive
+          git add ${{ env.SITE_NAME }}/content.txt
+          git add ${{ env.SITE_NAME }}/page.html
           
           if git diff --staged --quiet; then
-             echo "No changes to hash file."
+             echo "No changes to tracking files."
           else
-            git commit -m "Update monitoring hash for ${{ env.SITE_NAME }}"
+            git commit -m "Update monitoring files for ${{ env.SITE_NAME }}"
             git push
           fi
