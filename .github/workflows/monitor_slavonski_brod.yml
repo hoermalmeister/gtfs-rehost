@@ -87,8 +87,8 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Target the dynamically named hash file
-          git add ${{ env.SITE_NAME }}_hash.txt
+          # Target the hash file inside the site's folder
+          git add ${{ env.SITE_NAME }}/hash.txt
           
           if git diff --staged --quiet; then
              echo "No changes to hash file."
