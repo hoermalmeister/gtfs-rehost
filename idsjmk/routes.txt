@@ -8,10 +8,10 @@ L108D99,99,108,"Brno - Modřice - Pohořelice - Lechovice - Znojmo",3,00E68C,
 L109D99,99,109,"Brno - Telnice - Klobouky u Brna - Čejč - Mutěnice - Hodonín",3,00E68C,
 L10D99,99,10,"Stránská skála - Bystrc, Ečerova",0,A05A2C,FFFFFF
 L110D99,99,S5,"Kunovice - Uherské Hradiště - Staré Město u Uherského Hradiště",2,800000,FFFFFF
-L112D99,99,xR19,"NÁHRADNÍ DOPRAVA ZA VLAK Letovice - Brno",3,7FFFAA,
 L114D99,99,xS8,"NÁHRADNÍ DOPRAVA ZA VLAKBožice - Znojmo",3,7FFFAA,
 L116D99,99,xS91,"NÁHRADNÍ DOPRAVA ZA VLAKVeselí nad Moravou - Vrbovce",3,7FFFAA,
 L118D99,99,xS41,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Střelice",3,7FFFAA,
+L119D99,99,xR11,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Náměšť nad Oslavou",3,7FFFAA,
 L120D99,99,S2,"Vyškov - Holubice - Křenovice - Sokolnice - Brno - Blansko - Skalice nad Svitavou - Letovice",2,800000,FFFFFF
 L121D99,99,S21,"Boskovice - Skalice nad Svitavou",2,800000,FFFFFF
 L122D99,99,S22,"Letovice - Březová nad Svitavou",2,800000,FFFFFF
@@ -29,7 +29,7 @@ L135D99,99,R13,"Brno - Břeclav - Hodonín - Moravský Písek - Staré Město u 
 L136D99,99,R50,"Brno - Břeclav",2,800000,E1CB31
 L137D99,99,S82,"Znojmo - Šatov - Retz",2,800000,FFFFFF
 L138D99,99,S81,"Moravské Budějovice - Znojmo",2,800000,FFFFFF
-L139D99,99,139,"Břeclav - Staré Město u U. Hradiště",2,,
+L139D99,99,S9,"Břeclav - Staré Město u U. Hradiště",2,800000,FFFFFF
 L140D99,99,S4,"Zastávka - Rosice - Střelice - Brno",2,800000,FFFFFF
 L141D99,99,S41,"Hrušovany n.J.-Šanov - Bohutice - Moravský Krumlov - Moravské Bránice - Střelice - BrnoIvančice - Moravské Bránice - Střelice - Brno",2,800000,FFFFFF
 L142D99,99,S42,"Náměšť nad Oslavou - Rapotice - Zastávka",2,800000,FFFFFF
@@ -53,6 +53,7 @@ L164D99,99,164,"Pohořelice - Loděnice - Olbramovice - Moravský Krumlov",3,7FF
 L165D99,99,165,"Hustopeče - Vranovice - Pohořelice",3,7FFFAA,
 L166D99,99,166,"Vyškov - Bohdalice-Pavlovice - Hvězdlice - Nemochovice - Brankovice",3,7FFFAA,
 L167D99,99,167,"Blansko - Jedovnice - Senetářov - Ruprechtov - Vyškov",3,7FFFAA,
+L168D99,99,xS42,"NÁHRADNÍ DOPRAVA ZA VLAKNáměšť nad Oslavou - Rapotice - Zastávka",3,7FFFAA,
 L171D99,99,xS2,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Blansko",3,7FFFAA,
 L173D99,99,xS82,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šatov",3,7FFFAA,
 L174D99,99,174,"Mikulov - Březí - Novosedly - Drnholec - Hrušovany nad Jevišovkou",3,7FFFAA,
@@ -314,6 +315,7 @@ L84D99,99,84,"Židenice, Stará osada - Židenice, Stará osada",3,2C82C8,FFFFFF
 L85D99,99,š85,"Tuřany, smyčka - Holásky",3,2C82C8,FFFFFF
 L86D99,99,š86,"Hlavní nádraží - Loosova",3,2C82C8,FFFFFF
 L88D99,99,š88,"Vejrostova - ZŠ Laštůvkova/ ZŠ Jana Babáka",3,2C82C8,FFFFFF
+L890D99,99,X,"Jugoslávská - Stará osada",0,2C89C8,FFFFFF
 L89D99,99,N89,"Letiště Tuřany - Kníničky, U Luhu",3,000000,E1CB31
 L8D99,99,8,"Líšeň, Mifkova - Nemocnice Bohunice",0,E1CB31,
 L901D99,99,901,"Hodonín: Autobusové nádraží - Bažantnice - Železniční stanice - Nemocnice - Hřbitov",3,2C89C8,FFFFFF
