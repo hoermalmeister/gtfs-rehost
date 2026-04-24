@@ -1,0 +1,277 @@
+route_id,service_id,trip_id,direction_id,shape_id,trip_headsign
+101,weekdays_2025,101_weekdays_2025_dir1_trip_1,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_2,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_3,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_4,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_5,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_6,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_7,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_8,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_9,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_10,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_11,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_12,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_13,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_14,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_15,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_16,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir1_trip_17,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,weekdays_2025,101_weekdays_2025_dir0_trip_18,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_19,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_20,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_21,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_22,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_23,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_24,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_25,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_26,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_27,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_28,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_29,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_30,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_31,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_32,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_33,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,weekdays_2025,101_weekdays_2025_dir0_trip_34,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir1_trip_35,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_36,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_37,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_38,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_39,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_40,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_41,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_42,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_43,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_44,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_45,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_46,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_47,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir1_trip_48,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,saturday_2025,101_saturday_2025_dir0_trip_49,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_50,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_51,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_52,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_53,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_54,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_55,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_56,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_57,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_58,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_59,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_60,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_61,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,saturday_2025,101_saturday_2025_dir0_trip_62,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir1_trip_63,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_64,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_65,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_66,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_67,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_68,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_69,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_70,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_71,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_72,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_73,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir1_trip_74,1,101a,FROM Dvorac Kerestinec TO Podsusedski Most
+101,sunday_2025,101_sunday_2025_dir0_trip_75,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_76,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_77,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_78,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_79,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_80,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_81,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_82,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_83,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_84,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_85,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+101,sunday_2025,101_sunday_2025_dir0_trip_86,0,101b,FROM Podsusedski Most TO Dvorac Kerestinec
+102,weekdays_2025,102_weekdays_2025_dir1_trip_87,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_88,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_89,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_90,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_91,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_92,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_93,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_94,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_95,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_96,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_97,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_98,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_99,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_100,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_101,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir1_trip_102,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,weekdays_2025,102_weekdays_2025_dir0_trip_103,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_104,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_105,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_106,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_107,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_108,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_109,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_110,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_111,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_112,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_113,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_114,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_115,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_116,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_117,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,weekdays_2025,102_weekdays_2025_dir0_trip_118,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir1_trip_119,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_120,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_121,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_122,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_123,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_124,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_125,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_126,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_127,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_128,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_129,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_130,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_131,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir1_trip_132,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,saturday_2025,102_saturday_2025_dir0_trip_133,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_134,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_135,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_136,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_137,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_138,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_139,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_140,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_141,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_142,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_143,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_144,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_145,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,saturday_2025,102_saturday_2025_dir0_trip_146,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir1_trip_147,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_148,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_149,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_150,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_151,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_152,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_153,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_154,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_155,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_156,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_157,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir1_trip_158,1,102a,FROM Kalinovica Karlovačka TO Podsusedski Most
+102,sunday_2025,102_sunday_2025_dir0_trip_159,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_160,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_161,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_162,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_163,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_164,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_165,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_166,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_167,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_168,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_169,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+102,sunday_2025,102_sunday_2025_dir0_trip_170,0,102b,FROM Podsusedski Most TO Kalinovica Karlovačka
+103,weekdays_2025,103_weekdays_2025_dir1_trip_171,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_172,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_173,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_174,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_175,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_176,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_177,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_178,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_179,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_180,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_181,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_182,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_183,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_184,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir1_trip_185,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,weekdays_2025,103_weekdays_2025_dir0_trip_186,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_187,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_188,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_189,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_190,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_191,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_192,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_193,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_194,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_195,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_196,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_197,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_198,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_199,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,weekdays_2025,103_weekdays_2025_dir0_trip_200,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir1_trip_201,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_202,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_203,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_204,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_205,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_206,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_207,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_208,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_209,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_210,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_211,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_212,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_213,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir1_trip_214,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,saturday_2025,103_saturday_2025_dir0_trip_215,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_216,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_217,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_218,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_219,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_220,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_221,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_222,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_223,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_224,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_225,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_226,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_227,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,saturday_2025,103_saturday_2025_dir0_trip_228,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir1_trip_229,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_230,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_231,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_232,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_233,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_234,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_235,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_236,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_237,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_238,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_239,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir1_trip_240,1,103a,FROM Industrijska Sveta Nedelja TO Podsusedski Most
+103,sunday_2025,103_sunday_2025_dir0_trip_241,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_242,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_243,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_244,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_245,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_246,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_247,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_248,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_249,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_250,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_251,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+103,sunday_2025,103_sunday_2025_dir0_trip_252,0,103b,FROM Podsusedski Most TO Industrijska Sveta Nedelja
+104,holiday_2025,104_holiday_2025_dir1_trip_253,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_254,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_255,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_256,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_257,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_258,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_259,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_260,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_261,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_262,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir1_trip_263,1,104a,FROM Strmec Centar TO Podsusedski Most
+104,holiday_2025,104_holiday_2025_dir0_trip_264,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_265,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_266,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_267,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_268,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_269,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_270,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_271,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_272,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_273,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_274,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_275,0,104b,FROM Podsusedski Most TO Karlovačka
+104,holiday_2025,104_holiday_2025_dir0_trip_276,0,104b,FROM Podsusedski Most TO Karlovačka

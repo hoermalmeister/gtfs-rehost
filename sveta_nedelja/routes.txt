@@ -1,0 +1,5 @@
+route_id,agency_id,route_long_name,route_type,route_short_name,route_color
+101,autotrans,Red Line,3,101,FF0000
+102,autotrans,Yellow Line,3,102,FFFF00
+103,autotrans,Green Line,3,103,00FF00
+104,autotrans,Blue Line,3,104,0000FF
