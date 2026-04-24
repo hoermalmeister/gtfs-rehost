@@ -1,0 +1,98 @@
+name: Monitor Porec
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  check-status:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+
+    env:
+      SITE_NAME: porec
+      SITE_URL: https://www.arriva.com.hr/hr-hr/city-buses/city-bus-porec
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        # Added pandas back so the check_expiry script can read the GTFS dates
+        run: pip install requests beautifulsoup4 pandas
+
+      - name: Run website monitoring script
+        run: python .github/scripts/monitor.py ${{ env.SITE_NAME }} ${{ env.SITE_URL }}
+
+      - name: Notify via GitHub Issue (Website)
+        if: hashFiles('alerts.txt') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Automated Alert: ${{ env.SITE_NAME }} Website Updated"
+          BODY=$(cat alerts.txt)
+          
+          EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
+          
+          if [ -z "$EXISTING" ]; then
+            echo "Creating new issue..."
+            gh issue create --title "$TITLE" --body "$BODY"
+          else
+            echo "Alert already open (Issue #$EXISTING). Adding a comment instead."
+            gh issue comment $EXISTING --body "Update: The condition is still present today. $BODY"
+          fi
+          
+          # Clean up the website alert file
+          rm alerts.txt
+
+      - name: Check feed expiry
+        run: |
+          # Move into the feed's folder based on the SITE_NAME variable
+          cd ${{ env.SITE_NAME }}
+          
+          # Run the universal expiry script
+          echo "Checking expiration date..."
+          python $GITHUB_WORKSPACE/.github/scripts/check_expiry.py ${{ env.SITE_NAME }}
+
+      - name: Notify via GitHub Issue (GTFS Expiry)
+        if: hashFiles('expiry_alert.txt') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Automated Alert: ${{ env.SITE_NAME }} GTFS Feed Expiring"
+          BODY=$(cat expiry_alert.txt)
+          
+          EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
+          
+          if [ -z "$EXISTING" ]; then
+            echo "Creating new issue..."
+            gh issue create --title "$TITLE" --body "$BODY"
+          else
+            echo "Alert already open (Issue #$EXISTING). Skipping spam."
+          fi
+          
+          # Clean up the expiry alert file
+          rm expiry_alert.txt
+
+      - name: Commit new website hash
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          # Target the hash file inside the site's folder
+          git add ${{ env.SITE_NAME }}/hash.txt
+          
+          if git diff --staged --quiet; then
+             echo "No changes to hash file."
+          else
+            git commit -m "Update monitoring hash for ${{ env.SITE_NAME }}"
+            git push
+          fi
