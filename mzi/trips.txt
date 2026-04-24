@@ -1,0 +1,17 @@
+route_id,service_id,trip_id,direction_id,shape_id,trip_headsign,bikes_allowed
+600,AL,600,,VeSk,Skopje,1
+640,AL,640,,BiSk2,Skopje,1
+2021,AL,2021,,KuSk,Skopje,1
+630,AL,630,,GeSk,Skopje,1
+642,AL,642,,ZaVe,Veles,1
+2023,AL,2023,,KuSk,Skopje,1
+632,AL,632,,GeSk,Skopje,1
+644,AL,644,,BiSk5,Skopje,1
+2020,AL,2020,,SkKu,Kumanovo,1
+611,AL,611,,SkGe,Gevgelija,1
+641,AL,641,,SkZa,Žabeni,1
+643,AL,643,,VeBi,Bitola,1
+2022,AL,2022,,SkKu,Kumanovo,1
+631,AL,631,,SkGe,Gevgelija,1
+645,AL,645,,Sk4Bi,Bitola,1
+2083,AL,2083,,SkVe,Veles,1
