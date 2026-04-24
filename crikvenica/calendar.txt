@@ -1,0 +1,5 @@
+service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
+ALLYEAR,1,1,1,1,1,1,0,20250908,20260612
+NOSATURDAY,1,1,1,1,1,0,0,20250908,20260612
+SCHOOL,1,1,1,1,1,0,0,20250908,20260612
+HOLIDAYS,0,0,0,0,0,0,0,20250908,20260612
