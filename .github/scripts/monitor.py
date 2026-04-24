@@ -6,8 +6,13 @@ from bs4 import BeautifulSoup
 
 def check_website(site_name, website_url):
     alerts = []
-    # Dynamically name the hash file based on the website name!
-    hash_file = f"{site_name}_hash.txt"
+    
+    # --- UPDATED DIRECTORY LOGIC ---
+    # Ensure the folder exists (e.g., /slavonski_brod/)
+    os.makedirs(site_name, exist_ok=True)
+    # Put the hash file inside that folder
+    hash_file = os.path.join(site_name, "hash.txt")
+    # -------------------------------
 
     try:
         response = requests.get(website_url)
@@ -38,7 +43,6 @@ def check_website(site_name, website_url):
 
     if alerts:
         print(f"Alerts found for {site_name}! Writing to file...")
-        # Append to alerts.txt in case multiple sites are checked in one run
         with open("alerts.txt", "a") as f:
             f.write("\n\n".join(alerts) + "\n\n")
     else:
