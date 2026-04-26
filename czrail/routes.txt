@@ -1,8 +1,6 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport
 DIC:CZ540000.64,R13465.7ec83643,,Ostrava-Svinov - Ostrava-Vítkovice,2,0,0,0
 DIC:CZ540000.64,R13466.afa367a2,,Ostrava-Vítkovice - Ostrava-Svinov,2,0,0,0
-ICO:CZ01527886.58,R12921.bd87a059,,Turnov - Lomnice nad Popelkou,2,0,0,0
-ICO:CZ01527886.58,R12922.bb122e12,,Lomnice nad Popelkou - Turnov,2,0,0,0
 ICO:CZ03944948.68,R15099.caaf93f0,Česká Západní Dráha,Kozolupy - Plzeň hlavní nádraží,2,0,0,0
 ICO:CZ03944948.68,R15574.b1ecc2a3,,Plzeň hlavní nádraží - Sušice,2,0,0,0
 ICO:CZ03944948.68,R15575.b990087c,Masopustní expres,Sušice - Plzeň hlavní nádraží,2,0,0,0
@@ -85,8 +83,6 @@ ICO:CZ24848131.54,R9192.ae689c9a,D9,Lichkov - Międzylesie,2,0,0,0
 ICO:CZ24848131.54,R9193.5b69aeb9,D9,Międzylesie - Lichkov,2,0,0,0
 ICO:CZ25277171.50,KADR:4103.c5d1ddc0,T3,Ústí n.L. – Velké Březno,2,0,0,0
 ICO:CZ25277171.50,KADR:8018.d3f1af90,S18,Bruntál – Malá Morávka,2,0,0,0
-ICO:CZ25277171.50,R14652.f4faa08d,,Český Těšín - Mutěnice zastávka,2,0,0,0
-ICO:CZ25277171.50,R14653.3823a2c,,Mutěnice zastávka - Český Těšín,2,0,0,0
 ICO:CZ25277171.50,R14868.e8089d72,,Jaroměř - Hněvčeves,2,0,0,0
 ICO:CZ25277171.50,R14869.e28c9e11,,Hněvčeves - Jaroměř,2,0,0,0
 ICO:CZ25277171.50,R15024.4bb4a9d6,V6/V5,Pardubice centrum - Ostroměř,2,0,0,0
@@ -188,7 +184,6 @@ ICO:CZ28955196.53,R13377.c413f05,S91,Veselí nad Moravou - Lipov,2,0,0,0
 ICO:CZ28955196.53,R13378.524a3e92,S91,Lipov - Veselí nad Moravou,2,0,0,0
 ICO:CZ28955196.53,R13672.c9cfa0d,S22,Lúky pod Makytou - Horní Lideč,2,0,0,0
 ICO:CZ28955196.53,R14842.4a917cb4,S91,Hodonín - Veselí nad Moravou,2,0,0,0
-ICO:CZ28955196.53,R15108.729a0e30,S9,Hodonín - Břeclav,2,0,0,0
 ICO:CZ28955196.53,R15109.79d8dd8f,S9,Břeclav - Hodonín,2,0,0,0
 ICO:CZ28955196.53,R15118.7e9044aa,R14,Jablonné v Podještědí - Liberec,2,0,0,0
 ICO:CZ28955196.53,R15119.e9de2dc0,Expres-Pálava-Podyjí,Břeclav - Brno hlavní nádraží,2,0,0,0
@@ -203,19 +198,12 @@ ICO:CZ48029483.46,KADR:4010.88616789,U10,Litoměřice horní n. – Lovosice –
 ICO:CZ48029483.46,KADR:4104.84ae0306,T4,Lovosice – Chotiměř,2,0,0,0
 ICO:CZ48029483.46,R13280.d45d69b8,AŽD,Dětenice - Kopidlno,2,0,0,0
 ICO:CZ48029483.46,R13281.e91d69f9,AŽD,Kopidlno - Dětenice,2,0,0,0
-ICO:CZ48029483.46,R15458.304261a6,,Chotiměř - Lovosice,2,0,0,0
-ICO:CZ48029483.46,R15459.4ae46b15,,Lovosice - Chotiměř,2,0,0,0
-ICO:CZ48029483.46,R15508.fa4d686a,,Straškov - Ctiněves,2,0,0,0
-ICO:CZ48029483.46,R15509.ea03e194,,Ctiněves - Zlonice,2,0,0,0
-ICO:CZ48029483.46,R15510.eef9e50a,,Zlonice - Straškov,2,0,0,0
 ICO:CZ48029483.46,R8929.800fb3e1,AŽD,Dolní Bousov - Kopidlno,2,0,0,0
 ICO:CZ48029483.46,R8930.31a95633,AŽD,Kopidlno - Dolní Bousov,2,0,0,0
 ICO:CZ48029483.46,R8947.a97ce547,AŽD,Kopidlno - Bakov nad Jizerou,2,0,0,0
 ICO:CZ48029483.46,R8948.ab9390c4,AŽD,Bakov nad Jizerou - Kopidlno,2,0,0,0
 ICO:CZ48029483.46,R8949.14d47833,Podřipská střela,Straškov - Louny,2,0,0,0
-ICO:CZ48029483.46,R8949.249adaff,,Straškov - Louny,2,0,0,0
 ICO:CZ48029483.46,R8950.d9edc5f1,Podřipská střela,Louny - Straškov,2,0,0,0
-ICO:CZ48029483.46,R8950.e9b428bd,,Louny - Straškov,2,0,0,0
 ICO:CZ70890692.43,KADR:8016.c87965d4,S16,Třemešná ve Slezsku – Osoblaha,2,0,0,0
 ICO:CZ70890692.43,KADR:8017.8bc7fd02,S17,Milotice nad Opavou – Vrbno pod Pradědem,2,0,0,0
 ICO:CZ70994226.47,KADR:1.2f15513b,Ex1 Cracovia,Praha – Ostrava – Návsí / Opava,2,0,0,0
@@ -640,8 +628,6 @@ ICO:CZ70994226.47,R12560.ac7ef01a,Chopin,Chałupki - Břeclav,2,0,0,0
 ICO:CZ70994226.47,R12561.34a5618b,Chopin,Břeclav - Chałupki,2,0,0,0
 ICO:CZ70994226.47,R12660.32ad902e,nightjet,Bad Schandau - Hohenau,2,0,0,0
 ICO:CZ70994226.47,R12775.6e28fa75,Os 225,Jihlava - Havlíčkův Brod,2,0,0,0
-ICO:CZ70994226.47,R12952.cdcdc317,Os 148,Františkovy Lázně - Cheb,2,0,0,0
-ICO:CZ70994226.47,R12953.3b4cb564,Os 148,Cheb - Františkovy Lázně,2,0,0,0
 ICO:CZ70994226.47,R13019.bc9cb767,Os 225,Havlíčkův Brod - Jihlava,2,0,0,0
 ICO:CZ70994226.47,R13067.248786ee,Slovakia,Praha-Michle autovlak - Čadca,2,0,0,0
 ICO:CZ70994226.47,R13266.688e2b0d,Os 240,Třebíč - Jihlava,2,0,0,0
