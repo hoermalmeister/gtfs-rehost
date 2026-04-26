@@ -21,6 +21,16 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
+      # --- NEW: Setup Python and Pandas ---
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pandas
+      # ------------------------------------
+
       - name: Download and extract GTFS
         run: |
           mkdir -p ${{ env.FEED_FOLDER }}
@@ -48,7 +58,8 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           TITLE="Automated Alert: ${{ env.FEED_FOLDER }} GTFS Feed Expiring"
-          BODY=$(cat expiry_alert.txt)
+          # Adding the @mention just like your website monitors!
+          BODY="@hoermalmeister - Action required! $(cat expiry_alert.txt)"
           
           # Check if an alert issue is ALREADY open for this specific feed
           EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
