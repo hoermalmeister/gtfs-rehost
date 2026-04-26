@@ -2,8 +2,8 @@ name: Daily GTFS Rehost - Cotral
 
 on:
   schedule:
-    # Runs at 02:15 UTC every day (15 minutes after your IDZK feed)
-    - cron: '15 2 * * *'
+    # Runs at 03:00 UTC
+    - cron: '0 3 * * *'
   workflow_dispatch: 
 
 jobs:
@@ -16,7 +16,7 @@ jobs:
     env:
       FEED_FOLDER: cotral
       FILE_NAME: cotral.zip
-      FEED_URL: https://travel.mob.cotralspa.it:4443/GTFS/GTFS_COTRAL.zip
+      FEED_URL: https://travel.mob.cotralspa.it:4443/GTFS/GTFS_COTRAL.zip 
 
     steps:
       - name: Checkout repository
@@ -32,29 +32,22 @@ jobs:
 
       - name: Download and extract GTFS
         run: |
-          # Create the specific feed directory
           mkdir -p ${{ env.FEED_FOLDER }}
           cd ${{ env.FEED_FOLDER }}
           
-          # Download using the variables
           echo "Downloading ${{ env.FILE_NAME }}..."
           curl -k -L -o ${{ env.FILE_NAME }} ${{ env.FEED_URL }}
           
-          # Unzip using the variables
-          echo "Unzipping..."
+          echo "Unzipping temporarily for expiry check..."
           unzip -o ${{ env.FILE_NAME }}
 
       - name: Check feed expiry
         run: |
-          # Move into the feed's folder
           cd ${{ env.FEED_FOLDER }}
-          
-          # Run the universal script, passing the feed folder name as an argument
           echo "Checking expiration date..."
           python $GITHUB_WORKSPACE/.github/scripts/check_expiry.py ${{ env.FEED_FOLDER }}
 
       - name: Notify via GitHub Issue
-        # Check if the Python script created an alert file in the root workspace
         if: hashFiles('expiry_alert.txt') != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -62,7 +55,6 @@ jobs:
           TITLE="Automated Alert: ${{ env.FEED_FOLDER }} GTFS Feed Expiring"
           BODY="@hoermalmeister - Action required! $(cat expiry_alert.txt)"
           
-          # Check if an alert issue is ALREADY open for this specific feed
           EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
           
           if [ -z "$EXISTING" ]; then
@@ -72,20 +64,29 @@ jobs:
             echo "Alert already open (Issue #$EXISTING). Skipping spam."
           fi
           
-          # Delete the alert file so it doesn't accidentally get committed
           rm expiry_alert.txt
+
+      - name: Clean up unzipped files (Bypass GitHub Limit)
+        run: |
+          # Move into the feed folder
+          cd ${{ env.FEED_FOLDER }}
+          
+          # Delete EVERY text file so we don't hit the 100MB limit. 
+          # Only cotral.zip will remain in this folder.
+          echo "Cleaning up text files..."
+          rm -f *.txt
 
       - name: Commit and push changes
         run: |
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Stage only the folder specific to this feed
+          # Stage the folder (which now only contains the .zip)
           git add ${{ env.FEED_FOLDER }}/
           
           if git diff --staged --quiet; then
             echo "No changes detected in ${{ env.FEED_FOLDER }} today."
           else
-            git commit -m "Automated update of ${{ env.FEED_FOLDER }} GTFS feed"
+            git commit -m "Automated update of ${{ env.FEED_FOLDER }} GTFS feed (Zip only)"
             git push
           fi
