@@ -45,21 +45,27 @@ def check_website(site_name, website_url):
             with open(content_file, 'r', encoding='utf-8') as f:
                 previous_content = f.read()
 
-        if tracked_content != previous_content and previous_content != "":
+        tracked_lines = tracked_content.splitlines()
+        previous_lines = previous_content.splitlines()
+
+        # Check if the actual lines of text are different
+        if tracked_lines != previous_lines and len(previous_lines) > 0:
             diff = list(difflib.unified_diff(
-                previous_content.splitlines(),
-                tracked_content.splitlines(),
+                previous_lines,
+                tracked_lines,
                 fromfile='Yesterday',
                 tofile='Today',
                 lineterm=''
             ))
             
-            diff_text = "\n".join(diff[:50])
-            if len(diff) > 50:
-                diff_text += "\n\n... (diff truncated because it was too large)"
+            # Absolute safety catch: Only send an alert if the diff is NOT empty
+            if diff:
+                diff_text = "\n".join(diff[:50])
+                if len(diff) > 50:
+                    diff_text += "\n\n... (diff truncated because it was too large)"
 
-            alert_msg = f"🌐 **Website Change Detected:** The readable content at {website_url} has been updated!\n\n**What changed:**\n```diff\n{diff_text}\n```"
-            alerts.append(alert_msg)
+                alert_msg = f"🌐 **Website Change Detected:** The readable content at {website_url} has been updated!\n\n**What changed:**\n```diff\n{diff_text}\n```"
+                alerts.append(alert_msg)
         
         # Save the readable content for tomorrow's diff comparison
         with open(content_file, 'w', encoding='utf-8') as f:
