@@ -11,7 +11,6 @@ L110D99,99,S5,"Kunovice - Uherské Hradiště - Staré Město u Uherského Hradi
 L114D99,99,xS8,"NÁHRADNÍ DOPRAVA ZA VLAKBožice - Znojmo",3,7FFFAA,
 L116D99,99,xS91,"NÁHRADNÍ DOPRAVA ZA VLAKVeselí nad Moravou - Vrbovce",3,7FFFAA,
 L118D99,99,xS41,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Střelice",3,7FFFAA,
-L119D99,99,xR11,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Náměšť nad Oslavou",3,7FFFAA,
 L120D99,99,S2,"Vyškov - Holubice - Křenovice - Sokolnice - Brno - Blansko - Skalice nad Svitavou - Letovice",2,800000,FFFFFF
 L121D99,99,S21,"Boskovice - Skalice nad Svitavou",2,800000,FFFFFF
 L122D99,99,S22,"Letovice - Březová nad Svitavou",2,800000,FFFFFF
@@ -29,7 +28,7 @@ L135D99,99,R13,"Brno - Břeclav - Hodonín - Moravský Písek - Staré Město u 
 L136D99,99,R50,"Brno - Břeclav",2,800000,E1CB31
 L137D99,99,S82,"Znojmo - Šatov - Retz",2,800000,FFFFFF
 L138D99,99,S81,"Moravské Budějovice - Znojmo",2,800000,FFFFFF
-L139D99,99,S9,"Břeclav - Staré Město u U. Hradiště",2,800000,FFFFFF
+L139D99,99,139,"Břeclav - Staré Město u U. Hradiště",2,,
 L140D99,99,S4,"Zastávka - Rosice - Střelice - Brno",2,800000,FFFFFF
 L141D99,99,S41,"Hrušovany n.J.-Šanov - Bohutice - Moravský Krumlov - Moravské Bránice - Střelice - BrnoIvančice - Moravské Bránice - Střelice - Brno",2,800000,FFFFFF
 L142D99,99,S42,"Náměšť nad Oslavou - Rapotice - Zastávka",2,800000,FFFFFF
@@ -53,7 +52,7 @@ L164D99,99,164,"Pohořelice - Loděnice - Olbramovice - Moravský Krumlov",3,7FF
 L165D99,99,165,"Hustopeče - Vranovice - Pohořelice",3,7FFFAA,
 L166D99,99,166,"Vyškov - Bohdalice-Pavlovice - Hvězdlice - Nemochovice - Brankovice",3,7FFFAA,
 L167D99,99,167,"Blansko - Jedovnice - Senetářov - Ruprechtov - Vyškov",3,7FFFAA,
-L168D99,99,xS42,"NÁHRADNÍ DOPRAVA ZA VLAKNáměšť nad Oslavou - Rapotice - Zastávka",3,7FFFAA,
+L170D99,99,xS52,"NÁHRADNÍ DOPRAVA ZA VLAKHodonín - Kobylí",3,7FFFAA,
 L171D99,99,xS2,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Blansko",3,7FFFAA,
 L173D99,99,xS82,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šatov",3,7FFFAA,
 L174D99,99,174,"Mikulov - Březí - Novosedly - Drnholec - Hrušovany nad Jevišovkou",3,7FFFAA,
@@ -131,6 +130,8 @@ L35D99,99,35,"Masarykova čtvrť, Barvičova - Mendlovo náměstí",800,008033,F
 L36D99,99,36,"Komín, sídliště - Česká",800,008033,FFFFFF
 L370D99,99,370,"Bystřice nad Pernštejnem: Domanín - Domanínek - Masarykovo nám. - Gymnázium - Železniční stanice",3,2C89C8,FFFFFF
 L37D99,99,37,"Mendlovo náměstí - Osová",800,008033,FFFFFF
+L381D99,99,x1,"Řečkovice - Hlavní nádraží",3,D40000,FFFFFF
+L386D99,99,x6,"nádraží - Hlavní nádraží",3,0777C1,FFFFFF
 L38D99,99,38,"Masarykova čtvrť, Preslova - Komenského náměstí",800,008033,FFFFFF
 L390D99,99,x10,"Novolíšeňská - ZKL - Novolíšeňská",3,A05A2C,FFFFFF
 L39D99,99,39,"Masarykova čtvrť, Barvičova - Komenského náměstí",800,008033,FFFFFF
@@ -248,7 +249,6 @@ L672D99,99,672,"Kyjov: Bohuslavice - Boršov - gymnázium - AN - nemocnice",3,2C
 L673D99,99,673,"Kyjov: Nemocnice - AN - Újezd - poliklinika - AN - nemocnice",3,2C89C8,FFFFFF
 L67D99,99,67,"Jundrov - Avion Shopping Park",3,2C82C8,FFFFFF
 L68D99,99,68,"Myslivna - NC Královo Pole",3,2C82C8,FFFFFF
-L691D99,99,x91,"Mácova - Lelekovice, u kříže",3,000000,E1CB31
 L694D99,99,x94,"Tomkovo náměstí – Bílovice nad Svitavou – Obřany, sídliště",3,000000,E1CB31
 L69D99,99,69,"Bosonohy - Bohunice, Ukrajinská",3,2C82C8,FFFFFF
 L6D99,99,6,"Královo Pole, nádraží - Starý Lískovec, smyčka",0,0777C1,FFFFFF
@@ -277,7 +277,6 @@ L756D99,99,756,"Vyškov - Pustiměř - Radslavice - Podivice",3,7FFFAA,
 L75D99,99,75,"(Bílovice n. Svitavou -) Obřany, sídliště - Vozovna Slatina (- Slatina, nádraží)",3,2C82C8,FFFFFF
 L76D99,99,E76,"Letiště Tuřany - Hlavní nádraží",3,C1193A,FFFFFF
 L77D99,99,77,"Slatinka - Úzká",3,2C82C8,FFFFFF
-L781D99,99,x41,"Ivanovice - Lelekovice - Vranov",3,2C89C8,FFFFFF
 L78D99,99,78,"Židenice, nádraží - Modřice, Olympia",3,2C82C8,FFFFFF
 L790D99,99,E50,"Kamechy - Areál Slatina",3,C1193A,FFFFFF
 L795D99,99,E75,"Židenice, nádraží - Slatina, závod",3,C1193A,FFFFFF
@@ -315,7 +314,6 @@ L84D99,99,84,"Židenice, Stará osada - Židenice, Stará osada",3,2C82C8,FFFFFF
 L85D99,99,š85,"Tuřany, smyčka - Holásky",3,2C82C8,FFFFFF
 L86D99,99,š86,"Hlavní nádraží - Loosova",3,2C82C8,FFFFFF
 L88D99,99,š88,"Vejrostova - ZŠ Laštůvkova/ ZŠ Jana Babáka",3,2C82C8,FFFFFF
-L890D99,99,X,"Jugoslávská - Stará osada",0,2C89C8,FFFFFF
 L89D99,99,N89,"Letiště Tuřany - Kníničky, U Luhu",3,000000,E1CB31
 L8D99,99,8,"Líšeň, Mifkova - Nemocnice Bohunice",0,E1CB31,
 L901D99,99,901,"Hodonín: Autobusové nádraží - Bažantnice - Železniční stanice - Nemocnice - Hřbitov",3,2C89C8,FFFFFF
