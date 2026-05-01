@@ -21,7 +21,6 @@ ICO:CZ03944948.68,R15448.f24e72e9,,Plzeň hlavní nádraží - Blovice,2,0,0,0
 ICO:CZ03944948.68,R15449.49e46ef6,,Blovice - Plzeň hlavní nádraží,2,0,0,0
 ICO:CZ06661572.55,R13317.3d5d057e,Leo Express,Bohumín - Praha hlavní nádraží,2,0,0,0
 ICO:CZ06661572.55,R13355.ca876de2,Leo Express,Praha hlavní nádraží - Bohumín,2,0,0,0
-ICO:CZ06661572.55,R14631.d07cc9be,,Bohumín - Praha hlavní nádraží,2,0,0,0
 ICO:CZ06661572.55,R14754.78374c26,Leo Express,Ostrava hlavní nádraží - Bad Schandau,2,0,0,0
 ICO:CZ06661572.55,R14908.a30f857f,Leo Express,Děčín hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
 ICO:CZ06661572.55,R15133.c42e55b,Leo Express,Čadca - Praha hlavní nádraží,2,0,0,0
@@ -87,10 +86,6 @@ ICO:CZ24158071.44,KADR:4198.6cc7658f,T8,Most – Osek – Moldava v Krušných h
 ICO:CZ24158071.44,R8574.57dfcc60,Os 243,Jemnice - Moravské Budějovice,2,0,0,0
 ICO:CZ24199010.61,R14219.e5f4da6e,,Pardubice hlavní nádraží - Žamberk,2,0,0,0
 ICO:CZ24199010.61,R14220.991776d4,,Lichkov - Žamberk,2,0,0,0
-ICO:CZ24199010.61,R14465.b2d9a8fe,S65,Praha hlavní nádraží - Rudná u Prahy,2,0,0,0
-ICO:CZ24199010.61,R14466.ab9a2b69,S65,Rudná u Prahy - Praha hlavní nádraží,2,0,0,0
-ICO:CZ24199010.61,R14467.bd5f423f,,Praha hlavní nádraží - Hostivice,2,0,0,0
-ICO:CZ24199010.61,R14468.74259344,,Hostivice - Praha hlavní nádraží,2,0,0,0
 ICO:CZ24199010.61,R14802.bab264fd,Os 304,Kroměříž - Tovačov,2,0,0,0
 ICO:CZ24199010.61,R14803.61f90432,Os 304,Tovačov - Kroměříž,2,0,0,0
 ICO:CZ24848131.54,R12400.82c8c972,Os 024,Letohrad - Králíky,2,0,0,0
@@ -197,8 +192,6 @@ ICO:CZ28955196.53,KADR:7223.1f1b60dc,S23,Vsetín – Velké Karlovice,2,0,0,0
 ICO:CZ28955196.53,KADR:7250.506a70d6,Sp5,Staré Město u Uherského Hradiště – Uherské Hradiště – Újezdec u Luhačovic – Bojkovice – Bylnice,2,0,0,0
 ICO:CZ28955196.53,KADR:7253.87e6e631,S53,(Uherský Brod –) Újezdec u Luhačovic – Luhačovice,2,0,0,0
 ICO:CZ28955196.53,KADR:94.cc2a37d3,R14,Ústí nad Labem – Česká Lípa – Liberec,2,0,0,0
-ICO:CZ28955196.53,R13013.74763482,S8,Mikulov na Moravě - Břeclav,2,0,0,0
-ICO:CZ28955196.53,R13023.8aa1e03,S8,Břeclav - Mikulov na Moravě,2,0,0,0
 ICO:CZ28955196.53,R13045.34a48e44,S91,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
 ICO:CZ28955196.53,R13047.35eb06a5,S91,Veselí nad Moravou - Lipov,2,0,0,0
 ICO:CZ28955196.53,R13048.7bf40632,S91,Lipov - Veselí nad Moravou,2,0,0,0
@@ -208,8 +201,6 @@ ICO:CZ28955196.53,R14788.cbde81aa,R14,Jablonné v Podještědí - Liberec,2,0,0,
 ICO:CZ28955196.53,R15158.ddd1d7e6,,Mladá Boleslav hlavní nádraží - Doksy,2,0,0,0
 ICO:CZ28955196.53,R15159.4d588ee5,,Bakov nad Jizerou - Doksy,2,0,0,0
 ICO:CZ28955196.53,R15161.d6679dae,,Doksy - Bakov nad Jizerou,2,0,0,0
-ICO:CZ28955196.53,R15177.c75c1d7e,,Rychnov u Jablonce nad Nisou - Liberec,2,0,0,0
-ICO:CZ28955196.53,R15197.2b16701a,,Liberec - Rychnov u Jablonce nad Nisou,2,0,0,0
 ICO:CZ29099846.42,R8558.3e57cad7,Český les,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
 ICO:CZ48029483.46,KADR:4010.88616789,U10,Litoměřice horní n. – Lovosice – Třebívlice – Most,2,0,0,0
 ICO:CZ48029483.46,KADR:4104.84ae0306,T4,Lovosice – Chotiměř,2,0,0,0
@@ -262,9 +253,6 @@ ICO:CZ70994226.47,KADR:1010.44aa4763,S10,Kolín - Česká Třebová - Kolín –
 ICO:CZ70994226.47,KADR:1011.9c7e660e,S11,Pečky – Kouřim,2,0,0,0
 ICO:CZ70994226.47,KADR:1012.db523b8e,S12,Poříčany – Nymburk,2,0,0,0
 ICO:CZ70994226.47,KADR:1018.e59ece47,S18,Kolín – Ledečko – Sázava,2,0,0,0
-ICO:CZ70994226.47,KADR:1020.5712dd39,S20,Kolín – Světlá nad Sázavou - Praha-Čakovice - Praha hl. n.,2,0,0,0
-ICO:CZ70994226.47,KADR:1020.cfd13ec5,S20 Vysočina,Havlíčkův Brod - Kolín - Kolín – Světlá nad Sázavou,2,0,0,0
-ICO:CZ70994226.47,KADR:1020.d6393540,S20 Vysočina,Kolín – Světlá nad Sázavou,2,0,0,0
 ICO:CZ70994226.47,KADR:1020.ddca7079,S20,Havlíčkův Brod - Kolín - Kolín – Světlá nad Sázavou,2,0,0,0
 ICO:CZ70994226.47,KADR:1020.e43266f4,S20,Kolín – Světlá nad Sázavou,2,0,0,0
 ICO:CZ70994226.47,KADR:1020|KADR:1028.aa2cf496,S20/S28,Kolín – Světlá nad Sázavou - Kutná Hora – Zruč nad Sázavou,2,0,0,0
@@ -390,7 +378,6 @@ ICO:CZ70994226.47,KADR:3113.426e6e3e,S13,Tábor – Pacov,2,0,0,0
 ICO:CZ70994226.47,KADR:3113.667bcd63,S13,Tábor - Jihlava - Tábor – Pacov,2,0,0,0
 ICO:CZ70994226.47,KADR:3114.29288221,S14,Slavonice – Telč,2,0,0,0
 ICO:CZ70994226.47,KADR:3114.32d3e062,S14,Jemnice - Moravské Budějovice - Slavonice – Telč,2,0,0,0
-ICO:CZ70994226.47,KADR:3114.a71b6db9,S14 Renesance,Slavonice – Telč,2,0,0,0
 ICO:CZ70994226.47,KADR:3114.b0c6cbfa,S14 Renesance,Jemnice - Moravské Budějovice - Slavonice – Telč,2,0,0,0
 ICO:CZ70994226.47,KADR:3123.f9d4f37d,S23,Tábor – Jindřichův Hradec,2,0,0,0
 ICO:CZ70994226.47,KADR:3160.58a06c98,S60,Strakonice – Blatná – Březnice,2,0,0,0
@@ -635,9 +622,7 @@ ICO:CZ70994226.47,R12230.d628b7ba,Chopin,Chałupki - Břeclav,2,0,0,0
 ICO:CZ70994226.47,R12231.5e4f292b,Chopin,Břeclav - Chałupki,2,0,0,0
 ICO:CZ70994226.47,R12330.5c5757ce,nightjet,Bad Schandau - Hohenau,2,0,0,0
 ICO:CZ70994226.47,R12370.fb2e6f47,Pendolino,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R12445.97d2c215,Os 225,Jihlava - Havlíčkův Brod,2,0,0,0
 ICO:CZ70994226.47,R12563.e9c9cc85,Pendolino,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R12689.9eaf467,Os 225,Havlíčkův Brod - Jihlava,2,0,0,0
 ICO:CZ70994226.47,R12731.b29b43c9,,Tábor - Chýnov,2,0,0,0
 ICO:CZ70994226.47,R12737.c8b8a043,Slovakia,Praha-Michle autovlak - Čadca,2,0,0,0
 ICO:CZ70994226.47,R12745.9271cb30,Pendolino,Praha hlavní nádraží - Bohumín,2,0,0,0
@@ -660,9 +645,7 @@ ICO:CZ70994226.47,R14598.ec6f7d61,Jihlava,Jihlava - Třebíč,2,0,0,0
 ICO:CZ70994226.47,R14639.b7ce825c,Mikuláš,Choceň - Litomyšl,2,0,0,0
 ICO:CZ70994226.47,R14640.9e2a34c,Mikuláš,Litomyšl - Choceň,2,0,0,0
 ICO:CZ70994226.47,R14653.8efef664,Os 240/S13,Třebíč - Horní Cerekev,2,0,0,0
-ICO:CZ70994226.47,R14707.d2bb733b,,Hnojník - Český Těšín,2,0,0,0
 ICO:CZ70994226.47,R14799.311e4e2d,nightjet,Břeclav - Bad Schandau,2,0,0,0
-ICO:CZ70994226.47,R14841.237decc8,S20 Vysočina,Havlíčkův Brod - Kolín,2,0,0,0
 ICO:CZ70994226.47,R14905.85f86294,nightjet,Bad Schandau - Břeclav,2,0,0,0
 ICO:CZ70994226.47,R15007.f6842cde,Ex1,Čadca - Praha hl. n.,2,0,0,0
 ICO:CZ70994226.47,R15079.5cc50495,Comenius,Ostrava hlavní nádraží - Zebrzydowice,2,0,0,0
