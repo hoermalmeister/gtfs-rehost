@@ -1,13 +1,9 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport
 DIC:CZ540000.64,R13135.a871fde3,,Ostrava-Svinov - Ostrava-Vítkovice,2,0,0,0
 DIC:CZ540000.64,R13136.d94d2f42,,Ostrava-Vítkovice - Ostrava-Svinov,2,0,0,0
-ICO:CZ01527886.58,R15293.17bf3c88,,Mladá Boleslav hlavní nádraží - Trutnov hlavní nádraží,2,0,0,0
 ICO:CZ01527886.58,R15295.d4e7022b,,Královec - Trutnov hlavní nádraží,2,0,0,0
 ICO:CZ01527886.58,R15296.b622323a,,Trutnov hlavní nádraží - Královec,2,0,0,0
-ICO:CZ01527886.58,R15299.2502a764,,Trutnov hlavní nádraží - Mladá Boleslav hlavní nádraží,2,0,0,0
 ICO:CZ03944948.68,R14769.6ee0ad45,Česká Západní Dráha,Kozolupy - Plzeň hlavní nádraží,2,0,0,0
-ICO:CZ03944948.68,R15236.aa1a0040,,Plzeň hlavní nádraží - Sušice,2,0,0,0
-ICO:CZ03944948.68,R15237.b1bd4619,Masopustní expres,Sušice - Plzeň hlavní nádraží,2,0,0,0
 ICO:CZ03944948.68,R15344.5d9cfdf2,,Plzeň hlavní nádraží - Přeštice,2,0,0,0
 ICO:CZ03944948.68,R15345.249d457d,,Přeštice - Plzeň hlavní nádraží,2,0,0,0
 ICO:CZ03944948.68,R15346.b698ba57,,Plzeň hlavní nádraží - Mirošov,2,0,0,0
@@ -206,10 +202,6 @@ ICO:CZ48029483.46,KADR:4010.88616789,U10,Litoměřice horní n. – Lovosice –
 ICO:CZ48029483.46,KADR:4104.84ae0306,T4,Lovosice – Chotiměř,2,0,0,0
 ICO:CZ48029483.46,R12950.788e830d,AŽD,Dětenice - Kopidlno,2,0,0,0
 ICO:CZ48029483.46,R12951.8d4e834e,AŽD,Kopidlno - Dětenice,2,0,0,0
-ICO:CZ48029483.46,R15357.f8e44ab5,,Mladá Boleslav hlavní nádraží - Jičín,2,0,0,0
-ICO:CZ48029483.46,R15358.e806a099,,Jičín - Dětenice,2,0,0,0
-ICO:CZ48029483.46,R15359.f4403600,,Dětenice - Jičín,2,0,0,0
-ICO:CZ48029483.46,R15360.8673ba9d,,Jičín - Mladá Boleslav hlavní nádraží,2,0,0,0
 ICO:CZ48029483.46,R8599.52d69f2c,AŽD,Dolní Bousov - Kopidlno,2,0,0,0
 ICO:CZ48029483.46,R8600.5b531dd3,AŽD,Kopidlno - Dolní Bousov,2,0,0,0
 ICO:CZ48029483.46,R8617.d326ace7,AŽD,Kopidlno - Bakov nad Jizerou,2,0,0,0
