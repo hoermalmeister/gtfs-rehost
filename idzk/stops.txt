@@ -1403,7 +1403,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 36719,"Zlín, Malenovice, hřiště",49.2045339,17.5888408,0,Europe/Prague,0
 3746,"Vyškov, Marchanice",49.282753111975076,17.024268670297147,0,Europe/Prague,0
 37585,"Zlín, Malenovice, Mlýnská",49.2066956,17.5852989,0,Europe/Prague,0
-37862,"Púchov, Continental AS",49.1073214,18.3183464,0,Europe/Bratislava,0
 3824,Bedihošť,49.44849172525144,17.16606425214959,0,Europe/Prague,0
 3842,"Křižanovice u Vyškova, rozc.0.2",49.283810566367364,17.036733567754915,0,Europe/Prague,0
 3987,"Hoštice-Heroltice, Heroltice, rozc.",49.28508177733607,17.057228267146737,0,Europe/Prague,0
@@ -1511,6 +1510,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 5668,"Křenovice, rest.",49.327558431123315,17.270325272348327,0,Europe/Prague,0
 56683,Přelouč,50.03943367211857,15.574323338623117,0,Europe/Prague,0
 56684,Branky na Moravě,49.4593886,17.9056606,0,Europe/Prague,0
+56685,Babice u Šternberka,49.74116102311703,17.26840592590338,0,Europe/Prague,0
 56701,Bystřička,49.4172364,17.9587936,0,Europe/Prague,0
 56713,Zlín-Malenovice,49.2098275,17.5993594,0,Europe/Prague,0
 56726,Vracov,48.9766044,17.2195092,0,Europe/Prague,0
@@ -1573,6 +1573,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 57456,Zborovice,49.253843888377624,17.28303625832329,0,Europe/Prague,0
 57489,Spytihněv,49.142384,17.495155,0,Europe/Prague,0
 57508,Uherský Brod,49.0218472,17.6436622,0,Europe/Prague,0
+57512,Šternberk,49.719086,17.288092,0,Europe/Prague,0
 57547,Veselí nad Moravou,48.948845,17.3826236,0,Europe/Prague,0
 57555,Uherský Ostroh,48.9819642,17.4035358,0,Europe/Prague,0
 57601,Pardubice hlavní nádraží,50.031555,15.755575,0,Europe/Prague,0
@@ -1625,10 +1626,13 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 58241,Bohuslavice nad Vláří,49.0961875,17.9262028,0,Europe/Prague,0
 58269,Bylnice,49.0676842,18.0140114,0,Europe/Prague,0
 58297,Křenovice dolní nádraží,49.1443061,16.8341103,0,Europe/Prague,0
+58318,Mladějovice,49.75823332640844,17.23520432275393,0,Europe/Prague,0
 58323,Police u Valašského Meziříčí,49.4505692,17.8681125,0,Europe/Prague,0
 58334,Kolín,50.02510087849903,15.213820787696818,0,Europe/Prague,0
 58344,Marefy,49.1492308,16.9731711,0,Europe/Prague,0
+58348,Újezd u Uničova,49.77517757336426,17.184452601188696,0,Europe/Prague,0
 58360,Halenkov zastávka,49.3159369,18.1419011,0,Europe/Prague,0
+58362,Uničov zastávka,49.77761953569037,17.144860271163907,0,Europe/Prague,0
 58363,Bohuslavice u Kyjova,49.0548667,17.1191958,0,Europe/Prague,0
 58369,Rohatec zastávka,48.8832703,17.1784286,0,Europe/Prague,0
 58409,Rychnov u Jablonce nad Nisou,50.683514,15.144038,0,Europe/Prague,0
@@ -1686,6 +1690,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 58935,Hrachovec,49.4761733,18.0049494,0,Europe/Prague,0
 58958,Slavkov u Brna,49.1449547,16.8736114,0,Europe/Prague,0
 58960,Záhorovice,49.0212517,17.7780247,0,Europe/Prague,0
+58968,Uničov,49.778252,17.117014,0,Europe/Prague,0
 58977,Brno-Slatina,49.1695267,16.6820328,0,Europe/Prague,0
 58998,Brno hlavní nádraží,49.1905822,16.6128025,0,Europe/Prague,0
 59007,Lípa nad Dřevnicí,49.2160186,17.7699336,0,Europe/Prague,0
