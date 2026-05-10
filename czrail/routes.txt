@@ -144,8 +144,6 @@ ICO:CZ28333187.52,R12236.58e8eee8,RegioJet,Hohenau - Praha-Zahradní Město,2,0,
 ICO:CZ28333187.52,R12766.b9391d4e,RegioJet,Čadca - Praha hlavní nádraží,2,0,0,0
 ICO:CZ28333187.52,R13067.4a3f1189,RegioJet,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
 ICO:CZ28333187.52,R13074.2b660e09,RegioJet,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
-ICO:CZ28333187.52,R15456.150c44f3,RegioJet,Havířov - Ostrava-Svinov,2,0,0,0
-ICO:CZ28333187.52,R15456.be6108d4,,Havířov - Ostrava-Svinov,2,0,0,0
 ICO:CZ28333187.52,R8717.4d8d1ea9,RegioJet,Bohumín - Praha-Zahradní Město,2,0,0,0
 ICO:CZ28664116.39,KADR:25.e319c092,R25,Plzeň – Blatno u Jesenice – Chomutov – Most,2,0,0,0
 ICO:CZ28664116.39,KADR:3104.3285e8f9,S4,České Budějovice – Nové Údolí / Volary,2,0,0,0
@@ -620,7 +618,6 @@ ICO:CZ70994226.47,R12617.8f479dcc,Pendolino,Praha hlavní nádraží - Bohumín,
 ICO:CZ70994226.47,R12636.4d32e646,REX 1,Hohenau - Břeclav,2,0,0,0
 ICO:CZ70994226.47,R12669.24bb6186,,Mladá Boleslav město - Nymburk hlavní nádraží,2,0,0,0
 ICO:CZ70994226.47,R12710.5a431711,,Nymburk hlavní nádraží - Mladá Boleslav město,2,0,0,0
-ICO:CZ70994226.47,R12809.b49ef9d,Os 240,Třebíč - Jihlava,2,0,0,0
 ICO:CZ70994226.47,R12860.819c803f,Pendolino Košičan,Čadca - Praha hlavní nádraží,2,0,0,0
 ICO:CZ70994226.47,R13262.1b207cac,,Okříšky - Horní Cerekev,2,0,0,0
 ICO:CZ70994226.47,R13265.8dd500d2,Jihlava,Horní Cerekev - Okříšky,2,0,0,0
@@ -633,20 +630,13 @@ ICO:CZ70994226.47,R13905.180163b6,Párou Posázavím,Týnec nad Sázavou - Praha
 ICO:CZ70994226.47,R14099.3629cd3c,Pendolino,Bohumín - Praha hlavní nádraží,2,0,0,0
 ICO:CZ70994226.47,R14267.bec34722,,Praha-Braník - Praha-Radotín,2,0,0,0
 ICO:CZ70994226.47,R14268.500cae87,,Praha-Radotín - Praha-Braník,2,0,0,0
-ICO:CZ70994226.47,R14464.23fa0c8b,Jihlava,Horní Cerekev - Třebíč,2,0,0,0
 ICO:CZ70994226.47,R14469.db918201,S71,Chałupki - Bohumín,2,0,0,0
-ICO:CZ70994226.47,R14483.471fda26,Jihlava,Jihlava - Třebíč,2,0,0,0
 ICO:CZ70994226.47,R14524.127edf21,Mikuláš,Choceň - Litomyšl,2,0,0,0
 ICO:CZ70994226.47,R14525.40bd3b06,Mikuláš,Litomyšl - Choceň,2,0,0,0
-ICO:CZ70994226.47,R14538.c5d98e1e,Os 240/S13,Třebíč - Horní Cerekev,2,0,0,0
 ICO:CZ70994226.47,R14685.8d838391,nightjet,Břeclav - Bad Schandau,2,0,0,0
 ICO:CZ70994226.47,R14793.8ee46ce1,nightjet,Bad Schandau - Břeclav,2,0,0,0
 ICO:CZ70994226.47,R14896.7bac617f,Ex1,Čadca - Praha hl. n.,2,0,0,0
 ICO:CZ70994226.47,R14970.7b2e48e8,S71,Bohumín - Chałupki,2,0,0,0
-ICO:CZ70994226.47,R15100.2bb8c153,,Okříšky - Jihlava,2,0,0,0
-ICO:CZ70994226.47,R15100.43f822db,Rožmberk,Okříšky - Jihlava,2,0,0,0
-ICO:CZ70994226.47,R15112.88fefa9b,Jihlava,Okříšky - Jihlava,2,0,0,0
-ICO:CZ70994226.47,R15113.c45552f1,,Jihlava - Okříšky,2,0,0,0
 ICO:CZ70994226.47,R15117.10eb613b,,Lužná u Rakovníka - Rakovník,2,0,0,0
 ICO:CZ70994226.47,R15118.39ea6b47,,Rakovník - Řevničov,2,0,0,0
 ICO:CZ70994226.47,R15119.b7fbea84,,Řevničov - Krupá,2,0,0,0
@@ -655,16 +645,11 @@ ICO:CZ70994226.47,R15121.a04c837e,,Rakovník - Lužná u Rakovníka,2,0,0,0
 ICO:CZ70994226.47,R15152.a72d38ae,Jižní expres,České Budějovice - Vyšší Brod klášter,2,0,0,0
 ICO:CZ70994226.47,R15152.c1f2b5e9,,České Budějovice - Vyšší Brod klášter,2,0,0,0
 ICO:CZ70994226.47,R15179.15a2cf18,,Rybník - České Budějovice,2,0,0,0
-ICO:CZ70994226.47,R15194.5ac6737f,,Praha-Smíchov - Nučice,2,0,0,0
 ICO:CZ70994226.47,R15215.e8a65397,S10,Kolín - Česká Třebová,2,0,0,0
 ICO:CZ70994226.47,R15284.4c7663c4,,Jihlava - Horní Cerekev,2,0,0,0
 ICO:CZ70994226.47,R15289.b552d88f,,Rybník - Kaplice,2,0,0,0
 ICO:CZ70994226.47,R15293.775b4462,,Kaplice - Rybník,2,0,0,0
-ICO:CZ70994226.47,R15333.c8324d8a,,Nučice - Praha-Smíchov,2,0,0,0
-ICO:CZ70994226.47,R15344.c7006ee7,,Rudná u Prahy - Nučice,2,0,0,0
-ICO:CZ70994226.47,R15348.8d754117,,Nučice - Rudná u Prahy,2,0,0,0
 ICO:CZ70994226.47,R15360.19dc7b54,,České Budějovice - Rybník,2,0,0,0
-ICO:CZ70994226.47,R15464.b81e7903,,Lubenec - Blatno u Jesenice,2,0,0,0
 ICO:CZ70994226.47,R15465.c6cbb5b2,Párou Posázavím,Praha-Braník - Praha-Zbraslav,2,0,0,0
 ICO:CZ70994226.47,R15466.54281865,Párou Posázavím,Praha-Zbraslav - Praha-Braník,2,0,0,0
 ICO:CZ70994226.47,R15467.1aac70c6,Párou Posázavím,Praha-Braník - Vrané nad Vltavou,2,0,0,0
