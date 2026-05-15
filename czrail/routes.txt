@@ -76,7 +76,6 @@ ICO:CZ24199010.61,R15606.8607dcbc,Os 304,Kroměříž - Tovačov,2,0,0,0
 ICO:CZ24199010.61,R15607.2d4e7bf1,Os 304,Tovačov - Kroměříž,2,0,0,0
 ICO:CZ24199010.61,R16620.708f9aa7,,Praha Masarykovo nádraží - Brandýs nad Labem,2,0,0,0
 ICO:CZ24199010.61,R16621.95cb6d66,,Brandýs nad Labem - Praha Masarykovo nádraží,2,0,0,0
-ICO:CZ24199010.61,R16735.1f44b5cf,,Dětenice - Dolní Bousov,2,0,0,0
 ICO:CZ24848131.54,R13190.bb81c71f,Os 024,Letohrad - Králíky,2,0,0,0
 ICO:CZ24848131.54,R16542.6c397f48,,Lichkov - Hanušovice,2,0,0,0
 ICO:CZ24848131.54,R9642.28c77c90,Os 024,Ústí nad Orlicí - Letohrad,2,0,0,0
@@ -188,8 +187,6 @@ ICO:CZ28955196.53,KADR:7223.1f1b60dc,S23,Vsetín – Velké Karlovice,2,0,0,0
 ICO:CZ28955196.53,KADR:7250.506a70d6,Sp5,Staré Město u Uherského Hradiště – Uherské Hradiště – Újezdec u Luhačovic – Bojkovice – Bylnice,2,0,0,0
 ICO:CZ28955196.53,KADR:7253.87e6e631,S53,(Uherský Brod –) Újezdec u Luhačovic – Luhačovice,2,0,0,0
 ICO:CZ28955196.53,KADR:94.cc2a37d3,R14,Ústí nad Labem – Česká Lípa – Liberec,2,0,0,0
-ICO:CZ28955196.53,R13804.804e38d8,S8,Mikulov na Moravě - Břeclav,2,0,0,0
-ICO:CZ28955196.53,R13814.14822259,S8,Břeclav - Mikulov na Moravě,2,0,0,0
 ICO:CZ28955196.53,R13836.407c929a,S91,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
 ICO:CZ28955196.53,R13838.41c30afb,S91,Veselí nad Moravou - Lipov,2,0,0,0
 ICO:CZ28955196.53,R13839.87cc0a88,S91,Lipov - Veselí nad Moravou,2,0,0,0
@@ -386,7 +383,6 @@ ICO:CZ70994226.47,KADR:3113.667bcd63,S13,Tábor - Jihlava - Tábor – Pacov,2,0
 ICO:CZ70994226.47,KADR:3114.29288221,S14,Slavonice – Telč,2,0,0,0
 ICO:CZ70994226.47,KADR:3114.32d3e062,S14,Jemnice - Moravské Budějovice - Slavonice – Telč,2,0,0,0
 ICO:CZ70994226.47,KADR:3114.b0c6cbfa,S14 Renesance,Jemnice - Moravské Budějovice - Slavonice – Telč,2,0,0,0
-ICO:CZ70994226.47,KADR:3114.d4abd95e,S14 Rožmberk,Jemnice - Moravské Budějovice - Slavonice – Telč,2,0,0,0
 ICO:CZ70994226.47,KADR:3123.f9d4f37d,S23,Tábor – Jindřichův Hradec,2,0,0,0
 ICO:CZ70994226.47,KADR:3160.58a06c98,S60,Strakonice – Blatná – Březnice,2,0,0,0
 ICO:CZ70994226.47,KADR:3166.2bfd6589,S66,Březnice – Protivín,2,0,0,0
@@ -653,15 +649,8 @@ ICO:CZ70994226.47,R12730.39428251,Mikuláš,Letohrad - Dolní Lipka,2,0,0,0
 ICO:CZ70994226.47,R12843.fb04f3c8,Os 024,Letohrad - Králíky,2,0,0,0
 ICO:CZ70994226.47,R13012.59bbde58,S34,Praha-Čakovice - Praha hl. n.,2,0,0,0
 ICO:CZ70994226.47,R13120.ebf331d0,nightjet,Bad Schandau - Hohenau,2,0,0,0
-ICO:CZ70994226.47,R13207.19a34f17,,Horní Cerekev - Jihlava,2,0,0,0
-ICO:CZ70994226.47,R13235.276e9c17,Os 225,Jihlava - Havlíčkův Brod,2,0,0,0
-ICO:CZ70994226.47,R13458.2e605a16,,Jihlava - Kostelec u Jihlavy,2,0,0,0
-ICO:CZ70994226.47,R13460.5bcb51f3,,Kostelec u Jihlavy - Jihlava,2,0,0,0
 ICO:CZ70994226.47,R13587.b78168ec,,Mladá Boleslav město - Nymburk hlavní nádraží,2,0,0,0
 ICO:CZ70994226.47,R13628.c933596c,,Nymburk hlavní nádraží - Mladá Boleslav město,2,0,0,0
-ICO:CZ70994226.47,R14180.ade68412,,Okříšky - Horní Cerekev,2,0,0,0
-ICO:CZ70994226.47,R14183.209b0838,Jihlava,Horní Cerekev - Okříšky,2,0,0,0
-ICO:CZ70994226.47,R14229.a00244cc,S31 Rožmberk,Brno hl. n. - Žďár n.S.,2,0,0,0
 ICO:CZ70994226.47,R14280.9eb4412,S3,Summerau - České Budějovice,2,0,0,0
 ICO:CZ70994226.47,R14519.9a2f7b4b,Vindobona,Břeclav - Praha hlavní nádraží,2,0,0,0
 ICO:CZ70994226.47,R14695.40af32be,S91,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
@@ -676,7 +665,6 @@ ICO:CZ70994226.47,R16070.39f34014,Jižní expres,České Budějovice - Vyšší 
 ICO:CZ70994226.47,R16070.54b8bd4f,,České Budějovice - Vyšší Brod klášter,2,0,0,0
 ICO:CZ70994226.47,R16097.a868d67e,,Rybník - České Budějovice,2,0,0,0
 ICO:CZ70994226.47,R16133.7b6c5afd,S10,Kolín - Česká Třebová,2,0,0,0
-ICO:CZ70994226.47,R16202.361f477f,,Jihlava - Horní Cerekev,2,0,0,0
 ICO:CZ70994226.47,R16207.9efbbc4a,,Rybník - Kaplice,2,0,0,0
 ICO:CZ70994226.47,R16211.6104281d,,Kaplice - Rybník,2,0,0,0
 ICO:CZ70994226.47,R16278.88ccbdaf,,České Budějovice - Rybník,2,0,0,0
