@@ -1,0 +1,114 @@
+name: Daily GTFS Rehost - VDV
+
+on:
+  schedule:
+    # 03:50 UTC (04:50 CET v zimě / 05:50 CEST v létě)
+    - cron: '50 3 * * *'
+  workflow_dispatch: 
+
+jobs:
+  update-feed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      issues: write
+      
+    env:
+      FEED_FOLDER: vdv
+      FILE_NAME: vdv_gtfs.zip
+      FEED_URL: https://www.spojenka.cz/jrdata/jizdnirady-gtfs.zip
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install pandas
+
+      - name: Check ETag (Prevent unnecessary downloads)
+        id: check_etag
+        run: |
+          # Vytvoření složky, pokud neexistuje, abychom do ní mohli uložit ETag textový soubor
+          mkdir -p ${{ env.FEED_FOLDER }}
+          
+          # Získání ETag hlavičky pomocí metody HEAD (bez stahování dat)
+          ETAG=$(curl -sI ${{ env.FEED_URL }} | grep -iE '^ETag:' | awk '{print $2}' | tr -d '\r')
+          echo "Remote ETag na serveru: $ETAG"
+          
+          LOCAL_ETAG=""
+          if [ -f "${{ env.FEED_FOLDER }}/etag.txt" ]; then
+            LOCAL_ETAG=$(cat ${{ env.FEED_FOLDER }}/etag.txt)
+            echo "Náš poslední ETag: $LOCAL_ETAG"
+          fi
+          
+          if [ "$ETAG" == "$LOCAL_ETAG" ] && [ -n "$ETAG" ]; then
+            echo "Data na serveru se nezměnila. Přeskakuji stahování."
+            echo "SKIP_DOWNLOAD=true" >> $GITHUB_ENV
+          else
+            echo "Nová data k dispozici. Budu stahovat."
+            echo "$ETAG" > ${{ env.FEED_FOLDER }}/etag.txt
+            echo "SKIP_DOWNLOAD=false" >> $GITHUB_ENV
+          fi
+
+      - name: Download and extract GTFS
+        # Tento krok se spustí jen tehdy, pokud ETag nesouhlasí
+        if: env.SKIP_DOWNLOAD == 'false'
+        run: |
+          cd ${{ env.FEED_FOLDER }}
+          echo "Stahuji ${{ env.FILE_NAME }}..."
+          curl -k -L -o ${{ env.FILE_NAME }} ${{ env.FEED_URL }}
+          
+          echo "Rozbaluji ZIP..."
+          unzip -o ${{ env.FILE_NAME }}
+
+      - name: Filter data (Remove non-V stops and orphans)
+        if: env.SKIP_DOWNLOAD == 'false'
+        run: |
+          cd ${{ env.FEED_FOLDER }}
+          echo "Spouštím Python filtraci..."
+          python $GITHUB_WORKSPACE/.github/scripts/filter_vdv.py
+          
+          echo "Znovu balím vyfiltrovaná data..."
+          zip -j ${{ env.FILE_NAME }} *.txt
+
+      - name: Check feed expiry
+        # Kontrolujeme expiraci jen tehdy, pokud jsme data reálně stáhli a aktualizovali
+        if: env.SKIP_DOWNLOAD == 'false'
+        run: |
+          cd ${{ env.FEED_FOLDER }}
+          echo "Checking expiration date..."
+          python $GITHUB_WORKSPACE/.github/scripts/check_expiry.py ${{ env.FEED_FOLDER }}
+
+      - name: Notify via GitHub Issue
+        if: env.SKIP_DOWNLOAD == 'false' && hashFiles('expiry_alert.txt') != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          TITLE="Automated Alert: ${{ env.FEED_FOLDER }} GTFS Feed Expiring"
+          BODY="@hoermalmeister - Action required! $(cat expiry_alert.txt)"
+          
+          EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
+          
+          if [ -z "$EXISTING" ]; then
+            gh issue create --title "$TITLE" --body "$BODY"
+          fi
+          rm expiry_alert.txt
+
+      - name: Commit and push changes
+        run: |
+          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          
+          git add ${{ env.FEED_FOLDER }}/
+          
+          if git diff --staged --quiet; then
+            echo "Žádné změny k odeslání."
+          else
+            git commit -m "Automated update of ${{ env.FEED_FOLDER }} GTFS feed"
+            git push
+          fi
