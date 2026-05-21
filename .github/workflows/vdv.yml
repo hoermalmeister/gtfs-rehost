@@ -72,20 +72,15 @@ jobs:
           python $GITHUB_WORKSPACE/.github/scripts/filter_vdv.py
 
       - name: Check feed expiry
-        # Zkontroluje, jak dlouho je feed ještě platný
         if: steps.check_etag.outputs.skip_download == 'false'
         run: |
-          # Pro čtení kalendáře potřebuje rozbalit zip (jelikož Python skript txt soubory smazal pro šetření místa)
+          # Už nemusíme nic rozbalovat, calendar.txt tam normálně leží
           cd ${{ env.FEED_FOLDER }}
-          unzip -o ${{ env.FILE_NAME }} calendar.txt calendar_dates.txt || true
-          
           echo "Checking expiration date..."
           python $GITHUB_WORKSPACE/.github/scripts/check_expiry.py ${{ env.FEED_FOLDER }}
-          
-          # Úklid
-          rm -f calendar.txt calendar_dates.txt
 
       - name: Notify via GitHub Issue
+        # Zde je opravená podmínka (smazáno druhé == 'false')
         if: steps.check_etag.outputs.skip_download == 'false' && hashFiles('expiry_alert.txt') != ''
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -105,7 +100,6 @@ jobs:
           git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           
-          # Uložíme pouze upravený zip VDV, ETag a centrální složku backup
           git add ${{ env.FEED_FOLDER }}/
           git add backup/ || true
           
