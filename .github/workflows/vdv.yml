@@ -105,6 +105,7 @@ jobs:
           git config --local user.name "github-actions[bot]"
           
           git add ${{ env.FEED_FOLDER }}/
+          git add backup/ || true
           
           if git diff --staged --quiet; then
             echo "Žádné změny k odeslání."
