@@ -1,98 +1,105 @@
 import pandas as pd
 import os
+import shutil
+import glob
+import zipfile
+from datetime import datetime, timedelta
+
+def manage_backups(current_zip):
+    backup_dir = 'backup'
+    os.makedirs(backup_dir, exist_ok=True)
+    
+    # 1. RETENCE: Smazání záloh starších než 120 dní (cca 4 měsíce)
+    for b in glob.glob(os.path.join(backup_dir, 'vdv_*.zip')):
+        date_str = os.path.basename(b).replace('vdv_', '').replace('.zip', '')
+        try:
+            b_date = datetime.strptime(date_str, '%Y-%m-%d')
+            if datetime.now() - b_date > timedelta(days=120):
+                os.remove(b)
+                print(f"Smazána stará záloha: {b}")
+        except ValueError:
+            continue
+
+    # 2. ZÁLOHOVÁNÍ: Pokud uplynulo 30 dní od poslední zálohy, vytvoř novou
+    backups = sorted(glob.glob(os.path.join(backup_dir, 'vdv_*.zip')))
+    needs_backup = True
+    
+    if backups:
+        last_date_str = os.path.basename(backups[-1]).replace('vdv_', '').replace('.zip', '')
+        try:
+            last_date = datetime.strptime(last_date_str, '%Y-%m-%d')
+            if datetime.now() - last_date < timedelta(days=30):
+                needs_backup = False
+        except ValueError:
+            pass
+            
+    if needs_backup:
+        dest = os.path.join(backup_dir, f"spojenka_{datetime.now().strftime('%Y-%m-%d')}.zip")
+        shutil.copy(current_zip, dest)
+        print(f"Vytvořena nová záloha: {dest}")
 
 def filter_gtfs():
-    print("Začínám filtrovat data Spojenka")
+    print("Spouštím filtraci dat...")
 
-    # 1. Odstranění vlaků z Routes
+    # --- FILTRACE ---
+    # 1. Routes (bez vlaků)
     routes = pd.read_csv('routes.txt', dtype=str)
-    # Vlaky mají route_type 2 (standard) nebo 100-199 (rozšířený standard)
     train_types = ['2'] + [str(i) for i in range(100, 200)]
-    # Značka ~ (tilda) znamená "NEOBSAHUJE" -> ponecháme jen to, co NENÍ vlak
     routes = routes[~routes['route_type'].isin(train_types)]
-    valid_routes_by_type = set(routes['route_id'])
-    print(f"Ponecháno {len(valid_routes_by_type)} nevlakových tras.")
+    valid_routes = set(routes['route_id'])
 
-    # 2. Filtrace zastávek podle zóny V
+    # 2. Stops (jen zona V)
     stops = pd.read_csv('stops.txt', dtype=str)
     stops = stops[stops['zone_id'].fillna('').str.contains('V')]
-    valid_stops_initial = set(stops['stop_id'])
+    valid_stops = set(stops['stop_id'])
 
-    # 3. Filtrace stop_times podle platných zastávek
-    if os.path.exists('stop_times.txt'):
-        stop_times = pd.read_csv('stop_times.txt', dtype=str)
-        stop_times = stop_times[stop_times['stop_id'].isin(valid_stops_initial)]
-        
-        # Jízda musí mít po filtraci alespoň 2 zastávky
-        trip_counts = stop_times['trip_id'].value_counts()
-        valid_trips_by_stops = set(trip_counts[trip_counts >= 2].index)
-    else:
-        valid_trips_by_stops = set()
+    # 3. Stop_times (filtrace podle zastávek)
+    stop_times = pd.read_csv('stop_times.txt', dtype=str)
+    stop_times = stop_times[stop_times['stop_id'].isin(valid_stops)]
+    valid_trips = set(stop_times['trip_id'].value_counts()[stop_times['trip_id'].value_counts() >= 2].index)
+    stop_times = stop_times[stop_times['trip_id'].isin(valid_trips)]
 
-    # 4. Průnik v Trips (musí mít platnou nevlakovou trasu A ZÁROVEŇ platné zastávky)
+    # 4. Trips (filtrace podle platných zastávek a tras)
     trips = pd.read_csv('trips.txt', dtype=str)
-    trips = trips[trips['trip_id'].isin(valid_trips_by_stops) & trips['route_id'].isin(valid_routes_by_type)]
-    
-    final_valid_trips = set(trips['trip_id'])
-    final_valid_routes = set(trips['route_id'])
-    final_valid_services = set(trips['service_id'].dropna())
-    final_valid_shapes = set(trips['shape_id'].dropna()) if 'shape_id' in trips.columns else set()
-    
+    trips = trips[trips['trip_id'].isin(valid_trips) & trips['route_id'].isin(valid_routes)]
+    valid_services = set(trips['service_id'].dropna())
+    valid_shapes = set(trips['shape_id'].dropna()) if 'shape_id' in trips.columns else set()
+
+    # Zápis filtrovaných souborů
+    routes = routes[routes['route_id'].isin(trips['route_id'])]
+    routes.to_csv('routes.txt', index=False)
     trips.to_csv('trips.txt', index=False)
-
-    # 5. Zpětné dočištění stop_times, stops a routes (odstranění absolutně všech sirotků)
-    
-    # Dočistíme stop_times (vyhodíme časy pro vlakové jízdy)
-    if os.path.exists('stop_times.txt'):
-        stop_times = stop_times[stop_times['trip_id'].isin(final_valid_trips)]
-        final_valid_stops = set(stop_times['stop_id'])
-        stop_times.to_csv('stop_times.txt', index=False)
-    else:
-        final_valid_stops = set()
-
-    # Dočistíme zastávky (vyhodíme ty s písmenem V, kde ale jezdil jen a pouze vlak)
-    stops = stops[stops['stop_id'].isin(final_valid_stops)]
+    stop_times.to_csv('stop_times.txt', index=False)
+    stops = stops[stops['stop_id'].isin(stop_times['stop_id'])]
     stops.to_csv('stops.txt', index=False)
 
-    # Dočistíme trasy (vyhodíme nevlakové trasy, kterým po filtraci zóny V nezbyly žádné jízdy)
-    routes = routes[routes['route_id'].isin(final_valid_routes)]
-    final_valid_agencies = set(routes['agency_id'].dropna()) if 'agency_id' in routes.columns else set()
-    routes.to_csv('routes.txt', index=False)
-
-    # 6. Dočištění ostatních navázaných souborů
-    if os.path.exists('agency.txt') and final_valid_agencies:
+    # Ostatní soubory (Agency, Calendar, Shapes, Transfers)
+    if os.path.exists('agency.txt'):
         agency = pd.read_csv('agency.txt', dtype=str)
-        agency = agency[agency['agency_id'].isin(final_valid_agencies)]
+        agency = agency[agency['agency_id'].isin(routes['agency_id'].dropna())]
         agency.to_csv('agency.txt', index=False)
-
     if os.path.exists('calendar.txt'):
-        cal = pd.read_csv('calendar.txt', dtype=str)
-        cal = cal[cal['service_id'].isin(final_valid_services)]
-        cal.to_csv('calendar.txt', index=False)
-        
+        pd.read_csv('calendar.txt', dtype=str).query("service_id in @valid_services").to_csv('calendar.txt', index=False)
     if os.path.exists('calendar_dates.txt'):
-        cal_d = pd.read_csv('calendar_dates.txt', dtype=str)
-        cal_d = cal_d[cal_d['service_id'].isin(final_valid_services)]
-        cal_d.to_csv('calendar_dates.txt', index=False)
-
+        pd.read_csv('calendar_dates.txt', dtype=str).query("service_id in @valid_services").to_csv('calendar_dates.txt', index=False)
     if os.path.exists('shapes.txt'):
-        shapes = pd.read_csv('shapes.txt', dtype=str)
-        shapes = shapes[shapes['shape_id'].isin(final_valid_shapes)]
-        shapes.to_csv('shapes.txt', index=False)
-
+        pd.read_csv('shapes.txt', dtype=str).query("shape_id in @valid_shapes").to_csv('shapes.txt', index=False)
     if os.path.exists('transfers.txt'):
-        transfers = pd.read_csv('transfers.txt', dtype=str)
-        transfers = transfers[transfers['from_stop_id'].isin(final_valid_stops) & transfers['to_stop_id'].isin(final_valid_stops)]
-        transfers.to_csv('transfers.txt', index=False)
+        pd.read_csv('transfers.txt', dtype=str).query("from_stop_id in @valid_stops and to_stop_id in @valid_stops").to_csv('transfers.txt', index=False)
 
-    # 7. Smazání nepotřebných souborů
-    files_to_drop = ['pathways.txt', 'levels.txt']
-    for file_name in files_to_drop:
-        if os.path.exists(file_name):
-            os.remove(file_name)
-            print(f"Smazán soubor {file_name}")
-            
-    print("Filtrace úspěšně dokončena.")
+    # Smazání nepotřebných
+    for f in ['pathways.txt', 'levels.txt']:
+        if os.path.exists(f): os.remove(f)
+
+    # --- ZIPOVÁNÍ ---
+    zip_name = 'jizdnirady-gtfs.zip'
+    with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as z:
+        for f in glob.glob('*.txt'):
+            z.write(f)
+    
+    # --- ZÁLOHOVÁNÍ ---
+    manage_backups(zip_name)
+    print("Filtrace a zálohování dokončeno.")
 
 if __name__ == "__main__":
     filter_gtfs()
