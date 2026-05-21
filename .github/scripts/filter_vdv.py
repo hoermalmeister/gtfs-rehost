@@ -106,12 +106,10 @@ def filter_gtfs():
 
     # --- ZIPOVÁNÍ ---
     # Soubor nazveme vdv-gtfs.zip, aby byl jednoznačný
-    zip_name = 'vdv-gtfs.zip'
+    zip_name = 'vdv_gtfs.zip'
     with zipfile.ZipFile(zip_name, 'w', zipfile.ZIP_DEFLATED) as z:
         for f in glob.glob('*.txt'):
             z.write(f)
-            # Volitelně můžeme rovnou textové soubory mazat, aby nám nezabíraly místo
-            os.remove(f)
     
     # --- ZÁLOHOVÁNÍ ---
     manage_backups(zip_name)
