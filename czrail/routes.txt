@@ -1,39 +1,39 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport
-DIC:CZ540000.64,R13208.76bf02dc,,Ostrava-Svinov - Ostrava-Vítkovice,2,0,0,0
-DIC:CZ540000.64,R13209.a79a343b,,Ostrava-Vítkovice - Ostrava-Svinov,2,0,0,0
-ICO:CZ01527886.58,R15418.2960bbe,,Královec - Trutnov hlavní nádraží,2,0,0,0
-ICO:CZ01527886.58,R15419.e3d13bcd,,Trutnov hlavní nádraží - Královec,2,0,0,0
-ICO:CZ06661572.55,R13402.67cfbc01,Leo Express,Bohumín - Praha hlavní nádraží,2,0,0,0
-ICO:CZ06661572.55,R13440.f4fa2465,Leo Express,Praha hlavní nádraží - Bohumín,2,0,0,0
-ICO:CZ06661572.55,R14869.1d86ef61,Leo Express,Ostrava hlavní nádraží - Bad Schandau,2,0,0,0
-ICO:CZ06661572.55,R15027.f880fe8c,Leo Express,Děčín hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ06661572.55,R15252.dc3bb01d,Leo Express,Čadca - Praha hlavní nádraží,2,0,0,0
-ICO:CZ06661572.55,R15317.edb2e0d2,Leo Express,Břeclav - Praha hlavní nádraží,2,0,0,0
-ICO:CZ06661572.55,R9212.90774d24,Leo Express,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ06661572.55,R9218.6607e476,Leo Express,Praha hlavní nádraží - Čadca,2,0,0,0
-ICO:CZ06661572.55,R9222.f9a213f8,,Praha hlavní nádraží - Břeclav,2,0,0,0
-ICO:CZ06661572.55,R9225.e4846d45,Leo Express,Čadca - Ostrava-Svinov,2,0,0,0
-ICO:CZ07342136.66,R14056.3047f4ae,S VDA na Kokořín,Hradec Králové hlavní nádraží - Mšeno,2,0,0,0
-ICO:CZ07342136.66,R14057.cfd6604d,S VDA na Kokořín,Mšeno - Hradec Králové hlavní nádraží,2,0,0,0
+DIC:CZ540000.64,R13195.e5d76169,,Ostrava-Svinov - Ostrava-Vítkovice,2,0,0,0
+DIC:CZ540000.64,R13196.16b292c8,,Ostrava-Vítkovice - Ostrava-Svinov,2,0,0,0
+ICO:CZ01527886.58,R15404.c6dc6e01,,Královec - Trutnov hlavní nádraží,2,0,0,0
+ICO:CZ01527886.58,R15405.a8179e10,,Trutnov hlavní nádraží - Královec,2,0,0,0
+ICO:CZ06661572.55,R13389.b3125583,Leo Express,Bohumín - Praha hlavní nádraží,2,0,0,0
+ICO:CZ06661572.55,R13427.971f9a3c,Leo Express,Praha hlavní nádraží - Bohumín,2,0,0,0
+ICO:CZ06661572.55,R14855.e1cd51a4,Leo Express,Ostrava hlavní nádraží - Bad Schandau,2,0,0,0
+ICO:CZ06661572.55,R15013.bcc760cf,Leo Express,Děčín hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+ICO:CZ06661572.55,R15238.7cac4d55,Leo Express,Čadca - Praha hlavní nádraží,2,0,0,0
+ICO:CZ06661572.55,R15303.b1f94315,Leo Express,Břeclav - Praha hlavní nádraží,2,0,0,0
+ICO:CZ06661572.55,R9199.dbb9e6a6,Leo Express,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+ICO:CZ06661572.55,R9205.2c031f58,Leo Express,Praha hlavní nádraží - Čadca,2,0,0,0
+ICO:CZ06661572.55,R9209.9bc789cf,,Praha hlavní nádraží - Břeclav,2,0,0,0
+ICO:CZ06661572.55,R9212.aa7fa827,Leo Express,Čadca - Ostrava-Svinov,2,0,0,0
+ICO:CZ07342136.66,R14042.f48e56f1,S VDA na Kokořín,Hradec Králové hlavní nádraží - Mšeno,2,0,0,0
+ICO:CZ07342136.66,R14043.941cc290,S VDA na Kokořín,Mšeno - Hradec Králové hlavní nádraží,2,0,0,0
 ICO:CZ07544014.56,KADR:4001.6cae1bc3,U1,Děčín hl.n. – Ústí nad Labem hl.n. – Most – Chomutov – Kadaň předměstí,2,0,0,0
 ICO:CZ07544014.56,KADR:4003.f146fb1e,U3,Děčín hl.n. – Ústí nad Labem hl.n. – Teplice v Čechách – Litvínov,2,0,0,0
 ICO:CZ07544014.56,KADR:4003|KADR:4005.c1f59c8a,U3/U5,Děčín hl.n. – Ústí nad Labem hl.n. – Teplice v Čechách – Litvínov - Ústí n.L. – Úpořiny – Bílina – Most,2,0,0,0
 ICO:CZ07544014.56,KADR:4005.1b19f2f6,U5,Ústí n.L. – Úpořiny – Bílina – Most,2,0,0,0
 ICO:CZ07544014.56,KADR:4013.663e80bf,U13,Most – Žatec západ,2,0,0,0
 ICO:CZ07544014.56,KADR:4016.7e8f34d3,U16,Chomutov – Hradec u Kadaně,2,0,0,0
-ICO:CZ07544014.56,R16296.1e62467c,,Ústí nad Labem hlavní nádraží - Teplice v Čechách,2,0,0,0
-ICO:CZ07544014.56,R16297.21b0398c,,Teplice v Čechách - Děčín hlavní nádraží,2,0,0,0
-ICO:CZ07544014.56,R16300.d4b11215,,Děčín hlavní nádraží - Litoměřice město,2,0,0,0
-ICO:CZ07544014.56,R16301.49df98db,,Litoměřice město - Ústí nad Labem hlavní nádraží,2,0,0,0
-ICO:CZ07544014.56,R16302.a89e4a1a,,Ústí nad Labem hlavní nádraží - Děčín hlavní nádraží,2,0,0,0
-ICO:CZ07544014.56,R16303.a6c47734,,Děčín hlavní nádraží - Teplice v Čechách,2,0,0,0
-ICO:CZ07544014.56,R16306.bd2f5c12,,Teplice v Čechách - Ústí nad Labem hlavní nádraží,2,0,0,0
-ICO:CZ08071888.40,R14629.ee969924,JHMD,Jindřichův Hradec-JHMD - Horní Skrýchov,2,0,0,0
-ICO:CZ08071888.40,R14630.33c4daa8,JHMD,Horní Skrýchov - Jindřichův Hradec-JHMD,2,0,0,0
-ICO:CZ08071888.40,R14631.3df27d4c,JHMD,Jindřichův Hradec-JHMD - Jindřiš,2,0,0,0
-ICO:CZ08071888.40,R14632.2c9f9e9d,JHMD,Jindřiš - Jindřichův Hradec-JHMD,2,0,0,0
-ICO:CZ08071888.40,R8562.6d23f9db,GWTR,Svobodné Heřmanice - Opava východ,2,0,0,0
-ICO:CZ08071888.40,R8563.34d1a584,GWTR,Opava východ - Svobodné Heřmanice,2,0,0,0
+ICO:CZ07544014.56,R16282.e2a8a8bf,,Ústí nad Labem hlavní nádraží - Teplice v Čechách,2,0,0,0
+ICO:CZ07544014.56,R16283.e5f69bcf,,Teplice v Čechách - Děčín hlavní nádraží,2,0,0,0
+ICO:CZ07544014.56,R16286.1e3ed2f8,,Děčín hlavní nádraží - Litoměřice město,2,0,0,0
+ICO:CZ07544014.56,R16287.936d59be,,Litoměřice město - Ústí nad Labem hlavní nádraží,2,0,0,0
+ICO:CZ07544014.56,R16288.f22c0afd,,Ústí nad Labem hlavní nádraží - Děčín hlavní nádraží,2,0,0,0
+ICO:CZ07544014.56,R16289.f0523817,,Děčín hlavní nádraží - Teplice v Čechách,2,0,0,0
+ICO:CZ07544014.56,R16292.2a92e200,,Teplice v Čechách - Ústí nad Labem hlavní nádraží,2,0,0,0
+ICO:CZ08071888.40,R14615.b2dcfb67,JHMD,Jindřichův Hradec-JHMD - Horní Skrýchov,2,0,0,0
+ICO:CZ08071888.40,R14616.d43577e0,JHMD,Horní Skrýchov - Jindřichův Hradec-JHMD,2,0,0,0
+ICO:CZ08071888.40,R14617.de631a84,JHMD,Jindřichův Hradec-JHMD - Jindřiš,2,0,0,0
+ICO:CZ08071888.40,R14618.cd103bd5,JHMD,Jindřiš - Jindřichův Hradec-JHMD,2,0,0,0
+ICO:CZ08071888.40,R8549.6da90956,GWTR,Svobodné Heřmanice - Opava východ,2,0,0,0
+ICO:CZ08071888.40,R8550.9c6d46c2,GWTR,Opava východ - Svobodné Heřmanice,2,0,0,0
 ICO:CZ08342849.48,KADR:1058.31b37cad,S58,Rakovník - Kralovice u Rakovníka,2,0,0,0
 ICO:CZ08342849.48,KADR:1058|KADR:4012.1896f57d,S58/U12/U14,Rakovník - Kralovice u Rakovníka - Rakovník – Louny – Most – Osek město,2,0,0,0
 ICO:CZ08342849.48,KADR:1058|KADR:4014.d7e80ee1,S58/U14,Jirkov - Chomutov - Lužná u Rakovníka – Rakovník - Rakovník - Kralovice u Rakovníka,2,0,0,0
@@ -51,81 +51,81 @@ ICO:CZ08342849.48,KADR:5024.3d4226df,L24 Mácháč,Liberec – Doksy,2,0,0,0
 ICO:CZ08342849.48,KADR:5024.463e6ae7,L24 Údolská pouť,Liberec – Doksy,2,0,0,0
 ICO:CZ08342849.48,KADR:5902.24578e6e,RE2 Vánoční kometa,Liberec – Zittau – Dresden,2,0,0,0
 ICO:CZ08342849.48,KADR:5902.76bbef23,RE2,Liberec – Zittau – Dresden,2,0,0,0
-ICO:CZ08342849.48,R14228.cb01fc62,U12,Louny - Rakovník,2,0,0,0
-ICO:CZ08342849.48,R8845.35bc54e7,Os 125,Rakovník - Kolešovice,2,0,0,0
-ICO:CZ08342849.48,R8846.dcbfab14,Os 125,Kolešovice - Rakovník,2,0,0,0
-ICO:CZ08342849.48,R8847.af30ce9c,U12,Rakovník - Louny,2,0,0,0
-ICO:CZ08342849.48,R8849.5d926870,,Rakovník - Budyně nad Ohří,2,0,0,0
-ICO:CZ08342849.48,R8850.5d9ebec2,,Budyně nad Ohří - Rakovník,2,0,0,0
-ICO:CZ17633133.45,R12305.5bf60cd3,L9,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0
-ICO:CZ17633133.45,R12306.d90c6596,L9,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0
-ICO:CZ17633133.45,R14776.4dfbc38a,L1,Kořenov - Tanvald,2,0,0,0
-ICO:CZ17633133.45,R16248.8e74efa0,,Kořenov - Liberec,2,0,0,0
-ICO:CZ17633133.45,R16249.f6a121ff,,Liberec - Kořenov,2,0,0,0
-ICO:CZ17633133.45,R8643.bbeb5c67,,Turnov - Rovensko pod Troskami,2,0,0,0
-ICO:CZ17633133.45,R8644.2fbdac7d,,Rovensko pod Troskami - Semily,2,0,0,0
-ICO:CZ17633133.45,R8645.5bd892cb,L1,Tanvald - Harrachov,2,0,0,0
-ICO:CZ17633133.45,R8647.5c8b1fc9,L1,Harrachov - Tanvald,2,0,0,0
-ICO:CZ17633133.45,R8648.47382017,L1,Tanvald - Kořenov,2,0,0,0
-ICO:CZ17633133.45,R8649.85dbfb46,,Turnov - Martinice v Krkonoších,2,0,0,0
-ICO:CZ17633133.45,R8650.dcc48336,,Martinice v Krkonoších - Turnov,2,0,0,0
-ICO:CZ17633133.45,R8651.d01332af,,Liberec - Křižany,2,0,0,0
-ICO:CZ17633133.45,R8652.6425b68e,,Křižany - Liberec,2,0,0,0
-ICO:CZ17633133.45,R8653.9930e377,,Semily - Turnov,2,0,0,0
-ICO:CZ17633133.45,R8656.3b1510a,L1,Harrachov - Kořenov,2,0,0,0
-ICO:CZ17633133.45,R8657.4cb95769,L1,Kořenov - Harrachov,2,0,0,0
+ICO:CZ08342849.48,R14214.8f485ea5,U12,Louny - Rakovník,2,0,0,0
+ICO:CZ08342849.48,R8832.fbb78fc9,Os 125,Rakovník - Kolešovice,2,0,0,0
+ICO:CZ08342849.48,R8833.a2bae5f6,Os 125,Kolešovice - Rakovník,2,0,0,0
+ICO:CZ08342849.48,R8834.752c097e,U12,Rakovník - Louny,2,0,0,0
+ICO:CZ08342849.48,R8836.238da352,,Rakovník - Budyně nad Ohří,2,0,0,0
+ICO:CZ08342849.48,R8837.ffc43499,,Budyně nad Ohří - Rakovník,2,0,0,0
+ICO:CZ17633133.45,R12292.cb0e6b60,L9,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0
+ICO:CZ17633133.45,R12293.4824c423,L9,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0
+ICO:CZ17633133.45,R14762.124225cd,L1,Kořenov - Tanvald,2,0,0,0
+ICO:CZ17633133.45,R16234.52bb51e3,,Kořenov - Liberec,2,0,0,0
+ICO:CZ17633133.45,R16235.bae78442,,Liberec - Kořenov,2,0,0,0
+ICO:CZ17633133.45,R16556.1c144c0c,L1,Tanvald - Kořenov,2,0,0,0
+ICO:CZ17633133.45,R8630.81e69749,,Turnov - Rovensko pod Troskami,2,0,0,0
+ICO:CZ17633133.45,R8631.f5b8e75f,,Rovensko pod Troskami - Semily,2,0,0,0
+ICO:CZ17633133.45,R8632.21d3cdad,L1,Tanvald - Harrachov,2,0,0,0
+ICO:CZ17633133.45,R8634.22865aab,L1,Harrachov - Tanvald,2,0,0,0
+ICO:CZ17633133.45,R8636.4bd73628,,Turnov - Martinice v Krkonoších,2,0,0,0
+ICO:CZ17633133.45,R8637.7ee9f90d,,Martinice v Krkonoších - Turnov,2,0,0,0
+ICO:CZ17633133.45,R8638.7238a886,,Liberec - Křižany,2,0,0,0
+ICO:CZ17633133.45,R8639.64b2c65,,Křižany - Liberec,2,0,0,0
+ICO:CZ17633133.45,R8640.5f2c1e59,,Semily - Turnov,2,0,0,0
+ICO:CZ17633133.45,R8643.c9ac8bec,L1,Harrachov - Kořenov,2,0,0,0
+ICO:CZ17633133.45,R8644.12b4924b,L1,Kořenov - Harrachov,2,0,0,0
 ICO:CZ24158071.44,KADR:4106.1dec582e,T6,Kadaň-Prunéřov – Kadaňský Rohozec / Podbořany,2,0,0,0
 ICO:CZ24158071.44,KADR:4198.6cc7658f,T8,Most – Osek – Moldava v Krušných horách,2,0,0,0
-ICO:CZ24158071.44,R12612.f6fb2d80,,Trhový Štěpánov - Vlašim,2,0,0,0
-ICO:CZ24158071.44,R12613.10fcf3a3,,Vlašim - Trhový Štěpánov,2,0,0,0
-ICO:CZ24158071.44,R8638.f2fb6eb7,Os 243,Jemnice - Moravské Budějovice,2,0,0,0
-ICO:CZ24199010.61,R14919.636bb976,Os 304,Kroměříž - Tovačov,2,0,0,0
-ICO:CZ24199010.61,R14920.2e881db6,Os 304,Tovačov - Kroměříž,2,0,0,0
-ICO:CZ24199010.61,R16310.340c20fb,,Zdounky - Kroměříž,2,0,0,0
-ICO:CZ24199010.61,R16311.a5198248,,Kroměříž - Zdounky,2,0,0,0
-ICO:CZ24199010.61,R16313.d1a50759,,Kroměříž - Zborovice,2,0,0,0
-ICO:CZ24199010.61,R16314.a2740204,,Zborovice - Kroměříž,2,0,0,0
-ICO:CZ24199010.61,R16395.c321e91d,,Kroměříž - Vizovice,2,0,0,0
-ICO:CZ24199010.61,R16396.f73d7d47,,Vizovice - Otrokovice,2,0,0,0
-ICO:CZ24199010.61,R16397.f321ffe2,,Otrokovice - Vizovice,2,0,0,0
-ICO:CZ24199010.61,R16398.f1a64416,,Vizovice - Zlín střed,2,0,0,0
-ICO:CZ24199010.61,R16399.e85c26ef,,Zlín střed - Vizovice,2,0,0,0
-ICO:CZ24199010.61,R16400.5c5fe2ca,,Vizovice - Kroměříž,2,0,0,0
-ICO:CZ24199010.61,R16536.f0ec3794,,Kolín - Pečky,2,0,0,0
-ICO:CZ24199010.61,R16537.ac2d3776,,Pečky - Kouřim,2,0,0,0
-ICO:CZ24199010.61,R16538.80d44c4f,,Kouřim - Pečky,2,0,0,0
-ICO:CZ24199010.61,R16539.581d32d1,,Pečky - Plaňany,2,0,0,0
-ICO:CZ24199010.61,R16540.6b760abb,,Plaňany - Pečky,2,0,0,0
-ICO:CZ24199010.61,R16541.432524ba,,Pečky - Kolín,2,0,0,0
-ICO:CZ24848131.54,R12458.98eeb6af,Os 024,Letohrad - Králíky,2,0,0,0
-ICO:CZ24848131.54,R8914.30dd93a7,Os 024,Ústí nad Orlicí - Letohrad,2,0,0,0
-ICO:CZ24848131.54,R8926.edb55846,D9,Lichkov - Międzylesie,2,0,0,0
-ICO:CZ24848131.54,R8927.9ab66a65,D9,Międzylesie - Lichkov,2,0,0,0
+ICO:CZ24158071.44,R12599.423dc702,,Trhový Štěpánov - Vlašim,2,0,0,0
+ICO:CZ24158071.44,R12600.d6f82e85,,Vlašim - Trhový Štěpánov,2,0,0,0
+ICO:CZ24158071.44,R8625.b8f6a999,Os 243,Jemnice - Moravské Budějovice,2,0,0,0
+ICO:CZ24199010.61,R14905.27b21bb9,Os 304,Kroměříž - Tovačov,2,0,0,0
+ICO:CZ24199010.61,R14906.cef8baee,Os 304,Tovačov - Kroměříž,2,0,0,0
+ICO:CZ24199010.61,R16296.7d99e1de,,Zdounky - Kroměříž,2,0,0,0
+ICO:CZ24199010.61,R16297.eea7432b,,Kroměříž - Zdounky,2,0,0,0
+ICO:CZ24199010.61,R16299.1b32c83c,,Kroměříž - Zborovice,2,0,0,0
+ICO:CZ24199010.61,R16300.66ba6447,,Zborovice - Kroměříž,2,0,0,0
+ICO:CZ24199010.61,R16381.87684b60,,Kroměříž - Vizovice,2,0,0,0
+ICO:CZ24199010.61,R16382.bb83df8a,,Vizovice - Otrokovice,2,0,0,0
+ICO:CZ24199010.61,R16383.b7686225,,Otrokovice - Vizovice,2,0,0,0
+ICO:CZ24199010.61,R16384.b5eca659,,Vizovice - Zlín střed,2,0,0,0
+ICO:CZ24199010.61,R16385.aca28932,,Zlín střed - Vizovice,2,0,0,0
+ICO:CZ24199010.61,R16386.a5eda3ad,,Vizovice - Kroměříž,2,0,0,0
+ICO:CZ24199010.61,R16522.b53299d7,,Kolín - Pečky,2,0,0,0
+ICO:CZ24199010.61,R16523.707399b9,,Pečky - Kouřim,2,0,0,0
+ICO:CZ24199010.61,R16524.451aae92,,Kouřim - Pečky,2,0,0,0
+ICO:CZ24199010.61,R16525.1c639514,,Pečky - Plaňany,2,0,0,0
+ICO:CZ24199010.61,R16526.be6a7f3,,Plaňany - Pečky,2,0,0,0
+ICO:CZ24199010.61,R16527.e395c1f2,,Pečky - Kolín,2,0,0,0
+ICO:CZ24848131.54,R12445.5ee9f191,Os 024,Letohrad - Králíky,2,0,0,0
+ICO:CZ24848131.54,R8901.f6d8ce89,Os 024,Ústí nad Orlicí - Letohrad,2,0,0,0
+ICO:CZ24848131.54,R8913.b3b09328,D9,Lichkov - Międzylesie,2,0,0,0
+ICO:CZ24848131.54,R8914.60b1a547,D9,Międzylesie - Lichkov,2,0,0,0
 ICO:CZ25277171.50,KADR:4103.c5d1ddc0,T3,Ústí n.L. – Velké Březno,2,0,0,0
 ICO:CZ25277171.50,KADR:8018.d3f1af90,S18,Bruntál – Malá Morávka,2,0,0,0
-ICO:CZ25277171.50,R14651.d76e1c1a,,Jaroměř - Hněvčeves,2,0,0,0
-ICO:CZ25277171.50,R14652.d1f21cb9,,Hněvčeves - Jaroměř,2,0,0,0
-ICO:CZ25277171.50,R14809.95356666,V6/V5,Pardubice centrum - Ostroměř,2,0,0,0
-ICO:CZ25277171.50,R14810.304a9b7c,V5/V6,Ostroměř - Pardubice centrum,2,0,0,0
-ICO:CZ25277171.50,R15717.98cb5874,,Pardubice centrum - Slatiňany,2,0,0,0
-ICO:CZ25277171.50,R15718.1660f513,,Slatiňany - Pardubice centrum,2,0,0,0
-ICO:CZ25277171.50,R15918.1717069a,,Pardubice centrum - Předhradí,2,0,0,0
-ICO:CZ25277171.50,R15919.5e47b5c1,,Předhradí - Skuteč,2,0,0,0
-ICO:CZ25277171.50,R15920.66bfc981,,Skuteč - Předhradí,2,0,0,0
-ICO:CZ25277171.50,R15921.6bf95b02,,Předhradí - Pardubice centrum,2,0,0,0
-ICO:CZ25277171.50,R8885.ce04bf15,S35,Turnov - Mnichovo Hradiště,2,0,0,0
-ICO:CZ25277171.50,R8886.2700d0b3,S35/V50/S36,Mnichovo Hradiště - Lomnice nad Popelkou,2,0,0,0
-ICO:CZ25277171.50,R8887.f995dccf,S36,Lomnice nad Popelkou - Libuň,2,0,0,0
-ICO:CZ25277171.50,R8888.8f46d4d8,S36,Libuň - Lomnice nad Popelkou,2,0,0,0
-ICO:CZ25277171.50,R8889.e2593e3d,S36/V50,Lomnice nad Popelkou - Turnov,2,0,0,0
-ICO:CZ26361485.51,R8890.32b46268,,Kořenov - Tanvald,2,0,0,0
-ICO:CZ26361485.51,R8891.2d46b258,,Tanvald - Harrachov,2,0,0,0
-ICO:CZ26361485.51,R8892.a0393556,,Harrachov - Kořenov,2,0,0,0
-ICO:CZ26361485.51,R8893.e9413bb5,,Kořenov - Harrachov,2,0,0,0
-ICO:CZ26361485.51,R8894.2fae17f5,,Harrachov - Tanvald,2,0,0,0
-ICO:CZ26361485.51,R8895.1a5b1843,,Tanvald - Kořenov,2,0,0,0
-ICO:CZ26819856.57,R12296.1f3b33dd,S16,Osoblaha - Třemešná ve Sl. úz. r.,2,0,0,0
-ICO:CZ26819856.57,R12297.2966c45e,S16,Třemešná ve Sl. úz. r. - Osoblaha,2,0,0,0
+ICO:CZ25277171.50,R14637.77deb952,,Jaroměř - Hněvčeves,2,0,0,0
+ICO:CZ25277171.50,R14638.7262b9f1,,Hněvčeves - Jaroměř,2,0,0,0
+ICO:CZ25277171.50,R14795.298ec54,V6/V5,Pardubice centrum - Ostroměř,2,0,0,0
+ICO:CZ25277171.50,R14796.79d85c5f,V5/V6,Ostroměř - Pardubice centrum,2,0,0,0
+ICO:CZ25277171.50,R15703.5d11bab7,,Pardubice centrum - Slatiňany,2,0,0,0
+ICO:CZ25277171.50,R15704.daa75756,,Slatiňany - Pardubice centrum,2,0,0,0
+ICO:CZ25277171.50,R15904.db5d68dd,,Pardubice centrum - Předhradí,2,0,0,0
+ICO:CZ25277171.50,R15905.228e1804,,Předhradí - Skuteč,2,0,0,0
+ICO:CZ25277171.50,R15906.73066b9,,Skuteč - Předhradí,2,0,0,0
+ICO:CZ25277171.50,R15907.c69f83a,,Předhradí - Pardubice centrum,2,0,0,0
+ICO:CZ25277171.50,R8872.93fff9f7,S35,Turnov - Mnichovo Hradiště,2,0,0,0
+ICO:CZ25277171.50,R8873.ecfc0b95,S35/V50/S36,Mnichovo Hradiště - Lomnice nad Popelkou,2,0,0,0
+ICO:CZ25277171.50,R8874.bf9117b1,S36,Lomnice nad Popelkou - Libuň,2,0,0,0
+ICO:CZ25277171.50,R8875.55420fba,S36,Libuň - Lomnice nad Popelkou,2,0,0,0
+ICO:CZ25277171.50,R8876.a854791f,S36/V50,Lomnice nad Popelkou - Turnov,2,0,0,0
+ICO:CZ26361485.51,R8877.d4d9d83f,,Kořenov - Tanvald,2,0,0,0
+ICO:CZ26361485.51,R8878.cf6c282f,,Tanvald - Harrachov,2,0,0,0
+ICO:CZ26361485.51,R8879.425eab2d,,Harrachov - Kořenov,2,0,0,0
+ICO:CZ26361485.51,R8880.af3c7697,,Kořenov - Harrachov,2,0,0,0
+ICO:CZ26361485.51,R8881.f5a952d7,,Harrachov - Tanvald,2,0,0,0
+ICO:CZ26361485.51,R8882.e0565325,,Tanvald - Kořenov,2,0,0,0
+ICO:CZ26819856.57,R12283.e5366ebf,S16,Osoblaha - Třemešná ve Sl. úz. r.,2,0,0,0
+ICO:CZ26819856.57,R12284.ef61ff40,S16,Třemešná ve Sl. úz. r. - Osoblaha,2,0,0,0
 ICO:CZ27423069.49,KADR:1034.13a0016b,S34,Praha – Praha-Čakovice,2,0,0,0
 ICO:CZ27423069.49,KADR:1043.c51df324,S43,Neratovice – Kralupy nad Vltavou,2,0,0,0
 ICO:CZ27423069.49,KADR:2001.f1570d03,T1 Pražský motoráček,Praha hl.n. – Praha-Zličín,2,0,0,0
@@ -138,42 +138,42 @@ ICO:CZ27423069.49,KADR:4105.65c2a251,T5,Roudnice n.L. – Straškov – Libochov
 ICO:CZ27423069.49,KADR:4105.b0b90242,T5 Podřipský motoráček,Roudnice n.L. – Straškov – Libochovice,2,0,0,0
 ICO:CZ27423069.49,KADR:4111.25242494,T11 Podkrušnohorský motoráček,Děčín hl.n. – Telnice,2,0,0,0
 ICO:CZ27423069.49,KADR:4111.b13a15a,T11,Děčín hl.n. – Telnice,2,0,0,0
-ICO:CZ27423069.49,R12967.b1c42030,Pražský motoráček,Praha-Čakovice - Praha hl. n.,2,0,0,0
-ICO:CZ27423069.49,R15942.46660192,,Kamenický Šenov - Česká Kamenice,2,0,0,0
-ICO:CZ27423069.49,R16182.e71910ad,,Česká Kamenice - Kamenický Šenov,2,0,0,0
-ICO:CZ27423069.49,R16186.4dee792e,,Česká Kamenice - Jedlová,2,0,0,0
-ICO:CZ27423069.49,R16187.6564ae55,,Jedlová - Česká Kamenice,2,0,0,0
-ICO:CZ27423069.49,R8875.fc69a2e5,Mochovský motoráček,Praha-Vysočany - Mochov,2,0,0,0
-ICO:CZ27423069.49,R8876.f2cb5b1a,Mochovský motoráček,Mochov - Praha-Vysočany,2,0,0,0
-ICO:CZ27423069.49,R8877.b306d91b,Kralovický rychlík,Praha hlavní nádraží - Kralovice u Rakovníka,2,0,0,0
-ICO:CZ27423069.49,R8878.fd1e4212,Kralovický rychlík,Kralovice u Rakovníka - Praha hlavní nádraží,2,0,0,0
-ICO:CZ27873234.74,R16526.48221c9,Vindobona ,Benešov u Prahy - České Velenice,2,0,0,0
-ICO:CZ27873234.74,R16527.2df34728,Vindobona ,České Velenice - Benešov u Prahy,2,0,0,0
+ICO:CZ27423069.49,R12954.77bf5b12,Pražský motoráček,Praha-Čakovice - Praha hl. n.,2,0,0,0
+ICO:CZ27423069.49,R15928.e6d69eca,,Kamenický Šenov - Česká Kamenice,2,0,0,0
+ICO:CZ27423069.49,R16168.8789ade5,,Česká Kamenice - Kamenický Šenov,2,0,0,0
+ICO:CZ27423069.49,R16172.1234db71,,Česká Kamenice - Jedlová,2,0,0,0
+ICO:CZ27423069.49,R16173.29ab1098,,Jedlová - Česká Kamenice,2,0,0,0
+ICO:CZ27423069.49,R8862.c264ddc7,Mochovský motoráček,Praha-Vysočany - Mochov,2,0,0,0
+ICO:CZ27423069.49,R8863.b8c695fc,Mochovský motoráček,Mochov - Praha-Vysočany,2,0,0,0
+ICO:CZ27423069.49,R8864.790213fd,Kralovický rychlík,Praha hlavní nádraží - Kralovice u Rakovníka,2,0,0,0
+ICO:CZ27423069.49,R8865.c3197cf4,Kralovický rychlík,Kralovice u Rakovníka - Praha hlavní nádraží,2,0,0,0
+ICO:CZ27873234.74,R16512.c8c8840c,Vindobona ,Benešov u Prahy - České Velenice,2,0,0,0
+ICO:CZ27873234.74,R16513.f239a96b,Vindobona ,České Velenice - Benešov u Prahy,2,0,0,0
 ICO:CZ28333187.52,KADR:1049.443f59a0,S49,Praha-Hostivař – Praha-Libeň – Roztoky u Prahy,2,0,0,0
 ICO:CZ28333187.52,KADR:1061.2318b845,S61,(Praha-Vršovice –) Praha hl.n. – Úvaly,2,0,0,0
 ICO:CZ28333187.52,KADR:23.e6eaa860,R23 RegioJet,Kolín – Všetaty – Ústí nad Labem,2,0,0,0
 ICO:CZ28333187.52,KADR:8.a2142ede,R8 RegioJet,Brno – Vyškov – Přerov – Bohumín,2,0,0,0
 ICO:CZ28333187.52,KADR:8.d93e862b,R8,Brno – Vyškov – Přerov – Bohumín,2,0,0,0
-ICO:CZ28333187.52,R10569.93f3104f,RegioJet,Praha-Zahradní Město - Návsí,2,0,0,0
-ICO:CZ28333187.52,R10570.2cb9b425,RegioJet,Praha-Zahradní Město - Havířov,2,0,0,0
-ICO:CZ28333187.52,R10571.98071887,RegioJet,Praha-Zahradní Město - Čadca,2,0,0,0
-ICO:CZ28333187.52,R10572.56d9da47,RegioJet,Praha-Zahradní Město - Opava východ,2,0,0,0
-ICO:CZ28333187.52,R10573.8dd5aa9e,RegioJet,Praha-Zahradní Město - Bohumín,2,0,0,0
-ICO:CZ28333187.52,R10575.a65623b,RegioJet,Praha-Zahradní Město - Brno hlavní nádraží,2,0,0,0
-ICO:CZ28333187.52,R10582.434718eb,RegioJet,Návsí - Praha-Zahradní Město,2,0,0,0
-ICO:CZ28333187.52,R10583.ca4d121d,RegioJet,Havířov - Praha-Zahradní Město,2,0,0,0
-ICO:CZ28333187.52,R10584.281bea59,RegioJet,Čadca - Praha-Zahradní Město,2,0,0,0
-ICO:CZ28333187.52,R10871.48754121,RegioJet,Opava východ - Praha-Zahradní Město,2,0,0,0
-ICO:CZ28333187.52,R10874.9f7feb74,RegioJet,Břeclav - Praha-Zahradní Město,2,0,0,0
-ICO:CZ28333187.52,R10875.56369801,RegioJet,Praha-Zahradní Město - Břeclav,2,0,0,0
-ICO:CZ28333187.52,R11158.94093220,RegioJet,Brno hlavní nádraží - Praha-Zahradní Město,2,0,0,0
-ICO:CZ28333187.52,R12247.8142fa90,RegioJet,Ostrava hlavní nádraží - Chałupki,2,0,0,0
-ICO:CZ28333187.52,R12248.f981b9b3,RegioJet,Chałupki - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ28333187.52,R12318.b2275d17,RegioJet,Praha hlavní nádraží - Čadca,2,0,0,0
-ICO:CZ28333187.52,R12958.577eed09,RegioJet,Čadca - Praha hlavní nádraží,2,0,0,0
-ICO:CZ28333187.52,R13273.4814440c,RegioJet,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ28333187.52,R13281.2af0192b,RegioJet,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
-ICO:CZ28333187.52,R8907.e8693d26,RegioJet,Bohumín - Praha-Zahradní Město,2,0,0,0
+ICO:CZ28333187.52,R10556.59ee4b31,RegioJet,Praha-Zahradní Město - Návsí,2,0,0,0
+ICO:CZ28333187.52,R10557.7833eddd,RegioJet,Praha-Zahradní Město - Havířov,2,0,0,0
+ICO:CZ28333187.52,R10558.3a2c8e5e,RegioJet,Praha-Zahradní Město - Čadca,2,0,0,0
+ICO:CZ28333187.52,R10559.f8ff501e,RegioJet,Praha-Zahradní Město - Opava východ,2,0,0,0
+ICO:CZ28333187.52,R10560.53d0e580,RegioJet,Praha-Zahradní Město - Bohumín,2,0,0,0
+ICO:CZ28333187.52,R10562.d0609d1d,RegioJet,Praha-Zahradní Město - Brno hlavní nádraží,2,0,0,0
+ICO:CZ28333187.52,R10569.e56c8ec2,RegioJet,Návsí - Praha-Zahradní Město,2,0,0,0
+ICO:CZ28333187.52,R10570.90484cff,RegioJet,Havířov - Praha-Zahradní Město,2,0,0,0
+ICO:CZ28333187.52,R10571.ee17253b,RegioJet,Čadca - Praha-Zahradní Město,2,0,0,0
+ICO:CZ28333187.52,R10858.ea9ab6f8,RegioJet,Opava východ - Praha-Zahradní Město,2,0,0,0
+ICO:CZ28333187.52,R10861.657b2656,RegioJet,Břeclav - Praha-Zahradní Město,2,0,0,0
+ICO:CZ28333187.52,R10862.1c31d2e3,RegioJet,Praha-Zahradní Město - Břeclav,2,0,0,0
+ICO:CZ28333187.52,R11145.5a046d02,RegioJet,Brno hlavní nádraží - Praha-Zahradní Město,2,0,0,0
+ICO:CZ28333187.52,R12234.473e3572,RegioJet,Ostrava hlavní nádraží - Chałupki,2,0,0,0
+ICO:CZ28333187.52,R12235.bf7cf495,RegioJet,Chałupki - Ostrava hlavní nádraží,2,0,0,0
+ICO:CZ28333187.52,R12305.782297f9,RegioJet,Praha hlavní nádraží - Čadca,2,0,0,0
+ICO:CZ28333187.52,R12945.1d7a27eb,RegioJet,Čadca - Praha hlavní nádraží,2,0,0,0
+ICO:CZ28333187.52,R13260.e0f7eee,RegioJet,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+ICO:CZ28333187.52,R13268.cd158f02,RegioJet,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
+ICO:CZ28333187.52,R8894.57819bb3,RegioJet,Bohumín - Praha-Zahradní Město,2,0,0,0
 ICO:CZ28664116.39,KADR:25.e319c092,R25,Plzeň – Blatno u Jesenice – Chomutov – Most,2,0,0,0
 ICO:CZ28664116.39,KADR:3104.3285e8f9,S4,České Budějovice – Nové Údolí / Volary,2,0,0,0
 ICO:CZ28664116.39,KADR:3107.5fa6267b,S7,Nové Údolí – Číčenice,2,0,0,0
@@ -184,8 +184,8 @@ ICO:CZ28664116.39,KADR:3223.66c7fec7,P23,Klatovy – Domažlice,2,0,0,0
 ICO:CZ28664116.39,KADR:4052.4540feec,U52,Žatec – Lovosice – Ústí nad Labem,2,0,0,0
 ICO:CZ28664116.39,KADR:4108.9de547d6,T8,(Děčín hl.n. -) Ústí nad Labem hl.n. – Moldava v Krušných horách,2,0,0,0
 ICO:CZ28664116.39,KADR:5266.2ea5fdc9,D66,Trutnov – Sędzisław ,2,0,0,0
-ICO:CZ28664116.39,R14865.622138b,Os 149,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
-ICO:CZ28664116.39,R16502.60d4848a,,Královec - Kamienna Góra,2,0,0,0
+ICO:CZ28664116.39,R14851.ca6875ce,Os 149,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
+ICO:CZ28664116.39,R16488.aa62456d,,Královec - Kamienna Góra,2,0,0,0
 ICO:CZ28955196.53,KADR:14.6b33b81e,R14,Pardubice – Hradec Králové – Turnov – Liberec,2,0,0,0
 ICO:CZ28955196.53,KADR:21.f9405d47,R21,Praha – Mladá Boleslav – Turnov – Tanvald,2,0,0,0
 ICO:CZ28955196.53,KADR:22.cdcb511b,R22,Kolín – Mladá Boleslav – Česká Lípa – Rumburk (– Šluknov),2,0,0,0
@@ -207,32 +207,32 @@ ICO:CZ28955196.53,KADR:7223.1f1b60dc,S23,Vsetín – Velké Karlovice,2,0,0,0
 ICO:CZ28955196.53,KADR:7250.506a70d6,Sp5,Staré Město u Uherského Hradiště – Uherské Hradiště – Újezdec u Luhačovic – Bojkovice – Bylnice,2,0,0,0
 ICO:CZ28955196.53,KADR:7253.87e6e631,S53,(Uherský Brod –) Újezdec u Luhačovic – Luhačovice,2,0,0,0
 ICO:CZ28955196.53,KADR:94.cc2a37d3,R14,Ústí nad Labem – Česká Lípa – Liberec,2,0,0,0
-ICO:CZ28955196.53,R12810.74bd006,S22,Lúky pod Makytou - Horní Lideč,2,0,0,0
-ICO:CZ28955196.53,R13081.16a18cc,S91,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
-ICO:CZ28955196.53,R13619.e3826e04,,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
-ICO:CZ28955196.53,R14624.146c5db2,S91,Hodonín - Veselí nad Moravou,2,0,0,0
-ICO:CZ29099846.42,R8622.fd493239,Český les,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
-ICO:CZ47695609.67,R16498.b6228468,,Rokycany - Radnice,2,0,0,0
-ICO:CZ47695609.67,R16499.f6d7ef1c,,Radnice - Stupno,2,0,0,0
-ICO:CZ47695609.67,R16500.ae1b67bd,,Stupno - Radnice,2,0,0,0
-ICO:CZ47695609.67,R16501.e85c2483,,Radnice - Rokycany,2,0,0,0
-ICO:CZ47695609.67,R16546.168030e2,,Rokycany - Stod,2,0,0,0
-ICO:CZ47695609.67,R16547.2bbd9f26,,Stod - Plzeň-Křimice,2,0,0,0
-ICO:CZ47695609.67,R16548.e06dbea9,,Plzeň-Křimice - Plzeň hlavní nádraží,2,0,0,0
-ICO:CZ47695609.67,R16549.14bad294,,Plzeň hlavní nádraží - Plzeň-Křimice,2,0,0,0
-ICO:CZ47695609.67,R16550.d35f764,,Plzeň-Křimice - Rokycany,2,0,0,0
-ICO:CZ47695609.67,R16551.1de383e1,,Rokycany - Stupno,2,0,0,0
-ICO:CZ47695609.67,R16552.cfde1a80,,Stupno - Plzeň hlavní nádraží,2,0,0,0
+ICO:CZ28955196.53,R12797.528e6988,S22,Lúky pod Makytou - Horní Lideč,2,0,0,0
+ICO:CZ28955196.53,R13068.a38f8ea3,S91,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
+ICO:CZ28955196.53,R13606.a97da8e6,,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+ICO:CZ28955196.53,R14610.d8b2bff5,S91,Hodonín - Veselí nad Moravou,2,0,0,0
+ICO:CZ29099846.42,R8609.9f6ea810,Český les,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+ICO:CZ47695609.67,R16484.7a68e6ab,,Rokycany - Radnice,2,0,0,0
+ICO:CZ47695609.67,R16485.bb1e515f,,Radnice - Stupno,2,0,0,0
+ICO:CZ47695609.67,R16486.f7a928a0,,Stupno - Radnice,2,0,0,0
+ICO:CZ47695609.67,R16487.31e9e566,,Radnice - Rokycany,2,0,0,0
+ICO:CZ47695609.67,R16532.dac69325,,Rokycany - Stod,2,0,0,0
+ICO:CZ47695609.67,R16533.f0040169,,Stod - Plzeň-Křimice,2,0,0,0
+ICO:CZ47695609.67,R16534.a4b420ec,,Plzeň-Křimice - Plzeň hlavní nádraží,2,0,0,0
+ICO:CZ47695609.67,R16535.d90134d7,,Plzeň hlavní nádraží - Plzeň-Křimice,2,0,0,0
+ICO:CZ47695609.67,R16536.ada6949c,,Plzeň-Křimice - Rokycany,2,0,0,0
+ICO:CZ47695609.67,R16537.be542119,,Rokycany - Stupno,2,0,0,0
+ICO:CZ47695609.67,R16538.704eb7b8,,Stupno - Plzeň hlavní nádraží,2,0,0,0
 ICO:CZ48029483.46,KADR:4010.88616789,U10,Litoměřice horní n. – Lovosice – Třebívlice – Most,2,0,0,0
 ICO:CZ48029483.46,KADR:4104.84ae0306,T4,Lovosice – Chotiměř,2,0,0,0
-ICO:CZ48029483.46,R13019.a1ab0eca,AŽD,Dětenice - Kopidlno,2,0,0,0
-ICO:CZ48029483.46,R13020.da40d416,AŽD,Kopidlno - Dětenice,2,0,0,0
-ICO:CZ48029483.46,R8663.11c8068e,AŽD,Dolní Bousov - Kopidlno,2,0,0,0
-ICO:CZ48029483.46,R8664.9f8be3d5,AŽD,Kopidlno - Dolní Bousov,2,0,0,0
-ICO:CZ48029483.46,R8681.3b3537f4,AŽD,Kopidlno - Bakov nad Jizerou,2,0,0,0
-ICO:CZ48029483.46,R8682.3d4be371,AŽD,Bakov nad Jizerou - Kopidlno,2,0,0,0
-ICO:CZ48029483.46,R8683.a68ccae0,Podřipská střela,Straškov - Louny,2,0,0,0
-ICO:CZ48029483.46,R8684.47d05393,Podřipská střela,Louny - Straškov,2,0,0,0
+ICO:CZ48029483.46,R13006.67a649ac,AŽD,Dětenice - Kopidlno,2,0,0,0
+ICO:CZ48029483.46,R13007.7c6649ed,AŽD,Kopidlno - Dětenice,2,0,0,0
+ICO:CZ48029483.46,R8650.d7c34170,AŽD,Dolní Bousov - Kopidlno,2,0,0,0
+ICO:CZ48029483.46,R8651.65871eb7,AŽD,Kopidlno - Dolní Bousov,2,0,0,0
+ICO:CZ48029483.46,R8668.dd5aadcb,AŽD,Kopidlno - Bakov nad Jizerou,2,0,0,0
+ICO:CZ48029483.46,R8669.df715948,AŽD,Bakov nad Jizerou - Kopidlno,2,0,0,0
+ICO:CZ48029483.46,R8670.6c8805c2,Podřipská střela,Straškov - Louny,2,0,0,0
+ICO:CZ48029483.46,R8671.dcb8e75,Podřipská střela,Louny - Straškov,2,0,0,0
 ICO:CZ70890692.43,KADR:8016.c87965d4,S16,Třemešná ve Slezsku – Osoblaha,2,0,0,0
 ICO:CZ70890692.43,KADR:8017.8bc7fd02,S17,Milotice nad Opavou – Vrbno pod Pradědem,2,0,0,0
 ICO:CZ70994226.47,KADR:1.2f15513b,Ex1 Cracovia,Praha – Ostrava – Návsí / Opava,2,0,0,0
@@ -258,9 +258,9 @@ ICO:CZ70994226.47,KADR:1004.3df909cd,S4,Praha – Kralupy nad Vltavou – Hněvi
 ICO:CZ70994226.47,KADR:1004|KADR:1043|KADR:4004.fada9334,S4/S43/U4,Neratovice – Kralupy nad Vltavou - Praha – Kralupy nad Vltavou – Hněvice - Ústí nad Labem hl.n. – Roudnice nad Labem – Hněvice,2,0,0,0
 ICO:CZ70994226.47,KADR:1004|KADR:4004.1e40773b,S4/U4,Praha – Kralupy nad Vltavou – Hněvice - Ústí nad Labem hl.n. – Roudnice nad Labem – Hněvice,2,0,0,0
 ICO:CZ70994226.47,KADR:1004|KADR:4054.c9d6b73c,S4/U54,Děčín – Hněvice - Praha – Kralupy nad Vltavou – Hněvice,2,0,0,0
-ICO:CZ70994226.47,KADR:1005.9f72c1,S45,Praha – Kladno – Kladno-Ostrovec,2,0,0,0
-ICO:CZ70994226.47,KADR:1005|KADR:1045.b78b7250,S45,Kralupy nad Vltavou – Kladno - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
-ICO:CZ70994226.47,KADR:1005|KADR:1050.a950fed9,S5,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
+ICO:CZ70994226.47,KADR:1005.ee077ef,S5,Praha – Kladno – Kladno-Ostrovec,2,0,0,0
+ICO:CZ70994226.47,KADR:1005|KADR:1045.c5cc777e,S5,Kralupy nad Vltavou – Kladno - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
+ICO:CZ70994226.47,KADR:1005|KADR:1050.9c7e5cc5,S50,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
 ICO:CZ70994226.47,KADR:1006.f057b6e9,S6,Praha – Rudná u Prahy – Beroun,2,0,0,0
 ICO:CZ70994226.47,KADR:1007.261975dd,S7,Praha – Beroun,2,0,0,0
 ICO:CZ70994226.47,KADR:1007.cbc6d604,S7 Berounka,Praha – Beroun,2,0,0,0
@@ -287,10 +287,11 @@ ICO:CZ70994226.47,KADR:1030.53bdff85,S30,Všetaty - Mladá Boleslav město,2,0,0
 ICO:CZ70994226.47,KADR:1030|KADR:1036.a1cc860c,S30/S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Všetaty - Mladá Boleslav město,2,0,0,0
 ICO:CZ70994226.47,KADR:1030|KADR:1036.d1d8fb2b,S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Všetaty - Mladá Boleslav město,2,0,0,0
 ICO:CZ70994226.47,KADR:1031.49cbbd6b,S31,Mladá Boleslav – Nymburk,2,0,0,0
+ICO:CZ70994226.47,KADR:1031.4a1232f0,S36,Mladá Boleslav – Nymburk,2,0,0,0
 ICO:CZ70994226.47,KADR:1031|KADR:1035.255e4b03,S35,Mladá Boleslav město - Turnov - Mladá Boleslav – Nymburk,2,0,0,0
 ICO:CZ70994226.47,KADR:1031|KADR:1035.899644e5,S31/S35,Mladá Boleslav město - Turnov - Mladá Boleslav – Nymburk,2,0,0,0
 ICO:CZ70994226.47,KADR:1031|KADR:1036.5ee6d9b6,S35/S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mladá Boleslav – Nymburk,2,0,0,0
-ICO:CZ70994226.47,KADR:1031|KADR:1036.a956ae4b,S31,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mladá Boleslav – Nymburk,2,0,0,0
+ICO:CZ70994226.47,KADR:1031|KADR:1036.a99d23d0,S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mladá Boleslav – Nymburk,2,0,0,0
 ICO:CZ70994226.47,KADR:1032.750ebb52,S32,Štětí – Všetaty – Lysá nad Labem,2,0,0,0
 ICO:CZ70994226.47,KADR:1032|KADR:1033.33a0719e,S32/S33,Mělník – Mladá Boleslav - Štětí – Všetaty – Lysá nad Labem,2,0,0,0
 ICO:CZ70994226.47,KADR:1032|KADR:4032.4df14efa,S32/U32,Ústí nad Labem – Mělník – Lysá nad Labem - Štětí – Všetaty – Lysá nad Labem,2,0,0,0
@@ -298,7 +299,6 @@ ICO:CZ70994226.47,KADR:1033.9674382d,S33,Mělník – Mladá Boleslav,2,0,0,0
 ICO:CZ70994226.47,KADR:1033|KADR:1036.beab00fc,S33/S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mělník – Mladá Boleslav,2,0,0,0
 ICO:CZ70994226.47,KADR:1035.64ae407f,S35,Mladá Boleslav město - Turnov,2,0,0,0
 ICO:CZ70994226.47,KADR:1035|KADR:1143.a70cfc0f,R43/S35 Jizera,Mladá Boleslav město - Turnov - Praha – Neratovice – Mladá Boleslav,2,0,0,0
-ICO:CZ70994226.47,KADR:1036.ce08c28d,S31,Mladá Boleslav hl.n. – Lomnice nad Popelkou,2,0,0,0
 ICO:CZ70994226.47,KADR:1036.ce4f3812,S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou,2,0,0,0
 ICO:CZ70994226.47,KADR:1040.41c6d01,S40,Kralupy nad Vltavou – Slaný ,2,0,0,0
 ICO:CZ70994226.47,KADR:1040|KADR:1043.7f8e5cda,S40/S43,Kralupy nad Vltavou – Slaný  - Neratovice – Kralupy nad Vltavou,2,0,0,0
@@ -307,16 +307,17 @@ ICO:CZ70994226.47,KADR:1040|KADR:4040.386399d,S40/U40,Kralupy nad Vltavou – Sl
 ICO:CZ70994226.47,KADR:1042.f495629b,S42,Kralupy nad Vltavou – Lužec nad Vltavou,2,0,0,0
 ICO:CZ70994226.47,KADR:1043.c51df322,S43,Neratovice – Kralupy nad Vltavou,2,0,0,0
 ICO:CZ70994226.47,KADR:1044.5d0d5909,S44,Kralupy nad Vltavou – Velvary,2,0,0,0
-ICO:CZ70994226.47,KADR:1045.51fbf7a5,S45,Kralupy nad Vltavou – Kladno,2,0,0,0
-ICO:CZ70994226.47,KADR:1050.d87235e4,S5,Kladno – Rakovník,2,0,0,0
+ICO:CZ70994226.47,KADR:1045.603cfcd3,S5,Kralupy nad Vltavou – Kladno,2,0,0,0
+ICO:CZ70994226.47,KADR:1050.cb9f93d0,S50,Kladno – Rakovník,2,0,0,0
 ICO:CZ70994226.47,KADR:1050|KADR:1057.83c9338d,S50/S57,Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
-ICO:CZ70994226.47,KADR:1050|KADR:1057|KADR:1145.5e53c300,S57,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
+ICO:CZ70994226.47,KADR:1050|KADR:1057|KADR:1145.279c801e,R45,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 ICO:CZ70994226.47,KADR:1054.413ca944,S54,Praha – Hostivice – Středokluky – Podlešín – Slaný,2,0,0,0
 ICO:CZ70994226.47,KADR:1054|KADR:1065.81fab4a9,S54/S65,Praha – Hostivice – Rudná u Prahy - Praha – Hostivice – Středokluky – Podlešín – Slaný,2,0,0,0
+ICO:CZ70994226.47,KADR:1057.63f3cfa2,R45,Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 ICO:CZ70994226.47,KADR:1057.9aab1284,S57,Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 ICO:CZ70994226.47,KADR:1057.dac2f849,S57,Praha Masaryk. n. - Bečov nad Teplou - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 ICO:CZ70994226.47,KADR:1057|KADR:1059.6ed41b82,S57/S59 Hartenštejn,Protivec – Bochov - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
-ICO:CZ70994226.47,KADR:1057|KADR:24.62596f1,S57,Praha – Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
+ICO:CZ70994226.47,KADR:1057|KADR:24.cf6e540f,R45,Praha – Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 ICO:CZ70994226.47,KADR:1057|KADR:24.f9ed336,S57,Praha Masaryk. n. - Bečov nad Teplou - Praha – Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 ICO:CZ70994226.47,KADR:1059.4280272d,S59,Protivec – Bochov,2,0,0,0
 ICO:CZ70994226.47,KADR:1060.b3381238,S60,Beroun – Zdice – Březnice,2,0,0,0
@@ -375,7 +376,6 @@ ICO:CZ70994226.47,KADR:27.3817db1,R27 Praděd,Ostrava – Krnov – Olomouc / Je
 ICO:CZ70994226.47,KADR:27.8521ba9a,R27 Cvilín,Ostrava – Krnov – Olomouc / Jeseník,2,0,0,0
 ICO:CZ70994226.47,KADR:3.1fd97f43,Ex3 Metropol,Praha – Pardubice – Brno – Břeclav,2,0,0,0
 ICO:CZ70994226.47,KADR:3.2399e50a,Ex3 Metropolitan,Kúty - Praha Jih - Praha – Pardubice – Brno – Břeclav,2,0,0,0
-ICO:CZ70994226.47,KADR:3.7e2a75ee,Ex3 Vindobona,Hohenau - Praha Jih - Praha – Pardubice – Brno – Břeclav,2,0,0,0
 ICO:CZ70994226.47,KADR:3.ab2ffed3,Ex3 Brněnský drak,Praha – Pardubice – Brno – Břeclav,2,0,0,0
 ICO:CZ70994226.47,KADR:3.b629f055,Ex3 Vindobona,Praha – Pardubice – Brno – Břeclav,2,0,0,0
 ICO:CZ70994226.47,KADR:3.ce1c43db,Ex3 Metropolitan,Praha – Pardubice – Brno – Břeclav,2,0,0,0
@@ -511,10 +511,10 @@ ICO:CZ70994226.47,KADR:6004.3eaf41b1,S4,Brno – Zastávka u Brna,2,0,0,0
 ICO:CZ70994226.47,KADR:6006.412044c2,S6,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště,2,0,0,0
 ICO:CZ70994226.47,KADR:6006|KADR:6009.f808b1d8,S6/S9,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště - Břeclav – Hodonín – Staré Město u Uh. Hradiště – Otrokovice – Hulín – Přerov,2,0,0,0
 ICO:CZ70994226.47,KADR:6006|KADR:6061.e78fd73b,S6/S61,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště - Bzenec – Moravský Písek,2,0,0,0
-ICO:CZ70994226.47,KADR:6006|KADR:6091.2c21587e,S6/S9,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště - Hodonín – Strážnice – Veselí nad Moravou – Velká nad Veličkou – Vrbovce – Myjava,2,0,0,0
 ICO:CZ70994226.47,KADR:6006|KADR:6091.99d14b,S6/S91,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště - Hodonín – Strážnice – Veselí nad Moravou – Velká nad Veličkou – Vrbovce – Myjava,2,0,0,0
 ICO:CZ70994226.47,KADR:6006|KADR:7250.8bfb2f4f,S6/Sp5,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště - Staré Město u Uherského Hradiště – Uherské Hradiště – Újezdec u Luhačovic – Bojkovice – Bylnice,2,0,0,0
 ICO:CZ70994226.47,KADR:6006|KADR:7250.9f5b28a,S6/Sp5 Javořina,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště - Staré Město u Uherského Hradiště – Uherské Hradiště – Újezdec u Luhačovic – Bojkovice – Bylnice,2,0,0,0
+ICO:CZ70994226.47,KADR:6009.e6056650,S91,Břeclav – Hodonín – Staré Město u Uh. Hradiště – Otrokovice – Hulín – Přerov,2,0,0,0
 ICO:CZ70994226.47,KADR:6009.ec2eec6b,S9,Břeclav – Hodonín – Staré Město u Uh. Hradiště – Otrokovice – Hulín – Přerov,2,0,0,0
 ICO:CZ70994226.47,KADR:6009|KADR:7211.8ab0f856,S11/S9,Břeclav – Hodonín – Staré Město u Uh. Hradiště – Otrokovice – Hulín – Přerov - Otrokovice – Vizovice,2,0,0,0
 ICO:CZ70994226.47,KADR:6012|KADR:7240.f1f2b35e,R12/Sp4 Radhošť,Brno – Nezamyslice – Kojetín - Kojetín – Hulín – Valašské Meziříčí – Rožnov pod Radhoštěm,2,0,0,0
@@ -589,6 +589,7 @@ ICO:CZ70994226.47,KADR:8003.11961326,S3,Bohumín - Ostrava-Svinov - Studénka - 
 ICO:CZ70994226.47,KADR:8003|KADR:8004.39239cc6,S3/S4,"Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
 ICO:CZ70994226.47,KADR:8003|KADR:8004.bec4b696,S3,"Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
 ICO:CZ70994226.47,KADR:8003|KADR:8008.f85088a6,S3/S8,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Ostrava střed - Ostrava hl.n. - Ostrava-Svinov - Studénka - Štramberk - Veřovice,2,0,0,0
+ICO:CZ70994226.47,KADR:8003|KADR:8034.1fb21e87,S3/S34,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Suchdol nad Odrou – Nový Jičín město,2,0,0,0
 ICO:CZ70994226.47,KADR:8004.489203d3,S4,"Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
 ICO:CZ70994226.47,KADR:8004|KADR:8008.e5bd7477,S4/S8,"Ostrava střed - Ostrava hl.n. - Ostrava-Svinov - Studénka - Štramberk - Veřovice - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
 ICO:CZ70994226.47,KADR:8004|KADR:8061.a3d5ce4f,R61/S4,"Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
@@ -616,120 +617,125 @@ ICO:CZ70994226.47,KADR:8034.8a06dd52,S34,Suchdol nad Odrou – Nový Jičín mě
 ICO:CZ70994226.47,KADR:8061.91827b8d,R61,Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova,2,0,0,0
 ICO:CZ70994226.47,KADR:8061.cad019f4,R61 Gorol,Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova,2,0,0,0
 ICO:CZ70994226.47,KADR:9.e2fac5e8,R9 Vysočina,Praha – Havlíčkův Brod – Brno / Jihlava,2,0,0,0
-ICO:CZ70994226.47,R10046.8db20d61,Ex1,Čadca - Praha hl. n.,2,0,0,0
-ICO:CZ70994226.47,R10049.5a4bab60,Pendolino,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R10050.31359426,Pendolino,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R10052.58d37db,Pendolino,Bohumín - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R10053.c43d3d18,Pendolino,Praha hlavní nádraží - Bohumín,2,0,0,0
-ICO:CZ70994226.47,R10061.5d6ac604,Colours Expres,Ostrava střed - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R10071.e3ddd969,Colours Expres,Praha hlavní nádraží - Ostrava střed,2,0,0,0
-ICO:CZ70994226.47,R10303.d85dc526,Dny NATO,"Mošnov, Ostrava Airport - Praha hlavní nádraží",2,0,0,0
-ICO:CZ70994226.47,R10304.759ab7d5,Dny NATO,"Praha hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
-ICO:CZ70994226.47,R10416.51d43d60,Český les,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
-ICO:CZ70994226.47,R10654.aeb2e9f1,Os 149,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
-ICO:CZ70994226.47,R10754.3200211d,V6,Pardubice centrum - Jaroměř,2,0,0,0
-ICO:CZ70994226.47,R10769.a3d14ce,Os 238,Havlíčkův Brod - Pardubice centrum,2,0,0,0
-ICO:CZ70994226.47,R10781.f2824b5,Os 238,Havlíčkův Brod - Hlinsko v Č.,2,0,0,0
-ICO:CZ70994226.47,R10794.99f348b5,Os 024,Ústí nad Orlicí - Letohrad,2,0,0,0
-ICO:CZ70994226.47,R10868.4bb52cac,Dny NATO,"Mošnov, Ostrava Airport - Olomouc hlavní nádraží",2,0,0,0
-ICO:CZ70994226.47,R10950.8e1dd95f,Lednice,Břeclav - Lednice,2,0,0,0
-ICO:CZ70994226.47,R10951.45237cfe,Lednice,Lednice - Břeclav,2,0,0,0
-ICO:CZ70994226.47,R11019.6c508aa1,Os 243,Jemnice - Moravské Budějovice,2,0,0,0
-ICO:CZ70994226.47,R11979.ea4122ae,R24,Praha-Smíchov - Lužná u Rakovníka,2,0,0,0
-ICO:CZ70994226.47,R11980.334182d8,R24,Lužná u Rakovníka - Praha-Smíchov,2,0,0,0
-ICO:CZ70994226.47,R11997.264e4419,Mikuláš,Dolní Lipka - Letohrad,2,0,0,0
-ICO:CZ70994226.47,R11998.bfcc958c,Mikuláš,Letohrad - Dolní Lipka,2,0,0,0
-ICO:CZ70994226.47,R12111.81c056ae,Os 024,Letohrad - Králíky,2,0,0,0
-ICO:CZ70994226.47,R12280.41bb69e,S34,Praha-Čakovice - Praha hl. n.,2,0,0,0
-ICO:CZ70994226.47,R12288.ec4ea4f7,Chopin,Chałupki - Břeclav,2,0,0,0
-ICO:CZ70994226.47,R12289.74751668,Chopin,Břeclav - Chałupki,2,0,0,0
-ICO:CZ70994226.47,R12401.294ac719,,Nezamyslice - Přerov,2,0,0,0
-ICO:CZ70994226.47,R12691.8c41cf44,S91,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
-ICO:CZ70994226.47,R12799.987b507,Slovakia,Praha-Michle autovlak - Čadca,2,0,0,0
-ICO:CZ70994226.47,R12826.e80f04c3,REX 1,Hohenau - Břeclav,2,0,0,0
-ICO:CZ70994226.47,R13055.aa798822,Pendolino Košičan,Čadca - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R13061.b4daeef2,,Praha hlavní nádraží - Dobříš,2,0,0,0
-ICO:CZ70994226.47,R13572.7bcdd1ab,S3,Summerau - České Budějovice,2,0,0,0
-ICO:CZ70994226.47,R14127.fdd0242f,Párou Posázavím,Praha-Vršovice - Týnec nad Sázavou,2,0,0,0
-ICO:CZ70994226.47,R14129.dddc44bd,Párou Posázavím,Týnec nad Sázavou - Praha-Vršovice,2,0,0,0
-ICO:CZ70994226.47,R14358.9dd675c3,R24,Praha Masarykovo nádraží - Lužná u Rakovníka,2,0,0,0
-ICO:CZ70994226.47,R14359.63777da6,R24,Lužná u Rakovníka - Praha Masarykovo nádraží,2,0,0,0
-ICO:CZ70994226.47,R14491.22fb3ee9,,Praha-Braník - Praha-Radotín,2,0,0,0
-ICO:CZ70994226.47,R14492.b444a64e,,Praha-Radotín - Praha-Braník,2,0,0,0
-ICO:CZ70994226.47,R14700.c6740781,S71,Chałupki - Bohumín,2,0,0,0
-ICO:CZ70994226.47,R14755.82a8c341,Mikuláš,Choceň - Litomyšl,2,0,0,0
-ICO:CZ70994226.47,R14756.b0e71f26,Mikuláš,Litomyšl - Choceň,2,0,0,0
-ICO:CZ70994226.47,R14916.54904406,nightjet,Břeclav - Bad Schandau,2,0,0,0
-ICO:CZ70994226.47,R15024.db69dba1,nightjet,Bad Schandau - Břeclav,2,0,0,0
-ICO:CZ70994226.47,R15199.4991650a,S71,Bohumín - Chałupki,2,0,0,0
-ICO:CZ70994226.47,R15523.a553e7ec,,Rybník - Kaplice,2,0,0,0
-ICO:CZ70994226.47,R15527.43868eb4,,Kaplice - Rybník,2,0,0,0
-ICO:CZ70994226.47,R15701.ba36764d,Párou Posázavím,Praha-Braník - Praha-Zbraslav,2,0,0,0
-ICO:CZ70994226.47,R15702.4792d900,Párou Posázavím,Praha-Zbraslav - Praha-Braník,2,0,0,0
-ICO:CZ70994226.47,R15703.e173161,Párou Posázavím,Praha-Braník - Vrané nad Vltavou,2,0,0,0
-ICO:CZ70994226.47,R15704.6ae5df8e,Párou Posázavím,Vrané nad Vltavou - Praha-Braník,2,0,0,0
-ICO:CZ70994226.47,R15705.ddd37ba6,,Praha-Braník - Praha-Vršovice,2,0,0,0
-ICO:CZ70994226.47,R15706.ead2aa4d,,Praha-Vršovice - Praha-Braník,2,0,0,0
-ICO:CZ70994226.47,R15888.bb681137,,Plzeň hlavní nádraží - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15889.7d89bdde,,Blatno u Jesenice - Plzeň hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R15946.c13c8c42,,Blatno u Jesenice - Chyše,2,0,0,0
-ICO:CZ70994226.47,R15946.e129a67,Velikonoční vlak,Blatno u Jesenice - Chyše,2,0,0,0
-ICO:CZ70994226.47,R15947.416ee386,Velikonoční vlak,Chyše - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15947.f498d561,,Chyše - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15948.3b8052b6,,Blatno u Jesenice - Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15948.885660db,Velikonoční vlak,Blatno u Jesenice - Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15949.314d9972,Velikonoční vlak,Jesenice - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15949.e4778b4d,,Jesenice - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15950.bb65ceb8,,Blatno u Jesenice - Petrohrad,2,0,0,0
-ICO:CZ70994226.47,R15951.ccabe857,,Petrohrad - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15952.e855c89b,,Blatno u Jesenice - Mladotice,2,0,0,0
-ICO:CZ70994226.47,R15953.1e3e1dba,,Mladotice - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R15955.690652a7,,Blatno u Jesenice - Žihle,2,0,0,0
-ICO:CZ70994226.47,R15956.1fd61c46,,Žihle - Blatno u Jesenice,2,0,0,0
-ICO:CZ70994226.47,R16156.962efcf9,,"Vyškov na Moravě - Mošnov, Ostrava Airport",2,0,0,0
-ICO:CZ70994226.47,R16158.2a81f089,,"Olomouc hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
-ICO:CZ70994226.47,R16304.1c6a1be0,,Veselí nad Lužnicí - Jihlava,2,0,0,0
-ICO:CZ70994226.47,R16305.581cfbc,,Jindřichův Hradec - Veselí nad Lužnicí,2,0,0,0
-ICO:CZ70994226.47,R16307.db375210,,Jihlava - Jindřichův Hradec,2,0,0,0
-ICO:CZ70994226.47,R16308.d8261200,,Jindřichův Hradec - Tábor,2,0,0,0
-ICO:CZ70994226.47,R16309.c9aeee16,,Tábor - Chotoviny,2,0,0,0
-ICO:CZ70994226.47,R16312.4a53fd7e,,Chotoviny - Tábor,2,0,0,0
-ICO:CZ70994226.47,R16315.2d3689ec,,Jihlava - Veselí nad Lužnicí,2,0,0,0
-ICO:CZ70994226.47,R16317.5afbc398,Slovan,Břeclav - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R16330.a3eada1f,Slovan,Praha hlavní nádraží - Kúty,2,0,0,0
-ICO:CZ70994226.47,R16331.e4b5770e,Ex3,Praha hlavní nádraží - Břeclav,2,0,0,0
-ICO:CZ70994226.47,R16336.c6bcba19,,Dobříš - Čisovice,2,0,0,0
-ICO:CZ70994226.47,R16337.8c864ca8,,Čisovice - Dobříš,2,0,0,0
-ICO:CZ70994226.47,R16338.64f4ead0,,Dobříš - Měchenice,2,0,0,0
-ICO:CZ70994226.47,R16339.121c7ec0,,Měchenice - Mníšek pod Brdy,2,0,0,0
-ICO:CZ70994226.47,R16340.82ee442f,,Mníšek pod Brdy - Čisovice,2,0,0,0
-ICO:CZ70994226.47,R16341.e91f7e6a,,Čisovice - Mníšek pod Brdy,2,0,0,0
-ICO:CZ70994226.47,R16342.92a0516c,,Mníšek pod Brdy - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R16405.fb308598,,Kroměříž - Zlín střed,2,0,0,0
-ICO:CZ70994226.47,R16406.2b1c8f63,,Zlín střed - Kroměříž,2,0,0,0
-ICO:CZ70994226.47,R16416.2428a8e3,,Ostrava hlavní nádraží - Ostravice,2,0,0,0
-ICO:CZ70994226.47,R16417.467a4ceb,,Frýdek-Místek - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R16418.93735583,,Ostravice - Ostrava hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R16419.57c3d5d9,,Ostrava hlavní nádraží - Frýdek-Místek,2,0,0,0
-ICO:CZ70994226.47,R16435.dcf20255,Dny NATO,"Mošnov, Ostrava Airport - Brno hlavní nádraží",2,0,0,0
-ICO:CZ70994226.47,R16436.e2e8e6b4,Dny NATO,"Brno hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
-ICO:CZ70994226.47,R16484.2d6f4929,,Velká Bystřice - Olomouc hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R16485.2c4acd35,,Olomouc-Řepčín - Velká Bystřice,2,0,0,0
-ICO:CZ70994226.47,R16486.7c947a36,,Velká Bystřice - Olomouc-Řepčín,2,0,0,0
-ICO:CZ70994226.47,R16489.cdaf82e1,,Olomouc hlavní nádraží - Olomouc-Řepčín,2,0,0,0
-ICO:CZ70994226.47,R16490.cb178dcd,,Olomouc-Řepčín - Olomouc hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R16493.a8711b27,,Olomouc hlavní nádraží - Velká Bystřice,2,0,0,0
-ICO:CZ70994226.47,R9607.20b96a37,Olza,Zebrzydowice - Bohumín,2,0,0,0
-ICO:CZ70994226.47,R9607.23ad5290,Comenius,Zebrzydowice - Bohumín,2,0,0,0
-ICO:CZ70994226.47,R9608.3e71ab8,Olza,Bohumín - Zebrzydowice,2,0,0,0
-ICO:CZ70994226.47,R9608.6db0311,Comenius,Bohumín - Zebrzydowice,2,0,0,0
-ICO:CZ70994226.47,R9611.22ad9d5b,Pendolino Košičan,Praha hlavní nádraží - Čadca,2,0,0,0
-ICO:CZ70994226.47,R9631.a64e26b5,Ex3,Kúty - Praha hlavní nádraží,2,0,0,0
-ICO:CZ70994226.47,R9642.59b79907,RB95,Aš - Selb-Plößberg,2,0,0,0
-ICO:CZ70994226.47,R9646.ea980ec1,RB95,Selb-Plößberg - Aš,2,0,0,0
-ICO:CZ70994226.47,R9661.cb7dea1,Slovakia,Čadca - Praha-Michle autovlak,2,0,0,0
-ICO:CZ70994226.47,R9880.8cf41a43,REX 1,Břeclav - Hohenau,2,0,0,0
-ICO:CZ70994226.47,R9944.f7d65e0d,S5,Gmünd NÖ - České Velenice,2,0,0,0
-ICO:CZ70994226.47,R9945.3786472e,S5,České Velenice - Gmünd NÖ,2,0,0,0
-ICO:NL862141953B.41,R14720.558c4deb,European Sleeper,Praha hlavní nádraží - Bad Schandau,2,0,0,0
-ICO:NL862141953B.41,R14722.f7a662c7,European Sleeper,Bad Schandau - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R10033.53ad4843,Ex1,Čadca - Praha hl. n.,2,0,0,0
+ICO:CZ70994226.47,R10036.2046e642,Pendolino,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R10037.d35b09fd,Pendolino,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R10039.a7b2adb2,Pendolino,Bohumín - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R10040.8a3877fa,Pendolino,Praha hlavní nádraží - Bohumín,2,0,0,0
+ICO:CZ70994226.47,R10048.ff903bdb,Colours Expres,Ostrava střed - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R10058.86034f40,Colours Expres,Praha hlavní nádraží - Ostrava střed,2,0,0,0
+ICO:CZ70994226.47,R10290.477623b3,Dny NATO,"Mošnov, Ostrava Airport - Praha hlavní nádraží",2,0,0,0
+ICO:CZ70994226.47,R10291.e4b31662,Dny NATO,"Praha hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
+ICO:CZ70994226.47,R10403.17cf7842,Český les,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+ICO:CZ70994226.47,R10641.74ae24d3,Os 149,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
+ICO:CZ70994226.47,R10741.f7fb5bff,V6,Pardubice centrum - Jaroměř,2,0,0,0
+ICO:CZ70994226.47,R10756.d0384fb0,Os 238,Havlíčkův Brod - Pardubice centrum,2,0,0,0
+ICO:CZ70994226.47,R10768.b14d9a8c,Os 238,Havlíčkův Brod - Hlinsko v Č.,2,0,0,0
+ICO:CZ70994226.47,R10781.5fee8397,Os 024,Ústí nad Orlicí - Letohrad,2,0,0,0
+ICO:CZ70994226.47,R10855.11b0678e,Dny NATO,"Mošnov, Ostrava Airport - Olomouc hlavní nádraží",2,0,0,0
+ICO:CZ70994226.47,R10937.30434f36,Lednice,Břeclav - Lednice,2,0,0,0
+ICO:CZ70994226.47,R10938.e748f2d5,Lednice,Lednice - Břeclav,2,0,0,0
+ICO:CZ70994226.47,R11006.324bc583,Os 243,Jemnice - Moravské Budějovice,2,0,0,0
+ICO:CZ70994226.47,R11966.b03c5d90,R24,Praha-Smíchov - Lužná u Rakovníka,2,0,0,0
+ICO:CZ70994226.47,R11967.d566f8af,R24,Lužná u Rakovníka - Praha-Smíchov,2,0,0,0
+ICO:CZ70994226.47,R11984.ec497efb,Mikuláš,Dolní Lipka - Letohrad,2,0,0,0
+ICO:CZ70994226.47,R11985.85c7d06e,Mikuláš,Letohrad - Dolní Lipka,2,0,0,0
+ICO:CZ70994226.47,R12098.cd02f030,Os 024,Letohrad - Králíky,2,0,0,0
+ICO:CZ70994226.47,R12267.a6412c75,S34,Praha-Čakovice - Praha hl. n.,2,0,0,0
+ICO:CZ70994226.47,R12275.b249dfd9,Chopin,Chałupki - Břeclav,2,0,0,0
+ICO:CZ70994226.47,R12276.3a70514a,Chopin,Břeclav - Chałupki,2,0,0,0
+ICO:CZ70994226.47,R12388.748d609b,,Nezamyslice - Přerov,2,0,0,0
+ICO:CZ70994226.47,R12678.2e67451b,S91,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
+ICO:CZ70994226.47,R12786.cf82efe9,Slovakia,Praha-Michle autovlak - Čadca,2,0,0,0
+ICO:CZ70994226.47,R12813.ae0a3fa5,REX 1,Hohenau - Břeclav,2,0,0,0
+ICO:CZ70994226.47,R13042.7074c304,Pendolino Košičan,Čadca - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R13048.570064c9,,Praha hlavní nádraží - Dobříš,2,0,0,0
+ICO:CZ70994226.47,R13559.1df34782,S3,Summerau - České Budějovice,2,0,0,0
+ICO:CZ70994226.47,R14113.c2168672,Párou Posázavím,Praha-Vršovice - Týnec nad Sázavou,2,0,0,0
+ICO:CZ70994226.47,R14115.a222a700,Párou Posázavím,Týnec nad Sázavou - Praha-Vršovice,2,0,0,0
+ICO:CZ70994226.47,R14344.621cd806,R24,Praha Masarykovo nádraží - Lužná u Rakovníka,2,0,0,0
+ICO:CZ70994226.47,R14345.27bddfe9,R24,Lužná u Rakovníka - Praha Masarykovo nádraží,2,0,0,0
+ICO:CZ70994226.47,R14477.c36bdc21,,Praha-Braník - Praha-Radotín,2,0,0,0
+ICO:CZ70994226.47,R14478.54b54386,,Praha-Radotín - Praha-Braník,2,0,0,0
+ICO:CZ70994226.47,R14686.1001c864,S71,Chałupki - Bohumín,2,0,0,0
+ICO:CZ70994226.47,R14741.46ef2584,Mikuláš,Choceň - Litomyšl,2,0,0,0
+ICO:CZ70994226.47,R14742.752d8169,Mikuláš,Litomyšl - Choceň,2,0,0,0
+ICO:CZ70994226.47,R14902.18d6a649,nightjet,Břeclav - Bad Schandau,2,0,0,0
+ICO:CZ70994226.47,R15010.9fb03de4,nightjet,Bad Schandau - Břeclav,2,0,0,0
+ICO:CZ70994226.47,R15185.dd7c74d,S71,Bohumín - Chałupki,2,0,0,0
+ICO:CZ70994226.47,R15509.45c48524,,Rybník - Kaplice,2,0,0,0
+ICO:CZ70994226.47,R15513.7ccf0f7,,Kaplice - Rybník,2,0,0,0
+ICO:CZ70994226.47,R15687.3c43730,Párou Posázavím,Praha-Braník - Praha-Zbraslav,2,0,0,0
+ICO:CZ70994226.47,R15688.912099e3,Párou Posázavím,Praha-Zbraslav - Praha-Braník,2,0,0,0
+ICO:CZ70994226.47,R15689.57a4f244,Párou Posázavím,Praha-Braník - Vrané nad Vltavou,2,0,0,0
+ICO:CZ70994226.47,R15690.d849657c,Párou Posázavím,Vrané nad Vltavou - Praha-Braník,2,0,0,0
+ICO:CZ70994226.47,R15691.4b370194,,Praha-Braník - Praha-Vršovice,2,0,0,0
+ICO:CZ70994226.47,R15692.5836303b,,Praha-Vršovice - Praha-Braník,2,0,0,0
+ICO:CZ70994226.47,R15874.7fae737a,,Plzeň hlavní nádraží - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15875.41d02021,,Blatno u Jesenice - Plzeň hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R15932.8582ee85,,Blatno u Jesenice - Chyše,2,0,0,0
+ICO:CZ70994226.47,R15932.d258fcaa,Velikonoční vlak,Blatno u Jesenice - Chyše,2,0,0,0
+ICO:CZ70994226.47,R15933.5b545c9,Velikonoční vlak,Chyše - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15933.b8df37a4,,Chyše - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15934.4c9cc31e,Velikonoční vlak,Blatno u Jesenice - Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15934.ffc6b4f9,,Blatno u Jesenice - Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15935.a8bded90,,Jesenice - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15935.f593fbb5,Velikonoční vlak,Jesenice - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15936.5bd66bf0,,Blatno u Jesenice - Petrohrad,2,0,0,0
+ICO:CZ70994226.47,R15937.6d1c858f,,Petrohrad - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15938.88c665d3,,Blatno u Jesenice - Mladotice,2,0,0,0
+ICO:CZ70994226.47,R15939.beaebaf2,,Mladotice - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R15941.2d4cb4ea,,Blatno u Jesenice - Žihle,2,0,0,0
+ICO:CZ70994226.47,R15942.e41c7e89,,Žihle - Blatno u Jesenice,2,0,0,0
+ICO:CZ70994226.47,R16142.5a755f3c,,"Vyškov na Moravě - Mošnov, Ostrava Airport",2,0,0,0
+ICO:CZ70994226.47,R16144.eec852cc,,"Olomouc hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
+ICO:CZ70994226.47,R16290.89cda1ce,,Veselí nad Lužnicí - Jihlava,2,0,0,0
+ICO:CZ70994226.47,R16291.72e555aa,,Jindřichův Hradec - Veselí nad Lužnicí,2,0,0,0
+ICO:CZ70994226.47,R16293.489ad7fe,,Jihlava - Jindřichův Hradec,2,0,0,0
+ICO:CZ70994226.47,R16294.458997ee,,Jindřichův Hradec - Tábor,2,0,0,0
+ICO:CZ70994226.47,R16295.37127404,,Tábor - Chotoviny,2,0,0,0
+ICO:CZ70994226.47,R16298.93e1be61,,Chotoviny - Tábor,2,0,0,0
+ICO:CZ70994226.47,R16301.f17cec2f,,Jihlava - Veselí nad Lužnicí,2,0,0,0
+ICO:CZ70994226.47,R16303.1f4225db,Slovan,Břeclav - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R16316.445b7757,Slovan,Praha hlavní nádraží - Kúty,2,0,0,0
+ICO:CZ70994226.47,R16317.85261446,Ex3,Praha hlavní nádraží - Břeclav,2,0,0,0
+ICO:CZ70994226.47,R16322.8b031c5c,,Dobříš - Čisovice,2,0,0,0
+ICO:CZ70994226.47,R16323.50ccaeeb,,Čisovice - Dobříš,2,0,0,0
+ICO:CZ70994226.47,R16324.293b4d13,,Dobříš - Měchenice,2,0,0,0
+ICO:CZ70994226.47,R16325.d662e103,,Měchenice - Mníšek pod Brdy,2,0,0,0
+ICO:CZ70994226.47,R16326.235ee167,,Mníšek pod Brdy - Čisovice,2,0,0,0
+ICO:CZ70994226.47,R16327.89901ba2,,Čisovice - Mníšek pod Brdy,2,0,0,0
+ICO:CZ70994226.47,R16328.3310eea4,,Mníšek pod Brdy - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R16391.68940b86,,Kroměříž - Zlín střed,2,0,0,0
+ICO:CZ70994226.47,R16392.98801551,,Zlín střed - Kroměříž,2,0,0,0
+ICO:CZ70994226.47,R16402.e86f0b26,,Ostrava hlavní nádraží - Ostravice,2,0,0,0
+ICO:CZ70994226.47,R16403.ac0af2e,,Frýdek-Místek - Ostrava hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R16404.57b9b7c6,,Ostravice - Ostrava hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R16405.1c0a381c,,Ostrava hlavní nádraží - Frýdek-Místek,2,0,0,0
+ICO:CZ70994226.47,R16421.a1386498,Dny NATO,"Mošnov, Ostrava Airport - Brno hlavní nádraží",2,0,0,0
+ICO:CZ70994226.47,R16422.a72f48f7,Dny NATO,"Brno hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
+ICO:CZ70994226.47,R16470.f1b5ab6c,,Velká Bystřice - Olomouc hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R16471.f0912f78,,Olomouc-Řepčín - Velká Bystřice,2,0,0,0
+ICO:CZ70994226.47,R16472.40dadc79,,Velká Bystřice - Olomouc-Řepčín,2,0,0,0
+ICO:CZ70994226.47,R16475.91f5e524,,Olomouc hlavní nádraží - Olomouc-Řepčín,2,0,0,0
+ICO:CZ70994226.47,R16476.6b882b05,,Olomouc-Řepčín - Olomouc hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R16479.48e1b85f,,Olomouc hlavní nádraží - Velká Bystřice,2,0,0,0
+ICO:CZ70994226.47,R16546.cf166712,,Velký Osek - Nymburk hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R16550.2b1af221,,Ostrava střed - Frýdek-Místek,2,0,0,0
+ICO:CZ70994226.47,R16551.e3783ec0,,Frýdek-Místek - Ostrava střed,2,0,0,0
+ICO:CZ70994226.47,R16552.71d2f04a,,Ostrava střed - Havířov,2,0,0,0
+ICO:CZ70994226.47,R16553.18fba969,,Havířov - Ostrava střed,2,0,0,0
+ICO:CZ70994226.47,R9594.8fd1c8c4,Olza,Zebrzydowice - Bohumín,2,0,0,0
+ICO:CZ70994226.47,R9594.92c5b11d,Comenius,Zebrzydowice - Bohumín,2,0,0,0
+ICO:CZ70994226.47,R9595.72ff7945,Olza,Bohumín - Zebrzydowice,2,0,0,0
+ICO:CZ70994226.47,R9595.75f3619e,Comenius,Bohumín - Zebrzydowice,2,0,0,0
+ICO:CZ70994226.47,R9598.6df036dd,Pendolino Košičan,Praha hlavní nádraží - Čadca,2,0,0,0
+ICO:CZ70994226.47,R9618.48739c8c,Ex3,Kúty - Praha hlavní nádraží,2,0,0,0
+ICO:CZ70994226.47,R9629.fbdd0ede,RB95,Aš - Selb-Plößberg,2,0,0,0
+ICO:CZ70994226.47,R9633.b09349a3,RB95,Selb-Plößberg - Aš,2,0,0,0
+ICO:CZ70994226.47,R9648.aedd5478,Slovakia,Čadca - Praha-Michle autovlak,2,0,0,0
+ICO:CZ70994226.47,R9867.2f19901a,REX 1,Břeclav - Hohenau,2,0,0,0
+ICO:CZ70994226.47,R9931.bdd198ef,S5,Gmünd NÖ - České Velenice,2,0,0,0
+ICO:CZ70994226.47,R9932.fd818210,S5,České Velenice - Gmünd NÖ,2,0,0,0
+ICO:NL862141953B.41,R14706.f5fceb23,European Sleeper,Praha hlavní nádraží - Bad Schandau,2,0,0,0
+ICO:NL862141953B.41,R14708.9816ffff,European Sleeper,Bad Schandau - Praha hlavní nádraží,2,0,0,0
