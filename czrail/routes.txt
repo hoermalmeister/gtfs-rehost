@@ -1,37 +1,37 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport
-A40,R15276.e6b6f311,,Jindřichův Hradec-JHMD - Horní Skrýchov,2,0,0,0
-A40,R15277.80f6f8a,,Horní Skrýchov - Jindřichův Hradec-JHMD,2,0,0,0
-A40,R15278.123d122e,,Jindřichův Hradec-JHMD - Jindřiš,2,0,0,0
-A40,R15279.ea337f,,Jindřiš - Jindřichův Hradec-JHMD,2,0,0,0
-A40,R9210.bddc08bc,,Svobodné Heřmanice - Opava východ,2,0,0,0
-A40,R9211.272a1ac1,,Opava východ - Svobodné Heřmanice,2,0,0,0
-A41,R15367.29d6e2cd,,Praha hlavní nádraží - Bad Schandau,2,0,0,0
-A41,R15369.cbf0f7a9,,Bad Schandau - Praha hlavní nádraží,2,0,0,0
-A42,R9270.f71e64c5,Český les,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+A40,R15231.a95caf2,,Jindřichův Hradec-JHMD - Horní Skrýchov,2,0,0,0
+A40,R15232.2bee476b,,Horní Skrýchov - Jindřichův Hradec-JHMD,2,0,0,0
+A40,R15233.361bea0f,,Jindřichův Hradec-JHMD - Jindřiš,2,0,0,0
+A40,R15234.24c90b60,,Jindřiš - Jindřichův Hradec-JHMD,2,0,0,0
+A40,R9165.67023f3d,,Svobodné Heřmanice - Opava východ,2,0,0,0
+A40,R9166.d0505142,,Opava východ - Svobodné Heřmanice,2,0,0,0
+A41,R15322.4db5baae,,Praha hlavní nádraží - Bad Schandau,2,0,0,0
+A41,R15324.efcfcf8a,,Bad Schandau - Praha hlavní nádraží,2,0,0,0
+A42,R9225.f727779b,Český les,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
 A43,KADR:8016.c87965d4,S16,Třemešná ve Slezsku – Osoblaha,2,0,0,0
 A43,KADR:8017.8bc7fd02,S17,Milotice nad Opavou – Vrbno pod Pradědem,2,0,0,0
 A44,KADR:4106.1dec582e,T6,Kadaň-Prunéřov – Kadaňský Rohozec / Podbořany,2,0,0,0
 A44,KADR:4198.6cc7658f,T8,Most – Osek – Moldava v Krušných horách,2,0,0,0
-A44,R13260.f0d0600c,,Trhový Štěpánov - Vlašim,2,0,0,0
-A44,R13261.ad2262f,,Vlašim - Trhový Štěpánov,2,0,0,0
-A44,R9286.ecd0a143,,Jemnice - Moravské Budějovice,2,0,0,0
-A45,R12953.d0529114,,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0
-A45,R12954.4d68e9d7,,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0
-A45,R15423.9cfef9cc,,Kořenov - Tanvald,2,0,0,0
-A45,R16889.d309c27d,,Kořenov - Liberec,2,0,0,0
-A45,R16890.5f0bb9e7,,Liberec - Kořenov,2,0,0,0
-A45,R17211.9c940c51,,Tanvald - Kořenov,2,0,0,0
-A45,R9291.b5c08ef3,,Turnov - Rovensko pod Troskami,2,0,0,0
-A45,R9292.2992df09,,Rovensko pod Troskami - Semily,2,0,0,0
-A45,R9293.55adc557,,Tanvald - Harrachov,2,0,0,0
-A45,R9295.56605255,,Harrachov - Tanvald,2,0,0,0
-A45,R9297.7fb12dd2,,Turnov - Martinice v Krkonoších,2,0,0,0
-A45,R9298.b2c3f0b7,,Martinice v Krkonoších - Turnov,2,0,0,0
-A45,R9299.a612a030,,Liberec - Křižany,2,0,0,0
-A45,R9300.b4ddc56f,,Křižany - Liberec,2,0,0,0
-A45,R9301.e9e8f258,,Semily - Turnov,2,0,0,0
-A45,R9304.54695feb,,Harrachov - Kořenov,2,0,0,0
-A45,R9305.9d71664a,,Kořenov - Harrachov,2,0,0,0
+A44,R13215.f0d972e2,,Trhový Štěpánov - Vlašim,2,0,0,0
+A44,R13216.adb3905,,Vlašim - Trhový Štěpánov,2,0,0,0
+A44,R9241.10af7924,,Jemnice - Moravské Budějovice,2,0,0,0
+A45,R12908.d05ba3ea,,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0
+A45,R12909.4d71fcad,,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0
+A45,R15378.4625304d,,Kořenov - Tanvald,2,0,0,0
+A45,R16844.f6e89a5e,,Kořenov - Liberec,2,0,0,0
+A45,R16845.5f14ccbd,,Liberec - Kořenov,2,0,0,0
+A45,R17166.45ba42d2,,Tanvald - Kořenov,2,0,0,0
+A45,R9246.b5c9a1c9,,Turnov - Rovensko pod Troskami,2,0,0,0
+A45,R9247.299bf1df,,Rovensko pod Troskami - Semily,2,0,0,0
+A45,R9248.55b6d82d,,Tanvald - Harrachov,2,0,0,0
+A45,R9250.7a3f2a36,,Harrachov - Tanvald,2,0,0,0
+A45,R9252.a39005b3,,Turnov - Martinice v Krkonoších,2,0,0,0
+A45,R9253.d6a2c898,,Martinice v Krkonoších - Turnov,2,0,0,0
+A45,R9254.c9f17811,,Liberec - Křižany,2,0,0,0
+A45,R9255.5e03fbf0,,Křižany - Liberec,2,0,0,0
+A45,R9256.930f28d9,,Semily - Turnov,2,0,0,0
+A45,R9259.fd8f966c,,Harrachov - Kořenov,2,0,0,0
+A45,R9260.6a6d61d6,,Kořenov - Harrachov,2,0,0,0
 A47,KADR:1.2f15513b,Ex1 Cracovia,Praha – Ostrava – Návsí / Opava,2,0,0,0
 A47,KADR:1.3683a32f,Ex1 Ostravan,Praha – Ostrava – Návsí / Opava,2,0,0,0
 A47,KADR:1.8cd428f8,Ex1 Kysučan,Praha – Ostrava – Návsí / Opava - Čadca - Praha hl. n.,2,0,0,0
@@ -55,9 +55,9 @@ A47,KADR:1004.3df909cd,S4,Praha – Kralupy nad Vltavou – Hněvice,2,0,0,0
 A47,KADR:1004|KADR:1043|KADR:4004.fada9334,S4/S43/U4,Neratovice – Kralupy nad Vltavou - Praha – Kralupy nad Vltavou – Hněvice - Ústí nad Labem hl.n. – Roudnice nad Labem – Hněvice,2,0,0,0
 A47,KADR:1004|KADR:4004.1e40773b,S4/U4,Praha – Kralupy nad Vltavou – Hněvice - Ústí nad Labem hl.n. – Roudnice nad Labem – Hněvice,2,0,0,0
 A47,KADR:1004|KADR:4054.c9d6b73c,S4/U54,Děčín – Hněvice - Praha – Kralupy nad Vltavou – Hněvice,2,0,0,0
-A47,KADR:1005.9f72c1,S45,Praha – Kladno – Kladno-Ostrovec,2,0,0,0
-A47,KADR:1005|KADR:1045.b78b7250,S45,Kralupy nad Vltavou – Kladno - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
-A47,KADR:1005|KADR:1050.a950fed9,S5,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
+A47,KADR:1005.ee077ef,S5,Praha – Kladno – Kladno-Ostrovec,2,0,0,0
+A47,KADR:1005|KADR:1045.c5cc777e,S5,Kralupy nad Vltavou – Kladno - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
+A47,KADR:1005|KADR:1050.9c7e5cc5,S50,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec,2,0,0,0
 A47,KADR:1006.f057b6e9,S6,Praha – Rudná u Prahy – Beroun,2,0,0,0
 A47,KADR:1007.261975dd,S7,Praha – Beroun,2,0,0,0
 A47,KADR:1007.cbc6d604,S7 Berounka,Praha – Beroun,2,0,0,0
@@ -84,9 +84,10 @@ A47,KADR:1030.53bdff85,S30,Všetaty - Mladá Boleslav město,2,0,0,0
 A47,KADR:1030|KADR:1036.a1cc860c,S30/S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Všetaty - Mladá Boleslav město,2,0,0,0
 A47,KADR:1030|KADR:1036.d1846e25,S30,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Všetaty - Mladá Boleslav město,2,0,0,0
 A47,KADR:1031.49cbbd6b,S31,Mladá Boleslav – Nymburk,2,0,0,0
+A47,KADR:1031.4a1232f0,S36,Mladá Boleslav – Nymburk,2,0,0,0
 A47,KADR:1031|KADR:1035.2525ecff,S31,Mladá Boleslav město - Turnov - Mladá Boleslav – Nymburk,2,0,0,0
 A47,KADR:1031|KADR:1035.899644e5,S31/S35,Mladá Boleslav město - Turnov - Mladá Boleslav – Nymburk,2,0,0,0
-A47,KADR:1031|KADR:1036.a956ae4b,S31,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mladá Boleslav – Nymburk,2,0,0,0
+A47,KADR:1031|KADR:1036.a99d23d0,S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mladá Boleslav – Nymburk,2,0,0,0
 A47,KADR:1031|KADR:1036.dd51db2,S31/S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mladá Boleslav – Nymburk,2,0,0,0
 A47,KADR:1032.750ebb52,S32,Štětí – Všetaty – Lysá nad Labem,2,0,0,0
 A47,KADR:1032|KADR:1033.33a0719e,S32/S33,Mělník – Mladá Boleslav - Štětí – Všetaty – Lysá nad Labem,2,0,0,0
@@ -97,7 +98,6 @@ A47,KADR:1033|KADR:1036.beab00fc,S33/S36,Mladá Boleslav hl.n. – Lomnice nad P
 A47,KADR:1035.64ae407f,S35,Mladá Boleslav město - Turnov,2,0,0,0
 A47,KADR:1035|KADR:1143.a70cfc0f,R43/S35 Jizera,Mladá Boleslav město - Turnov - Praha – Neratovice – Mladá Boleslav,2,0,0,0
 A47,KADR:1036.cdfaab0c,S30,Mladá Boleslav hl.n. – Lomnice nad Popelkou,2,0,0,0
-A47,KADR:1036.ce08c28d,S31,Mladá Boleslav hl.n. – Lomnice nad Popelkou,2,0,0,0
 A47,KADR:1036.ce4f3812,S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou,2,0,0,0
 A47,KADR:1040.41c6d01,S40,Kralupy nad Vltavou – Slaný ,2,0,0,0
 A47,KADR:1040|KADR:1043.7f8e5cda,S40/S43,Kralupy nad Vltavou – Slaný  - Neratovice – Kralupy nad Vltavou,2,0,0,0
@@ -106,17 +106,17 @@ A47,KADR:1040|KADR:4040.386399d,S40/U40,Kralupy nad Vltavou – Slaný  - Louny 
 A47,KADR:1042.f495629b,S42,Kralupy nad Vltavou – Lužec nad Vltavou,2,0,0,0
 A47,KADR:1043.c51df322,S43,Neratovice – Kralupy nad Vltavou,2,0,0,0
 A47,KADR:1044.5d0d5909,S44,Kralupy nad Vltavou – Velvary,2,0,0,0
-A47,KADR:1045.51fbf7a5,S45,Kralupy nad Vltavou – Kladno,2,0,0,0
-A47,KADR:1050.d87235e4,S5,Kladno – Rakovník,2,0,0,0
+A47,KADR:1045.603cfcd3,S5,Kralupy nad Vltavou – Kladno,2,0,0,0
+A47,KADR:1050.cb9f93d0,S50,Kladno – Rakovník,2,0,0,0
 A47,KADR:1050|KADR:1057.83c9338d,S50/S57,Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
-A47,KADR:1050|KADR:1057|KADR:1145.5df11e79,S50,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
+A47,KADR:1050|KADR:1057|KADR:1145.279c801e,R45,Kladno – Rakovník - Praha – Kladno – Kladno-Ostrovec - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 A47,KADR:1054.413ca944,S54,Praha – Hostivice – Středokluky – Podlešín – Slaný,2,0,0,0
 A47,KADR:1054|KADR:1065.81fab4a9,S54/S65,Praha – Hostivice – Rudná u Prahy - Praha – Hostivice – Středokluky – Podlešín – Slaný,2,0,0,0
-A47,KADR:1057.9a486dfd,S50,Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
+A47,KADR:1057.63f3cfa2,R45,Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 A47,KADR:1057.9aab1284,S57,Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 A47,KADR:1057.dac2f849,S57,Praha Masaryk. n. - Bečov nad Teplou - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 A47,KADR:1057|KADR:1059.6ed41b82,S57/S59 Hartenštejn,Protivec – Bochov - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
-A47,KADR:1057|KADR:24.5c2f26a,S50,Praha – Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
+A47,KADR:1057|KADR:24.cf6e540f,R45,Praha – Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 A47,KADR:1057|KADR:24.f9ed336,S57,Praha Masaryk. n. - Bečov nad Teplou - Praha – Kladno – Rakovník - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0
 A47,KADR:1059.4280272d,S59,Protivec – Bochov,2,0,0,0
 A47,KADR:1060.b3381238,S60,Beroun – Zdice – Březnice,2,0,0,0
@@ -210,12 +210,12 @@ A47,KADR:3202.87ee8ab7,P2/S70,Hořovice – Rokycany – Plzeň – Klatovy,2,0,
 A47,KADR:3203.6da0f25c,P3,Plzeň – Domažlice město,2,0,0,0
 A47,KADR:3204.b5507c5,P4,Plzeň – Žihle,2,0,0,0
 A47,KADR:3204.bbfe827d,P4,Plzeň hl. n. - Bělá nad Radbuzou - Plzeň – Žihle,2,0,0,0
-A47,KADR:3213.43c45c15,P13,Plzeň – Bezdružice,2,0,0,0
-A47,KADR:3213|KADR:3214.64d0ba2d,P13/P14,Plzeň – Bezdružice - Tachov – Planá u Mariánských Lázní,2,0,0,0
-A47,KADR:3213|KADR:3222.f1c62c69,P13,Plzeň – Bezdružice - Plzeň – Radnice,2,0,0,0
+A47,KADR:3213.456b1d33,P22,Plzeň – Bezdružice,2,0,0,0
+A47,KADR:3213|KADR:3214.faadd2cb,P14/P22,Plzeň – Bezdružice - Tachov – Planá u Mariánských Lázní,2,0,0,0
+A47,KADR:3213|KADR:3222.f36ced87,P22,Plzeň – Bezdružice - Plzeň – Radnice,2,0,0,0
 A47,KADR:3214.1491f0ef,P14,Tachov – Planá u Mariánských Lázní,2,0,0,0
 A47,KADR:3221.84311223,P21,Rokycany – Nezvěstice,2,0,0,0
-A47,KADR:3222.c225a37a,P13,Plzeň – Radnice,2,0,0,0
+A47,KADR:3222.c3cc6498,P22,Plzeň – Radnice,2,0,0,0
 A47,KADR:3224.a723d62b,P24,Klatovy – Železná Ruda-Alžbětín,2,0,0,0
 A47,KADR:3231.c910fbf5,P31,Nýřany – Heřmanova Huť,2,0,0,0
 A47,KADR:3232.9ac91320,P32,Holýšov – Staňkov – Poběžovice,2,0,0,0
@@ -379,12 +379,11 @@ A47,KADR:8001|KADR:8009|KADR:8061.2b79dc63,R61/S1/S9,Opava východ - Ostrava-Svi
 A47,KADR:8001|KADR:8061.52bd71b7,R61/S1,Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova - Opava východ – Ostrava-Svinov,2,0,0,0
 A47,KADR:8002.60b2c466,S2,Ostrava-Svinov - Bohumín - Český Těšín - Mosty u Jablunkova - Mosty u Jablunkova zastávka,2,0,0,0
 A47,KADR:8002.985630c7,S2,Ostrava-Svinov - Bohumín - Český Těšín - Mosty u Jablunkova - Mosty u Jablunkova zastávka - Čadca - Praha hl. n.,2,0,0,0
-A47,KADR:8002|KADR:8003.c840fdaa,S2/S4,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Ostrava-Svinov - Bohumín - Český Těšín - Mosty u Jablunkova - Mosty u Jablunkova zastávka,2,0,0,0
+A47,KADR:8002|KADR:8003.c832e629,S2/S3,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Ostrava-Svinov - Bohumín - Český Těšín - Mosty u Jablunkova - Mosty u Jablunkova zastávka,2,0,0,0
 A47,KADR:8003.11961326,S3,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě,2,0,0,0
-A47,KADR:8003.11a42aa7,S4,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě,2,0,0,0
 A47,KADR:8003|KADR:8004.39239cc6,S3/S4,"Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
-A47,KADR:8003|KADR:8004.bed2ce17,S4,"Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
-A47,KADR:8003|KADR:8008.6031b585,S4/S8,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Ostrava střed - Ostrava hl.n. - Ostrava-Svinov - Studénka - Štramberk - Veřovice,2,0,0,0
+A47,KADR:8003|KADR:8004.bec4b696,S3,"Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
+A47,KADR:8003|KADR:8008.f85088a6,S3/S8,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Ostrava střed - Ostrava hl.n. - Ostrava-Svinov - Studénka - Štramberk - Veřovice,2,0,0,0
 A47,KADR:8003|KADR:8034.1fb21e87,S3/S34,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Suchdol nad Odrou – Nový Jičín město,2,0,0,0
 A47,KADR:8004.489203d3,S4,"Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
 A47,KADR:8004|KADR:8008.e5bd7477,S4/S8,"Ostrava střed - Ostrava hl.n. - Ostrava-Svinov - Studénka - Štramberk - Veřovice - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0
@@ -414,143 +413,132 @@ A47,KADR:8034.8a06dd52,S34,Suchdol nad Odrou – Nový Jičín město,2,0,0,0
 A47,KADR:8061.91827b8d,R61,Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova,2,0,0,0
 A47,KADR:8061.cad019f4,R61 Gorol,Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova,2,0,0,0
 A47,KADR:9.e2fac5e8,R9 Vysočina,Praha – Havlíčkův Brod – Brno / Jihlava,2,0,0,0
-A47,R10087.1c24e5f1,,Jemnice - Moravské Budějovice,2,0,0,0
-A47,R10255.83abf38c,Olza,Zebrzydowice - Bohumín,2,0,0,0
-A47,R10255.869fdbe5,Comenius,Zebrzydowice - Bohumín,2,0,0,0
-A47,R10256.66d9a40d,Olza,Bohumín - Zebrzydowice,2,0,0,0
-A47,R10256.69cd8c66,Comenius,Bohumín - Zebrzydowice,2,0,0,0
-A47,R10258.c28d1eba,Pendolino Košičan,Čadca - Praha hlavní nádraží,2,0,0,0
-A47,R10259.61ca61a5,Pendolino Košičan,Praha hlavní nádraží - Čadca,2,0,0,0
-A47,R10278.9c015b9,,Praha hlavní nádraží - Břeclav,2,0,0,0
-A47,R10279.c667732,,Kúty - Praha hlavní nádraží,2,0,0,0
-A47,R10279.e56aeaff,Slovan,Kúty - Praha hlavní nádraží,2,0,0,0
-A47,R10286.b14a9976,,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
-A47,R10290.bcaa225c,,Aš - Selb-Plößberg,2,0,0,0
-A47,R10294.4d8a9816,,Selb-Plößberg - Aš,2,0,0,0
-A47,R10305.51121bfe,,Bohumín - Chałupki,2,0,0,0
-A47,R10305.7305aa45,Carpatia,Bohumín - Chałupki,2,0,0,0
-A47,R10306.20e3a02,Carpatia,Chałupki - Bohumín,2,0,0,0
-A47,R10306.e01aabbb,,Chałupki - Bohumín,2,0,0,0
-A47,R10307.3bc4390a,Wydmy,Bohumín - Chałupki,2,0,0,0
-A47,R10309.a2b77f40,Slovakia,Čadca - Praha-Michle autovlak,2,0,0,0
-A47,R10310.8aecabea,Slovakia,Praha-Michle autovlak - Čadca,2,0,0,0
-A47,R10311.33db0186,Chopin,Břeclav - Chałupki,2,0,0,0
-A47,R10312.af1e4153,Chopin,Chałupki - Břeclav,2,0,0,0
-A47,R10527.899778c3,,Hohenau - Břeclav,2,0,0,0
-A47,R10528.22f3bae2,,Břeclav - Hohenau,2,0,0,0
-A47,R10592.5ac8e762,,Gmünd NÖ - České Velenice,2,0,0,0
-A47,R10593.9a78d083,,České Velenice - Gmünd NÖ,2,0,0,0
-A47,R10601.8e6c8b09,nightjet,Břeclav - Bad Schandau,2,0,0,0
-A47,R10602.f8249616,nightjet,Bad Schandau - Břeclav,2,0,0,0
-A47,R10694.20e91a2,Opavan,Čadca - Praha hl. n.,2,0,0,0
-A47,R10697.cea82fa1,Pendolino,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-A47,R10698.81bc535c,Pendolino,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
-A47,R10700.d0cc9871,Pendolino,Bohumín - Praha hlavní nádraží,2,0,0,0
-A47,R10701.8f7c9dae,Pendolino,Praha hlavní nádraží - Bohumín,2,0,0,0
-A47,R10709.4d4618f,Colours Expres,Ostrava střed - Praha hlavní nádraží,2,0,0,0
-A47,R10719.8b4774f4,Colours Expres,Praha hlavní nádraží - Ostrava střed,2,0,0,0
-A47,R10951.4cba4967,Dny NATO,"Mošnov, Ostrava Airport - Praha hlavní nádraží",2,0,0,0
-A47,R10952.e9f73c16,Dny NATO,"Praha hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
-A47,R11064.4ba96fec,,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
-A47,R11402.82b82ffe,V6,Pardubice centrum - Jaroměř,2,0,0,0
-A47,R11417.5af523af,,Havlíčkův Brod - Pardubice centrum,2,0,0,0
-A47,R11429.3c0a6e8b,,Havlíčkův Brod - Hlinsko v Č.,2,0,0,0
-A47,R11442.eaab5796,,Ústí nad Orlicí - Letohrad,2,0,0,0
-A47,R11516.9c6d3b8d,Dny NATO,"Mošnov, Ostrava Airport - Olomouc hlavní nádraží",2,0,0,0
-A47,R11598.641d46e0,,Břeclav - Lednice,2,0,0,0
-A47,R11599.1b22ea7f,,Lednice - Břeclav,2,0,0,0
-A47,R11667.e0ad0ee2,Renesance,Jemnice - Moravské Budějovice,2,0,0,0
-A47,R12002.2da2404,CYKLO OHŘE,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
-A47,R12106.caff6d93,Berounka,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
-A47,R12108.ce4ea096,Šumava,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
-A47,R12213.c861b762,Rychmburk,Ústí nad Orlicí - Letohrad,2,0,0,0
-A47,R12627.3af9318f,,Praha-Smíchov - Lužná u Rakovníka,2,0,0,0
-A47,R12628.6023ccae,,Lužná u Rakovníka - Praha-Smíchov,2,0,0,0
-A47,R12645.770652fa,Mikuláš,Dolní Lipka - Letohrad,2,0,0,0
-A47,R12646.1084a46d,Mikuláš,Letohrad - Dolní Lipka,2,0,0,0
-A47,R12759.d24715e4,,Letohrad - Králíky,2,0,0,0
-A47,R12928.ab855229,Vrchlice,Praha-Čakovice - Praha hl. n.,2,0,0,0
-A47,R13123.5a521397,,Tábor - Jihlava,2,0,0,0
-A47,R13184.672de20e,,České Budějovice - Protivín,2,0,0,0
-A47,R13236.7a3c9f58,,Louny předměstí - Osek město,2,0,0,0
-A47,R13242.fc8ba379,,Praha-Čakovice - Praha hl. n.,2,0,0,0
-A47,R13709.5c448a7d,,Praha hlavní nádraží - Dobříš,2,0,0,0
-A47,R14220.cc85e08c,,Summerau - České Budějovice,2,0,0,0
-A47,R14369.fc961acb,Jižní expres,Summerau - České Budějovice,2,0,0,0
-A47,R14493.9ddb4483,S20,Havlíčkův Brod - Kolín,2,0,0,0
-A47,R14646.39e4e318,,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
-A47,R14774.7077cfd1,Párou Posázavím,Praha-Vršovice - Týnec nad Sázavou,2,0,0,0
-A47,R14776.5083f05f,Párou Posázavím,Týnec nad Sázavou - Praha-Vršovice,2,0,0,0
-A47,R15005.ecd9ac05,,Praha Masarykovo nádraží - Lužná u Rakovníka,2,0,0,0
-A47,R15006.b27ab3e8,,Lužná u Rakovníka - Praha Masarykovo nádraží,2,0,0,0
-A47,R15402.d1abf983,Mikuláš,Choceň - Litomyšl,2,0,0,0
-A47,R15403.ffea5568,Mikuláš,Litomyšl - Choceň,2,0,0,0
-A47,R16057.2b341783,Donau Moldau,Summerau - České Budějovice,2,0,0,0
-A47,R16066.2cf0f162,Vltava Dunaj,Summerau - České Budějovice,2,0,0,0
-A47,R16168.7634cb90,,Rybník - Kaplice,2,0,0,0
-A47,R16172.383d3763,,Kaplice - Rybník,2,0,0,0
-A47,R16342.dc33c17,Wydmy,Chałupki - Bohumín,2,0,0,0
-A47,R16529.dc586eb4,,Plzeň hlavní nádraží - Blatno u Jesenice,2,0,0,0
-A47,R16530.c24fe066,,Blatno u Jesenice - Plzeň hlavní nádraží,2,0,0,0
-A47,R16587.8b4a0d6a,,Blatno u Jesenice - Chyše,2,0,0,0
-A47,R16587.d8201b8f,Velikonoční vlak,Blatno u Jesenice - Chyše,2,0,0,0
-A47,R16588.b7c64ae,Velikonoční vlak,Chyše - Blatno u Jesenice,2,0,0,0
-A47,R16588.bea65689,,Chyše - Blatno u Jesenice,2,0,0,0
-A47,R16589.5263e203,Velikonoční vlak,Blatno u Jesenice - Jesenice,2,0,0,0
-A47,R16589.58dd3de,,Blatno u Jesenice - Jesenice,2,0,0,0
-A47,R16590.1f30dfa5,Velikonoční vlak,Jesenice - Blatno u Jesenice,2,0,0,0
-A47,R16590.d25ad180,,Jesenice - Blatno u Jesenice,2,0,0,0
-A47,R16591.85734fe0,,Blatno u Jesenice - Petrohrad,2,0,0,0
-A47,R16592.96b9697f,,Petrohrad - Blatno u Jesenice,2,0,0,0
-A47,R16593.b26349c3,,Blatno u Jesenice - Mladotice,2,0,0,0
-A47,R16594.e84b9ee2,,Mladotice - Blatno u Jesenice,2,0,0,0
-A47,R16596.3313d3cf,,Blatno u Jesenice - Žihle,2,0,0,0
-A47,R16597.e9e39d6e,,Žihle - Blatno u Jesenice,2,0,0,0
-A47,R16797.dac3cfd6,,"Vyškov na Moravě - Mošnov, Ostrava Airport",2,0,0,0
-A47,R16799.6f16c366,,"Olomouc hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
-A47,R16945.60feeebd,,Veselí nad Lužnicí - Jihlava,2,0,0,0
-A47,R16946.4a16a299,,Jindřichův Hradec - Veselí nad Lužnicí,2,0,0,0
-A47,R16948.1fcc24ed,,Jihlava - Jindřichův Hradec,2,0,0,0
-A47,R16949.1cbae4dd,,Jindřichův Hradec - Tábor,2,0,0,0
-A47,R16950.321985fe,,Tábor - Chotoviny,2,0,0,0
-A47,R16953.8ee8d05b,,Chotoviny - Tábor,2,0,0,0
-A47,R16956.71cb5cc9,,Jihlava - Veselí nad Lužnicí,2,0,0,0
-A47,R16958.9f909675,Slovan,Břeclav - Praha hlavní nádraží,2,0,0,0
-A47,R16971.e87facfc,Slovan,Praha hlavní nádraží - Kúty,2,0,0,0
-A47,R16972.294a49eb,Slovan,Praha hlavní nádraží - Břeclav,2,0,0,0
-A47,R16977.b518cf6,,Dobříš - Čisovice,2,0,0,0
-A47,R16978.d11b1f85,,Čisovice - Dobříš,2,0,0,0
-A47,R16979.a989bdad,,Dobříš - Měchenice,2,0,0,0
-A47,R16980.7a8716a8,,Měchenice - Mníšek pod Brdy,2,0,0,0
-A47,R16981.c783170c,,Mníšek pod Brdy - Čisovice,2,0,0,0
-A47,R16982.2db45147,,Čisovice - Mníšek pod Brdy,2,0,0,0
-A47,R16983.d7352449,,Mníšek pod Brdy - Praha hlavní nádraží,2,0,0,0
-A47,R17076.a6ff837d,Dny NATO,"Mošnov, Ostrava Airport - Brno hlavní nádraží",2,0,0,0
-A47,R17077.acf667dc,Dny NATO,"Brno hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
-A47,R17125.4e5fa6a6,,Velká Bystřice - Olomouc hlavní nádraží,2,0,0,0
-A47,R17126.4d3b2ab2,,Olomouc-Řepčín - Velká Bystřice,2,0,0,0
-A47,R17127.9d84d7b3,,Velká Bystřice - Olomouc-Řepčín,2,0,0,0
-A47,R17130.1275a569,,Olomouc hlavní nádraží - Olomouc-Řepčín,2,0,0,0
-A47,R17131.ec07eb4a,,Olomouc-Řepčín - Olomouc hlavní nádraží,2,0,0,0
-A47,R17134.c96178a4,,Olomouc hlavní nádraží - Velká Bystřice,2,0,0,0
-A47,R17184.79eae4ef,Berounka,Praha-Čakovice - Praha hl. n.,2,0,0,0
-A47,R17201.4f962757,,Velký Osek - Nymburk hlavní nádraží,2,0,0,0
-A47,R17205.87c4ed5b,,Ostrava střed - Frýdek-Místek,2,0,0,0
-A47,R17206.402239fa,,Frýdek-Místek - Ostrava střed,2,0,0,0
-A47,R17207.ce7ceb84,,Ostrava střed - Havířov,2,0,0,0
-A47,R17208.75a5a4a3,,Havířov - Ostrava střed,2,0,0,0
-A47,R17226.e3493dd0,,Brno hlavní nádraží - Ivančice,2,0,0,0
-A47,R17227.6899802e,,Jihlava - Pardubice hlavní nádraží,2,0,0,0
-A47,R17228.e7bde5f4,,Pardubice hlavní nádraží - Brno hlavní nádraží,2,0,0,0
-A47,R17281.1129719,,Moravský Krumlov - Brno hlavní nádraží,2,0,0,0
-A47,R17290.a805f721,,Brno hlavní nádraží - Moravský Krumlov,2,0,0,0
-A47,R17319.265c4498,,Tábor - České Velenice,2,0,0,0
-A47,R17320.e435be29,,České Velenice - Třeboň,2,0,0,0
-A47,R17322.26fa6183,,Třeboň - České Velenice,2,0,0,0
-A47,R17323.4d025575,,České Velenice - České Budějovice,2,0,0,0
-A47,R17324.badedba0,,České Budějovice - Zliv,2,0,0,0
-A47,R17325.ec7eec45,,Zliv - České Budějovice,2,0,0,0
-A47,R17326.2d5659f0,,České Budějovice - České Velenice,2,0,0,0
+A47,R10042.4003bdd2,,Jemnice - Moravské Budějovice,2,0,0,0
+A47,R10210.a78acb6d,Olza,Zebrzydowice - Bohumín,2,0,0,0
+A47,R10210.aa7eb3c6,Comenius,Zebrzydowice - Bohumín,2,0,0,0
+A47,R10211.8ab87bee,Olza,Bohumín - Zebrzydowice,2,0,0,0
+A47,R10211.8dac6447,Comenius,Bohumín - Zebrzydowice,2,0,0,0
+A47,R10213.e66bf69b,Pendolino Košičan,Čadca - Praha hlavní nádraží,2,0,0,0
+A47,R10214.85a93986,Pendolino Košičan,Praha hlavní nádraží - Čadca,2,0,0,0
+A47,R10233.2d9eed9a,,Praha hlavní nádraží - Břeclav,2,0,0,0
+A47,R10234.30454f13,,Kúty - Praha hlavní nádraží,2,0,0,0
+A47,R10234.949c2e0,Slovan,Kúty - Praha hlavní nádraží,2,0,0,0
+A47,R10241.d5297157,,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
+A47,R10245.bcb33532,,Aš - Selb-Plößberg,2,0,0,0
+A47,R10249.4d93aaec,,Selb-Plößberg - Aš,2,0,0,0
+A47,R10260.1e0e178a,,Bohumín - Chałupki,2,0,0,0
+A47,R10260.4001a5d1,Carpatia,Bohumín - Chałupki,2,0,0,0
+A47,R10261.ad16a747,,Chałupki - Bohumín,2,0,0,0
+A47,R10261.cf0a358e,Carpatia,Chałupki - Bohumín,2,0,0,0
+A47,R10262.8c03496,Wydmy,Bohumín - Chałupki,2,0,0,0
+A47,R10264.6fb37acc,Slovakia,Čadca - Praha-Michle autovlak,2,0,0,0
+A47,R10265.3412e26b,Slovakia,Praha-Michle autovlak - Čadca,2,0,0,0
+A47,R10266.dd013807,Chopin,Břeclav - Chałupki,2,0,0,0
+A47,R10267.584477d4,Chopin,Chałupki - Břeclav,2,0,0,0
+A47,R10482.5693744f,,Hohenau - Břeclav,2,0,0,0
+A47,R10483.efefb66e,,Břeclav - Hohenau,2,0,0,0
+A47,R10547.5ad1fa38,,Gmünd NÖ - České Velenice,2,0,0,0
+A47,R10548.9a81e359,,České Velenice - Gmünd NÖ,2,0,0,0
+A47,R10556.3792c18a,nightjet,Břeclav - Bad Schandau,2,0,0,0
+A47,R10557.a14acc97,nightjet,Bad Schandau - Břeclav,2,0,0,0
+A47,R10649.217a478,Opavan,Čadca - Praha hl. n.,2,0,0,0
+A47,R10652.f2870782,Pendolino,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+A47,R10653.a59b2b3d,Pendolino,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
+A47,R10655.79f2cef2,Pendolino,Bohumín - Praha hlavní nádraží,2,0,0,0
+A47,R10656.38a2d42f,Pendolino,Praha hlavní nádraží - Bohumín,2,0,0,0
+A47,R10664.d1d05d1b,Colours Expres,Ostrava střed - Praha hlavní nádraží,2,0,0,0
+A47,R10674.58437080,Colours Expres,Praha hlavní nádraží - Ostrava střed,2,0,0,0
+A47,R10906.4cc35c3d,Dny NATO,"Mošnov, Ostrava Airport - Praha hlavní nádraží",2,0,0,0
+A47,R10907.ea004eec,Dny NATO,"Praha hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
+A47,R11019.4bb282c2,,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+A47,R11357.2bde667f,V6,Pardubice centrum - Jaroměř,2,0,0,0
+A47,R11372.27f11f3b,,Havlíčkův Brod - Pardubice centrum,2,0,0,0
+A47,R11384.9066a17,,Havlíčkův Brod - Hlinsko v Č.,2,0,0,0
+A47,R11397.93d18e17,,Ústí nad Orlicí - Letohrad,2,0,0,0
+A47,R11471.69693719,Dny NATO,"Mošnov, Ostrava Airport - Olomouc hlavní nádraží",2,0,0,0
+A47,R11553.87fc1ec1,,Břeclav - Lednice,2,0,0,0
+A47,R11554.3f01c260,,Lednice - Břeclav,2,0,0,0
+A47,R11622.48be6c3,Renesance,Jemnice - Moravské Budějovice,2,0,0,0
+A47,R11957.2687ac3a,CYKLO OHŘE,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
+A47,R12061.97fb691f,Berounka,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+A47,R12063.9b4a9c22,Šumava,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+A47,R12168.7187ede3,Rychmburk,Ústí nad Orlicí - Letohrad,2,0,0,0
+A47,R12582.7f52d1b,,Praha-Smíchov - Lužná u Rakovníka,2,0,0,0
+A47,R12583.2d1fc83a,,Lužná u Rakovníka - Praha-Smíchov,2,0,0,0
+A47,R12600.9ae52adb,Mikuláš,Dolní Lipka - Letohrad,2,0,0,0
+A47,R12601.34637c4e,Mikuláš,Letohrad - Dolní Lipka,2,0,0,0
+A47,R12714.f625edc5,,Letohrad - Králíky,2,0,0,0
+A47,R12883.78814db5,Vrchlice,Praha-Čakovice - Praha hl. n.,2,0,0,0
+A47,R13078.3784a18,,Tábor - Jihlava,2,0,0,0
+A47,R13139.6736f4e4,,České Budějovice - Protivín,2,0,0,0
+A47,R13191.47389ae4,,Louny předměstí - Osek město,2,0,0,0
+A47,R13197.a5b1d9fa,,Praha-Čakovice - Praha hl. n.,2,0,0,0
+A47,R13664.29408609,,Praha hlavní nádraží - Dobříš,2,0,0,0
+A47,R14175.75ac170d,,Summerau - České Budějovice,2,0,0,0
+A47,R14324.2074f2ac,Jižní expres,Summerau - České Budějovice,2,0,0,0
+A47,R14448.9de45759,S20,Havlíčkův Brod - Kolín,2,0,0,0
+A47,R14601.5dc3baf9,,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
+A47,R14729.7080e2a7,Párou Posázavím,Praha-Vršovice - Týnec nad Sázavou,2,0,0,0
+A47,R14731.7462c840,Párou Posázavím,Týnec nad Sázavou - Praha-Vršovice,2,0,0,0
+A47,R15357.7ad23004,Mikuláš,Choceň - Litomyšl,2,0,0,0
+A47,R15358.a9108be9,Mikuláš,Litomyšl - Choceň,2,0,0,0
+A47,R16012.4f12ef64,Donau Moldau,Summerau - České Budějovice,2,0,0,0
+A47,R16021.50cfc943,Vltava Dunaj,Summerau - České Budějovice,2,0,0,0
+A47,R16123.9a13a371,,Rybník - Kaplice,2,0,0,0
+A47,R16297.b6e97298,Wydmy,Chałupki - Bohumín,2,0,0,0
+A47,R16484.a9546a40,,Plzeň hlavní nádraží - Blatno u Jesenice,2,0,0,0
+A47,R16485.6b7616e7,,Blatno u Jesenice - Plzeň hlavní nádraží,2,0,0,0
+A47,R16542.af28e54b,,Blatno u Jesenice - Chyše,2,0,0,0
+A47,R16542.fbfef370,Velikonoční vlak,Blatno u Jesenice - Chyše,2,0,0,0
+A47,R16543.2f5b3c8f,Velikonoční vlak,Chyše - Blatno u Jesenice,2,0,0,0
+A47,R16543.e2852e6a,,Chyše - Blatno u Jesenice,2,0,0,0
+A47,R16544.296cabbf,,Blatno u Jesenice - Jesenice,2,0,0,0
+A47,R16544.7642b9e4,Velikonoční vlak,Blatno u Jesenice - Jesenice,2,0,0,0
+A47,R16545.1f39f27b,Velikonoční vlak,Jesenice - Blatno u Jesenice,2,0,0,0
+A47,R16545.d263e456,,Jesenice - Blatno u Jesenice,2,0,0,0
+A47,R16546.857c62b6,,Blatno u Jesenice - Petrohrad,2,0,0,0
+A47,R16547.96c27c55,,Petrohrad - Blatno u Jesenice,2,0,0,0
+A47,R16548.b26c5c99,,Blatno u Jesenice - Mladotice,2,0,0,0
+A47,R16549.e854b1b8,,Mladotice - Blatno u Jesenice,2,0,0,0
+A47,R16551.56f2abb0,,Blatno u Jesenice - Žihle,2,0,0,0
+A47,R16552.dc2754f,,Žihle - Blatno u Jesenice,2,0,0,0
+A47,R16752.fea2a7b7,,"Vyškov na Moravě - Mošnov, Ostrava Airport",2,0,0,0
+A47,R16754.92f59b47,,"Olomouc hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
+A47,R16900.84ddc69e,,Veselí nad Lužnicí - Jihlava,2,0,0,0
+A47,R16901.6df57a7a,,Jindřichův Hradec - Veselí nad Lužnicí,2,0,0,0
+A47,R16903.43aafcce,,Jihlava - Jindřichův Hradec,2,0,0,0
+A47,R16904.4099bcbe,,Jindřichův Hradec - Tábor,2,0,0,0
+A47,R16905.322298d4,,Tábor - Chotoviny,2,0,0,0
+A47,R16908.8ef1e331,,Chotoviny - Tábor,2,0,0,0
+A47,R16911.95aa34aa,,Jihlava - Veselí nad Lužnicí,2,0,0,0
+A47,R16913.c36f6e56,Slovan,Břeclav - Praha hlavní nádraží,2,0,0,0
+A47,R16926.e888bfd2,Slovan,Praha hlavní nádraží - Kúty,2,0,0,0
+A47,R16927.29535cc1,Slovan,Praha hlavní nádraží - Břeclav,2,0,0,0
+A47,R16932.2f3064d7,,Dobříš - Čisovice,2,0,0,0
+A47,R16933.f4f9f766,,Čisovice - Dobříš,2,0,0,0
+A47,R16934.cd68958e,,Dobříš - Měchenice,2,0,0,0
+A47,R16935.7a90297e,,Měchenice - Mníšek pod Brdy,2,0,0,0
+A47,R16936.c78c29e2,,Mníšek pod Brdy - Čisovice,2,0,0,0
+A47,R16937.2dbd641d,,Čisovice - Mníšek pod Brdy,2,0,0,0
+A47,R16938.d73e371f,,Mníšek pod Brdy - Praha hlavní nádraží,2,0,0,0
+A47,R17031.cade5b5e,Dny NATO,"Mošnov, Ostrava Airport - Brno hlavní nádraží",2,0,0,0
+A47,R17032.d0d53fbd,Dny NATO,"Brno hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0
+A47,R17139.79f3f7c5,Berounka,Praha-Čakovice - Praha hl. n.,2,0,0,0
+A47,R17156.f8bc5dd8,,Velký Osek - Nymburk hlavní nádraží,2,0,0,0
+A47,R17160.54c0e8e7,,Ostrava střed - Frýdek-Místek,2,0,0,0
+A47,R17161.d1e3586,,Frýdek-Místek - Ostrava střed,2,0,0,0
+A47,R17162.9b78e710,,Ostrava střed - Havířov,2,0,0,0
+A47,R17163.42a1a02f,,Havířov - Ostrava střed,2,0,0,0
+A47,R17181.b045395c,,Brno hlavní nádraží - Ivančice,2,0,0,0
+A47,R17236.11ba9ef,,Moravský Krumlov - Brno hlavní nádraží,2,0,0,0
+A47,R17245.a80f09f7,,Brno hlavní nádraží - Moravský Krumlov,2,0,0,0
+A47,R17274.f3584024,,Tábor - České Velenice,2,0,0,0
+A47,R17275.8d5bf4aa,,České Velenice - Třeboň,2,0,0,0
+A47,R17277.d0209804,,Třeboň - České Velenice,2,0,0,0
+A47,R17278.f6288bf6,,České Velenice - České Budějovice,2,0,0,0
+A47,R17279.64051221,,České Budějovice - Zliv,2,0,0,0
+A47,R17280.b97ae7d1,,Zliv - České Budějovice,2,0,0,0
+A47,R17281.fa52557c,,České Budějovice - České Velenice,2,0,0,0
 A48,KADR:1058.31b37cad,S58,Rakovník - Kralovice u Rakovníka,2,0,0,0
 A48,KADR:1058|KADR:4012.1896f57d,S58/U12/U14,Rakovník - Kralovice u Rakovníka - Rakovník – Louny – Most – Osek město,2,0,0,0
 A48,KADR:1058|KADR:4014.d7e80ee1,S58/U14,Jirkov - Chomutov - Lužná u Rakovníka – Rakovník - Rakovník - Kralovice u Rakovníka,2,0,0,0
@@ -567,77 +555,70 @@ A48,KADR:5024.3d4226df,L24 Mácháč,Liberec – Doksy,2,0,0,0
 A48,KADR:5024.463e6ae7,L24 Údolská pouť,Liberec – Doksy,2,0,0,0
 A48,KADR:5902.24578e6e,RE2 Vánoční kometa,Liberec – Zittau – Dresden,2,0,0,0
 A48,KADR:5902.76bbef23,RE2,Liberec – Zittau – Dresden,2,0,0,0
-A48,R14875.3da9a804,,Louny - Rakovník,2,0,0,0
-A48,R9493.2f918773,,Rakovník - Kolešovice,2,0,0,0
-A48,R9494.d694dda0,,Kolešovice - Rakovník,2,0,0,0
-A48,R9495.a9060128,,Rakovník - Louny,2,0,0,0
-A48,R9497.57679afc,,Rakovník - Budyně nad Ohří,2,0,0,0
-A48,R9498.339e2c43,,Budyně nad Ohří - Rakovník,2,0,0,0
+A48,R14830.61887fe5,,Louny - Rakovník,2,0,0,0
+A48,R9448.2f9a9a49,,Rakovník - Kolešovice,2,0,0,0
+A48,R9449.d69df076,,Kolešovice - Rakovník,2,0,0,0
+A48,R9450.cce4d909,,Rakovník - Louny,2,0,0,0
+A48,R9452.7b4672dd,,Rakovník - Budyně nad Ohří,2,0,0,0
+A48,R9453.577d0424,,Budyně nad Ohří - Rakovník,2,0,0,0
 A50,KADR:4103.c5d1ddc0,T3,Ústí n.L. – Velké Březno,2,0,0,0
 A50,KADR:8018.d3f1af90,S18,Bruntál – Malá Morávka,2,0,0,0
-A50,R15298.abb8b0fc,,Jaroměř - Hněvčeves,2,0,0,0
-A50,R15299.a63cb19b,,Hněvčeves - Jaroměř,2,0,0,0
-A50,R15456.8d55c053,,Pardubice centrum - Ostroměř,2,0,0,0
-A50,R15457.495305e,,Ostroměř - Pardubice centrum,2,0,0,0
-A50,R16358.62d8d99c,,Pardubice centrum - Slatiňany,2,0,0,0
-A50,R16359.e06e763b,,Slatiňany - Pardubice centrum,2,0,0,0
-A50,R16559.e12487c2,,Pardubice centrum - Předhradí,2,0,0,0
-A50,R16560.4c2afbf4,,Předhradí - Skuteč,2,0,0,0
-A50,R16561.30cd4aa9,,Skuteč - Předhradí,2,0,0,0
-A50,R16562.3606dc2a,,Předhradí - Pardubice centrum,2,0,0,0
-A50,R17331.77886ad8,,Brno hlavní nádraží - Ivančice,2,0,0,0
-A50,R17332.10411e11,,Ivančice - Brno hlavní nádraží,2,0,0,0
-A50,R17369.9b523526,,Meziměstí - Broumov,2,0,0,0
-A50,R17370.b6ec6650,,Broumov - Meziměstí,2,0,0,0
-A50,R17371.a5538e28,,Meziměstí - Teplice nad Metují,2,0,0,0
-A50,R17372.40827ebf,,Teplice nad Metují - Meziměstí,2,0,0,0
-A50,R17374.3f28114a,,Karlovy Vary dolní nádraží - Chyše,2,0,0,0
-A50,R17375.b97e5039,,Chyše - Bochov,2,0,0,0
-A50,R17381.be3b2c94,,Bochov - Chyše,2,0,0,0
-A50,R17382.f13cd38f,,Chyše - Žlutice,2,0,0,0
-A50,R9533.1ebccdf6,,Turnov - Mnichovo Hradiště,2,0,0,0
-A50,R9534.77b8df94,,Mnichovo Hradiště - Lomnice nad Popelkou,2,0,0,0
-A50,R9535.4a4debb0,,Lomnice nad Popelkou - Libuň,2,0,0,0
-A50,R9536.dffee3b9,,Libuň - Lomnice nad Popelkou,2,0,0,0
-A50,R9537.33114d1e,,Lomnice nad Popelkou - Turnov,2,0,0,0
-A51,R9538.5f96ac3e,,Kořenov - Tanvald,2,0,0,0
-A51,R9539.5a28fc2e,,Tanvald - Harrachov,2,0,0,0
-A51,R9540.f0f14437,,Harrachov - Kořenov,2,0,0,0
-A51,R9541.39f94a96,,Kořenov - Harrachov,2,0,0,0
-A51,R9542.806626d6,,Harrachov - Tanvald,2,0,0,0
-A51,R9543.6b132724,,Tanvald - Kořenov,2,0,0,0
+A50,R15253.cf9788dd,,Jaroměř - Hněvčeves,2,0,0,0
+A50,R15254.ca1b897c,,Hněvčeves - Jaroměř,2,0,0,0
+A50,R15411.b1349834,,Pardubice centrum - Ostroměř,2,0,0,0
+A50,R15412.2874083f,,Ostroměř - Pardubice centrum,2,0,0,0
+A50,R16514.5035fa3,,Pardubice centrum - Předhradí,2,0,0,0
+A50,R16515.4c340eca,,Předhradí - Skuteč,2,0,0,0
+A50,R16516.30d65d7f,,Skuteč - Předhradí,2,0,0,0
+A50,R16517.360fef00,,Předhradí - Pardubice centrum,2,0,0,0
+A50,R17286.20aea159,,Brno hlavní nádraží - Ivančice,2,0,0,0
+A50,R17287.b9675492,,Ivančice - Brno hlavní nádraží,2,0,0,0
+A50,R17324.bf310d07,,Meziměstí - Broumov,2,0,0,0
+A50,R17325.b6f57926,,Broumov - Meziměstí,2,0,0,0
+A50,R17326.a55ca0fe,,Meziměstí - Teplice nad Metují,2,0,0,0
+A50,R17327.408b9195,,Teplice nad Metují - Meziměstí,2,0,0,0
+A50,R9488.c7e30477,,Turnov - Mnichovo Hradiště,2,0,0,0
+A50,R9489.20df1615,,Mnichovo Hradiště - Lomnice nad Popelkou,2,0,0,0
+A50,R9490.1749e73c,,Lomnice nad Popelkou - Libuň,2,0,0,0
+A50,R9491.acfadf45,,Libuň - Lomnice nad Popelkou,2,0,0,0
+A50,R9492.d48aa,,Lomnice nad Popelkou - Turnov,2,0,0,0
+A51,R9493.2c92a7ca,,Kořenov - Tanvald,2,0,0,0
+A51,R9494.2724f7ba,,Tanvald - Harrachov,2,0,0,0
+A51,R9495.9a177ab8,,Harrachov - Kořenov,2,0,0,0
+A51,R9496.e31f8117,,Kořenov - Harrachov,2,0,0,0
+A51,R9497.298c5d57,,Harrachov - Tanvald,2,0,0,0
+A51,R9498.14395da5,,Tanvald - Kořenov,2,0,0,0
 A52,KADR:1049.443f59a0,S49,Praha-Hostivař – Praha-Libeň – Roztoky u Prahy,2,0,0,0
 A52,KADR:1061.2318b845,S61,(Praha-Vršovice –) Praha hl.n. – Úvaly,2,0,0,0
 A52,KADR:23.e6eaa860,R23 RegioJet,Kolín – Všetaty – Ústí nad Labem,2,0,0,0
 A52,KADR:8.a2142ede,R8 RegioJet,Brno – Vyškov – Přerov – Bohumín,2,0,0,0
 A52,KADR:8.d93e862b,R8,Brno – Vyškov – Přerov – Bohumín,2,0,0,0
-A52,R11217.3b565b4f,RegioJet,Praha-Zahradní Město - Návsí,2,0,0,0
-A52,R11217.e4ab1f30,,Praha-Zahradní Město - Návsí,2,0,0,0
-A52,R11218.2f0c1dc,,Praha-Zahradní Město - Havířov,2,0,0,0
-A52,R11218.599bfdfb,RegioJet,Praha-Zahradní Město - Havířov,2,0,0,0
-A52,R11219.c4e9625d,RegioJet,Praha-Zahradní Město - Čadca,2,0,0,0
-A52,R11220.a791e928,RegioJet,Praha-Zahradní Město - Opava východ,2,0,0,0
-A52,R11221.de8db97f,RegioJet,Praha-Zahradní Město - Bohumín,2,0,0,0
-A52,R11223.5b1d711c,,Praha-Zahradní Město - Brno hlavní nádraží,2,0,0,0
-A52,R11230.93ff27cc,RegioJet,Návsí - Praha-Zahradní Město,2,0,0,0
-A52,R11231.1b0520fe,RegioJet,Havířov - Praha-Zahradní Město,2,0,0,0
-A52,R11232.78d3f93a,RegioJet,Čadca - Praha-Zahradní Město,2,0,0,0
-A52,R11518.18d1c0c0,,Návsí - Praha-Zahradní Město,2,0,0,0
-A52,R11519.75578af7,RegioJet,Opava východ - Praha-Zahradní Město,2,0,0,0
-A52,R11522.f037fa55,RegioJet,Břeclav - Praha-Zahradní Město,2,0,0,0
-A52,R11523.50436ac3,,Praha-Zahradní Město - Břeclav,2,0,0,0
-A52,R11523.a6eea6e2,RegioJet,Praha-Zahradní Město - Břeclav,2,0,0,0
-A52,R11806.5f4892b6,RegioJet,Brno hlavní nádraží - Praha-Zahradní Město,2,0,0,0
-A52,R12895.f59f7ed1,RegioJet,Ostrava hlavní nádraží - Chałupki,2,0,0,0
-A52,R12896.6dde3df4,RegioJet,Chałupki - Ostrava hlavní nádraží,2,0,0,0
-A52,R12966.2683e158,RegioJet,Praha hlavní nádraží - Čadca,2,0,0,0
-A52,R13606.a836fbea,RegioJet,Čadca - Praha hlavní nádraží,2,0,0,0
-A52,R13921.1353a4a2,RegioJet,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-A52,R13929.d259b4b6,RegioJet,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
-A52,R17384.42ead57f,RegioJet,Bohumín - Ostrava-Svinov,2,0,0,0
-A52,R9553.d06488d3,,Praha hlavní nádraží - Čadca,2,0,0,0
-A52,R9554.6c5ddda,,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-A52,R9555.e23e6fb2,RegioJet,Bohumín - Praha-Zahradní Město,2,0,0,0
+A52,R11172.85256db,RegioJet,Praha-Zahradní Město - Návsí,2,0,0,0
+A52,R11172.b1a71abc,,Praha-Zahradní Město - Návsí,2,0,0,0
+A52,R11173.2697f987,RegioJet,Praha-Zahradní Město - Havířov,2,0,0,0
+A52,R11173.cfecbd68,,Praha-Zahradní Město - Havířov,2,0,0,0
+A52,R11174.91e55de9,RegioJet,Praha-Zahradní Město - Čadca,2,0,0,0
+A52,R11175.50b81fa9,RegioJet,Praha-Zahradní Město - Opava východ,2,0,0,0
+A52,R11176.87b3f000,RegioJet,Praha-Zahradní Město - Bohumín,2,0,0,0
+A52,R11178.443a79d,,Praha-Zahradní Město - Brno hlavní nádraží,2,0,0,0
+A52,R11185.3d255e4d,RegioJet,Návsí - Praha-Zahradní Město,2,0,0,0
+A52,R11186.c42b577f,RegioJet,Havířov - Praha-Zahradní Město,2,0,0,0
+A52,R11187.21fa2fbb,RegioJet,Čadca - Praha-Zahradní Město,2,0,0,0
+A52,R11473.e5cdbc4c,,Návsí - Praha-Zahradní Město,2,0,0,0
+A52,R11474.42538683,RegioJet,Opava východ - Praha-Zahradní Město,2,0,0,0
+A52,R11477.995e30d6,RegioJet,Břeclav - Praha-Zahradní Město,2,0,0,0
+A52,R11478.5014dd63,RegioJet,Praha-Zahradní Město - Břeclav,2,0,0,0
+A52,R11478.f969a144,,Praha-Zahradní Město - Břeclav,2,0,0,0
+A52,R11761.2c448e42,RegioJet,Brno hlavní nádraží - Praha-Zahradní Město,2,0,0,0
+A52,R12850.197e56b2,RegioJet,Ostrava hlavní nádraží - Chałupki,2,0,0,0
+A52,R12851.91bd15d5,RegioJet,Chałupki - Ostrava hlavní nádraží,2,0,0,0
+A52,R12921.4a62b939,RegioJet,Praha hlavní nádraží - Čadca,2,0,0,0
+A52,R13561.7532f776,RegioJet,Čadca - Praha hlavní nádraží,2,0,0,0
+A52,R13876.bc79db23,RegioJet,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+A52,R13884.9f55b042,RegioJet,Ostrava hlavní nádraží - Praha hlavní nádraží,2,0,0,0
+A52,R9508.d06d9ba9,,Praha hlavní nádraží - Čadca,2,0,0,0
+A52,R9509.6cef0b0,,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+A52,R9510.61d4793,RegioJet,Bohumín - Praha-Zahradní Město,2,0,0,0
 A53,KADR:14.6b33b81e,R14,Pardubice – Hradec Králové – Turnov – Liberec,2,0,0,0
 A53,KADR:21.f9405d47,R21,Praha – Mladá Boleslav – Turnov – Tanvald,2,0,0,0
 A53,KADR:22.cdcb511b,R22,Kolín – Mladá Boleslav – Česká Lípa – Rumburk (– Šluknov),2,0,0,0
@@ -659,65 +640,58 @@ A53,KADR:7223.1f1b60dc,S23,Vsetín – Velké Karlovice,2,0,0,0
 A53,KADR:7250.506a70d6,Sp5,Staré Město u Uherského Hradiště – Uherské Hradiště – Újezdec u Luhačovic – Bojkovice – Bylnice,2,0,0,0
 A53,KADR:7253.87e6e631,S53,(Uherský Brod –) Újezdec u Luhačovic – Luhačovice,2,0,0,0
 A53,KADR:94.cc2a37d3,R14,Ústí nad Labem – Česká Lípa – Liberec,2,0,0,0
-A53,R13458.dd4b3d87,,Lúky pod Makytou - Horní Lideč,2,0,0,0
-A53,R13729.a8d3b457,,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
-A53,R14267.dd57a090,,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
-A53,R15271.c8cb79f,,Hodonín - Veselí nad Moravou,2,0,0,0
-A53,R15535.a01fc629,Expres-Pálava-Podyjí,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
-A53,R15553.c40fb44e,Expres Pálava-Podyjí ,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
-A53,R17313.8f2cc654,,Horní Lideč - Bylnice,2,0,0,0
-A54,R13106.e9a6c590,,Letohrad - Králíky,2,0,0,0
-A54,R9562.2ab2c633,,Ústí nad Orlicí - Letohrad,2,0,0,0
-A54,R9574.e78a8ad2,,Lichkov - Międzylesie,2,0,0,0
-A54,R9575.948b9cf1,,Międzylesie - Lichkov,2,0,0,0
-A55,R14050.61a4ee8d,Leo Express,Bohumín - Praha hlavní nádraží,2,0,0,0
-A55,R14088.caf991e6,Leo Express,Praha hlavní nádraží - Bohumín,2,0,0,0
-A55,R15394.6fa19f85,,Bohumín - Praha hlavní nádraží,2,0,0,0
-A55,R15897.27a3e576,,Čadca - Praha hlavní nádraží,2,0,0,0
-A55,R15962.5cf0db36,,Břeclav - Praha hlavní nádraží,2,0,0,0
-A55,R16519.f1f9f5f5,,Praha hlavní nádraží - Bohumín,2,0,0,0
-A55,R9860.4d3d165,Leo Express,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
-A55,R9870.6dfe9839,,Praha hlavní nádraží - Břeclav,2,0,0,0
-A55,R9871.6e6ad4b7,,Praha hlavní nádraží - Čadca,2,0,0,0
-A55,R9873.58e0f186,,Čadca - Ostrava-Svinov,2,0,0,0
+A53,R13413.12a1568,,Lúky pod Makytou - Horní Lideč,2,0,0,0
+A53,R13684.75cfafe3,,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
+A53,R14222.1367871,,Plzeň hl. n. - Bělá nad Radbuzou,2,0,0,0
+A53,R15226.c95ca75,,Hodonín - Veselí nad Moravou,2,0,0,0
+A53,R15490.6d1bc1b5,Expres-Pálava-Podyjí,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
+A53,R15508.c418c724,Expres Pálava-Podyjí ,Javorník nad Veličkou zastávka - Hodonín,2,0,0,0
+A53,R17268.3852fcd5,,Horní Lideč - Bylnice,2,0,0,0
+A54,R13061.b6a2c11c,,Letohrad - Králíky,2,0,0,0
+A54,R9517.2abbd909,,Ústí nad Orlicí - Letohrad,2,0,0,0
+A54,R9529.e7939da8,,Lichkov - Międzylesie,2,0,0,0
+A54,R9530.b86a74d2,,Międzylesie - Lichkov,2,0,0,0
+A55,R14005.61ae0163,Leo Express,Bohumín - Praha hlavní nádraží,2,0,0,0
+A55,R14043.eed869c7,Leo Express,Praha hlavní nádraží - Bohumín,2,0,0,0
+A55,R15349.6faab25b,,Bohumín - Praha hlavní nádraží,2,0,0,0
+A55,R15852.4b82bd57,,Čadca - Praha hlavní nádraží,2,0,0,0
+A55,R15917.5cf9ee0c,,Břeclav - Praha hlavní nádraží,2,0,0,0
+A55,R16474.bef5f181,,Praha hlavní nádraží - Bohumín,2,0,0,0
+A55,R9815.4dce43b,Leo Express,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0
+A55,R9825.6e07ab0f,,Praha hlavní nádraží - Břeclav,2,0,0,0
+A55,R9826.6e73e78d,,Praha hlavní nádraží - Čadca,2,0,0,0
+A55,R9828.58ea045c,,Čadca - Ostrava-Svinov,2,0,0,0
 A56,KADR:4001.6cae1bc3,U1,Děčín hl.n. – Ústí nad Labem hl.n. – Most – Chomutov – Kadaň předměstí,2,0,0,0
 A56,KADR:4003.f146fb1e,U3,Děčín hl.n. – Ústí nad Labem hl.n. – Teplice v Čechách – Litvínov,2,0,0,0
 A56,KADR:4003|KADR:4005.c1f59c8a,U3/U5,Děčín hl.n. – Ústí nad Labem hl.n. – Teplice v Čechách – Litvínov - Ústí n.L. – Úpořiny – Bílina – Most,2,0,0,0
 A56,KADR:4005.1b19f2f6,U5,Ústí n.L. – Úpořiny – Bílina – Most,2,0,0,0
 A56,KADR:4013.663e80bf,U13,Most – Žatec západ,2,0,0,0
 A56,KADR:4016.7e8f34d3,U16,Chomutov – Hradec u Kadaně,2,0,0,0
-A56,R16937.b9d9f5ae,,Ústí nad Labem hlavní nádraží - Teplice v Čechách,2,0,0,0
-A56,R16938.bd27e8be,,Teplice v Čechách - Děčín hlavní nádraží,2,0,0,0
-A56,R16941.1945e4f2,,Děčín hlavní nádraží - Litoměřice město,2,0,0,0
-A56,R16942.8e746bb8,,Litoměřice město - Ústí nad Labem hlavní nádraží,2,0,0,0
-A56,R16943.ed331cf7,,Ústí nad Labem hlavní nádraží - Děčín hlavní nádraží,2,0,0,0
-A56,R16944.eb594a11,,Děčín hlavní nádraží - Teplice v Čechách,2,0,0,0
-A56,R16947.1c42eef,,Teplice v Čechách - Ústí nad Labem hlavní nádraží,2,0,0,0
-A57,R12944.ea7a9473,,Osoblaha - Třemešná ve Sl. úz. r.,2,0,0,0
-A57,R12945.f4a624f4,,Třemešná ve Sl. úz. r. - Osoblaha,2,0,0,0
-A58,R16063.f74cb46d,,Královec - Trutnov hlavní nádraží,2,0,0,0
-A58,R16064.d887e47c,,Trutnov hlavní nádraží - Královec,2,0,0,0
-A61,R15565.59d73ac4,,Kroměříž - Tovačov,2,0,0,0
-A61,R15566.11dd9f9,,Tovačov - Kroměříž,2,0,0,0
-A61,R17036.e412469a,,Kroměříž - Vizovice,2,0,0,0
-A61,R17037.182ddac4,,Vizovice - Otrokovice,2,0,0,0
-A61,R17038.14125d5f,,Otrokovice - Vizovice,2,0,0,0
-A61,R17039.1296a193,,Vizovice - Zlín střed,2,0,0,0
-A61,R17040.2d224977,,Zlín střed - Vizovice,2,0,0,0
-A61,R17041.266d63f2,,Vizovice - Kroměříž,2,0,0,0
-A61,R17275.6773c274,155 let trati,Pardubice hlavní nádraží - Havlíčkův Brod,2,0,0,0
-A61,R17276.d93f6b21,155 let trati,Havlíčkův Brod - Hlinsko v Čechách,2,0,0,0
-A61,R17277.56e34312,155 let trati,Hlinsko v Čechách - Havlíčkův Brod,2,0,0,0
-A61,R17278.a7b431fd,155 let trati,Havlíčkův Brod - Pardubice hlavní nádraží,2,0,0,0
-A61,R17350.41432512,,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0
-A61,R17353.c1c32f13,,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0
-A64,R13856.eb1b871d,,Ostrava-Svinov - Ostrava-Vítkovice,2,0,0,0
-A64,R13857.1bf6b87c,,Ostrava-Vítkovice - Ostrava-Svinov,2,0,0,0
-A66,R14703.f9d27ca5,S VDA na Kokořín,Hradec Králové hlavní nádraží - Mšeno,2,0,0,0
-A66,R14704.9960e844,S VDA na Kokořín,Mšeno - Hradec Králové hlavní nádraží,2,0,0,0
-A74,R17334.acd9e367,Chotěbořský motoráček,Havlíčkův Brod - Chotěboř,2,0,0,0
-A75,R17167.ce8fa2f2,Vindobona ,Benešov u Prahy - České Velenice,2,0,0,0
-A75,R17168.f800c851,Vindobona ,České Velenice - Benešov u Prahy,2,0,0,0
+A56,R16892.86d5f13a,,Ústí nad Labem hlavní nádraží - Teplice v Čechách,2,0,0,0
+A56,R16893.8a23e44a,,Teplice v Čechách - Děčín hlavní nádraží,2,0,0,0
+A56,R16896.c26c1b73,,Děčín hlavní nádraží - Litoměřice město,2,0,0,0
+A56,R16897.379aa239,,Litoměřice město - Ústí nad Labem hlavní nádraží,2,0,0,0
+A56,R16898.96595378,,Ústí nad Labem hlavní nádraží - Děčín hlavní nádraží,2,0,0,0
+A56,R16899.947f8092,,Děčín hlavní nádraží - Teplice v Čechách,2,0,0,0
+A56,R16902.25a306d0,,Teplice v Čechách - Ústí nad Labem hlavní nádraží,2,0,0,0
+A57,R12899.93a0caf4,,Osoblaha - Třemešná ve Sl. úz. r.,2,0,0,0
+A57,R12900.1884fcd5,,Třemešná ve Sl. úz. r. - Osoblaha,2,0,0,0
+A58,R16018.f755c743,,Královec - Trutnov hlavní nádraží,2,0,0,0
+A58,R16019.d890f752,,Trutnov hlavní nádraží - Královec,2,0,0,0
+A61,R15520.7db612a5,,Kroměříž - Tovačov,2,0,0,0
+A61,R15521.24fcb1da,,Tovačov - Kroměříž,2,0,0,0
+A61,R16991.2b9593db,,Kroměříž - Vizovice,2,0,0,0
+A61,R16992.5fb12805,,Vizovice - Otrokovice,2,0,0,0
+A61,R16993.5b95aaa0,,Otrokovice - Vizovice,2,0,0,0
+A61,R16994.5a19eed4,,Vizovice - Zlín střed,2,0,0,0
+A61,R16995.50cfd1ad,,Zlín střed - Vizovice,2,0,0,0
+A61,R16996.4a1aec28,,Vizovice - Kroměříž,2,0,0,0
+A64,R13811.efa5efe,,Ostrava-Svinov - Ostrava-Vítkovice,2,0,0,0
+A64,R13812.3fd5905d,,Ostrava-Vítkovice - Ostrava-Svinov,2,0,0,0
+A66,R14658.a2f8b326,S VDA na Kokořín,Hradec Králové hlavní nádraží - Mšeno,2,0,0,0
+A66,R14659.42871ec5,S VDA na Kokořín,Mšeno - Hradec Králové hlavní nádraží,2,0,0,0
+A75,R17122.f26e7ad3,Vindobona ,Benešov u Prahy - České Velenice,2,0,0,0
+A75,R17123.1bdfa032,Vindobona ,České Velenice - Benešov u Prahy,2,0,0,0
 ICO:CZ27423069.49,KADR:1034.13a0016b,S34,Praha – Praha-Čakovice,2,0,0,0
 ICO:CZ27423069.49,KADR:1043.c51df324,S43,Neratovice – Kralupy nad Vltavou,2,0,0,0
 ICO:CZ27423069.49,KADR:2001.f1570d03,T1 Pražský motoráček,Praha hl.n. – Praha-Zličín,2,0,0,0
@@ -730,11 +704,11 @@ ICO:CZ27423069.49,KADR:4105.65c2a251,T5,Roudnice n.L. – Straškov – Libochov
 ICO:CZ27423069.49,KADR:4105.b0b90242,T5 Podřipský motoráček,Roudnice n.L. – Straškov – Libochovice,2,0,0,0
 ICO:CZ27423069.49,KADR:4111.25242494,T11 Podkrušnohorský motoráček,Děčín hl.n. – Telnice,2,0,0,0
 ICO:CZ27423069.49,KADR:4111.b13a15a,T11,Děčín hl.n. – Telnice,2,0,0,0
-ICO:CZ27423069.49,R13615.27c2f11,Pražský motoráček,Praha-Čakovice - Praha hl. n.,2,0,0,0
-ICO:CZ27423069.49,R9523.4d21b1c6,Mochovský motoráček,Praha-Vysočany - Mochov,2,0,0,0
-ICO:CZ27423069.49,R9524.438369fb,Mochovský motoráček,Mochov - Praha-Vysočany,2,0,0,0
-ICO:CZ27423069.49,R9525.3bee7fc,Kralovický rychlík,Praha hlavní nádraží - Kralovice u Rakovníka,2,0,0,0
-ICO:CZ27423069.49,R9526.4dd650f3,Kralovický rychlík,Kralovice u Rakovníka - Praha hlavní nádraží,2,0,0,0
+ICO:CZ27423069.49,R13570.cf782a9d,Pražský motoráček,Praha-Čakovice - Praha hl. n.,2,0,0,0
+ICO:CZ27423069.49,R9478.f647e847,Mochovský motoráček,Praha-Vysočany - Mochov,2,0,0,0
+ICO:CZ27423069.49,R9479.eca9a07c,Mochovský motoráček,Mochov - Praha-Vysočany,2,0,0,0
+ICO:CZ27423069.49,R9480.d0bae388,Kralovický rychlík,Praha hlavní nádraží - Kralovice u Rakovníka,2,0,0,0
+ICO:CZ27423069.49,R9481.1ad24c7f,Kralovický rychlík,Kralovice u Rakovníka - Praha hlavní nádraží,2,0,0,0
 ICO:CZ28664116.39,KADR:25.e319c092,R25,Plzeň – Blatno u Jesenice – Chomutov – Most,2,0,0,0
 ICO:CZ28664116.39,KADR:3104.3285e8f9,S4,České Budějovice – Nové Údolí / Volary,2,0,0,0
 ICO:CZ28664116.39,KADR:3107.5fa6267b,S7,Nové Údolí – Číčenice,2,0,0,0
@@ -745,16 +719,16 @@ ICO:CZ28664116.39,KADR:3223.66c7fec7,P23,Klatovy – Domažlice,2,0,0,0
 ICO:CZ28664116.39,KADR:4052.4540feec,U52,Žatec – Lovosice – Ústí nad Labem,2,0,0,0
 ICO:CZ28664116.39,KADR:4108.9de547d6,T8,(Děčín hl.n. -) Ústí nad Labem hl.n. – Moldava v Krušných horách,2,0,0,0
 ICO:CZ28664116.39,KADR:5266.2ea5fdc9,D66,Trutnov – Sędzisław ,2,0,0,0
-ICO:CZ28664116.39,R15512.552549cd,Os 149,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
-ICO:CZ28664116.39,R17292.c475113,,Meziměstí - Mieroszów,2,0,0,0
-ICO:CZ28664116.39,R17294.37ff7951,,Mieroszów - Meziměstí,2,0,0,0
+ICO:CZ28664116.39,R15467.fe4b804e,Os 149,Bečov nad Teplou - Karlovy Vary dolní n.,2,0,0,0
+ICO:CZ28664116.39,R17247.c5063e9,,Meziměstí - Mieroszów,2,0,0,0
+ICO:CZ28664116.39,R17249.38088c27,,Mieroszów - Meziměstí,2,0,0,0
 ICO:CZ48029483.46,KADR:4010.88616789,U10,Litoměřice horní n. – Lovosice – Třebívlice – Most,2,0,0,0
 ICO:CZ48029483.46,KADR:4104.84ae0306,T4,Lovosice – Chotiměř,2,0,0,0
-ICO:CZ48029483.46,R13667.1607930b,AŽD,Dětenice - Kopidlno,2,0,0,0
-ICO:CZ48029483.46,R13668.2ac7934c,AŽD,Kopidlno - Dětenice,2,0,0,0
-ICO:CZ48029483.46,R9311.6280156f,AŽD,Dolní Bousov - Kopidlno,2,0,0,0
-ICO:CZ48029483.46,R9312.f043f2b6,AŽD,Kopidlno - Dolní Bousov,2,0,0,0
-ICO:CZ48029483.46,R9329.681781ca,AŽD,Kopidlno - Bakov nad Jizerou,2,0,0,0
-ICO:CZ48029483.46,R9330.8e03f252,AŽD,Bakov nad Jizerou - Kopidlno,2,0,0,0
-ICO:CZ48029483.46,R9331.f744d9c1,Podřipská střela,Straškov - Louny,2,0,0,0
-ICO:CZ48029483.46,R9332.98886274,Podřipská střela,Louny - Straškov,2,0,0,0
+ICO:CZ48029483.46,R13622.39e66aec,AŽD,Dětenice - Kopidlno,2,0,0,0
+ICO:CZ48029483.46,R13623.4ea66b2d,AŽD,Kopidlno - Dětenice,2,0,0,0
+ICO:CZ48029483.46,R9266.ba64bf0,AŽD,Dolní Bousov - Kopidlno,2,0,0,0
+ICO:CZ48029483.46,R9267.996a2937,AŽD,Kopidlno - Dolní Bousov,2,0,0,0
+ICO:CZ48029483.46,R9284.35137d56,AŽD,Kopidlno - Bakov nad Jizerou,2,0,0,0
+ICO:CZ48029483.46,R9285.372a28d3,AŽD,Bakov nad Jizerou - Kopidlno,2,0,0,0
+ICO:CZ48029483.46,R9286.a06b1042,Podřipská střela,Straškov - Louny,2,0,0,0
+ICO:CZ48029483.46,R9287.41ae98f5,Podřipská střela,Louny - Straškov,2,0,0,0
