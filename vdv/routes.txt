@@ -1,11 +1,11 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport
-ICO:CZ07782926.23,CISJR:320275.af0b33fd,275,České Budějovice-Soběslav-Černovice-Pacov,3,0,0,0
-ICO:CZ07782926.23,CISJR:390219.58e2da64,390219,Tábor-Černovice,3,0,0,0
-ICO:CZ07782926.23,CISJR:390239.96d6a580,390239,Soběslav-Chotěmice-Deštná-Bořetín,3,0,0,0
-ICO:CZ07782926.23,CISJR:390268.5382d4e6,390268,"Mladá Vožice-Smilovy Hory,Františkov-Pacov",3,0,0,0
-ICO:CZ07782926.23,CISJR:390280.4559e7e2,280,Tábor-Písek-Strakonice-Vimperk-Kvilda,3,0,0,0
-ICO:CZ07782926.23,CISJR:390901.3e5cf872,901,Soběslav-Košice-Choustník-Vlčeves-Černovice,3,0,0,0
-ICO:CZ07782926.23,CISJR:390902.2d3e4a53,902,Soběslav-Tučapy-Choustník-Hojovice-Černovice,3,0,0,0
+ICO:CZ04356683.141,CISJR:320182.e3813f36,182,České Budějovice-Český Krumlov-Vyšší Brod-Kvilda,3,0,0,0
+ICO:CZ07782926.25,CISJR:320275.af0b33ff,275,České Budějovice-Soběslav-Černovice-Pacov,3,0,0,0
+ICO:CZ07782926.25,CISJR:390219.58e2da66,390219,Tábor-Černovice,3,0,0,0
+ICO:CZ07782926.25,CISJR:390239.96d6a582,390239,Soběslav-Chotěmice-Deštná-Bořetín,3,0,0,0
+ICO:CZ07782926.25,CISJR:390268.5382d4e8,390268,"Mladá Vožice-Smilovy Hory,Františkov-Pacov",3,0,0,0
+ICO:CZ07782926.25,CISJR:390280.4559e7e4,280,Tábor-Písek-Strakonice-Vimperk-Kvilda,3,0,0,0
+ICO:CZ07782926.25,CISJR:390904.c445311f,904,Mladá Vožice-Smilovy Hory-Pacov,3,0,0,0
 ICO:CZ25503316.219,CISJR:761100.755f3b54,761100,Jihlava - Měřín - Velké Meziříčí - Velká Bíteš - Brno,3,0,0,0
 ICO:CZ25503316.219,CISJR:766420.71620b1a,766420,Jihlava-Brtnice-Kněžice-Okříšky-Třebíč,3,0,0,0
 ICO:CZ25503316.219,CISJR:766934.8c227bf8,766934,Stará Říše - Nová Říše - Dačice,3,0,0,0
@@ -73,9 +73,9 @@ ICO:CZ25503316.219,CISJR:841133.b138d165,841133,Rovečné - Bystré - Ubušínek
 ICO:CZ25503316.219,CISJR:841201.837f3818,841201,Měřín - Zhoř - Jamné - Polná,3,0,0,0
 ICO:CZ25503316.219,CISJR:841460.feb9dd40,841460,Velké Meziříčí - Rudíkov - Třebíč,3,0,0,0
 ICO:CZ25503316.219,CISJR:846451.6a9e11f7,846451,Velká Bíteš-Jasenice-Náměšť nad Oslavou,3,0,0,0
-ICO:CZ25945408.17,CISJR:240687|PID:L687.af474d37,687,Uhlířské Janovice - Zbraslavice - Třebětín - Ledeč nad Sázavou,3,0,0,0
-ICO:CZ25945408.17,CISJR:240740|PID:L740.5f4e0784,740,Čáslav - Bratčice - Golčův Jeníkov - Chotěboř,3,0,0,0
-ICO:CZ25945408.17,CISJR:240742|PID:L742.49e71406,742,Čáslav - Zbýšov - Třebětín - Ledeč nad Sázavou,3,0,0,0
+ICO:CZ25945408.14,CISJR:240687|PID:L687.af474d34,687,Uhlířské Janovice - Zbraslavice - Třebětín - Ledeč nad Sázavou,3,0,0,0
+ICO:CZ25945408.14,CISJR:240740|PID:L740.5f4e0781,740,Čáslav - Bratčice - Golčův Jeníkov - Chotěboř,3,0,0,0
+ICO:CZ25945408.14,CISJR:240742|PID:L742.49e71403,742,Čáslav - Zbýšov - Třebětín - Ledeč nad Sázavou,3,0,0,0
 ICO:CZ26060451.145,CISJR:340335.9c14ac30,340335,Jindřichův Hradec-Deštná-Mnich-Kamenice nad Lipou,3,0,0,0
 ICO:CZ26060451.145,CISJR:340338.31d5a94c,340338,Jindřichův Hradec-Nová Včelnice-Kamenice nad Lipou-Pelhřimov,3,0,0,0
 ICO:CZ26060451.145,CISJR:340339.b9d998ce,340339,Jindřichův Hradec-Horní Radouň-Nová Včelnice-Kamenice nad Lipou,3,0,0,0
@@ -93,6 +93,8 @@ ICO:CZ26060451.145,CISJR:340379.156176b9,340379,Dačice-Jemnice-Police-Bítov-Vr
 ICO:CZ26060451.145,CISJR:340905.f2a78edb,905,Jindřichův Hradec-Nová Včelnice-Kamenice nad Lipou-Pelhřimov,3,0,0,0
 ICO:CZ26060451.145,CISJR:340911.3d652ecf,911,Dačice-Mrákotín-Telč,3,0,0,0
 ICO:CZ26060451.145,CISJR:340912.8ff4824e,912,Dačice-Budeč-Krasonice-Želetava,3,0,0,0
+ICO:CZ26060451.145,CISJR:340916.ccb10e94,916,Dačice-Jemnice-Vratěnín,3,0,0,0
+ICO:CZ26060451.145,CISJR:340917.c78b83c2,917,Dačice-Staré Hobzí-Pálovice-Jemnice,3,0,0,0
 ICO:CZ26060451.145,CISJR:340919.264b2ae1,919,Slavonice-Dešná-Jemnice,3,0,0,0
 ICO:CZ26060451.145,CISJR:769931.eec38dc7,931,Telč-Mrákotín-Studená,3,0,0,0
 ICO:CZ26060451.147,CISJR:344909.2543feaf,344909,Jindřichův Hradec-Strmilov-Studená-Telč,3,0,0,0
@@ -255,43 +257,42 @@ ICO:CZ46346040.185,CISJR:603248.67a25d91,603248,Světlá nad Sázavou - Dolní M
 ICO:CZ46346040.185,CISJR:763190.ba4813d9,763190,Jihlava - Úsobí - Lípa - Havlíčkův Brod,3,0,0,0
 ICO:CZ46346040.185,CISJR:763195.62aaf226,763195,"Jihlava - Štoky - Štoky,Petrovice",3,0,0,0
 ICO:CZ46346040.185,CISJR:843168.dcd061ff,168,Žďár nad Sázavou – Ždírec nad Doubravou – Pardubice – Hradec Králové,3,0,0,0
-ICO:CZ46346040.225,CISJR:760410.5f62d5ce,760410,Jihlava-Humpolec-Praha,3,0,0,0
 ICO:CZ46965815.202,CISJR:845101.11e3ff2d,845101,Linka č. 1 Dopravní terminál-Bělisko-nemocnice-BILLA-centrum-Dopravní terminál,3,0,0,0
 ICO:CZ46965815.202,CISJR:845102.781aeede,845102,Linka č. 2 Dopravní terminál-Kulturní dům-nemocnice-centrum-Dopravní terminál,3,0,0,0
 ICO:CZ46965815.202,CISJR:845103.b1924649,845103,Linka č. 3 Dopravní terminál-Maršovská-Dopravní terminál,3,0,0,0
 ICO:CZ46965815.202,CISJR:845104.2859a847,845104,Linka č. 4 centrum-Dopravní terminál-nemocnice-Petrovice-Dopravní terminál,3,0,0,0
 ICO:CZ46965815.202,CISJR:845105.d135e650,845105,Linka č. 5 Dopravní terminál-Sporten-Pohledec-Dopravní terminál,3,0,0,0
-ICO:CZ46965815.238,CISJR:842101.6e3cf5cd,842101,Velké Meziříčí: Průmyslová-aut.nádr.-Hornoměstská-aut.nádr.-Průmyslová,3,0,0,0
-ICO:CZ46965815.238,CISJR:842110.43bc8bc,842110,Žďár nad Sázavou-Bohdalec-Bobrová-Moravec-Křižanov-Velká Bíteš-Brno,3,0,0,0
-ICO:CZ46965815.238,CISJR:842116.c001ef5f,842116,Křižanov-Jívoví-Rousměrov-Ostrov n.Osl-Žďár nad Sázavou,3,0,0,0
-ICO:CZ46965815.238,CISJR:842117.432156fb,842117,Žďár nad Sázavou-Ostrov nad Oslavou-Radostín nad Oslavou-Bory-Velké Meziříčí,3,0,0,0
-ICO:CZ46965815.238,CISJR:842118.2d648349,842118,Nové Město na Moravě-Hodíškov-Ostrov nad Oslavou-Bohdalec,3,0,0,0
-ICO:CZ46965815.238,CISJR:842119.7db4ced6,842119,Žďár nad Sázavou-Jámy-Radešínská Svratka-Mirošov-Moravec,3,0,0,0
-ICO:CZ46965815.238,CISJR:842130.7b8cf6a9,842130,Bystřice nad Pernštejnem-Nové Město na Moravě-Žďár nad Sázavou,3,0,0,0
-ICO:CZ46965815.238,CISJR:842133.2b3d3871,842133,Ubušínek-Jimramov,3,0,0,0
-ICO:CZ46965815.238,CISJR:842135.b36ea8a4,135,Nové Město na Moravě-Jimramov-Polička,3,0,0,0
-ICO:CZ46965815.238,CISJR:842136.2355462d,842136,"Žďár nad Sázavou-Nové Město na Moravě,Slavkovice-Nové Město na Moravě-Zubří",3,0,0,0
-ICO:CZ46965815.238,CISJR:842138.e0d897f3,842138,Nové Město na Moravě-Křídla-Dolní Rožínka-Strážek,3,0,0,0
-ICO:CZ46965815.238,CISJR:842139.9f63e897,842139,"Nové Město na Moravě,Jiříkovice-Nové Město na Moravě-Dlouhé-Bobrová-Bobrůvka",3,0,0,0
-ICO:CZ46965815.238,CISJR:842140.b16cba5b,842140,Nové Město na Moravě-Sněžné-Svratka,3,0,0,0
-ICO:CZ46965815.238,CISJR:842142.1ac396ab,842142,Sněžné-Líšná-Javorek-Jimramov,3,0,0,0
-ICO:CZ46965815.238,CISJR:842143.f9b6b60e,842143,Žďár nad Sázavou-Tři Studně-Fryšava-Sněžné-Spělkov,3,0,0,0
-ICO:CZ46965815.238,CISJR:842144.adf3636,842144,Nové Město na Moravě-Vlachovice-Tři Studně-Fryšava-Sněžné,3,0,0,0
-ICO:CZ46965815.238,CISJR:842145.a3837dc1,842145,Velké Meziříčí-Dobrá Voda-Křižanov-Bobrůvka-Bobrová-Nové Město na Moravě,3,0,0,0
-ICO:CZ46965815.238,CISJR:842150.db27699e,842150,Žďár nad Sázavou-Herálec-Svratka,3,0,0,0
-ICO:CZ46965815.238,CISJR:842151.b89471d5,842151,"Žďár nad Sázavou-Hamry nad Sázavou-Hamry nad Sázavou,Šlakhamry",3,0,0,0
-ICO:CZ46965815.238,CISJR:842154.5a9c87e9,842154,Žďár nad Sázavou-Sázava-Matějov-Nové Veselí-Žďár nad Sázavou,3,0,0,0
-ICO:CZ46965815.238,CISJR:842155.95ddb107,842155,Žďár nad Sázavou-Nové Veselí-Bohdalov-Pavlov-Měřín,3,0,0,0
-ICO:CZ46965815.238,CISJR:842156.80edaa1b,842156,Žďár nad Sázavou-Nové Veselí-Kotlasy,3,0,0,0
-ICO:CZ46965815.238,CISJR:842157.f535bf63,842157,Žďár nad Sázavou-Sázava-Velká Losenice-Přibyslav,3,0,0,0
-ICO:CZ46965815.238,CISJR:842158.24e9dd93,842158,Žďár nad Sázavou-Polnička-Vepřová-Velká Losenice-Přibyslav,3,0,0,0
-ICO:CZ46965815.238,CISJR:842159.f9d07694,842159,Žďár nad Sázavou-Polnička-Škrdlovice-Světnov,3,0,0,0
-ICO:CZ46965815.238,CISJR:842180.5a9ccc1,842180,Žďár nad Sázavou-Nížkov-Polná-Jihlava,3,0,0,0
-ICO:CZ46965815.238,CISJR:842182.a0a62836,842182,"Žďár nad Sázavou-Nížkov-Polná-Jihlava,,BOSCH Pávov-Jihlava",3,0,0,0
-ICO:CZ46965815.238,CISJR:842185.4dcf11f4,842185,Žďár nad Sázavou-Nové Veselí-Nížkov-Přibyslav-Hřiště,3,0,0,0
-ICO:CZ46965815.238,CISJR:842200.b629c068,842200,Žďár nad Sázavou-Bohdalov-Jamné-Jihlava,3,0,0,0
-ICO:CZ60193441.16,CISJR:100406|PID:L406.618e7d59,406,"Praha,Roztyly - Vlašim - Pelhřimov",3,0,0,0
-ICO:CZ60193441.16,CISJR:200846|PID:L2846.194a8154,846,Čechtice - Dolní Kralovice - Ledeč nad Sázavou,3,0,0,0
-ICO:CZ60193441.16,CISJR:200847|PID:L2847.d4233b18,847,"Čechtice - Čechtice,Staré Práchňany - Čáslavsko",3,0,0,0
-ICO:CZ60193441.16,CISJR:200850|PID:L2850.1e6c35be,850,Čechtice - Humpolec,3,0,0,0
-ICO:CZ60193441.16,CISJR:240845|PID:L2845.cf82481f,845,Zruč nad Sázavou - Dolní Kralovice - Ježov,3,0,0,0
+ICO:CZ46965815.237,CISJR:842101.6e3cf5cc,842101,Velké Meziříčí: Průmyslová-aut.nádr.-Hornoměstská-aut.nádr.-Průmyslová,3,0,0,0
+ICO:CZ46965815.237,CISJR:842110.43bc8bb,842110,Žďár nad Sázavou-Bohdalec-Bobrová-Moravec-Křižanov-Velká Bíteš-Brno,3,0,0,0
+ICO:CZ46965815.237,CISJR:842116.c001ef5e,842116,Křižanov-Jívoví-Rousměrov-Ostrov n.Osl-Žďár nad Sázavou,3,0,0,0
+ICO:CZ46965815.237,CISJR:842117.432156fa,842117,Žďár nad Sázavou-Ostrov nad Oslavou-Radostín nad Oslavou-Bory-Velké Meziříčí,3,0,0,0
+ICO:CZ46965815.237,CISJR:842118.2d648348,842118,Nové Město na Moravě-Hodíškov-Ostrov nad Oslavou-Bohdalec,3,0,0,0
+ICO:CZ46965815.237,CISJR:842119.7db4ced5,842119,Žďár nad Sázavou-Jámy-Radešínská Svratka-Mirošov-Moravec,3,0,0,0
+ICO:CZ46965815.237,CISJR:842130.7b8cf6a8,842130,Bystřice nad Pernštejnem-Nové Město na Moravě-Žďár nad Sázavou,3,0,0,0
+ICO:CZ46965815.237,CISJR:842133.2b3d3870,842133,Ubušínek-Jimramov,3,0,0,0
+ICO:CZ46965815.237,CISJR:842135.b36ea8a3,135,Nové Město na Moravě-Jimramov-Polička,3,0,0,0
+ICO:CZ46965815.237,CISJR:842136.2355462c,842136,"Žďár nad Sázavou-Nové Město na Moravě,Slavkovice-Nové Město na Moravě-Zubří",3,0,0,0
+ICO:CZ46965815.237,CISJR:842138.e0d897f2,842138,Nové Město na Moravě-Křídla-Dolní Rožínka-Strážek,3,0,0,0
+ICO:CZ46965815.237,CISJR:842139.9f63e896,842139,"Nové Město na Moravě,Jiříkovice-Nové Město na Moravě-Dlouhé-Bobrová-Bobrůvka",3,0,0,0
+ICO:CZ46965815.237,CISJR:842140.b16cba5a,842140,Nové Město na Moravě-Sněžné-Svratka,3,0,0,0
+ICO:CZ46965815.237,CISJR:842142.1ac396aa,842142,Sněžné-Líšná-Javorek-Jimramov,3,0,0,0
+ICO:CZ46965815.237,CISJR:842143.f9b6b60d,842143,Žďár nad Sázavou-Tři Studně-Fryšava-Sněžné-Spělkov,3,0,0,0
+ICO:CZ46965815.237,CISJR:842144.adf3635,842144,Nové Město na Moravě-Vlachovice-Tři Studně-Fryšava-Sněžné,3,0,0,0
+ICO:CZ46965815.237,CISJR:842145.a3837dc0,842145,Velké Meziříčí-Dobrá Voda-Křižanov-Bobrůvka-Bobrová-Nové Město na Moravě,3,0,0,0
+ICO:CZ46965815.237,CISJR:842150.db27699d,842150,Žďár nad Sázavou-Herálec-Svratka,3,0,0,0
+ICO:CZ46965815.237,CISJR:842151.b89471d4,842151,"Žďár nad Sázavou-Hamry nad Sázavou-Hamry nad Sázavou,Šlakhamry",3,0,0,0
+ICO:CZ46965815.237,CISJR:842154.5a9c87e8,842154,Žďár nad Sázavou-Sázava-Matějov-Nové Veselí-Žďár nad Sázavou,3,0,0,0
+ICO:CZ46965815.237,CISJR:842155.95ddb106,842155,Žďár nad Sázavou-Nové Veselí-Bohdalov-Pavlov-Měřín,3,0,0,0
+ICO:CZ46965815.237,CISJR:842156.80edaa1a,842156,Žďár nad Sázavou-Nové Veselí-Kotlasy,3,0,0,0
+ICO:CZ46965815.237,CISJR:842157.f535bf62,842157,Žďár nad Sázavou-Sázava-Velká Losenice-Přibyslav,3,0,0,0
+ICO:CZ46965815.237,CISJR:842158.24e9dd92,842158,Žďár nad Sázavou-Polnička-Vepřová-Velká Losenice-Přibyslav,3,0,0,0
+ICO:CZ46965815.237,CISJR:842159.f9d07693,842159,Žďár nad Sázavou-Polnička-Škrdlovice-Světnov,3,0,0,0
+ICO:CZ46965815.237,CISJR:842180.5a9ccc0,842180,Žďár nad Sázavou-Nížkov-Polná-Jihlava,3,0,0,0
+ICO:CZ46965815.237,CISJR:842182.a0a62835,842182,"Žďár nad Sázavou-Nížkov-Polná-Jihlava,,BOSCH Pávov-Jihlava",3,0,0,0
+ICO:CZ46965815.237,CISJR:842185.4dcf11f3,842185,Žďár nad Sázavou-Nové Veselí-Nížkov-Přibyslav-Hřiště,3,0,0,0
+ICO:CZ46965815.237,CISJR:842200.b629c067,842200,Žďár nad Sázavou-Bohdalov-Jamné-Jihlava,3,0,0,0
+ICO:CZ60193441.3,CISJR:100406|PID:L406.618e7d4c,406,"Praha,Roztyly - Vlašim - Pelhřimov",3,0,0,0
+ICO:CZ60193441.3,CISJR:200846|PID:L2846.194a8147,846,Čechtice - Dolní Kralovice - Ledeč nad Sázavou,3,0,0,0
+ICO:CZ60193441.3,CISJR:200847|PID:L2847.d4233b0b,847,"Čechtice - Čechtice,Staré Práchňany - Čáslavsko",3,0,0,0
+ICO:CZ60193441.3,CISJR:200850|PID:L2850.1e6c35b1,850,Čechtice - Humpolec,3,0,0,0
+ICO:CZ60193441.3,CISJR:240845|PID:L2845.cf824812,845,Zruč nad Sázavou - Dolní Kralovice - Ježov,3,0,0,0
