@@ -8,6 +8,8 @@ L108D99,99,108,"Brno - Modřice - Pohořelice - Lechovice - Znojmo",3,00E68C,
 L109D99,99,109,"Brno - Telnice - Klobouky u Brna - Čejč - Mutěnice - Hodonín",3,00E68C,
 L10D99,99,10,"Stránská skála - Bystrc, Ečerova",0,A05A2C,FFFFFF
 L110D99,99,S5,"Kunovice - Uherské Hradiště - Staré Město u Uherského Hradiště",2,800000,FFFFFF
+L116D99,99,xS91,"NÁHRADNÍ DOPRAVA ZA VLAKVeselí nad Moravou - Vrbovce",3,7FFFAA,
+L118D99,99,xS41,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Střelice",3,7FFFAA,
 L120D99,99,S2,"Vyškov - Holubice - Křenovice - Sokolnice - Brno - Blansko - Skalice nad Svitavou - Letovice",2,800000,FFFFFF
 L121D99,99,S21,"Boskovice - Skalice nad Svitavou",2,800000,FFFFFF
 L122D99,99,S22,"Letovice - Březová nad Svitavou",2,800000,FFFFFF
@@ -25,7 +27,7 @@ L135D99,99,R13,"Brno - Břeclav - Hodonín - Moravský Písek - Staré Město u 
 L136D99,99,R50,"Brno - Břeclav",2,800000,E1CB31
 L137D99,99,S82,"Znojmo - Šatov - Retz",2,800000,FFFFFF
 L138D99,99,S81,"Moravské Budějovice - Znojmo",2,800000,FFFFFF
-L139D99,99,139,"Břeclav - Staré Město u U. Hradiště",2,,
+L139D99,99,S9,"Břeclav - Staré Město u U. Hradiště",2,800000,FFFFFF
 L140D99,99,S4,"Zastávka - Rosice - Střelice - Brno",2,800000,FFFFFF
 L141D99,99,S41,"Hrušovany n.J.-Šanov - Bohutice - Moravský Krumlov - Moravské Bránice - Střelice - BrnoIvančice - Moravské Bránice - Střelice - Brno",2,800000,FFFFFF
 L142D99,99,S42,"Náměšť nad Oslavou - Rapotice - Zastávka",2,800000,FFFFFF
@@ -51,6 +53,7 @@ L165D99,99,165,"Hustopeče - Vranovice - Pohořelice",3,7FFFAA,
 L166D99,99,166,"Vyškov - Bohdalice-Pavlovice - Hvězdlice - Nemochovice - Brankovice",3,7FFFAA,
 L167D99,99,167,"Blansko - Jedovnice - Senetářov - Ruprechtov - Vyškov",3,7FFFAA,
 L171D99,99,xS2,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Blansko",3,7FFFAA,
+L173D99,99,xS82,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šatov",3,7FFFAA,
 L174D99,99,174,"Mikulov - Březí - Novosedly - Drnholec - Hrušovany nad Jevišovkou",3,7FFFAA,
 L175D99,99,xS3,"NÁHRADNÍ DOPRAVA ZA VLAK Hrušovany u Brna - Žabčice - Vranovice",3,7FFFAA,
 L186D99,99,P6,"Královo Pole, nádraží - Nové sady-smyčka",0,0777C1,FFFFFF
@@ -129,6 +132,7 @@ L35D99,99,35,"Masarykova čtvrť, Barvičova - Mendlovo náměstí",800,008033,F
 L36D99,99,36,"Komín, sídliště - Česká",800,008033,FFFFFF
 L370D99,99,370,"Bystřice nad Pernštejnem: Domanín - Domanínek - Masarykovo nám. - Gymnázium - Železniční stanice",3,2C89C8,FFFFFF
 L37D99,99,37,"Mendlovo náměstí - Osová",800,008033,FFFFFF
+L383D99,99,x3,"Česká - Vozovna Komín (- Bystrc, Rakovecká)",3,009E9E,FFFFFF
 L38D99,99,38,"Masarykova čtvrť, Preslova - Komenského náměstí",800,008033,FFFFFF
 L39D99,99,39,"Masarykova čtvrť, Barvičova - Komenského náměstí",800,008033,FFFFFF
 L3D99,99,3,"Židenice, Stará osada - Vozovna Komín (- Bystrc, Rakovecká)",0,009E9E,FFFFFF
@@ -138,7 +142,7 @@ L403D99,99,403,"Brno - Ostopovice - Troubsko - Omice",3,7FFFAA,
 L404D99,99,404,"Brno - Troubsko - Střelice - Radostice",3,7FFFAA,
 L405D99,99,405,"Brno - Rosice - Zastávka",3,7FFFAA,
 L406D99,99,406,"Brno - Rosice - Oslavany - Ivančice",3,7FFFAA,
-L407D99,99,407,"Troubsko, ObÚ - Omice, samoobsluha",3,,
+L407D99,99,407,"Troubsko - Omice",3,7FFFAA,
 L40D99,99,40,"Úzká - Tovární",3,2C82C8,FFFFFF
 L411D99,99,411,"Deblín - Svatoslav - Přibyslavice - Velká Bíteš",3,7FFFAA,
 L41D99,99,41,"Brno - Česká - Lelekovice - Vranov",3,2C82C8,FFFFFF
