@@ -32,18 +32,12 @@ A46,R1139,,Kořenov - Tanvald,2,0,0,0,R9641
 A45,R1135,,Jemnice - Moravské Budějovice,2,0,0,0,R9635
 A45,R1132,T6,Kadaň-Prunéřov – Kadaňský Rohozec / Podbořany,2,0,0,0,KADR:4106
 A46,R1138,,Tanvald - Harrachov,2,0,0,0,R9640
-A51,R3788,,Staré Město u Uherského Hradiště - Rohatec,2,0,0,0,R18169
 A48,R3791,,Praha hlavní nádraží - Kácov,2,0,0,0,R18174
 A46,R1137,,Rovensko pod Troskami - Semily,2,0,0,0,R9639
-A51,R3789,,Rohatec - Strážnice,2,0,0,0,R18170
 A48,R3792,,Kácov - Praha hlavní nádraží,2,0,0,0,R18175
 A46,R1136,,Turnov - Rovensko pod Troskami,2,0,0,0,R9638
-A51,R3784,,Rohatec - Staré Město u Uherského Hradiště,2,0,0,0,R18165
-A51,R3785,,Staré Město u Uherského Hradiště - Strážnice,2,0,0,0,R18166
-A51,R3787,,Strážnice - Staré Město u Uherského Hradiště,2,0,0,0,R18168
 A45,R1131,T8,Most – Osek – Moldava v Krušných horách,2,0,0,0,KADR:4198
 A44,R1130,S17,Milotice nad Opavou – Vrbno pod Pradědem,2,0,0,0,KADR:8017
-A51,R3783,,Strážnice - Rohatec,2,0,0,0,R18164
 A59,R3799,,Lampertice - Trutnov hlavní nádraží,2,0,0,0,R18189
 A46,R1145,,Křižany - Liberec,2,0,0,0,R9647
 A46,R1144,,Liberec - Křižany,2,0,0,0,R9646
@@ -133,8 +127,6 @@ A49,R1171,U14,Jirkov - Chomutov - Lužná u Rakovníka – Rakovník,2,0,0,0,KAD
 A49,R1170,RE2 Vánoční kometa,Liberec – Zittau – Dresden,2,0,0,0,KADR:5902
 A49,R1184,,Budyně nad Ohří - Rakovník,2,0,0,0,R9845
 A49,R1183,,Rakovník - Budyně nad Ohří,2,0,0,0,R9844
-A49,R1182,,Louny - Rakovník,2,0,0,0,R9843
-A49,R1181,,Rakovník - Louny,2,0,0,0,R9842
 A49,R1180,,Kolešovice - Rakovník,2,0,0,0,R9841
 A50,R1187,S34,Praha – Praha-Čakovice,2,0,0,0,KADR:1034
 A50,R1189,T1 Pražský motoráček,Praha hl.n. – Praha-Zličín,2,0,0,0,KADR:2001
@@ -249,13 +241,7 @@ A61,R3801,,Dolní Lipka - Rokytnice v Orlických horách,2,0,0,0,R18191
 A61,R3802,,Rokytnice v Orlických horách - Dolní Lipka,2,0,0,0,R18192
 A48,R3818,,Praha hlavní nádraží - Rakovník,2,0,0,0,R18214
 A48,R3819,,Rakovník - Praha hlavní nádraží,2,0,0,0,R18215
-A51,R3825,,Kolín - Doksy,2,0,0,0,R18221
-A51,R3826,,Doksy - Kolín,2,0,0,0,R18222
-A61,R3811,,Ústí nad Orlicí - Hanušovice,2,0,0,0,R18205
-A61,R3812,,Hanušovice - Ústí nad Orlicí,2,0,0,0,R18206
-A61,R3813,,Ústí nad Orlicí - Dolní Lipka,2,0,0,0,R18207
 A45,R3830,,Bylnice - Valašské Klobouky,2,0,0,0,R18226
-A61,R3810,,Dolní Lipka - Ústí nad Orlicí,2,0,0,0,R18204
 A54,R2502,S91,Hodonín – Strážnice – Veselí nad Moravou – Velká nad Veličkou – Vrbovce – Myjava - Javorník nad Veličkou zastávka - Hodonín,2,0,0,0,KADR:6091
 A48,R3805,,Praha hlavní nádraží - Libochovice město,2,0,0,0,R18197
 A59,R3800,,Trutnov hlavní nádraží - Lampertice,2,0,0,0,R18190
@@ -682,7 +668,6 @@ A59,R3086,,Trutnov hlavní nádraží - Královec,2,0,0,0,R16411
 A45,R3159,,Trhový Štěpánov - Vlašim,2,0,0,0,R16687
 A48,R3160,Wydmy,Chałupki - Bohumín,2,0,0,0,R16689
 A45,R3161,,Vlašim - Trhový Štěpánov,2,0,0,0,R16690
-A47,R3018,,Chotiměř - Lovosice,2,0,0,0,R16239
 A48,R3337,,"Olomouc hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0,R17146
 A48,R3336,,"Vyškov na Moravě - Mošnov, Ostrava Airport",2,0,0,0,R17144
 A48,R2056,S12,Kravaře ve Slezsku – Chuchelná,2,0,0,0,KADR:8012
@@ -733,12 +718,6 @@ A67,R3590,155 let KFJB,České Velenice - Benešov u Prahy,2,0,0,0,R17759
 A48,R3438,Dny NATO,"Mošnov, Ostrava Airport - Brno hlavní nádraží",2,0,0,0,R17416
 A48,R3439,Dny NATO,"Brno hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0,R17417
 A49,R2103,L7 Vánoční kometa,Liberec – Zittau – Varnsdorf-pivovar Kocour,2,0,0,0,KADR:5007
-A61,R3426,,Vizovice - Otrokovice,2,0,0,0,R17377
-A61,R3427,,Otrokovice - Vizovice,2,0,0,0,R17378
-A61,R3428,,Vizovice - Zlín střed,2,0,0,0,R17379
-A61,R3429,,Zlín střed - Vizovice,2,0,0,0,R17380
-A61,R3425,,Kroměříž - Vizovice,2,0,0,0,R17376
-A61,R3430,,Vizovice - Kroměříž,2,0,0,0,R17381
 A48,R3407,Slovan,Praha hlavní nádraží - Kúty,2,0,0,0,R17313
 A48,R3409,Slovan,Břeclav - Praha hlavní nádraží,2,0,0,0,R17315
 A48,R2197,V4 Krakonoš,Pardubice - Hradec Králové - Jaroměř - Trutnov - Svoboda nad Úpou,2,0,0,0,KADR:5204
