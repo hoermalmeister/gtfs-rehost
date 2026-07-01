@@ -1,5 +1,6 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
 BUS_MHD:001101_1425_2026-02-16,1690,101,Vsetín-Horní Lideč-Střelná-Púchov,308901 (SK),3,102d69,ffffff
+BUS_MHD:001735_263_2026-08-30,1690,735,Zlín-Luhačovice-Uherský Brod-Trenčín,,3,,
 BUS_MHD:771155_312_2021-03-07,1690,155,Holešov-Ludslavice-Lechotice-Otrokovice,,3,162D66,FFFFFF
 BUS_MHD:771160_312_2021-03-07,1690,160,Kroměříž-Tlumačov-Otrokovice-Zlín,,3,162D66,FFFFFF
 BUS_MHD:771161_312_2021-03-07,1690,161,Velké Těšany-Nová Dědina-Kvasice-Otrokovice,,3,162D66,FFFFFF

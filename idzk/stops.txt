@@ -153,7 +153,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 10783,"Malhotice, náves",49.48943384263987,17.764039242792844,0,Europe/Prague,0
 10784,"Kunovice, Lidická",49.041001174780426,17.471566863674866,0,Europe/Prague,0
 10786,"Zlín, Zlínské Paseky, točna",49.2452163266,17.6648536263,0,Europe/Prague,0
-10789,"Fryšták, Horní Ves",49.28806396052483,17.691473930237365,0,Europe/Prague,0
 10790,"Uherské Hradiště, Sady, Za Kovárnou",49.050828825794476,17.484964429906128,0,Europe/Prague,0
 10791,"Osíčko, náves",49.43033638556608,17.751143438266446,0,Europe/Prague,0
 10792,"Zlín, Topolová",49.2184780161,17.6466354962,0,Europe/Prague,0
@@ -1283,6 +1282,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 17231,"Prostřední Bečva, Pod Tanečnicí lom",49.47955884863276,18.286328844977938,0,Europe/Prague,0
 17233,"Horní Bečva, stará pošta",49.43300257342113,18.2784574647253,0,Europe/Prague,0
 17251,"Lhotka, střed",49.5974731445,18.2962856293,0,Europe/Prague,0
+17253,"Drietoma, Jednota",48.8932679618,17.9543584585,0,Europe/Bratislava,0
 17260,"Paskov, podchod",49.7331962585,18.2827911377,0,Europe/Prague,0
 17261,"Ostrava, Hrabůvka, Benzina",49.7825858,18.2716836,0,Europe/Prague,0
 17274,"Karolinka, Malá Stanovnice, rozc.",49.33237135857743,18.25596543021302,0,Europe/Prague,0
@@ -1353,9 +1353,11 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 18088,"Velké Karlovice, Tísňavy, u Vojvodíků",49.35226966118462,18.32949792764121,0,Europe/Prague,0
 18091,"Horní Bečva, rest.Na Bečvici",49.41883100563672,18.347052890282203,0,Europe/Prague,0
 18097,"Velké Karlovice, Tísňavy, točna",49.34005485065649,18.32655830966813,0,Europe/Prague,0
+18099,"Trenčín, Hasičská",48.896306303,18.0407094956,0,Europe/Bratislava,0
 18127,"Ostravice, Mohelník",49.5593147278,18.3677120209,0,Europe/Prague,0
 18139,"Velké Karlovice, Podťaté, rozc.Tísňavy",49.36022494175232,18.336937362878857,0,Europe/Prague,0
 18163,"Velké Karlovice, u Hoduláků",49.36789589144208,18.341159528004297,0,Europe/Prague,0
+18195,"Trenčín, aut.st.",48.8955764771,18.0514163971,0,Europe/Bratislava,0
 18235,"Sedliště, pošta",49.7182998657,18.3688220978,0,Europe/Prague,0
 18246,"Ostravice, rest.U Tkáčů",49.5501708984,18.3798446655,0,Europe/Prague,0
 18263,"Velké Karlovice, Podťaté, pila",49.35648716500739,18.349780411329384,0,Europe/Prague,0
@@ -1402,7 +1404,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 36719,"Zlín, Malenovice, hřiště",49.2045339,17.5888408,0,Europe/Prague,0
 3746,"Vyškov, Marchanice",49.282753111975076,17.024268670297147,0,Europe/Prague,0
 37585,"Zlín, Malenovice, Mlýnská",49.2066956,17.5852989,0,Europe/Prague,0
-37862,"Púchov, Continental AS",49.1073214,18.3183464,0,Europe/Bratislava,0
 3824,Bedihošť,49.44849172525144,17.16606425214959,0,Europe/Prague,0
 3842,"Křižanovice u Vyškova, rozc.0.2",49.283810566367364,17.036733567754915,0,Europe/Prague,0
 3987,"Hoštice-Heroltice, Heroltice, rozc.",49.28508177733607,17.057228267146737,0,Europe/Prague,0
@@ -1454,6 +1455,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 47777,"Bystřice p.Lop., škola",48.9759609,17.75447526,0,Europe/Prague,0
 47781,"Uherské Hradiště, Stará Tenice",49.07058144946517,17.452288668232395,0,Europe/Prague,0
 47791,"Uherské Hradiště, žel.st.",49.066857952348236,17.457525664284795,0,Europe/Prague,0
+47841,"Kostolná-Záriečie, nová štvrť",48.8787994,17.9676267,0,Europe/Bratislava,0
 48069,"Zlín, Velíková, Dolní konec",49.2803583,17.7536867,0,Europe/Prague,0
 48201,"Zlín, Velíková, točna",49.2877381,17.7613475,0,Europe/Prague,0
 48246,Svárov,49.116090907091355,17.624941631792968,0,Europe/Prague,0
@@ -1483,6 +1485,8 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 51786,"Rožnov p.Radh., Lipová",49.448841128172994,18.16872081169369,0,Europe/Prague,0
 51840,"Rožnov p.Radh., Dolní Paseky, revír",49.48305742326498,18.140273891852413,0,Europe/Prague,0
 5209,"Vrchoslavice, Dlouhá Ves",49.332748037448624,17.228008147746273,0,Europe/Prague,0
+52361,"Trenčín, Old Herold",48.8990842,18.0296714,0,Europe/Bratislava,0
+52401,"Trenčín, Záblatie, cint.",48.8917656,17.9998056,0,Europe/Bratislava,0
 5264,"Pavlovice u Kojetína, Unčice",49.29960321307047,17.205027727607614,0,Europe/Prague,0
 5294,"Bučovice, zdrav.stř.",49.1481933594,17.0054473877,0,Europe/Prague,0
 5297,Pačlavice,49.259726254751136,17.16832175846843,0,Europe/Prague,0
@@ -1501,7 +1505,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 56164,"Púchov, žel.st.",49.1138344,18.3282986,0,Europe/Bratislava,0
 56457,"Uherské Hradiště, Mařatice, hřbitov točna",49.0648718,17.4886327,0,Europe/Prague,0
 56584,Rakvice,48.86599,16.822422,0,Europe/Prague,0
-56603,Veselí nad Moravou-Zarazice,48.937008,17.359592,0,Europe/Prague,0
 56614,Bojkovice,49.0360564,17.7954558,0,Europe/Prague,0
 56638,Staré Město u Uherského Hradiště,49.0761756,17.422905,0,Europe/Prague,0
 56650,Luhačovice,49.0988503,17.7520047,0,Europe/Prague,0
@@ -1642,7 +1645,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 58523,Lúky pod Makytou,49.190842,18.22858,0,Europe/Bratislava,0
 58526,Hustopeče nad Bečvou,49.523457,17.864088,0,Europe/Prague,0
 5854,"Kojetín, žel.st.",49.34591224194439,17.304412934512197,0,Europe/Prague,0
-58544,Strážnice,48.897582987540105,17.318416173294054,0,Europe/Prague,0
 58549,Košťálov,50.568596,15.403493,0,Europe/Prague,0
 58550,Havřice,49.0326461,17.6200619,0,Europe/Prague,0
 58569,Liberec,50.761638262016824,15.04666949073794,0,Europe/Prague,0
@@ -1689,7 +1691,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 58998,Brno hlavní nádraží,49.1905822,16.6128025,0,Europe/Prague,0
 59007,Lípa nad Dřevnicí,49.2160186,17.7699336,0,Europe/Prague,0
 59029,Křižanovice,49.14505,16.9347839,0,Europe/Prague,0
-59036,Vnorovy,48.930294,17.346521,0,Europe/Prague,0
 59050,Turnov,50.587168094744506,15.13945068105511,0,Europe/Prague,0
 59069,Třebětice,49.3174439,17.5194531,0,Europe/Prague,0
 59073,Grygov,49.532642,17.30654,0,Europe/Prague,0
