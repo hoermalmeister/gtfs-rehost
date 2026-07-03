@@ -37,7 +37,6 @@ L146D99,99,S6,"Brno - Šlapanice - Slavkov u Brna - Bučovice - Kyjov - Veselí 
 L147D99,99,R8,"Brno - Vyškov na Moravě",2,800000,E1CB31
 L148D99,99,S61,"Bzenec - Moravský Písek",2,800000,FFFFFF
 L149D99,99,S91,"Myjava - Javorník nad Veličkou - Velká nad Veličkou - Veselí nad Moravou - Strážnice - Hodonín",2,800000,FFFFFF
-L14D99,99,14,"(Obřany, Babická -) Maloměřický most - Česká - náměstí Míru",0,E18080,FFFFFF
 L151D99,99,151,"Brno - Šlapanice - Kobylnice - Sokolnice - Měnín - Židlochovice",3,7FFFAA,
 L152D99,99,152,"Blansko - Lipůvka - Kuřim",3,7FFFAA,
 L153D99,99,153,"Tišnov - Veverská Bítýška - Zastávka - Zbýšov - Oslavany - Ivančice",3,7FFFAA,
@@ -52,11 +51,11 @@ L164D99,99,164,"Pohořelice - Loděnice - Olbramovice - Moravský Krumlov",3,7FF
 L165D99,99,165,"Hustopeče - Vranovice - Pohořelice",3,7FFFAA,
 L166D99,99,166,"Vyškov - Bohdalice-Pavlovice - Hvězdlice - Nemochovice - Brankovice",3,7FFFAA,
 L167D99,99,167,"Blansko - Jedovnice - Senetářov - Ruprechtov - Vyškov",3,7FFFAA,
-L171D99,99,xS2,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Blansko",3,7FFFAA,
+L169D99,99,xS31,"NÁHRADNÍ DOPRAVA ZA VLAK Tišnov - Nedvědice",3,7FFFAA,
 L173D99,99,xS82,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šatov",3,7FFFAA,
 L174D99,99,174,"Mikulov - Březí - Novosedly - Drnholec - Hrušovany nad Jevišovkou",3,7FFFAA,
-L175D99,99,xS3,"NÁHRADNÍ DOPRAVA ZA VLAK Hrušovany u Brna - Žabčice - Vranovice",3,7FFFAA,
 L179D99,99,xR8,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Vyškov na Moravě",3,7FFFAA,
+L17D99,99,H4,"Komenského náměstí - Nové sady, smyčka",0,CC9408,FFFFFF
 L181D99,99,P1,"Arena Brno - Hlavní nádraží (- Malinovského náměstí)",0,D40000,FFFFFF
 L189D99,99,P9,"Bystrc - Lesná",0,8C4A9A,FFFFFF
 L1D99,99,1,"Řečkovice - Pisárky",0,D40000,FFFFFF
@@ -114,7 +113,7 @@ L30D99,99,30,"Černého - Klarisky",800,008033,FFFFFF
 L311D99,99,311,"Tišnov - Drásov - Kuřim",3,7FFFAA,
 L312D99,99,312,"Tišnov - Veverská Bítýška - Kuřim",3,7FFFAA,
 L313D99,99,313,"Lysice - Býkovice - Brťov-Jeneč - Lipůvka - Kuřim",3,7FFFAA,
-L314D99,99,314,"Tišnov - Kuřim",3,7FFFAA,
+L314D99,99,314,"Bystřice nad Pernštejnem - Rožná - Nedvědice - Tišnov - Kuřim",3,7FFFAA,
 L31D99,99,31,"Hlavní nádraží - Šlapanice, Kalvodova",800,008033,FFFFFF
 L320D99,99,320,"Sentice - Čebín - Drásov - Malhostovice - Lipůvka",3,7FFFAA,
 L321D99,99,321,"Sentice - Čebín - Drásov - Skalička",3,7FFFAA,
@@ -133,7 +132,6 @@ L35D99,99,35,"Masarykova čtvrť, Barvičova - Mendlovo náměstí",800,008033,F
 L36D99,99,36,"Komín, sídliště - Česká",800,008033,FFFFFF
 L370D99,99,370,"Bystřice nad Pernštejnem: Domanín - Domanínek - Masarykovo nám. - Gymnázium - Železniční stanice",3,2C89C8,FFFFFF
 L37D99,99,37,"Mendlovo náměstí - Osová",800,008033,FFFFFF
-L383D99,99,x3,"Česká - Vozovna Komín (- Bystrc, Rakovecká)",3,009E9E,FFFFFF
 L38D99,99,38,"Masarykova čtvrť, Preslova - Komenského náměstí",800,008033,FFFFFF
 L39D99,99,39,"Masarykova čtvrť, Barvičova - Komenského náměstí",800,008033,FFFFFF
 L3D99,99,3,"Židenice, Stará osada - Vozovna Komín (- Bystrc, Rakovecká)",0,009E9E,FFFFFF
@@ -146,7 +144,7 @@ L406D99,99,406,"Brno - Rosice - Oslavany - Ivančice",3,7FFFAA,
 L407D99,99,407,"Troubsko - Omice",3,7FFFAA,
 L40D99,99,40,"Úzká - Tovární",3,2C82C8,FFFFFF
 L411D99,99,411,"Deblín - Svatoslav - Přibyslavice - Velká Bíteš",3,7FFFAA,
-L41D99,99,41,"Brno - Česká - Lelekovice - Vranov",3,2C82C8,FFFFFF
+L41D99,99,41,"Královo Pole, nádraží - Ivanovice - Lelekovice",3,2C82C8,FFFFFF
 L420D99,99,420,"Zastávka - Příbram na Moravě - Zbraslav - Velká Bíteš",3,7FFFAA,
 L421D99,99,421,"Zastávka - Zbýšov - Zakřany - Lukovany",3,7FFFAA,
 L422D99,99,422,"Zastávka - Neslovice - Hlína",3,7FFFAA,
@@ -246,7 +244,6 @@ L665D99,99,665,"Kyjov - Vracov - Bzenec - Strážnice",3,7FFFAA,
 L666D99,99,666,"Kyjov - Vlkoš - Žeravice - Osvětimany",3,7FFFAA,
 L667D99,99,667,"Kyjov - Moravany - Hýsly - Kyjov",3,7FFFAA,
 L668D99,99,668,"Kyjov - Čeložnice",3,7FFFAA,
-L66D99,99,66,"Haškova - Halasovo náměstí",3,2C82C8,FFFFFF
 L671D99,99,671,"Kyjov: Bohuslavice - Boršov - Újezd - AN - nemocnice",3,2C89C8,FFFFFF
 L672D99,99,672,"Kyjov: Bohuslavice - Boršov - gymnázium - AN - nemocnice",3,2C89C8,FFFFFF
 L673D99,99,673,"Kyjov: Nemocnice - AN - Újezd - poliklinika - AN - nemocnice",3,2C89C8,FFFFFF
@@ -261,6 +258,7 @@ L70D99,99,70,"Ořešín - Královo Pole, nádraží",3,2C82C8,FFFFFF
 L710D99,99,710,"Šlapanice - Jiříkovice - Blažovice",3,7FFFAA,
 L720D99,99,720,"Holubice - Pozořice",3,7FFFAA,
 L721D99,99,xS21,"NÁHRADNÍ DOPRAVA ZA VLAK S21",3,7FFFAA,
+L729D99,99,xS9,"NÁHRADNÍ DOPRAVA ZA VLAK S9",3,7FFFAA,
 L72D99,99,72,"Technologický park - Obřany, sídliště",3,2C82C8,FFFFFF
 L730D99,99,730,"Vyškov - Luleč - Nemojany - Tučapy - Komořany - Rousínov",3,7FFFAA,
 L731D99,99,731,"Olšany - Habrovany - Rousínov",3,7FFFAA,
