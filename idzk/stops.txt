@@ -153,6 +153,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 10783,"Malhotice, náves",49.48943384263987,17.764039242792844,0,Europe/Prague,0
 10784,"Kunovice, Lidická",49.041001174780426,17.471566863674866,0,Europe/Prague,0
 10786,"Zlín, Zlínské Paseky, točna",49.2452163266,17.6648536263,0,Europe/Prague,0
+10789,"Fryšták, Horní Ves",49.28806396052483,17.691473930237365,0,Europe/Prague,0
 10790,"Uherské Hradiště, Sady, Za Kovárnou",49.050828825794476,17.484964429906128,0,Europe/Prague,0
 10791,"Osíčko, náves",49.43033638556608,17.751143438266446,0,Europe/Prague,0
 10792,"Zlín, Topolová",49.2184780161,17.6466354962,0,Europe/Prague,0
@@ -1404,6 +1405,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 36719,"Zlín, Malenovice, hřiště",49.2045339,17.5888408,0,Europe/Prague,0
 3746,"Vyškov, Marchanice",49.282753111975076,17.024268670297147,0,Europe/Prague,0
 37585,"Zlín, Malenovice, Mlýnská",49.2066956,17.5852989,0,Europe/Prague,0
+37862,"Púchov, Continental AS",49.1073214,18.3183464,0,Europe/Bratislava,0
 3824,Bedihošť,49.44849172525144,17.16606425214959,0,Europe/Prague,0
 3842,"Křižanovice u Vyškova, rozc.0.2",49.283810566367364,17.036733567754915,0,Europe/Prague,0
 3987,"Hoštice-Heroltice, Heroltice, rozc.",49.28508177733607,17.057228267146737,0,Europe/Prague,0
@@ -1450,7 +1452,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 47447,"Veselí n.Mor., žel.st.",48.949518,17.382238,0,Europe/Prague,0
 4746,Obědkovice,49.3974768371123,17.226334571855762,0,Europe/Prague,0
 47718,"Zlín, Podhoří, Svat.Čecha",49.21592641572739,17.63456690518899,0,Europe/Prague,0
-47719,"Zlín, Podhoří, škola",49.2140169,17.6329081,0,Europe/Prague,0
 47769,"Bystřice p.Lop., chata Troják",48.95535253805243,17.792945893693783,0,Europe/Prague,0
 47777,"Bystřice p.Lop., škola",48.9759609,17.75447526,0,Europe/Prague,0
 47781,"Uherské Hradiště, Stará Tenice",49.07058144946517,17.452288668232395,0,Europe/Prague,0
@@ -2228,7 +2229,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 9636,"Polešovice, u kina",49.029904442276184,17.34883731527066,0,Europe/Prague,0
 9641,"Bystřice p.Host., TON",49.401495004046424,17.659766522437263,0,Europe/Prague,0
 9654,"Staré Město, Jalubská",49.0917525824615,17.43300094335869,0,Europe/Prague,0
-9658,"Otrokovice, Trávníky škola",49.2034568787,17.5455627441,0,Europe/Prague,0
 9665,Horní Lapač,49.30190690240704,17.615023493742562,0,Europe/Prague,0
 9673,"Přílepy, u nádrže",49.317014990903736,17.62531889366335,0,Europe/Prague,0
 9677,Chomýž,49.36259821416703,17.646111989002964,0,Europe/Prague,0
