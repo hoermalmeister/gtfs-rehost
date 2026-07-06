@@ -2,8 +2,7 @@ name: Daily GTFS Rehost - DÚK
 
 on:
   schedule:
-    # 03:50 UTC (04:50 CET v zimě / 05:50 CEST v létě)
-    - cron: '50 3 * * *'
+    - cron: '00 4 * * *'
   workflow_dispatch: 
 
 jobs:
