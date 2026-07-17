@@ -1,265 +1,265 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport,relations
-A11,R227,743,Žatec-Měcholupy-Podbořany,3,0,0,0,CISJR:562743
-A11,R226,745,Žatec-Podbořany-Lubenec-Valeč,3,0,0,0,CISJR:562745
-A7,R57,305,"Praha,Zličín - Karlovy Vary",3,0,0,0,CISJR:100305|PID:L305
-A7,R56,760,Rakovník - Podbořany,3,0,0,0,CISJR:310760|PID:L760
-A1,R66,467,Mladá Boleslav - Mělník - Roudnice nad Labem,3,0,0,0,CISJR:260467|PID:L467
-A17,R3902,588,Chomutov-Hora Sv. Šebestiána-Marienberg,3,0,0,0,CISJR:1588
-A11,R3900,521,Litvínov-Brandov-Olbernhau,3,0,0,0,CISJR:1521
-A22,R3903,590,Kadaň-Klášterec nad Ohří-Vejprty-Annaberg-Buchholz,3,0,0,0,CISJR:1590
-A11,R3914,XU28,Děčín-Bad Schandau-Dolní Poustevna,3,0,0,0,CISJR:1928
-A22,R3901,585,Jirkov-Chomutov-Kurort Oberwiesenthal,3,0,0,0,CISJR:1585
-A115,R4820,237,"Děčín, Chrochvice - Děčín, Nemocnice",3,0,0,0,CISJR:515237
-A115,R4814,212,"Děčín, Bělá - Děčín, Folknáře",3,0,0,0,CISJR:515212
-A115,R4815,214,"Děčín, Škrabky - Děčín, Podskalí",3,0,0,0,CISJR:515214
-A115,R4812,209,"Děčín, Autobusové nádraží - Děčín, Nebočady",3,0,0,0,CISJR:515209
-A115,R4813,210,"Děčín, Krásný Studenec - Děčín, Maxičky",3,0,0,0,CISJR:515210
-A115,R4818,232,"Děčín, Želenice - Děčín, Nebočady",3,0,0,0,CISJR:515232
-A115,R4819,233,"Děčín, Chrochvice - Děčín, Bynov",3,0,0,0,CISJR:515233
-A115,R4816,218,Autobusové nádraží - Na Vyhlídce - Horní Oldřichov,3,0,0,0,CISJR:515218
-A115,R4817,229,"Děčín, Bynov - Děčín, Nebočady",3,0,0,0,CISJR:515229
-A115,R4810,204,"Děčín, Letná - Děčín, Březiny",3,0,0,0,CISJR:515204
-A115,R4811,208,"Děčín, Autobusové nádraží - Děčín, Velká Veleň",3,0,0,0,CISJR:515208
-A116,R4846,311,"Chomutov, žel.st. - Chomutov, aut.nádr. - Jirkov, aut.nádr.",3,0,0,0,CISJR:525311
-A116,R4847,312,"Okály - Chomutov, žel.zast. - Palackého - Důl J. Žižka",3,0,0,0,CISJR:525312
-A116,R4844,309,Masokombinát - Černovice,3,0,0,0,CISJR:525309
-A116,R4845,310,"Globus - Březenecká I - Jirkov, aut.nádr.",3,0,0,0,CISJR:525310
-A116,R4848,313,"Jirkov, aut.nádr. - Jirkov, žel.zast. - Kaufland",3,0,0,0,CISJR:525313
-A116,R4849,314,Poliklinika - Palackého - Zadní Vinohrady - Poliklinika,3,0,0,0,CISJR:525314
-A116,R4842,307,Vodní - Palackého - Spořice - Vodní,3,0,0,0,CISJR:525307
-A116,R4843,308,"Okály - Palackého - Droužkovice - Březno, zdrav.stř.",3,0,0,0,CISJR:525308
-A116,R4840,304,Podhorská - Autoškola - Palackého - Poliklinika,3,0,0,0,CISJR:525304
-A116,R4841,306,Globus - Autoškola - Poliklinika,3,0,0,0,CISJR:525306
-A116,R4839,303,Povodí Ohře - Palackého - Jezero,3,0,0,0,CISJR:525303
-A116,R4837,301,"Globus - Kostnická - Moravská - Jirkov, aut.nádr.",3,0,0,0,CISJR:525301
-A116,R4838,302,"Chomutov, aut.nádr. - Severka - Písečná - Kaufland",3,0,0,0,CISJR:525302
-A115,R4809,202,"Děčín, Bynov - Děčín, Staré Město",3,0,0,0,CISJR:515202
-A115,R4808,201,"Děčín, Chrochvice - Děčín, Pod Nemocnicí",3,0,0,0,CISJR:515201
-A22,R423,617,Kladno - Slaný - Roudnice nad Labem,3,0,0,0,CISJR:221617|PID:L617
-A116,R4850,316,"Chomutov, aut.nádr. - Jirkov, Staré Vinařice - Jirkov, aut.nádr.",3,0,0,0,CISJR:525316
-A116,R4851,317,"Chomutov, aut.nádr. - Údlice - Přečaply",3,0,0,0,CISJR:525317
-A16,R486,589,Kvílice - Hořešovice - Líský - Louny,3,0,0,0,CISJR:220589|PID:L589
-A16,R485,389,"Praha,Nádraží Veleslavín - Slaný - Louny - Chomutov",3,0,0,0,CISJR:100389|PID:L389
-A11,R3887,453,"Libouchec-Velké Chvojno-Ústí n.L.-Malečov,Rýdeč",3,0,0,0,CISJR:592453
-A11,R3888,459,"Petrovice,Krásný Les-Petrovice",3,0,0,0,CISJR:592459
-A11,R3889,451,"Petrovice,Krásný Les-Ústí n.L.-Velké Březno-Homole u P.,Suletice",3,0,0,0,CISJR:592451
-A11,R3883,401,Jiříkov-Ebersbach-Rumburk-Seifhennersdorf-Varnsdorf-Großschönau,3,0,0,0,CISJR:1401
-A11,R3884,409,Chřibská-Rybniště-Krásná Lípa-Rumburk-D.Poustevna,3,0,0,0,CISJR:512409
-A11,R3885,435,"Hřensko,Mezná-Hřensko-Schmilka",3,0,0,0,CISJR:1435
-A11,R3886,452,Verneřice-Ústí n.L.-Bahratal,3,0,0,0,CISJR:1452
-A4,R188,475,Mělník - Horní Počaply - Bechlín,3,0,0,0,CISJR:250475|PID:L475
-A11,R520,635,Úštěk-Hoštka-Štětí-Roudnice n. L.,3,0,0,0,CISJR:552635
-A17,R538,415,"Praha,Zličín - Kadaň",3,0,0,0,CISJR:104415|PID:L415
-A11,R3890,623,Bohušovice n.O.-Litoměřice-Třebušín-Lovečkovice-Verneřice,3,0,0,0,CISJR:552623
+A11,R207,743,Žatec-Měcholupy-Podbořany,3,0,0,0,CISJR:562743
+A11,R206,745,Žatec-Podbořany-Lubenec-Valeč,3,0,0,0,CISJR:562745
+A7,R35,760,Rakovník - Podbořany,3,0,0,0,CISJR:310760|PID:L760
+A7,R36,305,"Praha,Zličín - Karlovy Vary",3,0,0,0,CISJR:100305|PID:L305
+A1,R45,467,Mladá Boleslav - Mělník - Roudnice nad Labem,3,0,0,0,CISJR:260467|PID:L467
+A11,R3906,451,"Petrovice,Krásný Les-Ústí n.L.-Velké Březno-Homole u P.,Suletice",3,0,0,0,CISJR:592451
+A11,R3907,623,Bohušovice n.O.-Litoměřice-Třebušín-Lovečkovice-Verneřice,3,0,0,0,CISJR:552623
+A11,R3902,435,"Hřensko,Mezná-Hřensko-Schmilka",3,0,0,0,CISJR:1435
+A11,R3903,452,Verneřice-Ústí n.L.-Bahratal,3,0,0,0,CISJR:1452
+A11,R3904,453,"Libouchec-Velké Chvojno-Ústí n.L.-Malečov,Rýdeč",3,0,0,0,CISJR:592453
+A11,R3905,459,"Petrovice,Krásný Les-Petrovice",3,0,0,0,CISJR:592459
+A11,R3900,401,Jiříkov-Ebersbach-Rumburk-Seifhennersdorf-Varnsdorf-Großschönau,3,0,0,0,CISJR:1401
+A11,R3901,409,Chřibská-Rybniště-Krásná Lípa-Rumburk-D.Poustevna,3,0,0,0,CISJR:512409
+A11,R3917,521,Litvínov-Brandov-Olbernhau,3,0,0,0,CISJR:1521
+A22,R3918,585,Jirkov-Chomutov-Kurort Oberwiesenthal,3,0,0,0,CISJR:1585
+A17,R3919,588,Chomutov-Hora Sv. Šebestiána-Marienberg,3,0,0,0,CISJR:1588
+A115,R4825,201,"Děčín, Chrochvice - Děčín, Pod Nemocnicí",3,0,0,0,CISJR:515201
+A115,R4826,202,"Děčín, Bynov - Děčín, Staré Město",3,0,0,0,CISJR:515202
+A115,R4829,209,"Děčín, Autobusové nádraží - Děčín, Nebočady",3,0,0,0,CISJR:515209
+A115,R4827,204,"Děčín, Letná - Děčín, Březiny",3,0,0,0,CISJR:515204
+A115,R4828,208,"Děčín, Autobusové nádraží - Děčín, Velká Veleň",3,0,0,0,CISJR:515208
+A115,R4836,233,"Děčín, Chrochvice - Děčín, Bynov",3,0,0,0,CISJR:515233
+A115,R4837,237,"Děčín, Chrochvice - Děčín, Nemocnice",3,0,0,0,CISJR:515237
+A115,R4834,229,"Děčín, Bynov - Děčín, Nebočady",3,0,0,0,CISJR:515229
+A115,R4835,232,"Děčín, Želenice - Děčín, Nebočady",3,0,0,0,CISJR:515232
+A115,R4832,214,"Děčín, Škrabky - Děčín, Podskalí",3,0,0,0,CISJR:515214
+A115,R4833,218,Autobusové nádraží - Na Vyhlídce - Horní Oldřichov,3,0,0,0,CISJR:515218
+A115,R4830,210,"Děčín, Krásný Studenec - Děčín, Maxičky",3,0,0,0,CISJR:515210
+A115,R4831,212,"Děčín, Bělá - Děčín, Folknáře",3,0,0,0,CISJR:515212
+A22,R3920,590,Kadaň-Klášterec nad Ohří-Vejprty-Annaberg-Buchholz,3,0,0,0,CISJR:1590
+A11,R3931,XU28,Děčín-Bad Schandau-Dolní Poustevna,3,0,0,0,CISJR:1928
+A22,R421,617,Kladno - Slaný - Roudnice nad Labem,3,0,0,0,CISJR:221617|PID:L617
+A116,R4868,317,"Chomutov, aut.nádr. - Údlice - Přečaply",3,0,0,0,CISJR:525317
+A116,R4866,314,Poliklinika - Palackého - Zadní Vinohrady - Poliklinika,3,0,0,0,CISJR:525314
+A116,R4867,316,"Chomutov, aut.nádr. - Jirkov, Staré Vinařice - Jirkov, aut.nádr.",3,0,0,0,CISJR:525316
+A116,R4860,308,"Okály - Palackého - Droužkovice - Březno, zdrav.stř.",3,0,0,0,CISJR:525308
+A116,R4861,309,Masokombinát - Černovice,3,0,0,0,CISJR:525309
+A116,R4864,312,"Okály - Chomutov, žel.zast. - Palackého - Důl J. Žižka",3,0,0,0,CISJR:525312
+A116,R4865,313,"Jirkov, aut.nádr. - Jirkov, žel.zast. - Kaufland",3,0,0,0,CISJR:525313
+A116,R4862,310,"Globus - Březenecká I - Jirkov, aut.nádr.",3,0,0,0,CISJR:525310
+A116,R4863,311,"Chomutov, žel.st. - Chomutov, aut.nádr. - Jirkov, aut.nádr.",3,0,0,0,CISJR:525311
+A116,R4857,304,Podhorská - Autoškola - Palackého - Poliklinika,3,0,0,0,CISJR:525304
+A116,R4858,306,Globus - Autoškola - Poliklinika,3,0,0,0,CISJR:525306
+A116,R4855,302,"Chomutov, aut.nádr. - Severka - Písečná - Kaufland",3,0,0,0,CISJR:525302
+A116,R4856,303,Povodí Ohře - Palackého - Jezero,3,0,0,0,CISJR:525303
+A116,R4859,307,Vodní - Palackého - Spořice - Vodní,3,0,0,0,CISJR:525307
+A116,R4854,301,"Globus - Kostnická - Moravská - Jirkov, aut.nádr.",3,0,0,0,CISJR:525301
+A16,R482,589,Kvílice - Hořešovice - Líský - Louny,3,0,0,0,CISJR:220589|PID:L589
+A16,R481,389,"Praha,Nádraží Veleslavín - Slaný - Louny - Chomutov",3,0,0,0,CISJR:100389|PID:L389
+A4,R168,475,Mělník - Horní Počaply - Bechlín,3,0,0,0,CISJR:250475|PID:L475
+A4,R190,646,Mělník - Nová Ves - Kralupy nad Vltavou,3,0,0,0,CISJR:250646|PID:L646
+A4,R191,413,"Praha,Letňany - Ledčice - Litoměřice",3,0,0,0,CISJR:100413|PID:L413
+A7,R186,415,"Praha,Zličín - Kadaň",3,0,0,0,CISJR:100415|PID:L415
+A4,R189,466,Mělník - Spomyšl - Kralupy nad Vltavou,3,0,0,0,CISJR:250466|PID:L466
+A11,R515,635,Úštěk-Hoštka-Štětí-Roudnice n. L.,3,0,0,0,CISJR:552635
+A17,R533,415,"Praha,Zličín - Kadaň",3,0,0,0,CISJR:104415|PID:L415
 A22,R590,595,Velvary - Poštovice - Peruc,3,0,0,0,CISJR:220595|PID:L595
-A17,R5079,529,"Litvínov-Bitozeves,Triangle-východ",3,0,0,0,CISJR:572529
-A11,R5078,526,"Litvínov-Osek,Dlouhá Louka",3,0,0,0,CISJR:572526
-A11,R5075,523,Litvínov-Český Jiřetín,3,0,0,0,CISJR:572523
-A11,R5074,768,Podbořany-Nepomyšl-Podbořanský Rohozec,3,0,0,0,CISJR:562768
-A11,R5077,525,Litvínov-Mariánské Radčice-Braňany,3,0,0,0,CISJR:572525
-A17,R5070,762,"Podbořany-Krásný Dvůr-Podbořany,Kněžice",3,0,0,0,CISJR:562762
-A11,R5076,524,"Litvínov,Záluží-Dubí-Chlumec",3,0,0,0,CISJR:572524
-A11,R5071,764,"Podbořany-Měcholupy,Velká Černoc",3,0,0,0,CISJR:562764
-A11,R5073,767,Podbořany-Valeč,3,0,0,0,CISJR:562767
-A11,R5072,766,Podbořany-Kryry-Jesenice-Kralovice,3,0,0,0,CISJR:562766
-A17,R5080,543,"Litvínov-Most-Bitozeves,Triangle-východ",3,0,0,0,CISJR:572543
-A17,R5082,545,"Lužice - Most - Bělušice,Odolice",3,0,0,0,CISJR:572545
-A17,R5081,544,Braňany-Most-Strupčice,3,0,0,0,CISJR:572544
-A11,R5097,502,"Teplice-Světec-Rtyně n.Bílinou,Velvěty",3,0,0,0,CISJR:582502
-A11,R5096,501,"Bílina-Osek-Litvínov,Záluží",3,0,0,0,CISJR:582501
-A11,R5099,504,Teplice-Bílina-Louny,3,0,0,0,CISJR:582504
-A11,R5098,503,Bílina-Ohníč-Teplice,3,0,0,0,CISJR:582503
-A4,R210,646,Mělník - Nová Ves - Kralupy nad Vltavou,3,0,0,0,CISJR:250646|PID:L646
-A11,R5039,662,"Lovosice-Třebenice,Kocourov",3,0,0,0,CISJR:552662
-A11,R5038,661,Litoměřice-Lovosice-Třebenice-Třebívlice-Libčeves,3,0,0,0,CISJR:552661
-A11,R5035,660,Lovosice-Třebenice-Třebívlice-Libčeves-Most,3,0,0,0,CISJR:552660
-A11,R5034,687,Roudnice n.Labem-Mšené-lázně-Louny,3,0,0,0,CISJR:552687
-A11,R5037,702,"Chlumčany,Vlčí-Louny-Libčeves",3,0,0,0,CISJR:562702
-A11,R5036,703,"Třebívlice-Děčany-Louny-Bitozeves,,Triangle-východ",3,0,0,0,CISJR:552703
-A11,R5031,651,Litoměřice-Lovosice-Malé Žernoseky,3,0,0,0,CISJR:552651
-A11,R5030,637,Litoměřice-Brozany n.Ohří-Libochovice,3,0,0,0,CISJR:552637
-A4,R211,413,"Praha,Letňany - Ledčice - Litoměřice",3,0,0,0,CISJR:100413|PID:L413
-A11,R5033,689,Lovosice-Libochovice-Mšené-lázně-Roudnice n.Labem,3,0,0,0,CISJR:552689
-A11,R5032,652,Lovosice-Chotěšov-Libochovice,3,0,0,0,CISJR:552652
-A11,R5049,704,"Louny-Koštice-Třebívlice-Libčeves,Řisuty",3,0,0,0,CISJR:562704
-A11,R5046,683,Litoměřice-Libotenice-Roudnice n.Labem-Horní Beřkovice,3,0,0,0,CISJR:552683
-A11,R5045,681,Brozany n.Ohří-Roudnice n.Labem-Černěves,3,0,0,0,CISJR:552681
-A11,R5048,686,"MHD Roudnice nad Labem: Roudnice n.L.,Žižkova - Roudnice n.L.,žel.st. - Roudnice n.L.,Glazura",3,0,0,0,CISJR:552686
-A11,R5047,684,Roudnice n.Labem-Chodouny-Litoměřice,3,0,0,0,CISJR:552684
-A11,R5042,665,Lovosice-Klapý-Libochovice-Peruc,3,0,0,0,CISJR:552665
-A11,R5041,664,"Lovosice-Klapý-Třebívlice,Skalice",3,0,0,0,CISJR:552664
-A11,R5044,680,Roudnice n. L.- Račiněves-Horní Beřkovice,3,0,0,0,CISJR:552680
-A11,R5043,666,"Lovosice-Čížkovice,,cementárna",3,0,0,0,CISJR:552666
-A11,R5040,663,"Lovosice-Velemín,Milešov-Velemín,Dobkovičky-Žalany",3,0,0,0,CISJR:552663
-A7,R206,415,"Praha,Zličín - Kadaň",3,0,0,0,CISJR:100415|PID:L415
-A4,R209,466,Mělník - Spomyšl - Kralupy nad Vltavou,3,0,0,0,CISJR:250466|PID:L466
-A17,R5059,733,Žatec-Most,3,0,0,0,CISJR:562733
-A17,R5058,732,Žatec-Chomutov-Litvínov,3,0,0,0,CISJR:562732
-A17,R5055,721,Louny-Lenešice-Postoloprty-Havraň-Most,3,0,0,0,CISJR:562721
-A17,R5057,731,"Žatec-Staňkovice,Triangle-jih",3,0,0,0,CISJR:562731
-A11,R5056,726,Postoloprty-Lišany-Postoloprty,3,0,0,0,CISJR:562726
-A11,R5053,717,"Lipno,Drahomyšl-Tuchořice,Třeskonice",3,0,0,0,CISJR:562717
-A11,R5052,716,Louny-Hřivice-Pnětluky,3,0,0,0,CISJR:562716
-A11,R5054,718,Louny-Zálužice-Žatec,3,0,0,0,CISJR:562718
-A11,R5051,705,"Louny-Slavětín-Peruc,Telce",3,0,0,0,CISJR:562705
-A11,R5050,706,"Třebívlice-Děčany,Semeč",3,0,0,0,CISJR:552706
-A17,R5069,755,"Žatec-Žiželice,Stroupeč",3,0,0,0,CISJR:562755
-A2,R221,600,Kladno - Nové Strašecí - Louny,3,0,0,0,CISJR:220600|PID:L600
-A17,R5066,750,Podbořany-Krásný Dvůr-Čeradice-Žatec,3,0,0,0,CISJR:562750
-A17,R5068,752,"Žatec-Nové Sedlo,Břežany",3,0,0,0,CISJR:562752
-A17,R5067,751,"Žatec-Čeradice-Radonice,Kadaňský Rohozec",3,0,0,0,CISJR:562751
-A17,R5061,735,"Žatec-Bitozeves-Blažim-Výškov,Počerady",3,0,0,0,CISJR:562735
-A11,R5064,741,Žatec-Kounov-Pnětluky,3,0,0,0,CISJR:562741
-A11,R5063,739,Žatec-Lipno-Louny,3,0,0,0,CISJR:562739
-A11,R5065,744,Žatec-Podbořany-Blatno,3,0,0,0,CISJR:562744
-A11,R5060,734,Žatec-Postoloprty-Louny,3,0,0,0,CISJR:562734
-A11,R5062,738,Žatec-Lišany-Postoloprty,3,0,0,0,CISJR:562738
-A36,R611,650,Litoměřice  - Mšené-lázně - Slaný - Kladno,3,0,0,0,CISJR:553650|PID:L650
+A17,R5076,733,Žatec-Most,3,0,0,0,CISJR:562733
+A17,R5078,735,"Žatec-Bitozeves-Blažim-Výškov,Počerady",3,0,0,0,CISJR:562735
+A11,R5079,738,Žatec-Lišany-Postoloprty,3,0,0,0,CISJR:562738
+A17,R5072,721,Louny-Lenešice-Postoloprty-Havraň-Most,3,0,0,0,CISJR:562721
+A17,R5075,732,Žatec-Chomutov-Litvínov,3,0,0,0,CISJR:562732
+A17,R5074,731,"Žatec-Staňkovice,Triangle-jih",3,0,0,0,CISJR:562731
+A11,R5077,734,Žatec-Postoloprty-Louny,3,0,0,0,CISJR:562734
+A11,R5071,718,Louny-Zálužice-Žatec,3,0,0,0,CISJR:562718
+A11,R5070,717,"Lipno,Drahomyšl-Tuchořice,Třeskonice",3,0,0,0,CISJR:562717
+A11,R5073,726,Postoloprty-Lišany-Postoloprty,3,0,0,0,CISJR:562726
+A17,R5087,762,"Podbořany-Krásný Dvůr-Podbořany,Kněžice",3,0,0,0,CISJR:562762
+A17,R5084,751,"Žatec-Čeradice-Radonice,Kadaňský Rohozec",3,0,0,0,CISJR:562751
+A17,R5083,750,Podbořany-Krásný Dvůr-Čeradice-Žatec,3,0,0,0,CISJR:562750
+A11,R5089,766,Podbořany-Kryry-Jesenice-Kralovice,3,0,0,0,CISJR:562766
+A17,R5086,755,"Žatec-Žiželice,Stroupeč",3,0,0,0,CISJR:562755
+A17,R5085,752,"Žatec-Nové Sedlo,Břežany",3,0,0,0,CISJR:562752
+A11,R5088,764,"Podbořany-Měcholupy,Velká Černoc",3,0,0,0,CISJR:562764
+A11,R5082,744,Žatec-Podbořany-Blatno,3,0,0,0,CISJR:562744
+A11,R5081,741,Žatec-Kounov-Pnětluky,3,0,0,0,CISJR:562741
+A11,R5080,739,Žatec-Lipno-Louny,3,0,0,0,CISJR:562739
+A17,R5099,545,"Lužice - Most - Bělušice,Odolice",3,0,0,0,CISJR:572545
+A17,R5098,544,Braňany-Most-Strupčice,3,0,0,0,CISJR:572544
+A17,R5097,543,"Litvínov-Most-Bitozeves,Triangle-východ",3,0,0,0,CISJR:572543
+A17,R5096,529,"Litvínov-Bitozeves,Triangle-východ",3,0,0,0,CISJR:572529
+A11,R5093,524,"Litvínov,Záluží-Dubí-Chlumec",3,0,0,0,CISJR:572524
+A11,R5092,523,Litvínov-Český Jiřetín,3,0,0,0,CISJR:572523
+A11,R5095,526,"Litvínov-Osek,Dlouhá Louka",3,0,0,0,CISJR:572526
+A11,R5094,525,Litvínov-Mariánské Radčice-Braňany,3,0,0,0,CISJR:572525
+A11,R5091,768,Podbořany-Nepomyšl-Podbořanský Rohozec,3,0,0,0,CISJR:562768
+A11,R5090,767,Podbořany-Valeč,3,0,0,0,CISJR:562767
+A11,R5039,682,"Dušníky-Roudnice n.L.-Štětí-Snědovice,Sukorady-Dubá",3,0,0,0,CISJR:552682
+A11,R5038,634,"Štětí,Hněvice-Štětí,Újezd",3,0,0,0,CISJR:552634
+A11,R5035,629,Litoměřice-Kamýk,3,0,0,0,CISJR:552629
+A11,R5034,625,"Litoměřice-Polepy-Hoštka-Štětí,Hněvice",3,0,0,0,CISJR:552625
+A11,R5037,636,Úštěk-Liběšice-Polepy-Roudnice n. L.,3,0,0,0,CISJR:552636
+A11,R5036,626,"Litoměřice-Polepy,Hrušovany-Štětí,Radouň",3,0,0,0,CISJR:552626
+A11,R5031,621,"Velké Žernoseky-Malíč-Litoměřice-Žitenice,Skalice",3,0,0,0,CISJR:552621
+A11,R5030,620,"Litoměřice-Hlinná,Tlučeň",3,0,0,0,CISJR:552620
+A11,R5033,624,Litoměřice-Býčkovice-Liběšice,3,0,0,0,CISJR:552624
+A11,R5032,622,"Litoměřice-Malečov,Rýdeč",3,0,0,0,CISJR:552622
+A2,R201,600,Kladno - Nové Strašecí - Louny,3,0,0,0,CISJR:220600|PID:L600
+A11,R5049,652,Lovosice-Chotěšov-Libochovice,3,0,0,0,CISJR:552652
+A11,R5046,685,Štětí-Hoštka-Roudnice n.Labem-Libochovice,3,0,0,0,CISJR:552685
+A11,R5045,632,"Lovečkovice- Úštěk,Konojedy",3,0,0,0,CISJR:552632
+A11,R5048,651,Litoměřice-Lovosice-Malé Žernoseky,3,0,0,0,CISJR:552651
+A11,R5047,637,Litoměřice-Brozany n.Ohří-Libochovice,3,0,0,0,CISJR:552637
+A11,R5042,630,"Úštěk-Úštěk,Lukov",3,0,0,0,CISJR:552630
+A11,R5041,628,Litoměřice-Žalhostice-Píšťany-Velké Žernoseky-Libochovany,3,0,0,0,CISJR:552628
+A11,R5044,631,"Liběšice-Lovečkovice,Touchořiny",3,0,0,0,CISJR:552631
+A11,R5043,633,"Úštěk-Snědovice-Štětí,Hněvice",3,0,0,0,CISJR:552633
+A11,R5040,627,"Litoměřice-Liběšice,Dolní Nezly",3,0,0,0,CISJR:552627
+A11,R5057,663,"Lovosice-Velemín,Milešov-Velemín,Dobkovičky-Žalany",3,0,0,0,CISJR:552663
+A11,R5056,662,"Lovosice-Třebenice,Kocourov",3,0,0,0,CISJR:552662
+A11,R5059,665,Lovosice-Klapý-Libochovice-Peruc,3,0,0,0,CISJR:552665
+A11,R5058,664,"Lovosice-Klapý-Třebívlice,Skalice",3,0,0,0,CISJR:552664
+A11,R5053,703,"Třebívlice-Děčany-Louny-Bitozeves,,Triangle-východ",3,0,0,0,CISJR:552703
+A11,R5052,660,Lovosice-Třebenice-Třebívlice-Libčeves-Most,3,0,0,0,CISJR:552660
+A11,R5055,661,Litoměřice-Lovosice-Třebenice-Třebívlice-Libčeves,3,0,0,0,CISJR:552661
+A11,R5054,702,"Chlumčany,Vlčí-Louny-Libčeves",3,0,0,0,CISJR:562702
+A11,R5051,687,Roudnice n.Labem-Mšené-lázně-Louny,3,0,0,0,CISJR:552687
+A11,R5050,689,Lovosice-Libochovice-Mšené-lázně-Roudnice n.Labem,3,0,0,0,CISJR:552689
+A11,R5068,705,"Louny-Slavětín-Peruc,Telce",3,0,0,0,CISJR:562705
+A11,R5067,706,"Třebívlice-Děčany,Semeč",3,0,0,0,CISJR:552706
+A11,R5069,716,Louny-Hřivice-Pnětluky,3,0,0,0,CISJR:562716
+A11,R5064,684,Roudnice n.Labem-Chodouny-Litoměřice,3,0,0,0,CISJR:552684
+A11,R5063,683,Litoměřice-Libotenice-Roudnice n.Labem-Horní Beřkovice,3,0,0,0,CISJR:552683
+A11,R5066,704,"Louny-Koštice-Třebívlice-Libčeves,Řisuty",3,0,0,0,CISJR:562704
+A11,R5065,686,"MHD Roudnice nad Labem: Roudnice n.L.,Žižkova - Roudnice n.L.,žel.st. - Roudnice n.L.,Glazura",3,0,0,0,CISJR:552686
+A11,R5060,666,"Lovosice-Čížkovice,,cementárna",3,0,0,0,CISJR:552666
+A11,R5062,681,Brozany n.Ohří-Roudnice n.Labem-Černěves,3,0,0,0,CISJR:552681
+A11,R5061,680,Roudnice n. L.- Račiněves-Horní Beřkovice,3,0,0,0,CISJR:552680
+A4,R288,464,Mělník - Lužec nad Vltavou - Horní Beřkovice,3,0,0,0,CISJR:250464|PID:L464
+A36,R613,650,Litoměřice  - Mšené-lázně - Slaný - Kladno,3,0,0,0,CISJR:553650|PID:L650
 A22,R656,596,Velvary - Černuc - Straškov-Vodochody,3,0,0,0,CISJR:220596|PID:L596
-A11,R5119,470,"Libouchec-Libouchec,Čermná",3,0,0,0,CISJR:592470
-A11,R5116,455,"Ústí n.L.-Povrly,Český Bukov",3,0,0,0,CISJR:592455
-A11,R5115,456,"Ústí n.L.-Hostovice-Stebno,Chvalov",3,0,0,0,CISJR:592456
-A11,R5118,458,"Ústí n.L.-Krupka-Teplice,Sobědruhy",3,0,0,0,CISJR:592458
-A11,R5117,457,"Ústí n.L.-Řehlovice-Řehlovice,Dubice",3,0,0,0,CISJR:592457
-A11,R5112,472,Ústí n.L.-Libouchec-Jílové,3,0,0,0,CISJR:592472
-A11,R5114,454,"Chuderov,Žežice-Ústí n.L.-Teplice,Sobědruhy",3,0,0,0,CISJR:592454
-A11,R5113,450,Chlumec-Ústí n.L.-Velké Březno-Děčín,3,0,0,0,CISJR:592450
-A11,R5121,801,Ústí n.L.-Chabařovice-Chlumec-Krupka,3,0,0,0,CISJR:592801
-A11,R5120,471,"Ústí n.L.-Libouchec-Jílové, Sněžník",3,0,0,0,CISJR:592471
-A11,R5101,508,Bílina-Lukov,3,0,0,0,CISJR:582508
-A11,R5100,506,Měrunice-Bílina-Lovosice,3,0,0,0,CISJR:582506
-A4,R306,464,Mělník - Lužec nad Vltavou - Horní Beřkovice,3,0,0,0,CISJR:250464|PID:L464
-A11,R5017,625,"Litoměřice-Polepy-Hoštka-Štětí,Hněvice",3,0,0,0,CISJR:552625
-A11,R5016,624,Litoměřice-Býčkovice-Liběšice,3,0,0,0,CISJR:552624
-A11,R5019,626,"Litoměřice-Polepy,Hrušovany-Štětí,Radouň",3,0,0,0,CISJR:552626
-A11,R5018,629,Litoměřice-Kamýk,3,0,0,0,CISJR:552629
-A11,R5013,620,"Litoměřice-Hlinná,Tlučeň",3,0,0,0,CISJR:552620
-A11,R5015,622,"Litoměřice-Malečov,Rýdeč",3,0,0,0,CISJR:552622
-A11,R5014,621,"Velké Žernoseky-Malíč-Litoměřice-Žitenice,Skalice",3,0,0,0,CISJR:552621
-A11,R5028,632,"Lovečkovice- Úštěk,Konojedy",3,0,0,0,CISJR:552632
-A11,R5027,631,"Liběšice-Lovečkovice,Touchořiny",3,0,0,0,CISJR:552631
-A11,R5029,685,Štětí-Hoštka-Roudnice n.Labem-Libochovice,3,0,0,0,CISJR:552685
-A11,R5024,628,Litoměřice-Žalhostice-Píšťany-Velké Žernoseky-Libochovany,3,0,0,0,CISJR:552628
-A11,R5023,627,"Litoměřice-Liběšice,Dolní Nezly",3,0,0,0,CISJR:552627
-A11,R5026,633,"Úštěk-Snědovice-Štětí,Hněvice",3,0,0,0,CISJR:552633
-A11,R5025,630,"Úštěk-Úštěk,Lukov",3,0,0,0,CISJR:552630
-A11,R5020,636,Úštěk-Liběšice-Polepy-Roudnice n. L.,3,0,0,0,CISJR:552636
-A11,R5022,682,"Dušníky-Roudnice n.L.-Štětí-Snědovice,Sukorady-Dubá",3,0,0,0,CISJR:552682
-A11,R5021,634,"Štětí,Hněvice-Štětí,Újezd",3,0,0,0,CISJR:552634
-A2,R438,619,Kladno - Lány - Třtice - Ročov,3,0,0,0,CISJR:220619|PID:L619
-A2,R422,617,Kladno - Slaný - Roudnice nad Labem,3,0,0,0,CISJR:220617|PID:L617
-A4,R457,467,Mladá Boleslav - Mělník - Roudnice nad Labem,3,0,0,0,CISJR:261467|PID:L467
-A126,R7436,88,(Severní Terasa) - Mírová - Elba - Hornická - Divadlo - Mírové náměstí - Výstupní - Žežická - (Krásné Březno - Pod Vyhlídkou),11,0,0,0,CISJR:595088
-A126,R7435,87,Mírová - Severní Terasa - Hornická - Divadlo - Mírové náměstí - Malátova - Stříbrníky - Dobětice točna,11,0,0,0,CISJR:595087
-A126,R7434,84,Všebořice - Beethovenova - Divadlo - Mírové náměstí - Malátova - Stříbrníky - Dobětice točna,11,0,0,0,CISJR:595084
-A126,R7433,80,Mírová - Masarykova nemocnice - Vinařská - Beethovenova - Divadlo - Mírové náměstí - Kamenný Vrch - Karla IV.,11,0,0,0,CISJR:595080
-A11,R816,708,Panenský Týnec - Klobuky - Slaný,3,0,0,0,CISJR:562708|PID:L708
-A11,R842,639,"Štětí,Hněvice-Štětí",3,0,0,0,CISJR:552639
-A116,R7410,353,"Písečná - Zahradní I - Vodní - Chomutov, aut.nádr.",11,0,0,0,CISJR:525353
-A116,R7409,352,Písečná - Zahradní I - Palackého - Poliklinika,11,0,0,0,CISJR:525352
-A116,R7408,351,"Písečná - Zahradní TIP - Vodní - Chomutov, aut.nádr.",11,0,0,0,CISJR:525351
-A116,R7407,350,Písečná - Zahradní TIP - Palackého - Poliklinika,11,0,0,0,CISJR:525350
-A116,R7406,341,"Jirkov, Horník - Vodní - Palackého - Jirkov, Horník",11,0,0,0,CISJR:525341
-A116,R7405,340,"Poliklinika - Palackého - Jirkov, aut.nádr.",11,0,0,0,CISJR:525340
-A126,R7432,76,Všebořice - Beethovenova - Divadlo - Vojanova - Výstupní - Krásné Březno - Pod Vyhlídkou,11,0,0,0,CISJR:595076
-A126,R7431,73,(Koštov konečná) - Václavské nám. - (Metal) - Stará škola - Nové Předlice - Divadlo - Kamenný Vrch - Karla IV.,11,0,0,0,CISJR:595073
-A126,R7430,72,Staré Předlice - (Předlická) - Globus - Nové Předlice - Divadlo - Malátova - Mírová - Severní Terasa,11,0,0,0,CISJR:595072
-A123,R7425,119,Nová Ves - Dopravní podnik,11,0,0,0,CISJR:585119
-A126,R7429,71,Vozovna DP - Klíše lázně - Divadlo - Krásné Březno - OD Květ - Skalka,11,0,0,0,CISJR:595071
-A126,R7428,70,(Klíše lázně) - Divadlo - Mírové náměstí - Vojanova - Jungmannova - Krásné Březno - OD Květ - Mojžíř,11,0,0,0,CISJR:595070
-A126,R7427,46,NOČNÍ PROVOZ: Všebořice - Beethovenova - Divadlo - Výstupní - Krásné Březno - Pod Vyhlídkou,11,0,0,0,CISJR:595046
-A126,R7426,43,NOČNÍ PROVOZ: Severní Terasa - Mírová - Hornická - Divadlo - Malátova - Stříbrníky - Dobětice točna,11,0,0,0,CISJR:595043
-A123,R7420,105,"Řetenice,Tolstého - Anger",11,0,0,0,CISJR:585105
-A123,R7424,111,Nová Ves - Panorama,11,0,0,0,CISJR:585111
-A123,R7423,108,Nová Ves - Panorama,11,0,0,0,CISJR:585108
-A123,R7422,107,"Řetenice,Tolstého - Prosetice",11,0,0,0,CISJR:585107
-A123,R7421,106,"Kladruby,náves - Proboštov,Přítkov",11,0,0,0,CISJR:585106
-A123,R7417,102,Hudcov - Srbická,11,0,0,0,CISJR:585102
-A123,R7416,101,Nová Ves - Srbická,11,0,0,0,CISJR:585101
-A123,R7419,104,"Panorama - Řetenice,Tolstého",11,0,0,0,CISJR:585104
-A123,R7418,103,Prosetice - Panorama,11,0,0,0,CISJR:585103
-A4,R619,468,Mělník - Dolní Beřkovice - Černouček,3,0,0,0,CISJR:250468|PID:L468
-A122,R5091,490,"Dubí-Teplice-Modlany,Kvítkov-Modlany",3,0,0,0,CISJR:582490
-A122,R5092,491,Dubí-Teplice-Duchcov-Osek,3,0,0,0,CISJR:582491
-A122,R5090,488,Osek-Duchcov-Teplice-Ústí nad Labem,3,0,0,0,CISJR:582488
-A122,R5095,494,Teplice-Proboštov-Dubí,3,0,0,0,CISJR:582494
-A122,R5093,492,Dubí-Teplice-Košťany-Hrob-Osek,3,0,0,0,CISJR:582492
-A122,R5094,493,"Krupka-Teplice-Moldava,Dolní Moldava",3,0,0,0,CISJR:582493
-A122,R5088,485,"Osek-Košťany-Teplice-Krupka,Soběchleby/Chlumec",3,0,0,0,CISJR:582485
-A122,R5089,486,"Osek-Duchcov-Teplice-Krupka,Soběchleby/Chlumec",3,0,0,0,CISJR:582486
-A122,R5086,483,"Teplice-Krupka,Vrchoslav",3,0,0,0,CISJR:582483
-A122,R5087,484,"Osek-Duchcov-Teplice-Krupka,Fojtovice",3,0,0,0,CISJR:582484
-A122,R5084,481,"Krupka,Bohosudov-Proboštov-Teplice-Žim",3,0,0,0,CISJR:582481
-A122,R5085,482,"Proboštov,Přítkov-Teplice-Kostomlaty p. Milešovkou",3,0,0,0,CISJR:582482
-A122,R5083,480,Dubí-Teplice-Krupka-Chlumec,3,0,0,0,CISJR:582480
-A125,R5111,283,"Bílina,VMG I- Chudeřice,záv.- Bílina,sídl.ZCH- Bílina,nám.- Bílina,poliklinika- Bílina,pož.zbroj.- Bílina,sídl.ZCH- Chudeřice,záv.- Bílina,VMG I",3,0,0,0,CISJR:587283
-A125,R5110,282,"Bílina,sídl.ZCH- Bílina,nám.- Bílina,hřbitov- Bílina,poliklinika- Bílina,VMG I- Bílina,hřbitov- Bílina,pož.zbroj.- Bílina,sídl.ZCH",3,0,0,0,CISJR:587282
-A123,R5106,110,Doubravická - Buzulucká,3,0,0,0,CISJR:585110
-A123,R5107,112,"Teplice,,Benešovo náměstí - Jeníkov,Oldřichov,Barbora",3,0,0,0,CISJR:585112
-A123,R5105,109,Prosetice - Panorama,3,0,0,0,CISJR:585109
-A125,R5109,281,"Bílina,sídl.ZCH- Bílina,aut.nádr.- Bílina,nám.- Bílina,poliklinika-Bílina,aut.nádr.- Bílina,pož.zbroj.- Bílina,sídl.ZCH",3,0,0,0,CISJR:587281
-A122,R5103,803,Teplice-Osek,3,0,0,0,CISJR:582803
-A122,R5104,804,Teplice-Krupka,3,0,0,0,CISJR:582804
-A122,R5102,802,Teplice-Dubí,3,0,0,0,CISJR:582802
-A126,R5132,81,(Přestanov) - (Chlumec) - Všebořice OC - Bukov - Na Spálence - Poliklinika - Divadlo - Střekov nádraží - Brná - (Sebuzín - Církvice),3,0,0,0,CISJR:595081
-A126,R5133,82,Všebořice OC - Bukov - Na Spálence - Poliklinika - Divadlo - Kamenný Vrch - Brná - Sebuzín - Církvice,3,0,0,0,CISJR:595082
-A126,R5130,78,Všebořice OC - Bukov - Klíše lázně - Nové Předlice - Václavské náměstí,3,0,0,0,CISJR:595078
-A126,R5131,79,(Vozovna DP - Klíše lázně) - Divadlo - Střekov nádraží - Karla IV. - Střekov II - Nové krematorium / Nová Ves - Kojetice,3,0,0,0,CISJR:595079
-A126,R5125,41,NOČNÍ DOPRAVA: Vozovna DP - Klíše lázně - Divadlo - Krásné Březno - Mojžíř - Skalka,3,0,0,0,CISJR:595041
-A126,R5126,42,NOČNÍ DOPRAVA: Václavské náměstí / Staré Předlice - Vozovna DP - Divadlo - Střekov II - Brná,3,0,0,0,CISJR:595042
-A126,R5123,20,"CYKLOBUS Divadlo - Zadní Telnice - Adolfov - Varvažov, pomníky - Divadlo",3,0,0,0,CISJR:595020
-A126,R5124,21,"CYKLOBUS Divadlo - Nakléřov - Tisá, kulturní dům - Divadlo",3,0,0,0,CISJR:595021
-A126,R5129,77,(Severní Terasa) - Mírová - Malátova - Poliklinika - Klíše lázně - Vozovna DP - Nové Předlice - (Metal) - Václavské náměstí,3,0,0,0,CISJR:595077
-A126,R5127,74,Všebořice OC - Severní Terasa - Stříbrníky - Prior - Krásné Březno - OD Květ - Skalka,3,0,0,0,CISJR:595074
-A126,R5128,75,Všebořice OC - Severní Terasa - Stříbrníky - Výstupní - Krásné Březno - Pod Vyhlídkou,3,0,0,0,CISJR:595075
-A122,R5122,454,Ústí nad Labem-Modlany,3,0,0,0,CISJR:593454
-A121,R5012,97,Lovosice-Radejčín,3,0,0,0,CISJR:550097
-A126,R5140,92,Nové krematorium - Střekov nádraží - ZPA - Vojanova - Výstupní - Krásné Březno - Pod Vyhlídkou,3,0,0,0,CISJR:595092
-A126,R5136,86,Strážky - Habrovice - Skorotice - Božtěšice - Bukov - Všebořice,3,0,0,0,CISJR:595086
-A126,R5137,89,Václavské náměstí - (Metal) - Stará škola - Trmická - Divadlo - Pekařská - Sibiřská - Ryjice,3,0,0,0,CISJR:595089
-A126,R5134,83,(Předlice Kolonie) - Vozovna DP - Průmyslová - Divadlo - Olšinky - Svádov obce - Olešnice,3,0,0,0,CISJR:595083
-A126,R5135,85,(Strážky) - Habrovice - (Neznabohy) - Masarykova nemocnice - Divadlo - Vaňov - (Dolní Zálezly),3,0,0,0,CISJR:595085
-A126,R5138,90,Vozovna DP - Klíše lázně - Kaufland - Průmyslová - Globus - Trmická - Pod Svahem - Hlavní nádraží,3,0,0,0,CISJR:595090
-A126,R5139,91,Dobětice točna - Stříbrníky - Mírová - Severní Terasa - Hornická - Poliklinika - Vozovna DP,3,0,0,0,CISJR:595091
-A11,R83,650,Litoměřice  - Mšené-lázně - Slaný - Kladno,3,0,0,0,CISJR:552650|PID:L650
-A17,R4824,565,Radonice-Chomutov-Jirkov-Most,3,0,0,0,CISJR:522565
-A17,R4825,568,Chomutov-Strupčice-Jirkov,3,0,0,0,CISJR:522568
-A17,R4826,569,Chomutov-Údlice-Velemyšleves,3,0,0,0,CISJR:522569
-A17,R4827,570,"Vysoká Pec-Chomutov-Bitozeves,,Triangle-východ",3,0,0,0,CISJR:522570
-A17,R4822,560,"Chomutov-Blatno-Kalek,Načetín",3,0,0,0,CISJR:522560
-A17,R4823,561,Chomutov-Jirkov-Boleboř-Hora Svaté Kateřiny,3,0,0,0,CISJR:522561
-A11,R4821,191,MHD Varnsdorf: Nemocnice - Kaufland,3,0,0,0,CISJR:516191
-A17,R4835,598,Kadaň-Radonice-Veliká Ves-Podbořany,3,0,0,0,CISJR:522598
-A17,R4836,599,Kadaň-Podbořany,3,0,0,0,CISJR:522599
-A22,R4829,580,Chomutov-Klášterec nad Ohří,3,0,0,0,CISJR:522580
-A17,R4828,578,Chomutov-Kadaň-Podbořany,3,0,0,0,CISJR:522578
-A22,R4833,591,"Kadaň,Tušimice-Klášterec nad Ohří-Okounov",3,0,0,0,CISJR:522591
-A22,R4834,593,"Kadaň-Klášterec nad Ohří-Domašín,Petlery",3,0,0,0,CISJR:522593
-A22,R4830,582,Vejprty-Kovářská-Boží Dar,3,0,0,0,CISJR:522582
-A22,R4831,586,Chomutov-Výsluní-Vejprty,3,0,0,0,CISJR:522586
-A22,R4832,587,Chomutov-Místo-Vejprty,3,0,0,0,CISJR:522587
-A11,R4804,438,"Děčín-Hřensko,Mezná",3,0,0,0,CISJR:512438
-A11,R4805,439,"Jílové-Jílové,Sněžník",3,0,0,0,CISJR:512439
-A11,R4806,432,Libouchec-Děčín-Labská Stráň-Janov,3,0,0,0,CISJR:592432
-A11,R4807,441,"Česká Kamenice-Janov-Hřensko-Hřensko,Mezná",3,0,0,0,CISJR:512441
-A11,R4800,424,"Benešov n. Pl.-Heřmanov,Blankartice-Heřmanov,Fojtovice",3,0,0,0,CISJR:512424
-A11,R4801,431,"Děčín-Malšovice,Javory-Malšovice,Borek",3,0,0,0,CISJR:512431
-A11,R4802,437,Děčín-Benešov n. Pl.-Verneřice-Rychnov,3,0,0,0,CISJR:512437
-A11,R4803,433,"Děčín-Jílové,Sněžník",3,0,0,0,CISJR:512433
-A11,R4789,403,"Varnsdorf-Dolní Podluží-Chřibská,Krásné Pole",3,0,0,0,CISJR:512403
-A11,R4788,402,Varnsdorf-Chřibská-Česká Kamenice-Děčín,3,0,0,0,CISJR:512402
-A11,R4796,421,Česká Kamenice-Srbská Kamenice,3,0,0,0,CISJR:512421
-A11,R4797,422,Benešov n. Pl.-Markvartice-Kerhartice-Č. Kamenice-Kunratice,3,0,0,0,CISJR:512422
-A11,R4798,436,"Děčín-Dobrná-Huntířov-Srbská Kamenice-Jetřichovice,Vysoká Lípa",3,0,0,0,CISJR:512436
-A11,R4799,423,Benešov n.Pl.-Žandov-Verneřice,3,0,0,0,CISJR:512423
-A11,R4792,410,"Varnsdorf-Rumburk-Jiříkov-Šluknov-Velký Šenov-Lobendava,Severní",3,0,0,0,CISJR:512410
-A11,R4793,434,"Děčín-Hřensko,Mezná-Jetřichovice-Chřibská-Krásná Lípa",3,0,0,0,CISJR:512434
-A11,R4794,406,Lobendava-Dolní Poustevna,3,0,0,0,CISJR:512406
-A11,R4795,408,"Mikulášovice-Velký Šenov-Šluknov,Rožany",3,0,0,0,CISJR:512408
-A11,R4790,404,Rumburk-Staré Křečany-Krásná Lípa-Doubice,3,0,0,0,CISJR:512404
-A11,R4791,407,"Staré Křečany,Brtníky-Krásná Lípa-Varnsdorf",3,0,0,0,CISJR:512407
-A83,R4747,461,Nový Bor - Kamenický Šenov - Prysk - Česká Kamenice,3,0,0,0,CISJR:500461
-A11,R166,711,Louny - Ročov - Rakovník,3,0,0,0,CISJR:562711|PID:L711
-A83,R4773,460,Nový Bor - Česká Kamenice - Děčín,3,0,0,0,CISJR:500460
-A83,R4780,462,Česká Lípa - Volfartice - Kamenický Šenov - Česká Kamenice,3,0,0,0,CISJR:500462
-A83,R4781,469,Česká Lípa - Nový Bor - Česká Kamenice - Jetřichovice,3,0,0,0,CISJR:500469
+A11,R5116,504,Teplice-Bílina-Louny,3,0,0,0,CISJR:582504
+A11,R5115,503,Bílina-Ohníč-Teplice,3,0,0,0,CISJR:582503
+A11,R5118,508,Bílina-Lukov,3,0,0,0,CISJR:582508
+A11,R5117,506,Měrunice-Bílina-Lovosice,3,0,0,0,CISJR:582506
+A11,R5114,502,"Teplice-Světec-Rtyně n.Bílinou,Velvěty",3,0,0,0,CISJR:582502
+A11,R5113,501,"Bílina-Osek-Litvínov,Záluží",3,0,0,0,CISJR:582501
+A11,R5129,472,Ústí n.L.-Libouchec-Jílové,3,0,0,0,CISJR:592472
+A11,R5138,801,Ústí n.L.-Chabařovice-Chlumec-Krupka,3,0,0,0,CISJR:592801
+A11,R5137,471,"Ústí n.L.-Libouchec-Jílové, Sněžník",3,0,0,0,CISJR:592471
+A11,R5134,457,"Ústí n.L.-Řehlovice-Řehlovice,Dubice",3,0,0,0,CISJR:592457
+A11,R5133,455,"Ústí n.L.-Povrly,Český Bukov",3,0,0,0,CISJR:592455
+A11,R5136,470,"Libouchec-Libouchec,Čermná",3,0,0,0,CISJR:592470
+A11,R5135,458,"Ústí n.L.-Krupka-Teplice,Sobědruhy",3,0,0,0,CISJR:592458
+A11,R5130,450,Chlumec-Ústí n.L.-Velké Březno-Děčín,3,0,0,0,CISJR:592450
+A11,R5132,456,"Ústí n.L.-Hostovice-Stebno,Chvalov",3,0,0,0,CISJR:592456
+A11,R5131,454,"Chuderov,Žežice-Ústí n.L.-Teplice,Sobědruhy",3,0,0,0,CISJR:592454
+A2,R437,619,Kladno - Lány - Třtice - Ročov,3,0,0,0,CISJR:220619|PID:L619
+A2,R420,617,Kladno - Slaný - Roudnice nad Labem,3,0,0,0,CISJR:220617|PID:L617
+A126,R7450,80,Mírová - Masarykova nemocnice - Vinařská - Beethovenova - Divadlo - Mírové náměstí - Kamenný Vrch - Karla IV.,11,0,0,0,CISJR:595080
+A126,R7453,88,(Severní Terasa) - Mírová - Elba - Hornická - Divadlo - Mírové náměstí - Výstupní - Žežická - (Krásné Březno - Pod Vyhlídkou),11,0,0,0,CISJR:595088
+A126,R7452,87,Mírová - Severní Terasa - Hornická - Divadlo - Mírové náměstí - Malátova - Stříbrníky - Dobětice točna,11,0,0,0,CISJR:595087
+A126,R7451,84,Všebořice - Beethovenova - Divadlo - Mírové náměstí - Malátova - Stříbrníky - Dobětice točna,11,0,0,0,CISJR:595084
+A4,R456,467,Mladá Boleslav - Mělník - Roudnice nad Labem,3,0,0,0,CISJR:261467|PID:L467
+A126,R7447,72,Staré Předlice - (Předlická) - Globus - Nové Předlice - Divadlo - Malátova - Mírová - Severní Terasa,11,0,0,0,CISJR:595072
+A126,R7446,71,Vozovna DP - Klíše lázně - Divadlo - Krásné Březno - OD Květ - Skalka,11,0,0,0,CISJR:595071
+A126,R7445,70,(Klíše lázně) - Divadlo - Mírové náměstí - Vojanova - Jungmannova - Krásné Březno - OD Květ - Mojžíř,11,0,0,0,CISJR:595070
+A126,R7444,46,NOČNÍ PROVOZ: Všebořice - Beethovenova - Divadlo - Výstupní - Krásné Březno - Pod Vyhlídkou,11,0,0,0,CISJR:595046
+A126,R7449,76,Všebořice - Beethovenova - Divadlo - Vojanova - Výstupní - Krásné Březno - Pod Vyhlídkou,11,0,0,0,CISJR:595076
+A126,R7448,73,(Koštov konečná) - Václavské nám. - (Metal) - Stará škola - Nové Předlice - Divadlo - Kamenný Vrch - Karla IV.,11,0,0,0,CISJR:595073
+A123,R7442,119,Nová Ves - Dopravní podnik,11,0,0,0,CISJR:585119
+A123,R7441,111,Nová Ves - Panorama,11,0,0,0,CISJR:585111
+A123,R7440,108,Nová Ves - Panorama,11,0,0,0,CISJR:585108
+A126,R7443,43,NOČNÍ PROVOZ: Severní Terasa - Mírová - Hornická - Divadlo - Malátova - Stříbrníky - Dobětice točna,11,0,0,0,CISJR:595043
+A123,R7439,107,"Řetenice,Tolstého - Prosetice",11,0,0,0,CISJR:585107
+A123,R7438,106,"Kladruby,náves - Proboštov,Přítkov",11,0,0,0,CISJR:585106
+A123,R7437,105,"Řetenice,Tolstého - Anger",11,0,0,0,CISJR:585105
+A123,R7436,104,"Panorama - Řetenice,Tolstého",11,0,0,0,CISJR:585104
+A11,R819,708,Panenský Týnec - Klobuky - Slaný,3,0,0,0,CISJR:562708|PID:L708
+A11,R843,639,"Štětí,Hněvice-Štětí",3,0,0,0,CISJR:552639
+A123,R7435,103,Prosetice - Panorama,11,0,0,0,CISJR:585103
+A123,R7434,102,Hudcov - Srbická,11,0,0,0,CISJR:585102
+A123,R7433,101,Nová Ves - Srbická,11,0,0,0,CISJR:585101
+A116,R7424,350,Písečná - Zahradní TIP - Palackého - Poliklinika,11,0,0,0,CISJR:525350
+A116,R7423,341,"Jirkov, Horník - Vodní - Palackého - Jirkov, Horník",11,0,0,0,CISJR:525341
+A116,R7422,340,"Poliklinika - Palackého - Jirkov, aut.nádr.",11,0,0,0,CISJR:525340
+A116,R7427,353,"Písečná - Zahradní I - Vodní - Chomutov, aut.nádr.",11,0,0,0,CISJR:525353
+A116,R7426,352,Písečná - Zahradní I - Palackého - Poliklinika,11,0,0,0,CISJR:525352
+A116,R7425,351,"Písečná - Zahradní TIP - Vodní - Chomutov, aut.nádr.",11,0,0,0,CISJR:525351
+A4,R621,468,Mělník - Dolní Beřkovice - Černouček,3,0,0,0,CISJR:250468|PID:L468
+A121,R5029,97,Lovosice-Radejčín,3,0,0,0,CISJR:550097
+A122,R5110,492,Dubí-Teplice-Košťany-Hrob-Osek,3,0,0,0,CISJR:582492
+A122,R5111,493,"Krupka-Teplice-Moldava,Dolní Moldava",3,0,0,0,CISJR:582493
+A122,R5112,494,Teplice-Proboštov-Dubí,3,0,0,0,CISJR:582494
+A122,R5107,488,Osek-Duchcov-Teplice-Ústí nad Labem,3,0,0,0,CISJR:582488
+A122,R5108,490,"Dubí-Teplice-Modlany,Kvítkov-Modlany",3,0,0,0,CISJR:582490
+A122,R5105,485,"Osek-Košťany-Teplice-Krupka,Soběchleby/Chlumec",3,0,0,0,CISJR:582485
+A122,R5106,486,"Osek-Duchcov-Teplice-Krupka,Soběchleby/Chlumec",3,0,0,0,CISJR:582486
+A122,R5109,491,Dubí-Teplice-Duchcov-Osek,3,0,0,0,CISJR:582491
+A122,R5100,480,Dubí-Teplice-Krupka-Chlumec,3,0,0,0,CISJR:582480
+A122,R5103,483,"Teplice-Krupka,Vrchoslav",3,0,0,0,CISJR:582483
+A122,R5104,484,"Osek-Duchcov-Teplice-Krupka,Fojtovice",3,0,0,0,CISJR:582484
+A122,R5101,481,"Krupka,Bohosudov-Proboštov-Teplice-Žim",3,0,0,0,CISJR:582481
+A122,R5102,482,"Proboštov,Přítkov-Teplice-Kostomlaty p. Milešovkou",3,0,0,0,CISJR:582482
+A125,R5126,281,"Bílina,sídl.ZCH- Bílina,aut.nádr.- Bílina,nám.- Bílina,poliklinika-Bílina,aut.nádr.- Bílina,pož.zbroj.- Bílina,sídl.ZCH",3,0,0,0,CISJR:587281
+A125,R5127,282,"Bílina,sídl.ZCH- Bílina,nám.- Bílina,hřbitov- Bílina,poliklinika- Bílina,VMG I- Bílina,hřbitov- Bílina,pož.zbroj.- Bílina,sídl.ZCH",3,0,0,0,CISJR:587282
+A125,R5128,283,"Bílina,VMG I- Chudeřice,záv.- Bílina,sídl.ZCH- Bílina,nám.- Bílina,poliklinika- Bílina,pož.zbroj.- Bílina,sídl.ZCH- Chudeřice,záv.- Bílina,VMG I",3,0,0,0,CISJR:587283
+A122,R5121,804,Teplice-Krupka,3,0,0,0,CISJR:582804
+A122,R5120,803,Teplice-Osek,3,0,0,0,CISJR:582803
+A123,R5124,112,"Teplice,,Benešovo náměstí - Jeníkov,Oldřichov,Barbora",3,0,0,0,CISJR:585112
+A123,R5122,109,Prosetice - Panorama,3,0,0,0,CISJR:585109
+A123,R5123,110,Doubravická - Buzulucká,3,0,0,0,CISJR:585110
+A122,R5119,802,Teplice-Dubí,3,0,0,0,CISJR:582802
+A126,R5150,82,Všebořice OC - Bukov - Na Spálence - Poliklinika - Divadlo - Kamenný Vrch - Brná - Sebuzín - Církvice,3,0,0,0,CISJR:595082
+A126,R5151,83,(Předlice Kolonie) - Vozovna DP - Průmyslová - Divadlo - Olšinky - Svádov obce - Olešnice,3,0,0,0,CISJR:595083
+A126,R5154,89,Václavské náměstí - (Metal) - Stará škola - Trmická - Divadlo - Pekařská - Sibiřská - Ryjice,3,0,0,0,CISJR:595089
+A126,R5155,90,Vozovna DP - Klíše lázně - Kaufland - Průmyslová - Globus - Trmická - Pod Svahem - Hlavní nádraží,3,0,0,0,CISJR:595090
+A126,R5152,85,(Strážky) - Habrovice - (Neznabohy) - Masarykova nemocnice - Divadlo - Vaňov - (Dolní Zálezly),3,0,0,0,CISJR:595085
+A126,R5153,86,Strážky - Habrovice - Skorotice - Božtěšice - Bukov - Všebořice,3,0,0,0,CISJR:595086
+A126,R5147,78,Všebořice OC - Bukov - Klíše lázně - Nové Předlice - Václavské náměstí,3,0,0,0,CISJR:595078
+A126,R5148,79,(Vozovna DP - Klíše lázně) - Divadlo - Střekov nádraží - Karla IV. - Střekov II - Nové krematorium / Nová Ves - Kojetice,3,0,0,0,CISJR:595079
+A126,R5145,75,Všebořice OC - Severní Terasa - Stříbrníky - Výstupní - Krásné Březno - Pod Vyhlídkou,3,0,0,0,CISJR:595075
+A126,R5146,77,(Severní Terasa) - Mírová - Malátova - Poliklinika - Klíše lázně - Vozovna DP - Nové Předlice - (Metal) - Václavské náměstí,3,0,0,0,CISJR:595077
+A126,R5149,81,(Přestanov) - (Chlumec) - Všebořice OC - Bukov - Na Spálence - Poliklinika - Divadlo - Střekov nádraží - Brná - (Sebuzín - Církvice),3,0,0,0,CISJR:595081
+A126,R5140,20,"CYKLOBUS Divadlo - Zadní Telnice - Adolfov - Varvažov, pomníky - Divadlo",3,0,0,0,CISJR:595020
+A126,R5143,42,NOČNÍ DOPRAVA: Václavské náměstí / Staré Předlice - Vozovna DP - Divadlo - Střekov II - Brná,3,0,0,0,CISJR:595042
+A126,R5144,74,Všebořice OC - Severní Terasa - Stříbrníky - Prior - Krásné Březno - OD Květ - Skalka,3,0,0,0,CISJR:595074
+A126,R5141,21,"CYKLOBUS Divadlo - Nakléřov - Tisá, kulturní dům - Divadlo",3,0,0,0,CISJR:595021
+A126,R5142,41,NOČNÍ DOPRAVA: Vozovna DP - Klíše lázně - Divadlo - Krásné Březno - Mojžíř - Skalka,3,0,0,0,CISJR:595041
+A122,R5139,454,Ústí nad Labem-Modlany,3,0,0,0,CISJR:593454
+A126,R5156,91,Dobětice točna - Stříbrníky - Mírová - Severní Terasa - Hornická - Poliklinika - Vozovna DP,3,0,0,0,CISJR:595091
+A126,R5157,92,Nové krematorium - Střekov nádraží - ZPA - Vojanova - Výstupní - Krásné Březno - Pod Vyhlídkou,3,0,0,0,CISJR:595092
+A11,R62,650,Litoměřice  - Mšené-lázně - Slaný - Kladno,3,0,0,0,CISJR:552650|PID:L650
+A11,R4822,439,"Jílové-Jílové,Sněžník",3,0,0,0,CISJR:512439
+A11,R4823,432,Libouchec-Děčín-Labská Stráň-Janov,3,0,0,0,CISJR:592432
+A11,R4824,441,"Česká Kamenice-Janov-Hřensko-Hřensko,Mezná",3,0,0,0,CISJR:512441
+A11,R4820,433,"Děčín-Jílové,Sněžník",3,0,0,0,CISJR:512433
+A11,R4821,438,"Děčín-Hřensko,Mezná",3,0,0,0,CISJR:512438
+A11,R4838,191,MHD Varnsdorf: Nemocnice - Kaufland,3,0,0,0,CISJR:516191
+A17,R4842,568,Chomutov-Strupčice-Jirkov,3,0,0,0,CISJR:522568
+A17,R4843,569,Chomutov-Údlice-Velemyšleves,3,0,0,0,CISJR:522569
+A17,R4844,570,"Vysoká Pec-Chomutov-Bitozeves,,Triangle-východ",3,0,0,0,CISJR:522570
+A17,R4845,578,Chomutov-Kadaň-Podbořany,3,0,0,0,CISJR:522578
+A17,R4840,561,Chomutov-Jirkov-Boleboř-Hora Svaté Kateřiny,3,0,0,0,CISJR:522561
+A17,R4841,565,Radonice-Chomutov-Jirkov-Most,3,0,0,0,CISJR:522565
+A17,R4839,560,"Chomutov-Blatno-Kalek,Načetín",3,0,0,0,CISJR:522560
+A22,R4848,586,Chomutov-Výsluní-Vejprty,3,0,0,0,CISJR:522586
+A17,R4853,599,Kadaň-Podbořany,3,0,0,0,CISJR:522599
+A22,R4849,587,Chomutov-Místo-Vejprty,3,0,0,0,CISJR:522587
+A22,R4846,580,Chomutov-Klášterec nad Ohří,3,0,0,0,CISJR:522580
+A22,R4847,582,Vejprty-Kovářská-Boží Dar,3,0,0,0,CISJR:522582
+A17,R4852,598,Kadaň-Radonice-Veliká Ves-Podbořany,3,0,0,0,CISJR:522598
+A11,R4808,407,"Staré Křečany,Brtníky-Krásná Lípa-Varnsdorf",3,0,0,0,CISJR:512407
+A11,R4809,410,"Varnsdorf-Rumburk-Jiříkov-Šluknov-Velký Šenov-Lobendava,Severní",3,0,0,0,CISJR:512410
+A11,R4805,402,Varnsdorf-Chřibská-Česká Kamenice-Děčín,3,0,0,0,CISJR:512402
+A11,R4806,403,"Varnsdorf-Dolní Podluží-Chřibská,Krásné Pole",3,0,0,0,CISJR:512403
+A11,R4807,404,Rumburk-Staré Křečany-Krásná Lípa-Doubice,3,0,0,0,CISJR:512404
+A11,R4819,437,Děčín-Benešov n. Pl.-Verneřice-Rychnov,3,0,0,0,CISJR:512437
+A11,R4815,436,"Děčín-Dobrná-Huntířov-Srbská Kamenice-Jetřichovice,Vysoká Lípa",3,0,0,0,CISJR:512436
+A11,R4816,423,Benešov n.Pl.-Žandov-Verneřice,3,0,0,0,CISJR:512423
+A11,R4817,424,"Benešov n. Pl.-Heřmanov,Blankartice-Heřmanov,Fojtovice",3,0,0,0,CISJR:512424
+A11,R4818,431,"Děčín-Malšovice,Javory-Malšovice,Borek",3,0,0,0,CISJR:512431
+A11,R4811,406,Lobendava-Dolní Poustevna,3,0,0,0,CISJR:512406
+A11,R4812,408,"Mikulášovice-Velký Šenov-Šluknov,Rožany",3,0,0,0,CISJR:512408
+A11,R4813,421,Česká Kamenice-Srbská Kamenice,3,0,0,0,CISJR:512421
+A11,R4814,422,Benešov n. Pl.-Markvartice-Kerhartice-Č. Kamenice-Kunratice,3,0,0,0,CISJR:512422
+A11,R4810,434,"Děčín-Hřensko,Mezná-Jetřichovice-Chřibská-Krásná Lípa",3,0,0,0,CISJR:512434
+A22,R4851,593,"Kadaň-Klášterec nad Ohří-Domašín,Petlery",3,0,0,0,CISJR:522593
+A22,R4850,591,"Kadaň,Tušimice-Klášterec nad Ohří-Okounov",3,0,0,0,CISJR:522591
+A83,R4797,462,Česká Lípa - Volfartice - Kamenický Šenov - Česká Kamenice,3,0,0,0,CISJR:500462
+A83,R4798,469,Česká Lípa - Nový Bor - Česká Kamenice - Jetřichovice,3,0,0,0,CISJR:500469
+A83,R4790,460,Nový Bor - Česká Kamenice - Děčín,3,0,0,0,CISJR:500460
+A11,R146,711,Louny - Ročov - Rakovník,3,0,0,0,CISJR:562711|PID:L711
+A83,R4764,461,Nový Bor - Kamenický Šenov - Prysk - Česká Kamenice,3,0,0,0,CISJR:500461
