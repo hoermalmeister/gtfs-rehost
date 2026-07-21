@@ -1,7 +1,6 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport,relations
 A47,R3705,,Cheb - Bad Brambach,2,0,0,0,R17171
 A47,R3706,,Cheb - Selb-Plößberg,2,0,0,0,R17172
-A47,R3707,,Selb-Plößberg - Schirnding,2,0,0,0,R17173
 A47,R3708,,Schirnding - Selb-Plößberg,2,0,0,0,R17174
 A47,R3716,,Praha hlavní nádraží - Mšeno,2,0,0,0,R17193
 A47,R3717,,Mšeno - Praha hlavní nádraží,2,0,0,0,R17194
@@ -163,7 +162,6 @@ A47,R2362,,Tišnov - Havlíčkův Brod,2,0,0,0,R13517
 A47,R2363,,Havlíčkův Brod - Tišnov,2,0,0,0,R13518
 A47,R3694,,Cheb - Aš,2,0,0,0,R17130
 A61,R2346,,Ostrava-Svinov - Ostrava-Vítkovice,2,0,0,0,R13461
-A47,R3691,,Vizovice - Otrokovice,2,0,0,0,R17122
 A61,R2347,,Ostrava-Vítkovice - Ostrava-Svinov,2,0,0,0,R13462
 A47,R2308,,Chrudim - Pardubice centrum,2,0,0,0,R13319
 A47,R2309,,Praha hlavní nádraží - Dobříš,2,0,0,0,R13323
@@ -265,7 +263,6 @@ A47,R3913,S2 Os 104725,Březová nad Svitavou – Blansko – Brno – Křenovic
 A47,R3907,S2 Os 104075,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
 A60,R3908,,Dolní Lipka - Meziměstí,2,0,0,0,R17572
 A60,R3909,,Meziměstí - Dolní Lipka,2,0,0,0,R17573
-A47,R3920,Gorol,Český Těšín - Havířov,2,0,0,0,R17608
 A48,R3935,,Chomutov - Jirkov,2,0,0,0,R17657
 A47,R3938,,Jaroměř - Náchod,2,0,0,0,R17662
 A50,R3929,,Klášterec nad Ohří - Vejprty,2,0,0,0,R17636
@@ -371,7 +368,6 @@ A53,R1248,,Břeclav - Šatov,2,0,0,0,R9169
 A47,R2588,,Heřmanův Městec - Pardubice hl. n.,2,0,0,0,R14373
 A53,R1245,,Hrušovany nad Jevišovkou-Šanov - Znojmo,2,0,0,0,R9166
 A53,R1249,,Znojmo - Šatov,2,0,0,0,R9170
-A47,R2580,S1 Gorol,Opava východ – Ostrava-Svinov,2,0,0,0,KADR:8001
 A53,R2589,S91,Hodonín – Strážnice – Veselí nad Moravou – Velká nad Veličkou – Vrbovce – Myjava - Veselí nad Moravou - Hodonín - Veselí nad Moravou - Hodonín,2,0,0,0,KADR:6091
 A47,R2596,,Česká Třebová - Ústí nad Orlicí,2,0,0,0,R14396
 A53,R1251,R22,Kolín – Mladá Boleslav – Česká Lípa – Rumburk (– Šluknov),2,0,0,0,KADR:22
