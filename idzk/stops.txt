@@ -153,6 +153,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 10783,"Malhotice, náves",49.48943384263987,17.764039242792844,0,Europe/Prague,0
 10784,"Kunovice, Lidická",49.041001174780426,17.471566863674866,0,Europe/Prague,0
 10786,"Zlín, Zlínské Paseky, točna",49.2452163266,17.6648536263,0,Europe/Prague,0
+10789,"Fryšták, Horní Ves",49.28806396052483,17.691473930237365,0,Europe/Prague,0
 10790,"Uherské Hradiště, Sady, Za Kovárnou",49.050828825794476,17.484964429906128,0,Europe/Prague,0
 10791,"Osíčko, náves",49.43033638556608,17.751143438266446,0,Europe/Prague,0
 10792,"Zlín, Topolová",49.2184780161,17.6466354962,0,Europe/Prague,0
@@ -1428,6 +1429,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 44865,"Zlín, Padělky IX",49.2318167,17.6826072,0,Europe/Prague,0
 44872,"Zlín, Pančava-Gemini",49.2200997,17.7078956,0,Europe/Prague,0
 44965,"Ostrava, Mor.Ostrava, náměstí Republiky",49.83169214956943,18.280155658721924,0,Europe/Prague,0
+44971,"Ostrava, Mor.Ostrava, Senovážná",49.832545,18.2795594,0,Europe/Prague,0
 45338,"Zlín, Podvesná X",49.22671,17.6864061,0,Europe/Prague,0
 45345,"Zlín, Podvesná XVI",49.228382289956215,17.692763843855346,0,Europe/Prague,0
 45419,"Zlín, Prštné náves",49.222757033681674,17.63717633743437,0,Europe/Prague,0
@@ -1456,6 +1458,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 47781,"Uherské Hradiště, Stará Tenice",49.07058144946517,17.452288668232395,0,Europe/Prague,0
 47791,"Uherské Hradiště, žel.st.",49.066857952348236,17.457525664284795,0,Europe/Prague,0
 47841,"Kostolná-Záriečie, nová štvrť",48.8787994,17.9676267,0,Europe/Bratislava,0
+48067,"Ostrava, žel.st.střed",49.829035,18.2818414,0,Europe/Prague,0
 48069,"Zlín, Velíková, Dolní konec",49.2803583,17.7536867,0,Europe/Prague,0
 48201,"Zlín, Velíková, točna",49.2877381,17.7613475,0,Europe/Prague,0
 48246,Svárov,49.116090907091355,17.624941631792968,0,Europe/Prague,0
