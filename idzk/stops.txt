@@ -1405,7 +1405,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 36719,"Zlín, Malenovice, hřiště",49.2045339,17.5888408,0,Europe/Prague,0
 3746,"Vyškov, Marchanice",49.282753111975076,17.024268670297147,0,Europe/Prague,0
 37585,"Zlín, Malenovice, Mlýnská",49.2066956,17.5852989,0,Europe/Prague,0
-37862,"Púchov, Continental AS",49.1073214,18.3183464,0,Europe/Bratislava,0
 3824,Bedihošť,49.44849172525144,17.16606425214959,0,Europe/Prague,0
 3842,"Křižanovice u Vyškova, rozc.0.2",49.283810566367364,17.036733567754915,0,Europe/Prague,0
 3987,"Hoštice-Heroltice, Heroltice, rozc.",49.28508177733607,17.057228267146737,0,Europe/Prague,0
@@ -1505,6 +1504,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 5516,"Uhřice, Pančocha",49.27202775696697,17.20560499143739,0,Europe/Prague,0
 5575,Uhřičice,49.37185949770341,17.290328235002338,0,Europe/Prague,0
 5598,Dřínov,49.291209798432,17.233858447672134,0,Europe/Prague,0
+56133,"Púchov, 1.mája I.",49.1200714,18.3232556,0,Europe/Bratislava,0
 56164,"Púchov, žel.st.",49.1138344,18.3282986,0,Europe/Bratislava,0
 56457,"Uherské Hradiště, Mařatice, hřbitov točna",49.0648718,17.4886327,0,Europe/Prague,0
 56584,Rakvice,48.86599,16.822422,0,Europe/Prague,0
@@ -2056,6 +2056,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 8266,"Hulín, Chrášťany",49.29726651,17.495462665700856,0,Europe/Prague,0
 8287,"Kvasice, cihelna",49.235350781240236,17.452573173372947,0,Europe/Prague,0
 8289,"Rymice, náves",49.34158177580324,17.525019263492382,0,Europe/Prague,0
+829,"Mestečko, Jednota",49.1743531,18.2584739,0,Europe/Bratislava,0
 8292,"Jankovice, hor.konec",49.159721425474544,17.380837092565613,0,Europe/Prague,0
 8313,"Rymice, Přerovská",49.3447875977,17.529384613,0,Europe/Prague,0
 8315,"Holešov, Količín",49.3334180123967,17.523575108904506,0,Europe/Prague,0
