@@ -200,10 +200,8 @@ A53,R1301,L31,Železný Brod – Tanvald,2,0,0,0,KADR:5031
 A66,R3955,Sázavan ,Benešov u Prahy - Zruč nad Sázavou,2,0,0,0,
 A53,R1300,R24,Praha – Kladno – Rakovník,2,0,0,0,KADR:24
 A66,R3956,Sázavan ,Zruč nad Sázavou - Sedlčany,2,0,0,0,
-A50,R3961,,Vejprty - Klášterec nad Ohří,2,0,0,0,
 A50,R3962,Lysohor,Ostrava střed - Malá Morávka,2,0,0,0,
 A50,R3963,,Bruntál - Malá Morávka,2,0,0,0,
-A50,R3960,,Klášterec nad Ohří - Vejprty,2,0,0,0,
 A47,R3914,S2 Os 104727,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
 A47,R3915,S2 Os 104735,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
 A47,R3916,S2 Os 104743,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
@@ -211,7 +209,6 @@ A47,R3917,S2 Os 104751,Březová nad Svitavou – Blansko – Brno – Křenovic
 A48,R3912,,Žatec - Lužná u Rakovníka,2,0,0,0,
 A47,R3913,S2 Os 104723,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
 A47,R3925,nightjet,Břeclav - Bad Schandau,2,0,0,0,
-A44,R3929,,Telč - Třešť,2,0,0,0,
 A48,R3923,,Měcholupy - Jirkov,2,0,0,0,
 A47,R3924,nightjet,Bad Schandau - Břeclav,2,0,0,0,
 A47,R3936,S2 Os 104077,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
@@ -220,12 +217,6 @@ A47,R3938,S2 Os 104075,Březová nad Svitavou – Blansko – Brno – Křenovic
 A47,R2603,Párou Posázavím,Praha-Vršovice - Týnec nad Sázavou,2,0,0,0,
 A47,R2604,Párou Posázavím,Týnec nad Sázavou - Praha-Vršovice,2,0,0,0,
 A47,R3935,S2 Os 104017,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
-A44,R3931,,Telč - Kostelec u Jihlavy,2,0,0,0,
-A44,R3932,,Kostelec u Jihlavy - Telč,2,0,0,0,
-A44,R3933,,Třešť - Kostelec u Jihlavy,2,0,0,0,
-A44,R3934,,Kostelec u Jihlavy - Třešť,2,0,0,0,
-A60,R3911,,Martinice v Krkonoších - Turnov,2,0,0,0,
-A44,R3930,,Třešť - Telč,2,0,0,0,
 A47,R1369,S33,Mělník – Mladá Boleslav,2,0,0,0,KADR:1033
 A47,R1364,S2/S35/S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Mladá Boleslav – Nymburk - Praha – Lysá nad Labem – Kolín,2,0,0,0,KADR:1002|KADR:1031|KADR:1036
 A47,R1363,S30/S36,Mladá Boleslav hl.n. – Lomnice nad Popelkou - Všetaty - Mladá Boleslav město,2,0,0,0,KADR:1030|KADR:1036
@@ -806,9 +797,6 @@ A47,R1828,T6 Brdy,Praha – Beroun – Březnice – Blatná,2,0,0,0,KADR:2006
 A47,R4041,,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0,
 A47,R4042,,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0,
 A47,R4043,S7,Praha Jih - Řevnice - Praha – Beroun,2,0,0,0,KADR:1007
-A50,R4045,,Kolín - Jičín,2,0,0,0,
-A50,R4046,,Jičín - Kolín,2,0,0,0,
-A47,R4065,BA EXPRES 2026,Jaroměř - Praha hlavní nádraží,2,0,0,0,
 A47,R4061,S3 Os 104640,Níhov – Tišnov – Brno – Šakvice / Židlochovice,2,0,0,0,KADR:6003
 A47,R1881,Rychmburk,Polička - Žďárec u Skutče,2,0,0,0,
 A47,R1880,,Skuteč - Žďárec u Skutče,2,0,0,0,
@@ -840,17 +828,12 @@ A47,R4139,S2 Os 104716,Březová nad Svitavou – Blansko – Brno – Křenovic
 A47,R4134,Vltava,Benešov u Prahy - Praha-Hostivař,2,0,0,0,
 A47,R4130,,Praha-Vršovice - Krhanice,2,0,0,0,
 A47,R4131,,Krhanice - Praha-Vršovice,2,0,0,0,
-A60,R4110,,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0,
 A47,R4148,,Týniště nad Orlicí - Hradec Král. hl. n.,2,0,0,0,
 A47,R4144,Lysohor,Vizovice - Zlín střed,2,0,0,0,
 A47,R4145,Rožmberk,Zastávka u Brna - Třebíč,2,0,0,0,
 A47,R4141,Lysohor,Česká Třebová - Mladějov na Moravě,2,0,0,0,
 A47,R4142,Lysohor,Mladějov na Moravě - Česká Třebová,2,0,0,0,
 A47,R4143,,Zastávka u Brna - Třebíč,2,0,0,0,
-A50,R4133,,ČSM jih - Havířov,2,0,0,0,
-A50,R4132,,Havířov - ČSM jih,2,0,0,0,
-A48,R4107,POVALEČ EXPRES,Chyše - Praha-Vysočany,2,0,0,0,
-A48,R4106,,Rakovník - Chyše,2,0,0,0,
 A58,R3077,,Trutnov hlavní nádraží - Královec,2,0,0,0,
 A58,R3076,,Královec - Trutnov hlavní nádraží,2,0,0,0,
 A47,R3151,Wydmy,Chałupki - Bohumín,2,0,0,0,
@@ -930,7 +913,6 @@ A52,R3236,R8 RegioJet,Brno – Vyškov – Přerov – Bohumín,2,0,0,0,KADR:8
 A47,R2219,V4 Krakonoš,Pardubice - Hradec Králové - Jaroměř - Trutnov - Svoboda nad Úpou,2,0,0,0,KADR:5204
 A47,R2217,,Okříšky - Veselí nad Lužnicí,2,0,0,0,
 A47,R2221,V3 Krakonoš,Pardubice - Hradec Králové - Jaroměř - Náchod - Teplice nad Metují - Broumov,2,0,0,0,KADR:5203
-A60,R3536,,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0,
 A47,R2237,V24 Krakonoš,Trutnov - Teplice nad Metují - Hronov - Náchod - Týniště nad Orlicí - Choceň,2,0,0,0,KADR:5224
 A47,R3507,,Moravský Krumlov - Brno hlavní nádraží,2,0,0,0,
 A47,R3509,,Brno hlavní nádraží - Moravský Krumlov,2,0,0,0,
