@@ -12,6 +12,7 @@ A39,R3741,,Sokolov - Kraslice,2,0,0,0,
 A46,R1129,T4,Lovosice – Chotiměř,2,0,0,0,KADR:4104
 A45,R1124,,Tanvald - Harrachov,2,0,0,0,
 A52,R2449,RegioJet,Chałupki - Ostrava hlavní nádraží,2,0,0,0,
+A47,R3785,,Lužec nad Vltavou - Praha hlavní nádraží,2,0,0,0,
 A45,R1123,,Kořenov - Tanvald,2,0,0,0,
 A45,R1122,,Semily - Turnov,2,0,0,0,
 A45,R1121,,Křižany - Liberec,2,0,0,0,
@@ -19,6 +20,7 @@ A45,R1128,,Turnov - Martinice v Krkonoších,2,0,0,0,
 A45,R1127,,Harrachov - Tanvald,2,0,0,0,
 A45,R1126,,Kořenov - Harrachov,2,0,0,0,
 A45,R1125,,Harrachov - Kořenov,2,0,0,0,
+A47,R3784,,Praha hlavní nádraží - Lužec nad Vltavou,2,0,0,0,
 A47,R3780,,Praha hlavní nádraží - Břeclav,2,0,0,0,
 A45,R1120,,Liberec - Křižany,2,0,0,0,
 A60,R3760,,Hanušovice - Ústí nad Orlicí,2,0,0,0,
@@ -221,6 +223,8 @@ A47,R3912,S2 Os 104731,Březová nad Svitavou – Blansko – Brno – Křenovic
 A47,R3913,S2 Os 104739,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
 A47,R3908,S2 Os 104019,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
 A47,R3909,S2 Os 104067,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
+A50,R3927,,Klášterec nad Ohří - Vejprty,2,0,0,0,
+A50,R3928,,Vejprty - Klášterec nad Ohří,2,0,0,0,
 A47,R1364,,N. Město na M. - Havlíčkův Brod,2,0,0,0,
 A47,R1375,R16 Berounka,Praha – Plzeň – Klatovy – Železná Ruda,2,0,0,0,KADR:16
 A47,R1374,R10 Hradečan,Praha – Hradec Králové – Trutnov / Letohrad,2,0,0,0,KADR:10
@@ -660,6 +664,7 @@ A47,R1676,S3/S51,Níhov – Tišnov – Brno – Šakvice / Židlochovice - Šak
 A47,R1675,S27,Čáslav – Třemošnice,2,0,0,0,KADR:1027
 A47,R1674,R41 Vrchlice,Praha – Kolín – Kutná Hora,2,0,0,0,KADR:1141
 A47,R1673,S8,Ostrava střed - Ostrava hl.n. - Ostrava-Svinov - Studénka - Štramberk - Veřovice,2,0,0,0,KADR:8008
+A50,R2993,,Jaroměř - Hradec Králové hlavní nádraží,2,0,0,0,
 A50,R2994,,Hradec Králové hlavní nádraží - Jaroměř,2,0,0,0,
 A52,R1663,RegioJet,Opava východ - Praha-Zahradní Město,2,0,0,0,
 A47,R1603,S10/S19,Krnov – Bruntál – Moravský Beroun / Rýmařov - Opava východ - Krnov,2,0,0,0,KADR:8010|KADR:8019
@@ -724,22 +729,33 @@ A47,R1952,,Karlovy Vary dolní n. - Karlovy Vary,2,0,0,0,
 A47,R1950,Mikuláš,Letohrad - Dolní Lipka,2,0,0,0,
 A47,R1949,Mikuláš,Dolní Lipka - Letohrad,2,0,0,0,
 A66,R4136,Tulák,Ledečko - Benešov u Prahy,2,0,0,0,
+A47,R4155,,Česká Třebová - Kolín,2,0,0,0,
+A47,R4156,,Pardubice hl. n. - Kolín,2,0,0,0,
 A66,R4132,Perla Sázavy ,Benešov u Prahy - Ledečko,2,0,0,0,
 A66,R4133,Perla Sázavy ,Ledečko - Benešov u Prahy,2,0,0,0,
 A66,R4134,Vítek z Prčice ,Benešov u Prahy - Sedlčany,2,0,0,0,
+A47,R4153,,Lužec nad Vltavou - Roudnice nad Labem,2,0,0,0,
 A66,R4135,Vítek z Prčice ,Sedlčany - Ledečko,2,0,0,0,
+A47,R4154,,Roudnice nad Labem - Lužec nad Vltavou,2,0,0,0,
 A66,R4130,125 let Pacifik ,Benešov u Prahy - Ledeč nad Sázavou,2,0,0,0,
 A66,R4131,125 let Pacifik ,Ledeč nad Sázavou - Benešov u Prahy,2,0,0,0,
+A47,R4150,,Český Brod - Úvaly,2,0,0,0,
 A50,R4142,Štěpánovský motoráček,Jaroměř - Hradec Králové hlavní nádraží,2,0,0,0,
 A47,R1900,S34,Suchdol nad Odrou – Nový Jičín město,2,0,0,0,KADR:8034
 A47,R1904,S10,Kolín – Přelouč - Svitavy - Kolín,2,0,0,0,KADR:1010
 A47,R1903,S10,Kolín – Přelouč - Pardubice hl. n. - Kolín,2,0,0,0,KADR:1010
 A47,R1901,R61/S1/S9,Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova - Opava východ – Ostrava-Svinov - Ostrava-Svinov - Ostrava-Vítkovice – Ostrava-Kunčice – Havířov - Český Těšín,2,0,0,0,KADR:8001|KADR:8009|KADR:8061
+A64,R4159,Masopustní expres,Plzeň hlavní nádraží - Česká Kubice,2,0,0,0,
 A47,R1910,,Česká Třebová - Choceň,2,0,0,0,
 A47,R1915,R17 Lužnice,Praha – Tábor – České Budějovice / Třeboň – České Velenice,2,0,0,0,KADR:17
 A47,R1914,R17 Vltava,Praha – Tábor – České Budějovice / Třeboň – České Velenice,2,0,0,0,KADR:17
+A64,R4163,,Domažlice - Plzeň hlavní nádraží,2,0,0,0,
+A64,R4164,,Plzeň hlavní nádraží - Klenčí pod Čerchovem,2,0,0,0,
+A64,R4165,,Klenčí pod Čerchovem - Domažlice,2,0,0,0,
 A47,R1908,S10,Choceň - Kolín - Kolín – Přelouč,2,0,0,0,KADR:1010
+A64,R4160,,Česká Kubice - Kdyně,2,0,0,0,
 A47,R1906,S10,Brandýs nad Orlicí - Kolín - Kolín – Přelouč,2,0,0,0,KADR:1010
+A64,R4162,,Kdyně - Domažlice,2,0,0,0,
 A47,R1966,V21,Hradec Králové - Týniště nad Orlicí - Častolovice - Rychnov nad Kněžnou - Solnice,2,0,0,0,KADR:5221
 A47,R1965,S6,Praha – Rudná u Prahy – Beroun,2,0,0,0,KADR:1006
 A47,R1968,S6/S61,Brno – Kyjov – Veselí nad Moravou – Staré Město u Uh. Hradiště - Bzenec – Moravský Písek,2,0,0,0,KADR:6006|KADR:6061
@@ -833,6 +849,7 @@ A47,R4126,S7,Praha Jih - Beroun - Praha – Beroun,2,0,0,0,KADR:1007
 A47,R4127,,Bohumín - Petrovice u Karviné,2,0,0,0,
 A47,R4128,,Petrovice u Karviné - Karviná hlavní nádraží,2,0,0,0,
 A53,R4114,,Všetaty - Bělá pod Bezdězem,2,0,0,0,
+A47,R4146,Berounka,Beroun - Králův Dvůr,2,0,0,0,
 A47,R4140,Slovan,Břeclav - Praha hlavní nádraží,2,0,0,0,
 A44,R4144,,Kadaň - Poláky,2,0,0,0,
 A44,R4145,,Poláky - Kadaň,2,0,0,0,
@@ -914,7 +931,6 @@ A47,R3291,,"Olomouc hlavní nádraží - Mošnov, Ostrava Airport",2,0,0,0,
 A47,R3228,S42,Kralupy nad Vltavou – Lužec nad Vltavou,2,0,0,0,KADR:1042
 A47,R3252,Metropol,Brno hl. n. - Česká Třebová,2,0,0,0,
 A47,R3547,Ex3 Metropolitan,Kúty - Praha Jih - Praha – Pardubice – Brno – Břeclav,2,0,0,0,KADR:3
-A47,R2210,V24 Krakonoš,Trutnov - Teplice nad Metují - Hronov - Náchod - Týniště nad Orlicí - Choceň,2,0,0,0,KADR:5224
 A47,R2238,V30 Krakonoš,Starkoč - Náchod - Hronov - Teplice nad Metují - Broumov,2,0,0,0,KADR:5230
 A66,R3543,155 let KFJB,České Velenice - Benešov u Prahy,2,0,0,0,
 A66,R3541,155 let KFJB ,Benešov u Prahy - České Velenice,2,0,0,0,
