@@ -124,6 +124,7 @@ BUS_MHD:821153_312_2021-03-07,1690,153,Zlín-Racková-Žeranovice-Holešov,,3,16
 BUS_MHD:821154_312_2022-06-12,1690,154,Zlín-Malenovice-Holešov,,3,162D66,FFFFFF
 BUS_MHD:822122_263_2023-12-10,1690,122,Luhačovice-Vizovice-Vsetín,,3,162D66,FFFFFF
 BUS_MHD:822193_263_2021-01-01,1690,193,Slavičín-Šanov-Bojkovice,,3,162D66,FFFFFF
+BUS_MHD:822410_263_2026-08-30,1690,822410,Luhačovice-Ludkovice-Provodov-Zlín,,3,,
 BUS_MHD:822520_263_2023-12-10,1690,520,Luhačovice-Dolní Lhota-Zlín,,3,162D66,FFFFFF
 BUS_MHD:822522_263_2021-01-01,1690,522,"Luhačovice-Podhradí-Luhačovice,Řetechov",,3,162D66,FFFFFF
 BUS_MHD:822955_263_2021-12-12,1690,955,Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
@@ -216,6 +217,7 @@ BUS_MHD:825052,367,52,"Zlín,Malenovice,točna - Zlín,Chlum",,3,5DC1EF,FFFFFF
 BUS_MHD:825053,367,53,"Zlín,Malenovice,točna - Zlín,Salaš,točna",,3,5DC1EF,FFFFFF
 BUS_MHD:825070,367,70,"Zlín,Podvesná XVII - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
 BUS_MHD:825090,367,90,"Zlín,Sportovní hala - Želechovice n.Dřev.,točna u školy",,3,5DC1EF,FFFFFF
+BUS_MHD:825092_367_2020-09-01,367,92,"Zlín,Podhoří,škola - Zlín,Louky,točna",,3,5DC1EF,FFFFFF
 BUS_MHD:825099_367_2025-08-30,367,N,"Zlín,Jižní Svahy,Kocanda - Otrokovice,Štěrkoviště",,3,000000,FFFFFF
 BUS_MHD:825155_367_2022-07-01,367,55,"Otrokovice,Kvítkovice,hřbitov - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
 BUS_MHD:826055,367,55,"Otrokovice,Kvítkovice,hřbitov - Otrokovice,Štěrkoviště",,3,5DC1EF,FFFFFF
