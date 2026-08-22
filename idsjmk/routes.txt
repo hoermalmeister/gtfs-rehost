@@ -8,8 +8,9 @@ L108D99,99,108,"Brno - Modřice - Pohořelice - Lechovice - Znojmo",3,00E68C,
 L109D99,99,109,"Brno - Telnice - Klobouky u Brna - Čejč - Mutěnice - Hodonín",3,00E68C,
 L10D99,99,10,"Stránská skála - Bystrc, Ečerova",0,A05A2C,FFFFFF
 L110D99,99,S5,"Kunovice - Uherské Hradiště - Staré Město u Uherského Hradiště",2,800000,FFFFFF
-L111D99,99,xR12,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Vyškov na Moravě - Nezamyslice",3,7FFFAA,
+L111D99,99,xR12,"NÁHRADNÍ DOPRAVA ZA VLAK Nezamyslice - Vyškov na Moravě - Brno",3,7FFFAA,
 L112D99,99,xR19,"NÁHRADNÍ DOPRAVA ZA VLAK Letovice - Brno",3,7FFFAA,
+L116D99,99,xS91,"NÁHRADNÍ DOPRAVA ZA VLAKVeselí nad Moravou - Vrbovce",3,7FFFAA,
 L118D99,99,xS41,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Střelice",3,7FFFAA,
 L120D99,99,S2,"Vyškov - Holubice - Křenovice - Sokolnice - Brno - Blansko - Skalice nad Svitavou - Letovice",2,800000,FFFFFF
 L121D99,99,S21,"Boskovice - Skalice nad Svitavou",2,800000,FFFFFF
@@ -52,9 +53,10 @@ L164D99,99,164,"Pohořelice - Loděnice - Olbramovice - Moravský Krumlov",3,7FF
 L165D99,99,165,"Hustopeče - Vranovice - Pohořelice",3,7FFFAA,
 L166D99,99,166,"Vyškov - Bohdalice-Pavlovice - Hvězdlice - Nemochovice - Brankovice",3,7FFFAA,
 L167D99,99,167,"Blansko - Jedovnice - Senetářov - Ruprechtov - Vyškov",3,7FFFAA,
+L168D99,99,xS42,"NÁHRADNÍ DOPRAVA ZA VLAKNáměšť nad Oslavou - Rapotice - Zastávka",3,7FFFAA,
 L171D99,99,xS2,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Blansko",3,7FFFAA,
 L174D99,99,174,"Mikulov - Březí - Novosedly - Drnholec - Hrušovany nad Jevišovkou",3,7FFFAA,
-L179D99,99,xR8,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Vyškov na Moravě",3,7FFFAA,
+L177D99,99,xS6,"NÁHRADNÍ DOPRAVA ZA VLAK Nesovice - Nemotice",3,7FFFAA,
 L17D99,99,H4,"Komenského náměstí - Nové sady, smyčka",0,CC9408,FFFFFF
 L1D99,99,1,"Řečkovice - Pisárky",0,D40000,FFFFFF
 L201D99,99,201,"Brno - Ochoz u Brna - Křtiny - Jedovnice",3,7FFFAA,
@@ -122,6 +124,7 @@ L333D99,99,333,"Tišnov - Lomnice - Brumov - Osiky",3,7FFFAA,
 L334D99,99,334,"Tišnov - Nedvědice - Bystřice nad Pernštejnem",3,7FFFAA,
 L335D99,99,335,"Tišnov - Olší - Drahonín - Dolní Rožínka",3,7FFFAA,
 L336D99,99,336,"Tišnov - Dolní Loučky - (Skryje) - Řikonín - Vratislávka - Strážek",3,7FFFAA,
+L339D99,99,x333,"Tišnov - Šerkovice",3,7FFFAA,
 L33D99,99,33,"Hlavní nádraží - Slatina, sídliště",800,008033,FFFFFF
 L340D99,99,340,"Lomnice - Běleč - Doubravník - Pernštejnské Jestřabí, Maňová",3,7FFFAA,
 L34D99,99,34,"Žabovřesky, Vychodilova - Česká",800,008033,FFFFFF
@@ -185,10 +188,12 @@ L522D99,99,522,"Židlochovice - Šitbořice - Hustopeče",3,7FFFAA,
 L528D99,99,x514,"Měnín - Blučina - Židlochovice",3,7FFFAA,
 L52D99,99,52,"Mendlovo náměstí - Žebětín - Bystrc, Zoo",3,2C82C8,FFFFFF
 L530D99,99,530,"Vranovice - Ivaň - Pasohlávky - Drnholec",3,7FFFAA,
+L531D99,99,531,"Hustopeče - Pouzdřany",3,7FFFAA,
 L540D99,99,540,"Mikulov - Dolní Dunajovice - Strachotín - Hustopeče",3,7FFFAA,
 L541D99,99,541,"Hustopeče - Boleradice - Klobouky u Brna - Velké Hostěrádky",3,7FFFAA,
 L542D99,99,542,"Břeclav - Velké Bílovice - Velké Pavlovice - Hustopeče",3,7FFFAA,
 L543D99,99,543,"Šakvice - Hustopeče",3,7FFFAA,
+L545D99,99,545,"Hustopeče,,aut.nádr. - Hustopeče,,Generála Peřiny - Hustopeče,,ZŠ Komenského - Hustopeče,,aut.nádr.",3,2C89C8,FFFFFF
 L54D99,99,54,"Kamechy - Zoologická zahrada",3,2C82C8,FFFFFF
 L550D99,99,550,"Mikulov - Milovice - Rakvice - Zaječí - Velké Pavlovice",3,7FFFAA,
 L551D99,99,551,"Velké Pavlovice - Němčičky - Bořetice - Kobylí - Klobouky u Brna",3,7FFFAA,
@@ -307,7 +312,9 @@ L832D99,99,832,"Moravské Budějovice - Blanné - Častohostice - Pavlice",3,7FF
 L835D99,99,835,"Lechovice - Práče - Prosiměřice - Žerotice - Želetice",3,7FFFAA,
 L836D99,99,836,"Hodonice - Tasovice - Lechovice",3,7FFFAA,
 L84D99,99,84,"Židenice, Stará osada - Židenice, Stará osada",3,2C82C8,FFFFFF
+L85D99,99,š85,"Tuřany, smyčka - Holásky",3,2C82C8,FFFFFF
 L86D99,99,š86,"Hlavní nádraží - Loosova",3,2C82C8,FFFFFF
+L88D99,99,š88,"Vejrostova - ZŠ Laštůvkova/ ZŠ Jana Babáka",3,2C82C8,FFFFFF
 L890D99,99,X,"Hlavní nádraží - Křídlovická",0,2C89C8,FFFFFF
 L89D99,99,N89,"Letiště Tuřany - Kníničky, U Luhu",3,000000,E1CB31
 L8D99,99,8,"Líšeň, Mifkova - Nemocnice Bohunice",0,E1CB31,
