@@ -153,6 +153,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 10783,"Malhotice, náves",49.48943384263987,17.764039242792844,0,Europe/Prague,0
 10784,"Kunovice, Lidická",49.041001174780426,17.471566863674866,0,Europe/Prague,0
 10786,"Zlín, Zlínské Paseky, točna",49.2452163266,17.6648536263,0,Europe/Prague,0
+10789,"Fryšták, Horní Ves",49.28806396052483,17.691473930237365,0,Europe/Prague,0
 10790,"Uherské Hradiště, Sady, Za Kovárnou",49.050828825794476,17.484964429906128,0,Europe/Prague,0
 10791,"Osíčko, náves",49.43033638556608,17.751143438266446,0,Europe/Prague,0
 10792,"Zlín, Topolová",49.2184780161,17.6466354962,0,Europe/Prague,0
@@ -277,6 +278,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 11394,"Zlín, Slínová",49.2238751544,17.6933934667,0,Europe/Prague,0
 11406,Nedachlebice,49.099296965257295,17.58884948080733,0,Europe/Prague,0
 11407,"Podolí, U Olšavy",49.043358854506494,17.526811030747908,0,Europe/Prague,0
+11410,"Zlín, Dřevnická, škola",49.2276040505,17.6970223593,0,Europe/Prague,0
 11411,"Zlín, Lesní čtvrť",49.2195989774,17.691617228,0,Europe/Prague,0
 11414,"Lukov, točna",49.29207295952257,17.736509549504916,0,Europe/Prague,0
 11415,"Zlín, Kudlov, střed",49.206599542253734,17.68266398232785,0,Europe/Prague,0
@@ -2231,6 +2233,7 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 9636,"Polešovice, u kina",49.029904442276184,17.34883731527066,0,Europe/Prague,0
 9641,"Bystřice p.Host., TON",49.401495004046424,17.659766522437263,0,Europe/Prague,0
 9654,"Staré Město, Jalubská",49.0917525824615,17.43300094335869,0,Europe/Prague,0
+9658,"Otrokovice, Trávníky škola",49.2034568787,17.5455627441,0,Europe/Prague,0
 9665,Horní Lapač,49.30190690240704,17.615023493742562,0,Europe/Prague,0
 9673,"Přílepy, u nádrže",49.317014990903736,17.62531889366335,0,Europe/Prague,0
 9677,Chomýž,49.36259821416703,17.646111989002964,0,Europe/Prague,0
