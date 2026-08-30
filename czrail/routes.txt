@@ -72,16 +72,13 @@ A43,R1165,S17,Milotice nad Opavou – Vrbno pod Pradědem,2,0,0,0,KADR:8017
 A52,R2482,RegioJet,Havířov - Praha-Zahradní Město,2,0,0,0,
 A43,R1164,S16,Třemešná ve Slezsku – Osoblaha,2,0,0,0,KADR:8016
 A41,R1160,,Bad Schandau - Praha hlavní nádraží,2,0,0,0,
-A45,R1179,,Semily - Turnov,2,0,0,0,
 A45,R1178,,Křižany - Liberec,2,0,0,0,
 A45,R1177,,Liberec - Křižany,2,0,0,0,
 A45,R1176,,Tanvald - Kořenov,2,0,0,0,
-A45,R1171,,Turnov - Rovensko pod Troskami,2,0,0,0,
 A44,R1170,,Jemnice - Moravské Budějovice,2,0,0,0,
 A45,R1175,,Harrachov - Tanvald,2,0,0,0,
 A45,R1174,,Kořenov - Tanvald,2,0,0,0,
 A45,R1173,,Tanvald - Harrachov,2,0,0,0,
-A45,R1172,,Rovensko pod Troskami - Semily,2,0,0,0,
 A46,R1189,,Dolní Bousov - Kopidlno,2,0,0,0,
 A46,R1188,,Kopidlno - Dolní Bousov,2,0,0,0,
 A46,R1186,T4,Lovosice – Chotiměř,2,0,0,0,KADR:4104
@@ -194,8 +191,6 @@ A53,R1329,Expres Pálava-Podyjí ,Brno hl. n. - Šatov,2,0,0,0,
 A53,R1328,S6,Staré Město u Uherského Hradiště – Uherské Hradiště – Veselí nad Moravou,2,0,0,0,KADR:7206
 A53,R1327,L3,Liberec - Stará Paka - Jaroměř / Nová Paka,2,0,0,0,KADR:5003
 A53,R1326,S5,Staré Město u Uherského Hradiště – Uherské Hradiště – Újezdec u Luhačovic – Bojkovice – Bylnice (– Vlárský  průsmyk / ZSSK),2,0,0,0,KADR:7205
-A50,R3984,,Klášterec nad Ohří - Vejprty,2,0,0,0,
-A50,R3985,,Vejprty - Klášterec nad Ohří,2,0,0,0,
 A47,R2678,,Hlinsko v Č. - Pardubice centrum,2,0,0,0,
 A53,R1336,,Brno hl. n. - Hrušovany nad Jevišovkou-Šanov,2,0,0,0,
 A53,R1335,Expres-Pálava-Podyjí,Břeclav - Znojmo,2,0,0,0,
@@ -214,14 +209,8 @@ A53,R1342,R24,Praha – Kladno – Rakovník,2,0,0,0,KADR:24
 A53,R1341,S53,(Uherský Brod –) Újezdec u Luhačovic – Luhačovice,2,0,0,0,KADR:7253
 A53,R1340,S2,(Rožnov pod Radhoštěm –) Valašské Meziříčí – Vsetín – Horní Lideč – Bylnice,2,0,0,0,KADR:7202
 A39,R3832,,Karlovy Vary dolní n. - Zwotental,2,0,0,0,
-A60,R3806,,Dolní Lipka - Rokytnice v Orlických horách,2,0,0,0,
-A60,R3807,,Rokytnice v Orlických horách - Dolní Lipka,2,0,0,0,
 A39,R3828,,Sokolov - Zwotental,2,0,0,0,
 A47,R3837,,Praha hlavní nádraží - Břeclav,2,0,0,0,
-A60,R3816,,Ústí nad Orlicí - Hanušovice,2,0,0,0,
-A60,R3817,,Hanušovice - Ústí nad Orlicí,2,0,0,0,
-A60,R3818,,Ústí nad Orlicí - Dolní Lipka,2,0,0,0,
-A60,R3815,,Dolní Lipka - Ústí nad Orlicí,2,0,0,0,
 A47,R3847,,Břeclav - Hohenau,2,0,0,0,
 A52,R2506,RegioJet,Chałupki - Ostrava hlavní nádraží,2,0,0,0,
 A49,R2522,T5,Roudnice n.L. – Straškov – Libochovice,2,0,0,0,KADR:4105
@@ -232,14 +221,9 @@ A58,R3805,,Trutnov hlavní nádraží - Lampertice,2,0,0,0,
 A58,R3802,,Lampertice - Královec,2,0,0,0,
 A49,R3811,,Praha Masaryk. n. - Praha-Čakovice,2,0,0,0,
 A58,R3803,,Královec - Lampertice,2,0,0,0,
-A50,R1239,,Lomnice nad Popelkou - Libuň,2,0,0,0,
-A50,R1238,,Mnichovo Hradiště - Lomnice nad Popelkou,2,0,0,0,
-A50,R1237,,Turnov - Mnichovo Hradiště,2,0,0,0,
 A50,R1236,T3,Ústí n.L. – Velké Březno,2,0,0,0,KADR:4103
 A51,R1247,,Tanvald - Kořenov,2,0,0,0,
 A51,R1242,,Kořenov - Tanvald,2,0,0,0,
-A50,R1241,,Lomnice nad Popelkou - Turnov,2,0,0,0,
-A50,R1240,,Libuň - Lomnice nad Popelkou,2,0,0,0,
 A51,R1246,,Harrachov - Tanvald,2,0,0,0,
 A51,R1245,,Kořenov - Harrachov,2,0,0,0,
 A51,R1244,,Harrachov - Kořenov,2,0,0,0,
@@ -610,8 +594,6 @@ A47,R1626,RE20 Vánoční kometa,Dresden – Ústí nad Labem – Litoměřice m
 A47,R1621,M11,Zábřeh na Moravě - Rudoltice v Čechách - Zábřeh na Moravě – Hoštejn,2,0,0,0,KADR:7111
 A47,R1620,R61,Opava východ - Ostrava-Svinov - Ostrava hl.n. - Havířov - Český Těšín – Návsí – Mosty u Jablunkova,2,0,0,0,KADR:8061
 A47,R1619,S9,Ostrava-Svinov - Ostrava-Vítkovice – Ostrava-Kunčice – Havířov - Český Těšín,2,0,0,0,KADR:8009
-A60,R2947,,Kroměříž - Tovačov,2,0,0,0,
-A60,R2948,,Tovačov - Kroměříž,2,0,0,0,
 A47,R1631,V25,"Meziměstí - Teplice nad Metují - Hronov - Náchod - Týniště nad Orlicí - Choceň, Opočno - Dobruška",2,0,0,0,KADR:5225
 A47,R1630,V20,Hradec Králové - Týniště nad Orlicí - Borohrádek,2,0,0,0,KADR:5220
 A47,R1688,,Slatiňany - Pardubice hl. n.,2,0,0,0,
@@ -640,8 +622,6 @@ A47,R1950,S11,Otrokovice – Vizovice,2,0,0,0,KADR:7211
 A47,R1949,S42,Valašské Meziříčí – Rožnov pod Radhoštěm,2,0,0,0,KADR:7242
 A47,R4159,S2 Os 104722,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
 A47,R4158,S2 Os 104712,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
-A47,R4151,,Praha-Vršovice - Krhanice,2,0,0,0,
-A47,R4152,,Krhanice - Praha-Vršovice,2,0,0,0,
 A47,R4166,Rožmberk,Zastávka u Brna - Třebíč,2,0,0,0,
 A47,R4164,,Zastávka u Brna - Třebíč,2,0,0,0,
 A47,R4160,S2 Os 104716,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
@@ -787,6 +767,7 @@ A49,R4104,,Praha-Bubny - Praha-Čakovice,2,0,0,0,
 A49,R4105,,Praha-Dejvice - Praha-Čakovice,2,0,0,0,
 A47,R4102,,Kopidlno - Nymburk hl. n.,2,0,0,0,
 A66,R4378,Ringhoffer ,Olbramovice - Strančice,2,0,0,0,
+A47,R4397,,Klatovy - Plzeň hlavní nádraží,2,0,0,0,
 A66,R4379,Kozel Matěj ,Strančice - Benešov u Prahy,2,0,0,0,
 A66,R4374,Wilson ,Benešov u Prahy - Praha hlavní nádraží,2,0,0,0,
 A47,R4393,,Doudleby nad Orlicí - Rokytnice v Orlických horách,2,0,0,0,
@@ -794,6 +775,7 @@ A66,R4375,155 let KFJB,Praha hlavní nádraží - Olbramovice,2,0,0,0,
 A47,R4394,,Rokytnice v Orlických horách - Hradec Králové hlavní nádraží,2,0,0,0,
 A66,R4376,Konopiště ,Olbramovice - Benešov u Prahy,2,0,0,0,
 A66,R4377,Ferdinand,Benešov u Prahy - Olbramovice,2,0,0,0,
+A47,R4396,,Plzeň hlavní nádraží - Klatovy,2,0,0,0,
 A47,R4391,,Hradec Králové hlavní nádraží - Rokytnice v Orlických horách,2,0,0,0,
 A47,R4392,,Rokytnice v Orlických horách - Doudleby nad Orlicí,2,0,0,0,
 A47,R3164,,Moravské Budějovice - Okříšky,2,0,0,0,
@@ -806,13 +788,8 @@ A47,R4272,Krakonoš,N. Město n. Met. - Náchod,2,0,0,0,
 A47,R4274,S7,Praha – Beroun - Praha-Libeň - Řevnice,2,0,0,0,KADR:1007
 A66,R4250,Strýček Sam ,Samechov - Sedlčany,2,0,0,0,
 A66,R4251,Žofie ,Sedlčany - Benešov u Prahy,2,0,0,0,
-A46,R4288,,Most - Lovosice,2,0,0,0,
-A46,R4289,,Lovosice - Most,2,0,0,0,
 A66,R4279,Sanssouci ,České Velenice - Benešov u Prahy,2,0,0,0,
 A66,R4278,Sanssouci ,Benešov u Prahy - České Velenice,2,0,0,0,
-A46,R4291,,Lovosice - Třebívlice,2,0,0,0,
-A46,R4292,,Most - Třebívlice,2,0,0,0,
-A46,R4293,,Třebívlice - Lovosice,2,0,0,0,
 A46,R4290,,Třebívlice - Most,2,0,0,0,
 A47,R4308,,Klášterec nad Ohří - Cheb - Klášterec nad Ohří - Cheb,2,0,0,0,
 A47,R4309,,Náchod - Hronov,2,0,0,0,
