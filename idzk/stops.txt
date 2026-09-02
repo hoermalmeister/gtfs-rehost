@@ -669,7 +669,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 13623,"Valašské Meziříčí, rozc.k nem.",49.46014456047591,17.97308448250627,0,Europe/Prague,0
 13626,"Bystřička, pošta",49.41751959931733,17.963837478844486,0,Europe/Prague,0
 13627,"Valašské Meziříčí, Bynina, točna",49.50212067662032,17.98031990995609,0,Europe/Prague,0
-13629,"Vsetín, Semetín",49.3347320557,17.9365539551,0,Europe/Prague,0
 13634,"Nový Jičín, Loučka, Koruna",49.5887680054,17.9854469299,0,Europe/Prague,0
 13638,"Valašské Meziříčí, nemocnice",49.463530251993106,17.97738535446796,0,Europe/Prague,0
 13647,"Šumice, žel.st.",49.0300254822,17.7258815765,0,Europe/Prague,0
@@ -695,18 +694,13 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 13748,"Valašské Meziříčí, sklárny",49.47603321154993,17.984134136027595,0,Europe/Prague,0
 13750,"Nový Jičín, Loučka, kaštany",49.591381073,17.9929218292,0,Europe/Prague,0
 13751,"Liptál, ZŠ",49.29140358351666,17.92579996590652,0,Europe/Prague,0
-13752,"Vsetín, Semetín, bike aréna",49.3602104187,17.9542980194,0,Europe/Prague,0
 13757,"Šumice, hor.konec",49.0292663574,17.7336368561,0,Europe/Prague,0
 13759,"Bratřejov, Na Chrámečném",49.22082761698624,17.887909718624947,0,Europe/Prague,0
-13760,"Vsetín, Semetín, Mařička",49.3384144326,17.946659568,0,Europe/Prague,0
 13766,"Luhačovice, Kladná Žilín",49.08653620122346,17.7896841609805,0,Europe/Prague,0
 13771,"Liptál, střed",49.29012466533875,17.926747278703687,0,Europe/Prague,0
-13774,"Vsetín, Semetín, střed",49.3457489014,17.9508857727,0,Europe/Prague,0
 13777,"Valašské Meziříčí, Šafaříkova ul.",49.4654884338,17.9846324921,0,Europe/Prague,0
-13778,"Vsetín, Semetín, kemp",49.3535614014,17.9540176392,0,Europe/Prague,0
 13780,Slopné,49.15547350871194,17.846504729291368,0,Europe/Prague,0
 13786,Horní Němčí,48.9332949760012,17.624039600843513,0,Europe/Prague,0
-13794,"Vsetín, Semetín, hřiště",49.349521637,17.9534091949,0,Europe/Prague,0
 13803,"Ublo, zast.",49.23496634309954,17.89896442244661,0,Europe/Prague,0
 13804,Petrůvka,49.10643143014403,17.809208248266433,0,Europe/Prague,0
 13806,"Valašské Meziříčí, Na Štěpánově točna",49.46282959619138,17.985533969399334,0,Europe/Prague,0
@@ -760,7 +754,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 14054,"Valašské Meziříčí, Hrachovec, ZD",49.4693527222,18.0055503845,0,Europe/Prague,0
 14055,"Loučka, škola",49.167522950780125,17.877131179046636,0,Europe/Prague,0
 14056,"Nový Jičín, Tonak",49.5907363892,18.0153598785,0,Europe/Prague,0
-14062,"Vsetín, Janišov",49.3286857605,17.9654407501,0,Europe/Prague,0
 14063,"Růžďka, Masna",49.397022281875806,17.98905241960428,0,Europe/Prague,0
 14066,"Vsetín, Lázky",49.34953819465141,17.973735423389705,0,Europe/Prague,0
 14070,"Valašské Meziříčí, Hrachovec, točna",49.4722175598,18.006816864,0,Europe/Prague,0
@@ -781,14 +774,12 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 14181,"Hodslavice, nákup.stř.",49.53748398895271,18.0226190686302,0,Europe/Prague,0
 14184,"Vsetín, Rybníky",49.3400688171,17.9786643982,0,Europe/Prague,0
 14185,"Bystřička, farma ZD",49.416422476042754,18.003203922624422,0,Europe/Prague,0
-14190,"Vsetín, Janišov, střed",49.3246078491,17.9732685089,0,Europe/Prague,0
 14195,"Bratřejov, točna",49.217205267997414,17.91968456994058,0,Europe/Prague,0
 14196,"Lhota u Vsetína, Dolansko",49.309916026460854,17.967358123257767,0,Europe/Prague,0
 14197,"Slavičín, Nevšová",49.108261598281416,17.843063169073798,0,Europe/Prague,0
 14199,"Bánov, Dřevoděl",48.985833486174364,17.725511966465113,0,Europe/Prague,0
 14203,"Růžďka, vozovna ČSAD",49.3925242670103,17.998077442699977,0,Europe/Prague,0
 14205,"Nový Jičín, Bludovice, česká škola",49.5648269653,18.0255794525,0,Europe/Prague,0
-14215,"Vsetín, archiv",49.3458633423,17.9831352234,0,Europe/Prague,0
 14217,"Vsetín, Rybníky, Družstevní",49.34027814979175,17.98108926853889,0,Europe/Prague,0
 14220,"Zašová, pod Zapadlým",49.473380722317636,18.017191691141246,0,Europe/Prague,0
 14222,"Hodslavice, dolní konec",49.5500526428,18.0260429382,0,Europe/Prague,0
@@ -797,7 +788,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 14233,"Lhota u Vsetína, Kapka resort",49.311841384736525,17.971533605360843,0,Europe/Prague,0
 14247,"Vsetín, Rokytnice, Irisa",49.317266970352286,17.975365443197315,0,Europe/Prague,0
 14248,"Vsetín, Benátky, škola",49.33769384563957,17.983262350344393,0,Europe/Prague,0
-14257,"Vsetín, Trávníky",49.340293989076116,17.984996247651527,0,Europe/Prague,0
 14259,Suchá Loz,48.96988328112694,17.713326550688464,0,Europe/Prague,0
 14263,"Záhorovice, dol.konec",49.02239273786156,17.770961610475474,0,Europe/Prague,0
 14265,"Suchá Loz, Volenov, dětský tábor",48.94999097465026,17.69034229005944,0,Europe/Prague,0
@@ -806,12 +796,10 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 14283,"Velká Lhota, Malá Lhota, rozc.",49.441486659832144,18.01705619219814,0,Europe/Prague,0
 14285,"Vsetín, Trávníky, škola",49.34075359422703,17.98731279808912,0,Europe/Prague,0
 14288,"Seninka, Hořansko",49.27089527264352,17.956930924299176,0,Europe/Prague,0
-14290,"Vsetín, Janišov, rozcestí",49.3198890686,17.9792976379,0,Europe/Prague,0
 14303,"Vsetín, Rokytnice, hor.zast.",49.32287604221126,17.981363758337224,0,Europe/Prague,0
 14304,Rudimov,49.07953676251253,17.828041944834055,0,Europe/Prague,0
 14305,"Bystřička, u Nováků",49.41669665823255,18.01259666873072,0,Europe/Prague,0
 14306,"Vsetín, Benátky, rozcestí",49.336312558710084,17.98691783802023,0,Europe/Prague,0
-14308,"Vsetín, Rokytnice, střed",49.3276519775,17.9834747314,0,Europe/Prague,0
 14309,"Vsetín, 4.května",49.34234026555937,17.989529054864022,0,Europe/Prague,0
 14310,"Vsetín, Trávníky, mateřská škola",49.3387899147,17.9878561652,0,Europe/Prague,0
 14320,"Rudimov, u bytovky",49.08054984294016,17.830529034691956,0,Europe/Prague,0
@@ -850,7 +838,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 14459,"Újezd, pekárna",49.1711116871075,17.9152239583538,0,Europe/Prague,0
 14461,Lipová,49.12175875796193,17.879749355437283,0,Europe/Prague,0
 14462,"Rudimov, rozc.3.0",49.088971005795045,17.85320313045075,0,Europe/Prague,0
-14470,"Vsetín, Smetanova",49.33370571064345,18.00178331135492,0,Europe/Prague,0
 14481,"Prlov, obec",49.243402198619364,17.960729271207857,0,Europe/Prague,0
 14483,"Zašová, konečná",49.48578583492281,18.042827585879117,0,Europe/Prague,0
 14484,"Bojkovice, Světlov",49.02878712412735,17.80017681183336,0,Europe/Prague,0
@@ -971,7 +958,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 15049,"Slavičín, u žel.st.",49.07539418545976,17.901042196386232,0,Europe/Prague,0
 15051,"Zubří, centrum",49.470026761357495,18.091516337550928,0,Europe/Prague,0
 15059,"Zubří, Klub",49.46314335854728,18.09058267226936,0,Europe/Prague,0
-15062,"Vsetín, Červenka, střed",49.3477973938,18.060426712,0,Europe/Prague,0
 15066,"Komňa, Nový dvůr",48.97467672174615,17.806080908954918,0,Europe/Prague,0
 15080,"Slavičín, Divnice",49.08612583937955,17.91242551925463,0,Europe/Prague,0
 15083,"Zubří, žel.st.",49.46132588577916,18.09127043418462,0,Europe/Prague,0
@@ -988,7 +974,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 15141,"Lužná, obec",49.2398591663703,18.019966294347878,0,Europe/Prague,0
 15154,"Hovězí, Hořansko, Kozinec",49.28363662063381,18.042673576114534,0,Europe/Prague,0
 15161,"Vidče, škola",49.441430591836024,18.09515147757796,0,Europe/Prague,0
-15171,"Vsetín, Červenka",49.347926942537555,18.07027271785042,0,Europe/Prague,0
 15174,"Zubří, Staré Zubří",49.48886693329115,18.104615241178582,0,Europe/Prague,0
 15176,"Vlachovice, Vrbětice, u Polomíku",49.10455528978249,17.93619248226844,0,Europe/Prague,0
 15190,"Hovězí, Hořansko, točna",49.27945174633835,18.044201622252277,0,Europe/Prague,0
@@ -1847,7 +1832,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 65837,"Zlín, Příluky, nová zast.",49.2205119,17.7143544,0,Europe/Prague,0
 65838,"Zlín, Příluky, točna",49.2205381,17.714195,0,Europe/Prague,0
 65839,"Kroměříž, Bělidla",49.2997436,17.3995914,0,Europe/Prague,0
-65840,"Vsetín, průmyslová zóna II",49.36224966,17.9581216,0,Europe/Prague,0
 65841,"Valašské Meziříčí, Králova",49.4684028,17.9705028,0,Europe/Prague,0
 65842,"Horní Bečva, Fojtství",49.4385767615497,18.2654330134392,0,Europe/Prague,0
 65843,"Valašské Meziříčí, Příční",49.4661828,17.9699803,0,Europe/Prague,0
@@ -2089,8 +2073,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 8532,"Tlumačov, Holešovská",49.25686993200199,17.497740260448737,0,Europe/Prague,0
 8533,"Tlumačov, Masarykova",49.25478841670456,17.496396854122157,0,Europe/Prague,0
 8541,"Tlumačov, křiž.",49.25281758132009,17.495868921141344,0,Europe/Prague,0
-8553,Bořenovice,49.36104144072982,17.563159496270462,0,Europe/Prague,0
-8558,"Bořenovice, točna",49.36207197430181,17.564725071104515,0,Europe/Prague,0
 8567,Hostějov,49.039651616165806,17.25754208936678,0,Europe/Prague,0
 8571,"Dřevohostice, nám.",49.424775263659285,17.590725898767303,0,Europe/Prague,0
 8600,"Holešov, Sfinx",49.32478182310733,17.54970367667355,0,Europe/Prague,0
@@ -2113,7 +2095,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 8755,"Bělov, točna",49.21676797408528,17.488378831733563,0,Europe/Prague,0
 8756,"Prusinovice, aut.st.",49.377886596687595,17.589167916745907,0,Europe/Prague,0
 8761,Stříbrnice,49.056399200428544,17.307249839119546,0,Europe/Prague,0
-8778,"Holešov, st.statek",49.33888325698001,17.573398729286804,0,Europe/Prague,0
 8783,"Buchlovice, Lúčky",49.08261144474578,17.34684263513975,0,Europe/Prague,0
 8793,"Jankovice, rozc.4.0",49.14356779609913,17.421878885225375,0,Europe/Prague,0
 8818,"Holešov, žel.st.",49.32793139030817,17.57089215513021,0,Europe/Prague,0
@@ -2177,7 +2158,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 9212,"Traplice, hor.konec",49.12695180105468,17.440475964726016,0,Europe/Prague,0
 9233,"Jalubí, u pošty",49.115008450948714,17.42821726418031,0,Europe/Prague,0
 9240,"Blazice, hřbitov",49.439510841388746,17.6469163169624,0,Europe/Prague,0
-9266,"Holešov, Žopy, nám.",49.3332474813241,17.606333630638908,0,Europe/Prague,0
 9278,"Otrokovice, U Dřevnice",49.20918328179454,17.52346792813425,0,Europe/Prague,0
 9292,"Bystřice p.Host., Rychlov, točna",49.408150739185295,17.63997192192435,0,Europe/Prague,0
 9293,"Zlechov, křiž.",49.07251163596177,17.380071073129013,0,Europe/Prague,0
@@ -2198,7 +2178,6 @@ stop_id,stop_name,stop_lat,stop_lon,location_type,stop_timezone,wheelchair_board
 9397,"Žákovice, kult.dům",49.4542996659336,17.659682446243497,0,Europe/Prague,0
 9399,Martinice,49.31008835905849,17.601413235512528,0,Europe/Prague,0
 9406,"Spytihněv, dvůr",49.14673996574439,17.475036699107047,0,Europe/Prague,0
-9410,"Holešov, Žopy, točna",49.33234027,17.61458166,0,Europe/Prague,0
 9418,"Zlechov, Olší",49.073725017793016,17.39106508397979,0,Europe/Prague,0
 9440,"Otrokovice, pneumatikárna",49.19876617645228,17.526132903808225,0,Europe/Prague,0
 9471,"Velehrad, cihelna",49.0953904918545,17.422466049214126,0,Europe/Prague,0
