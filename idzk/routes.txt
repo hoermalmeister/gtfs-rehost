@@ -122,7 +122,7 @@ BUS_MHD:821153_312_2021-03-07,1690,153,Zlín-Racková-Žeranovice-Holešov,,3,16
 BUS_MHD:821154_312_2022-06-12,1690,154,Zlín-Malenovice-Holešov,,3,162D66,FFFFFF
 BUS_MHD:822122_263_2023-12-10,1690,122,Luhačovice-Vizovice-Vsetín,,3,162D66,FFFFFF
 BUS_MHD:822193_263_2021-01-01,1690,193,Slavičín-Šanov-Bojkovice,,3,162D66,FFFFFF
-BUS_MHD:822410_263_2026-08-30,1690,822410,Luhačovice-Ludkovice-Provodov-Zlín,,3,,
+BUS_MHD:822410_263_2026-08-30,1690,410,Luhačovice-Ludkovice-Provodov-Zlín,,3,,
 BUS_MHD:822520_263_2023-12-10,1690,520,Luhačovice-Dolní Lhota-Zlín,,3,162D66,FFFFFF
 BUS_MHD:822522_263_2021-01-01,1690,522,"Luhačovice-Podhradí-Luhačovice,Řetechov",,3,162D66,FFFFFF
 BUS_MHD:822955_263_2021-12-12,1690,955,Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
@@ -200,7 +200,7 @@ BUS_MHD:825010,367,10,"Zlín,Jižní Svahy,Středová - Zlín,Malenovice,Centro"
 BUS_MHD:825011,367,11,"Zlín,Lužkovice,Na Gruntech - Zlín,Prštné,Náves",,3,F6C309,162D66
 BUS_MHD:825012,367,12,"Želechovice n.Dřev.,točna u školy - Zlín,Sportovní hala",,3,F6C309,162D66
 BUS_MHD:825014,367,14,"Zlín,Jižní Svahy,Středová - Zlín,Antonínova",,3,F6C309,162D66
-BUS_MHD:825031,367,31,"Zlín,Jaroslavice,točna - Zlín,Mladcová,Bartošův dům",,3,5DC1EF,FFFFFF
+BUS_MHD:825031,367,31,"Zlín,Jaroslavice,točna - Zlín,Antonínova",,3,5DC1EF,FFFFFF
 BUS_MHD:825032,367,32,"Zlín,Kudlov,točna - Zlín,Kudlov,točna",,3,5DC1EF,FFFFFF
 BUS_MHD:825033,367,33,"Zlín,Zlínské Paseky,točna - Zlín,Bartošova Čtvrť,zdrav.škola",,3,5DC1EF,FFFFFF
 BUS_MHD:825035,367,35,"Zlín,Velíková,točna - Zlín,Antonínova",,3,5DC1EF,FFFFFF
@@ -242,14 +242,14 @@ BUS_MHD:943941_88_2022-03-06,1690,941,Vsetín-Bystřice p.Host.-Přerov,,3,162D6
 BUS_MHD:944101_263_2021-01-01,1690,101,Vsetín-Horní Lideč-Valašská Senice,,3,162D66,FFFFFF
 BUS_MHD:944110_263_2021-01-01,1690,110,Vsetín-Valašská Polanka-Vizovice-Zlín,,3,162D66,FFFFFF
 BUS_MHD:944641_263_2024-03-03,1690,641,"Vsetín-Ústí,točna",,3,162D66,FFFFFF
-BUS_MHD:945601_312_2024-03-03,1690,601,Jasenice-aut.nádr.-Rokytnice-aut. nádr.-Jasenice,,3,57B32B,FFFFFF
-BUS_MHD:945602_312_2024-03-03,1690,602,Jasenka-náměstí-aut.nádr.,,3,57B32B,FFFFFF
-BUS_MHD:945603_312_2024-03-03,1690,603,Semetín-náměstí-aut.nádr.,,3,57B32B,FFFFFF
-BUS_MHD:945604_312_2024-03-03,1690,604,aut.nádr.-Janišov-aut.nádr.,,3,57B32B,FFFFFF
-BUS_MHD:945606_312_2024-03-03,1690,606,Horní náměstí-aut. nádr.-náměstí-Sychrov,,3,57B32B,FFFFFF
-BUS_MHD:945607_312_2024-03-03,1690,607,aut. nádr.-náměstí-Rybníky-náměstí-aut. nádr.,,3,57B32B,FFFFFF
+BUS_MHD:945601_312_2024-03-03,1690,601,"Jasenice-Dopravní terminál-Trávníky,točna",,3,57B32B,FFFFFF
+BUS_MHD:945602_312_2024-03-03,1690,602,Dopravní terminál-Jasenka,,3,57B32B,FFFFFF
+BUS_MHD:945603_312_2024-03-03,1690,603,Ohrada-Dopravní terminál-Semetín,,3,57B32B,FFFFFF
+BUS_MHD:945604_312_2024-03-03,1690,604,Ohrada-Dopravní terminál-Rokytnice-Janišov,,3,57B32B,FFFFFF
+BUS_MHD:945606_312_2024-03-03,1690,606,Dopravní terminál-Sychrov-Rokytnice-Dopravní terminál,,3,57B32B,FFFFFF
+BUS_MHD:945607_312_2024-03-03,1690,607,Dopravní terminál-Rybníky,,3,57B32B,FFFFFF
 BUS_MHD:945608_312_2024-03-03,1690,608,Jasenice-Ohrada-Sychrov-Jasenka-Rybníky,,3,57B32B,FFFFFF
-BUS_MHD:945609_312_2024-03-03,1690,609,"Trávníky,točna-Rybníky-Rokytnice-Rybníky",,3,57B32B,FFFFFF
+BUS_MHD:945609_312_2024-03-03,1690,609,Trávníky-Rybníky-Rokytnice-Rybníky,,3,57B32B,FFFFFF
 BUS_MHD:946001_1005_2022-06-12,1690,1,Krhová - stan.MHD u náměstí - Poličná,,3,FFFFFF,DA291C
 BUS_MHD:946003_1005_2022-06-12,1690,3,Podlesí - Valašské Meziříčí stan.MHD u náměstí- Bynina,,3,FFFFFF,DA291C
 BUS_MHD:946005_1005_2022-06-12,1690,5,Juřinka - Valašské Meziříčí stan.MHD u náměstí - Juřinka,,3,FFFFFF,DA291C
