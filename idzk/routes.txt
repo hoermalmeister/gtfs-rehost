@@ -1,6 +1,6 @@
 route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
 BUS_MHD:001101_1425_2026-02-16,1690,101,Vsetín-Horní Lideč-Střelná-Púchov,308901 (SK),3,102d69,ffffff
-BUS_MHD:001735_263_2026-08-30,1690,735,Zlín-Luhačovice-Uherský Brod-Trenčín,,3,,
+BUS_MHD:001735_263_2026-08-30,1690,735,Zlín-Luhačovice-Uherský Brod-Trenčín,,3,ed1c24,ffffff
 BUS_MHD:771155_312_2021-03-07,1690,155,Holešov-Ludslavice-Lechotice-Otrokovice,,3,162D66,FFFFFF
 BUS_MHD:771160_312_2021-03-07,1690,160,Kroměříž-Tlumačov-Otrokovice-Zlín,,3,162D66,FFFFFF
 BUS_MHD:771161_312_2021-03-07,1690,161,Velké Těšany-Nová Dědina-Kvasice-Otrokovice,,3,162D66,FFFFFF
@@ -10,6 +10,7 @@ BUS_MHD:771242_312_2021-03-07,1690,242,Bystřice p.Host.-Hostýn,,3,162D66,FFFFF
 BUS_MHD:771250_312_2021-03-07,1690,250,Bystřice p.Host.-Holešov-Kroměříž,,3,162D66,FFFFFF
 BUS_MHD:771251_312_2021-03-07,1690,251,Holešov-Prusinovice-Brusné-Bystřice p.Host.,,3,162D66,FFFFFF
 BUS_MHD:771253_312_2023-12-10,1690,253,Kostelec u Holešova-Hulín-Kroměříž,,3,162D66,FFFFFF
+BUS_MHD:771254_312_2026-08-30,1690,254,"Holešov,Žopy,točna-Holešov,,žel.st.-Holešov,Sfinx-Bořenovice,,točna",,3,102d69,ffffff
 BUS_MHD:771263_312_2021-03-07,1690,263,Kroměříž-Bařice-Velké Těšany-Lubná,,3,162D66,FFFFFF
 BUS_MHD:771264_312_2021-03-07,1690,264,Kroměříž-Kvasice-Bělov-Karolín-Lubná,,3,162D66,FFFFFF
 BUS_MHD:771265_312_2023-12-10,1690,265,Kroměříž-Hulín-Míškovice-Tlumačov-Kvasice,,3,162D66,FFFFFF
@@ -190,6 +191,7 @@ BUS_MHD:824955_263_2021-01-01,1690,955,Zlín-Kroměříž-Brno,,3,ED1C24,FFFFFF
 BUS_MHD:824990_263_2021-01-01,1690,990,Valašské Klobouky-Luhačovice-Uherské Hradiště-Brno,,3,ED1C24,FFFFFF
 BUS_MHD:825001,367,1,"Zlín,Lužkovice,Na Gruntech - Zlín,Prštné,Náves",,3,F6C309,162D66
 BUS_MHD:825002,367,2,"Zlín,Bartošova Čtvrť - Otrokovice,Štěrkoviště",,3,F6C309,162D66
+BUS_MHD:825003,367,3,"Zlín,Lesní Čtvrť - Zlín,Louky,točna",,3,F6C309,162D66
 BUS_MHD:825004,367,4,"Zlín,Lešná,zoo - Zlín,Podhoří,točna",,3,F6C309,162D66
 BUS_MHD:825005_367_2019-04-01,367,5,"Zlín,Lešná,zoo - Zlín,Podhoří,točna",,3,F6C309,162D66
 BUS_MHD:825006,367,6,"Zlín,Jižní Svahy,Kocanda - Otrokovice,žel.st.",,3,F6C309,162D66
@@ -199,7 +201,9 @@ BUS_MHD:825009,367,9,"Zlín,Jižní Svahy,Středová - Zlín,Jižní Svahy,Stře
 BUS_MHD:825010,367,10,"Zlín,Jižní Svahy,Středová - Zlín,Malenovice,Centro",,3,F6C309,162D66
 BUS_MHD:825011,367,11,"Zlín,Lužkovice,Na Gruntech - Zlín,Prštné,Náves",,3,F6C309,162D66
 BUS_MHD:825012,367,12,"Želechovice n.Dřev.,točna u školy - Zlín,Sportovní hala",,3,F6C309,162D66
+BUS_MHD:825013,367,13,"Zlín,Lesní Čtvrť - Zlín,Antonínova",,3,F6C309,162D66
 BUS_MHD:825014,367,14,"Zlín,Jižní Svahy,Středová - Zlín,Antonínova",,3,F6C309,162D66
+BUS_MHD:825015_367_2026-09-01,367,15,"Zlín,Lesní Čtvrť - Zlín,Mladcová,Bartošův dům",,3,f6c309,102d69
 BUS_MHD:825031,367,31,"Zlín,Jaroslavice,točna - Zlín,Antonínova",,3,5DC1EF,FFFFFF
 BUS_MHD:825032,367,32,"Zlín,Kudlov,točna - Zlín,Kudlov,točna",,3,5DC1EF,FFFFFF
 BUS_MHD:825033,367,33,"Zlín,Zlínské Paseky,točna - Zlín,Bartošova Čtvrť,zdrav.škola",,3,5DC1EF,FFFFFF
@@ -250,6 +254,7 @@ BUS_MHD:945606_312_2024-03-03,1690,606,Dopravní terminál-Sychrov-Rokytnice-Dop
 BUS_MHD:945607_312_2024-03-03,1690,607,Dopravní terminál-Rybníky,,3,57B32B,FFFFFF
 BUS_MHD:945608_312_2024-03-03,1690,608,Jasenice-Ohrada-Sychrov-Jasenka-Rybníky,,3,57B32B,FFFFFF
 BUS_MHD:945609_312_2024-03-03,1690,609,Trávníky-Rybníky-Rokytnice-Rybníky,,3,57B32B,FFFFFF
+BUS_MHD:945611_312_2026-08-30,1690,611,Jasenice-Dopravní terminál-Trávníky-Rokytnice-Janišov,,3,57b32b,ffffff
 BUS_MHD:946001_1005_2022-06-12,1690,1,Krhová - stan.MHD u náměstí - Poličná,,3,FFFFFF,DA291C
 BUS_MHD:946003_1005_2022-06-12,1690,3,Podlesí - Valašské Meziříčí stan.MHD u náměstí- Bynina,,3,FFFFFF,DA291C
 BUS_MHD:946005_1005_2022-06-12,1690,5,Juřinka - Valašské Meziříčí stan.MHD u náměstí - Juřinka,,3,FFFFFF,DA291C
