@@ -58,6 +58,7 @@ A49,R2435,T11 Podkrušnohorský motoráček,Děčín hl.n. – Telnice,2,0,0,0,K
 A47,R3768,,Valašské Meziříčí - Rožnov pod Radhoštěm,2,0,0,0,
 A49,R2436,T11,Děčín hl.n. – Telnice,2,0,0,0,KADR:4111
 A47,R2438,,Chrudim - Pardubice centrum,2,0,0,0,
+A47,R3769,Opavan,Bohumín - Praha Jih,2,0,0,0,
 A47,R2432,,Moravská Třebová - Česká Třebová,2,0,0,0,
 A47,R3763,,Lužná u Rakovníka - Praha Masarykovo nádraží,2,0,0,0,
 A47,R2433,,Mariánské Lázně - Cheb,2,0,0,0,
@@ -213,7 +214,6 @@ A53,R1349,,Hodonín - Mutěnice,2,0,0,0,
 A53,R1342,R26,Praha – Zdice – Příbram – Písek – České Budějovice,2,0,0,0,KADR:26
 A47,R3824,,Praha hlavní nádraží - Břeclav,2,0,0,0,
 A47,R3834,,Břeclav - Hohenau,2,0,0,0,
-A47,R2519,,Hanušovice - Šumperk,2,0,0,0,
 A52,R3839,,Praha-Zahradní Město - Havířov,2,0,0,0,
 A49,R2514,T5,Roudnice n.L. – Straškov – Libochovice,2,0,0,0,KADR:4105
 A55,R2502,,Bohumín - Praha hlavní nádraží,2,0,0,0,
@@ -236,6 +236,7 @@ A47,R2589,,Rožďalovice - Nymburk hl. n.,2,0,0,0,
 A51,R1240,,Tanvald - Kořenov,2,0,0,0,
 A53,R1243,,Javorník nad Veličkou zastávka - Veselí nad Moravou,2,0,0,0,
 A54,R1257,,Králíky - Letohrad,2,0,0,0,
+A47,R2594,,Retz - Znojmo,2,0,0,0,
 A54,R1259,,Letohrad - Ústí nad Orlicí,2,0,0,0,
 A52,R1252,RegioJet,Bohumín - Praha-Zahradní Město,2,0,0,0,
 A52,R1251,,Praha hlavní nádraží - Ostrava hlavní nádraží,2,0,0,0,
@@ -723,10 +724,11 @@ A47,R3066,Rožmberk,Třebíč - Jihlava,2,0,0,0,
 A47,R3067,RYZLINK RÝNSKÝ,Třebíč - Jihlava,2,0,0,0,
 A47,R3064,VELTLÍNSKÉ ZELENÉ,Okříšky - Jihlava,2,0,0,0,
 A47,R3065,RYZLINK RÝNSKÝ,Okříšky - Jihlava,2,0,0,0,
-A47,R3076,R12 Bouzov,"Olomouc – Šumperk, Zábřeh – Jeseník, Šumperk – Jeseník",2,0,0,0,KADR:7112
+A47,R3077,Rožmberk,Jihlava - Třebíč,2,0,0,0,
 A47,R3070,VELTLÍNSKÉ ZELENÉ,Třebíč - Jihlava,2,0,0,0,
 A47,R3089,S42 Rožmberk,Zastávka u Brna - Jihlava - Zastávka u Brna – Náměšť nad Oslavou,2,0,0,0,KADR:6042
 A47,R3086,S81 RYZLINK RÝNSKÝ,Znojmo - Jaroměřice nad Rokytnou - Znojmo – Moravské Budějovice,2,0,0,0,KADR:6081
+A47,R3087,Rožmberk,Jaroměřice nad Rokytnou - Jihlava,2,0,0,0,
 A47,R4408,Krakonoš,Hradec Král. hl. n. - Václavice,2,0,0,0,
 A47,R4401,,Tábor - Bechyně,2,0,0,0,
 A47,R4427,,Blatno u Jesenice - Bečov nad Teplou,2,0,0,0,
@@ -737,6 +739,7 @@ A47,R3154,,Moravské Budějovice - Okříšky,2,0,0,0,
 A47,R4486,,Praha-Vysočany - Trutnov hlavní nádraží,2,0,0,0,
 A47,R4487,,Trutnov hlavní nádraží - Praha-Vysočany,2,0,0,0,
 A60,R4468,,Zdounky - Kroměříž,2,0,0,0,
+A47,R3151,S14 Rožmberk,"Km 52,900 - Třebíč - Slavonice – Telč",2,0,0,0,KADR:3114
 A60,R4469,,Kroměříž - Zdounky,2,0,0,0,
 A47,R4496,,Hrubá Voda - Olomouc hl. n.,2,0,0,0,
 A47,R4492,S2 Os 104738,Březová nad Svitavou – Blansko – Brno – Křenovice horní nádraží,2,0,0,0,KADR:6002
@@ -758,6 +761,11 @@ A40,R4380,BA EXPRES 2026,Jindřiš - Jindřichův Hradec-JHMD,2,0,0,0,
 A47,R4317,Krakonoš,Choceň - Václavice,2,0,0,0,
 A47,R4319,,Náchod - Meziměstí,2,0,0,0,
 A47,R4322,,Choceň - Václavice,2,0,0,0,
+A47,R4634,,Senice na Hané - Červenka,2,0,0,0,
+A47,R4649,,Rakovník - Roztoky u Křivoklátu,2,0,0,0,
+A47,R4643,Opavan,Opava východ - Ostrava-Svinov,2,0,0,0,
+A47,R4644,,Litovel předměstí - Červenka,2,0,0,0,
+A47,R4646,,Okříšky - Náměšť nad Oslavou,2,0,0,0,
 A47,R3328,S57,Praha – Kladno – Rakovník - Praha-Bubny - Bečov nad Teplou - Rakovník - Blatno u Jesenice – Žlutice,2,0,0,0,KADR:1057|KADR:24
 A47,R3322,S81 SAUVIGNON,Znojmo - Jaroměřice nad Rokytnou - Znojmo – Moravské Budějovice,2,0,0,0,KADR:6081
 A47,R2009,,Karlovy Vary dolní n. - Nejdek zastávka,2,0,0,0,
