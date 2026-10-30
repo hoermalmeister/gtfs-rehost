@@ -1,5 +1,4 @@
 ﻿route_id,agency_id,route_short_name,route_long_name,route_type,route_color,route_text_color
-L100D99,99,LOĎ,"Bystrc - Rokle - Veverská Bítýška",4,00224B,FFFFFF
 L104D99,99,104,"Brno - Pohořelice - Vlasatice - Hrušovany nad Jevišovkou - Hevlín - Laa an der Thaya",3,00E68C,
 L105D99,99,105,"Brno - Modřice - Pohořelice - Pasohlávky - Dolní Dunajovice - Mikulov",3,00E68C,
 L106D99,99,106,"Brno - Slavkov u Brna - Žarošice - Dražůvky - Kyjov",3,00E68C,
@@ -9,6 +8,7 @@ L109D99,99,109,"Brno - Telnice - Klobouky u Brna - Čejč - Mutěnice - Hodonín
 L10D99,99,10,"Stránská skála - Bystrc, Ečerova",0,A05A2C,FFFFFF
 L110D99,99,S5,"Kunovice - Uherské Hradiště - Staré Město u Uherského Hradiště",2,800000,FFFFFF
 L111D99,99,xR12,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Vyškov na Moravě - Nezamyslice",3,7FFFAA,
+L114D99,99,xS8,"NÁHRADNÍ DOPRAVA ZA VLAKBožice - Znojmo",3,7FFFAA,
 L115D99,99,xS81,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šumná",3,7FFFAA,
 L116D99,99,xS91,"NÁHRADNÍ DOPRAVA ZA VLAKVeselí nad Moravou - Vrbovce",3,7FFFAA,
 L118D99,99,xS41,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Střelice",3,7FFFAA,
@@ -59,10 +59,10 @@ L173D99,99,xS82,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šatov",3,7FFFAA,
 L174D99,99,174,"Mikulov - Březí - Novosedly - Drnholec - Hrušovany nad Jevišovkou",3,7FFFAA,
 L175D99,99,xS3,"NÁHRADNÍ DOPRAVA ZA VLAK Hrušovany u Brna - Žabčice - Vranovice",3,7FFFAA,
 L176D99,99,xR13,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Břeclav",3,7FFFAA,
+L177D99,99,xS6,"NÁHRADNÍ DOPRAVA ZA VLAK Nesovice - Nemotice",3,7FFFAA,
 L178D99,99,xS71,"NÁHRADNÍ DOPRAVA ZA VLAK Vyškov - Nezamyslice",3,7FFFAA,
 L179D99,99,xR8,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Vyškov na Moravě",3,7FFFAA,
 L181D99,99,P1,"Arena Brno - Hlavní nádraží (- Malinovského náměstí)",0,D40000,FFFFFF
-L182D99,99,P2,"Židenice, Stará osada - Pisárky",0,4AB95D,FFFFFF
 L186D99,99,P6,"Královo Pole, nádraží - Nové sady-smyčka",0,0777C1,FFFFFF
 L1D99,99,1,"Řečkovice - Ečerova",0,D40000,FFFFFF
 L201D99,99,201,"Brno - Ochoz u Brna - Křtiny - Jedovnice",3,7FFFAA,
@@ -138,9 +138,8 @@ L35D99,99,35,"Masarykova čtvrť, Barvičova - Mendlovo náměstí",800,008033,F
 L36D99,99,36,"Komín, sídliště - Česká",800,008033,FFFFFF
 L370D99,99,370,"Bystřice nad Pernštejnem: Domanín - Domanínek - Masarykovo nám. - Gymnázium - Železniční stanice",3,2C89C8,FFFFFF
 L37D99,99,37,"Mendlovo náměstí - Osová",800,008033,FFFFFF
-L383D99,99,x3,"Česká - Vozovna Komín (- Bystrc, Rakovecká)",3,009E9E,FFFFFF
+L381D99,99,x1,"Pisárky - Mozolky",3,D40000,FFFFFF
 L38D99,99,38,"Masarykova čtvrť, Preslova - Komenského náměstí",800,008033,FFFFFF
-L392D99,99,x12,"Česká - Technologický park",3,00CCFF,FFFFFF
 L39D99,99,39,"Masarykova čtvrť, Barvičova - Komenského náměstí",800,008033,FFFFFF
 L3D99,99,3,"Židenice, Stará osada - Vozovna Komín (- Bystrc, Rakovecká)",0,009E9E,FFFFFF
 L401D99,99,401,"Brno - Říčany - Domašov - Velká Bíteš",3,7FFFAA,
@@ -151,7 +150,7 @@ L405D99,99,405,"Brno - Rosice - Zastávka",3,7FFFAA,
 L406D99,99,406,"Brno - Rosice - Oslavany - Ivančice",3,7FFFAA,
 L40D99,99,40,"Úzká - Tovární",3,2C82C8,FFFFFF
 L411D99,99,411,"Deblín - Svatoslav - Přibyslavice - Velká Bíteš",3,7FFFAA,
-L41D99,99,41,"Brno - Česká - Lelekovice - Vranov",3,2C82C8,FFFFFF
+L41D99,99,41,"Královo Pole, nádraží - Ivanovice - Lelekovice",3,2C82C8,FFFFFF
 L420D99,99,420,"Zastávka - Příbram na Moravě - Zbraslav - Velká Bíteš",3,7FFFAA,
 L421D99,99,421,"Zastávka - Zbýšov - Zakřany - Lukovany",3,7FFFAA,
 L422D99,99,422,"Zastávka - Neslovice - Hlína",3,7FFFAA,
@@ -170,7 +169,6 @@ L446D99,99,446,"Moravský Krumlov - Loděnice",3,7FFFAA,
 L447D99,99,x442,"Rešice - Horní Dubňany - Dukovany - Rouchovany - Hrotovice",3,7FFFAA,
 L44D99,99,44,"ÚAN Zvonařka - ÚAN Zvonařka",3,2C82C8,FFFFFF
 L450D99,99,450,"Miroslav - Olbramovice - Branišovice - Jiřice u Miroslavi",3,7FFFAA,
-L465D99,99,x25,"Nemocnice Bohunice - Mendlovo náměstí",800,008033,FFFFFF
 L46D99,99,46,"Lesná, Haškova - Zemědělská",3,2C82C8,FFFFFF
 L47D99,99,47,"Staré Černovice - Hlavní nádraží",3,2C82C8,FFFFFF
 L485D99,99,P25,"Novolíšeňská - Jírova",3,008033,FFFFFF
@@ -268,6 +266,7 @@ L702D99,99,702,"Brno - Pozořice - Viničné Šumice",3,7FFFAA,
 L70D99,99,70,"Ořešín - Královo Pole, nádraží",3,2C82C8,FFFFFF
 L710D99,99,710,"Šlapanice - Jiříkovice - Blažovice",3,7FFFAA,
 L720D99,99,720,"Holubice - Pozořice",3,7FFFAA,
+L725D99,99,xS5,"NÁHRADNÍ DOPRAVA ZA VLAKStaré Město u Uherského Hradiště - Uherské Hradiště - Kunovice",3,7FFFAA,
 L729D99,99,xS9,"NÁHRADNÍ DOPRAVA ZA VLAK S9",3,7FFFAA,
 L72D99,99,72,"Technologický park - Obřany, sídliště",3,2C82C8,FFFFFF
 L730D99,99,730,"Vyškov - Luleč - Nemojany - Tučapy - Komořany - Rousínov",3,7FFFAA,
