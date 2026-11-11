@@ -9,9 +9,7 @@ L10D99,99,10,"Stránská skála - Bystrc, Ečerova",0,A05A2C,FFFFFF
 L110D99,99,S5,"Kunovice - Uherské Hradiště - Staré Město u Uherského Hradiště",2,800000,FFFFFF
 L112D99,99,xR19,"NÁHRADNÍ DOPRAVA ZA VLAK Letovice - Brno",3,7FFFAA,
 L114D99,99,xS8,"NÁHRADNÍ DOPRAVA ZA VLAKBožice - Znojmo",3,7FFFAA,
-L115D99,99,xS81,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šumná",3,7FFFAA,
 L116D99,99,xS91,"NÁHRADNÍ DOPRAVA ZA VLAKVeselí nad Moravou - Vrbovce",3,7FFFAA,
-L118D99,99,xS41,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Střelice",3,7FFFAA,
 L120D99,99,S2,"Vyškov - Holubice - Křenovice - Sokolnice - Brno - Blansko - Skalice nad Svitavou - Letovice",2,800000,FFFFFF
 L121D99,99,S21,"Boskovice - Skalice nad Svitavou",2,800000,FFFFFF
 L122D99,99,S22,"Letovice - Březová nad Svitavou",2,800000,FFFFFF
@@ -54,9 +52,7 @@ L165D99,99,165,"Hustopeče - Vranovice - Pohořelice",3,7FFFAA,
 L166D99,99,166,"Vyškov - Bohdalice-Pavlovice - Hvězdlice - Nemochovice - Brankovice",3,7FFFAA,
 L167D99,99,167,"Blansko - Jedovnice - Senetářov - Ruprechtov - Vyškov",3,7FFFAA,
 L171D99,99,xS2,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Blansko",3,7FFFAA,
-L173D99,99,xS82,"NÁHRADNÍ DOPRAVA ZA VLAK Znojmo - Šatov",3,7FFFAA,
 L174D99,99,174,"Mikulov - Březí - Novosedly - Drnholec - Hrušovany nad Jevišovkou",3,7FFFAA,
-L175D99,99,xS3,"NÁHRADNÍ DOPRAVA ZA VLAK Hrušovany u Brna - Žabčice - Vranovice",3,7FFFAA,
 L176D99,99,xR13,"NÁHRADNÍ DOPRAVA ZA VLAK Brno - Břeclav",3,7FFFAA,
 L177D99,99,xS6,"NÁHRADNÍ DOPRAVA ZA VLAK Nesovice - Nemotice",3,7FFFAA,
 L186D99,99,P6,"Královo Pole, nádraží - Nové sady-smyčka",0,0777C1,FFFFFF
@@ -133,6 +129,8 @@ L35D99,99,35,"Masarykova čtvrť, Barvičova - Mendlovo náměstí",800,008033,F
 L36D99,99,36,"Komín, sídliště - Česká",800,008033,FFFFFF
 L370D99,99,370,"Bystřice nad Pernštejnem: Domanín - Domanínek - Masarykovo nám. - Gymnázium - Železniční stanice",3,2C89C8,FFFFFF
 L37D99,99,37,"Mendlovo náměstí - Osová",800,008033,FFFFFF
+L385D99,99,x5,"Mendlovo náměstí - Celní",3,F31D7F,FFFFFF
+L386D99,99,x6,"nádraží - Česká",3,0777C1,FFFFFF
 L38D99,99,38,"Masarykova čtvrť, Preslova - Komenského náměstí",800,008033,FFFFFF
 L39D99,99,39,"Masarykova čtvrť, Barvičova - Komenského náměstí",800,008033,FFFFFF
 L3D99,99,3,"Židenice, Stará osada - Vozovna Komín (- Bystrc, Rakovecká)",0,009E9E,FFFFFF
