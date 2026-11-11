@@ -1,257 +1,257 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport,relations
-A234,R5806,842110,Žďár nad Sázavou-Bohdalec-Bobrová-Moravec-Křižanov-Velká Bíteš-Brno,3,0,0,0,CISJR:842110
-A234,R5807,842145,Velké Meziříčí-Dobrá Voda-Křižanov-Bobrůvka-Bobrová-Nové Město na Moravě,3,0,0,0,CISJR:842145
-A234,R5805,842138,Nové Město na Moravě-Křídla-Dolní Rožínka-Strážek,3,0,0,0,CISJR:842138
-A234,R5808,842119,Žďár nad Sázavou-Jámy-Radešínská Svratka-Mirošov-Moravec,3,0,0,0,CISJR:842119
-A138,R5995,915,Dačice-Budíškovice-Třebětice-Jemnice,3,0,0,0,CISJR:340915
-A138,R5996,917,Dačice-Staré Hobzí-Pálovice-Jemnice,3,0,0,0,CISJR:340917
-A138,R5990,909,Jindřichův Hradec-Blažejov-Strmilov-Studená-Telč,3,0,0,0,CISJR:340909
-A138,R5989,905,Jindřichův Hradec-Nová Včelnice-Kamenice nad Lipou-Pelhřimov,3,0,0,0,CISJR:340905
-A140,R8199,841103,Velké Meziříčí - Velká Bíteš,3,0,0,0,CISJR:841103
-A140,R8009,796384,Třebíč-Kojetice-Šebkovice-Jaroměřice nad Rokytnou,3,0,0,0,CISJR:796384
-A140,R8005,795409,"Jihlava-Cerekvička-Rosice-Vílanec,Loučky",3,0,0,0,CISJR:795409
-A140,R8006,795483,Třebíč-Valeč-Račice-Hrotovice,3,0,0,0,CISJR:795483
-A140,R8007,796453,Třebíč-Vladislav-Budišov-Pyšel-Tasov,3,0,0,0,CISJR:796453
-A140,R8008,796382,Jarorměřice nad Rokytnou - Výčapy - Horní Újezd - Čáslavice,3,0,0,0,CISJR:796382
-A140,R8001,795421,Hvězdoňovice-Okříšky-Přibyslavice-Třebíč,3,0,0,0,CISJR:795421
-A140,R8002,795379,Jemnice-Jiratice,3,0,0,0,CISJR:795379
-A140,R8003,795385,Moravské Budějovice-Šebkovice-Čáslavice-Třebíč,3,0,0,0,CISJR:795385
-A140,R8004,935,Třebíč-Želetava-Nová Říše-Dačice,3,0,0,0,CISJR:796935
-A140,R8000,795373,Moravské Budějovice-Vysočany-Police-Jemnice,3,0,0,0,CISJR:795373
-A140,R8010,796457,Náměšť nad Oslavou-Rapotice-Březník-Mohelno-Dukovany,3,0,0,0,CISJR:796457
-A140,R5804,841126,"Bystřice nad Pernštejnem - Rožná - Dolní Rožínka - Strážek - Moravec - Bobrová,Dolní Bobrová",3,0,0,0,CISJR:841126
-A140,R5802,841131,Bystřice nad Pernštejnem - Vír - Rovečné - Olešnice,3,0,0,0,CISJR:841131
-A140,R5809,841133,Rovečné - Bystré - Ubušínek - Jimramov,3,0,0,0,CISJR:841133
-A140,R5819,841132,"Rovečné - Věstín,Bolešín",3,0,0,0,CISJR:841132
-A46,R6132,357305,Pacov-Leskovice-Nová Cerekev,3,0,0,0,CISJR:357305
-A46,R6130,357257,"Humpolec-Humpolec,Kletečná-Sedlice-Svépravice",3,0,0,0,CISJR:357257
-A200,R8224,845103,Linka č. 3 Dopravní terminál-Maršovská-Dopravní terminál,3,0,0,0,CISJR:845103
-A200,R8225,845104,Linka č. 4 centrum-Dopravní terminál-nemocnice-Petrovice-Dopravní terminál,3,0,0,0,CISJR:845104
-A200,R8226,845105,Linka č. 5 Dopravní terminál-Sporten-Pohledec-Dopravní terminál,3,0,0,0,CISJR:845105
-A200,R8222,845101,Linka č. 1 Dopravní terminál-Bělisko-nemocnice-BILLA-centrum-Dopravní terminál,3,0,0,0,CISJR:845101
-A200,R8223,845102,Linka č. 2 Dopravní terminál-Kulturní dům-nemocnice-centrum-Dopravní terminál,3,0,0,0,CISJR:845102
-A234,R8210,842154,Žďár nad Sázavou-Sázava-Matějov-Nové Veselí-Žďár nad Sázavou,3,0,0,0,CISJR:842154
-A234,R8211,842159,Žďár nad Sázavou-Polnička-Škrdlovice-Světnov,3,0,0,0,CISJR:842159
-A21,R6139,358302,Pelhřimov-Krasíkovice-Pelhřimov,3,0,0,0,CISJR:358302
-A21,R6136,358321,Pelhřimov-Vyskytná-Nový Rychnov,3,0,0,0,CISJR:358321
-A21,R6135,304,Pacov-Černovice,3,0,0,0,CISJR:358304
-A21,R6138,358323,Horní Cerekev-Nový Rychnov,3,0,0,0,CISJR:358323
-A21,R6137,358320,Pelhřimov-Nový Rychnov-Rohozná,3,0,0,0,CISJR:358320
-A21,R6131,358258,"Pelhřimov-Svépravice-Želiv-Želiv,Lhotice",3,0,0,0,CISJR:358258
-A21,R6134,358285,Kamenice nad Lipou-Těmice-Nová Cerekev,3,0,0,0,CISJR:358285
-A21,R6133,358280,Pelhřimov-Nová Cerekev-Černovice,3,0,0,0,CISJR:358280
-A234,R8209,842151,"Žďár nad Sázavou-Hamry nad Sázavou-Hamry nad Sázavou,Šlakhamry",3,0,0,0,CISJR:842151
-A234,R8205,842101,Velké Meziříčí: Průmyslová-aut.nádr.-Hornoměstská-aut.nádr.-Průmyslová,3,0,0,0,CISJR:842101
-A234,R8206,842142,Sněžné-Líšná-Javorek-Jimramov,3,0,0,0,CISJR:842142
-A234,R8207,842133,Ubušínek-Jimramov,3,0,0,0,CISJR:842133
-A234,R8208,842158,Žďár nad Sázavou-Polnička-Vepřová-Velká Losenice-Přibyslav,3,0,0,0,CISJR:842158
-A46,R6127,357254,Humpolec-Kaliště-Dolní Město,3,0,0,0,CISJR:357254
-A21,R6142,923,Pacov-Pojbuky-Rodná,3,0,0,0,CISJR:358923
-A21,R6141,358326,Pelhřimov-Střítež pod Křemešníkem-Žirov,3,0,0,0,CISJR:358326
-A21,R6140,358324,Pelhřimov-Pavlov-Černov-Horní Cerekev,3,0,0,0,CISJR:358324
-A142,R7079,603244,"Havlíčkův Brod - Okrouhlice - Okrouhlice,Olešnice",3,0,0,0,CISJR:603244
-A142,R7074,603230,Ledeč nad Sázavou - Číhošť - Leština u Světlé - Habry,3,0,0,0,CISJR:603230
-A142,R7073,603228,Habry - Leškovice - Vilémov,3,0,0,0,CISJR:603228
-A142,R7072,603243,Světlá nad Sázavou - Sázavka - Habry,3,0,0,0,CISJR:603243
-A142,R7071,603229,"Habry - Habry,Lubno - Chrtníč - Habry",3,0,0,0,CISJR:603229
-A142,R7078,603242,Světlá nad Sázavou - Lučice - Havlíčkův Brod,3,0,0,0,CISJR:603242
-A142,R7077,603233,Světlá nad Sázavou - Vlkanov - Ledeč nad Sázavou,3,0,0,0,CISJR:603233
-A142,R7076,603231,"Ledeč nad Sázavou - Kožlí,Sechov - Ledeč nad Sázavou",3,0,0,0,CISJR:603231
-A142,R7075,603232,Světlá nad Sázavou - Vlkanov - Číhošť,3,0,0,0,CISJR:603232
-A142,R7070,603225,Havlíčkův Brod  - Kámen - Habry,3,0,0,0,CISJR:603225
-A142,R7069,603224,Chotěboř - Kámen - Tis - Habry,3,0,0,0,CISJR:603224
-A142,R7068,603222,Havlíčkův Brod - Břevnice - Čachotín - Chotěboř,3,0,0,0,CISJR:603222
-A142,R7063,603216,"Přibyslav - Šlapanov,Kněžská",3,0,0,0,CISJR:603216
-A142,R7062,603215,Havlíčkův Brod - Krátká Ves  - Česká Bělá - Havlíčkova Borová,3,0,0,0,CISJR:603215
-A142,R7061,603214,Havlíčkův Brod - Ždírec - Česká Bělá - Havlíčkova Borová,3,0,0,0,CISJR:603214
-A142,R7060,603213,Chotěboř - Oudoleň - Havlíčkova Borová,3,0,0,0,CISJR:603213
-A142,R7067,603226,Vilémov - Uhelná Příbram,3,0,0,0,CISJR:603226
-A142,R7066,603227,Chotěboř - Uhelná Příbram - Vepříkov - Habry,3,0,0,0,CISJR:603227
-A142,R7065,603223,Chotěboř - Česká Bělá - Přibyslav,3,0,0,0,CISJR:603223
-A142,R7064,603220,Chotěboř - Dolní Krupá - Havlíčkův Brod,3,0,0,0,CISJR:603220
-A142,R7082,603248,Světlá nad Sázavou - Dolní Město - Trpišovice - Ledeč nad Sázavou,3,0,0,0,CISJR:603248
-A142,R7081,603247,Světlá nad Sázavou - Pohleď,3,0,0,0,CISJR:603247
-A142,R7080,603246,Světlá nad Sázavou - Dolní Město - Lipnice nad Sázavou - Světlá nad Sázavou,3,0,0,0,CISJR:603246
-A142,R7037,603160,Žďár nad Sázavou - Vojnův Městec - Ždírec nad Doubravou - Chotěboř,3,0,0,0,CISJR:603160
-A142,R7059,603212,Havlíčkův Brod - Pohled - Přibyslav,3,0,0,0,CISJR:603212
-A142,R7057,603194,"Havlíčkův Brod - Okrouhlička,Skřivánek - Štoky - Jihlava",3,0,0,0,CISJR:603194
-A142,R7052,603172,Habry - Golčův Jeníkov,3,0,0,0,CISJR:603172
-A142,R7051,603221,Havlíčkův Brod - Horní Krupá - Chotěboř,3,0,0,0,CISJR:603221
-A142,R7050,603171,"Golčův Jeníkov - Skryje,Hostačov - Zvěstovice - Třemošnice",3,0,0,0,CISJR:603171
-A142,R7056,763195,"Jihlava - Štoky - Štoky,Petrovice",3,0,0,0,CISJR:763195
-A142,R7055,603193,Havlíčkův Brod - Okrouhlička - Štoky - Šlapanov,3,0,0,0,CISJR:603193
-A142,R7054,603174,Chotěboř - Borek - Běstvina - Třemošnice,3,0,0,0,CISJR:603174
-A142,R7053,603173,"Golčův Jeníkov - Golčův Jeníkov,Kobylí Hlava  -  Golčův Jeníkov",3,0,0,0,CISJR:603173
-A142,R7049,603170,Chotěboř - Vilémov - Golčův Jeníkov,3,0,0,0,CISJR:603170
-A142,R7048,603167,Chotěboř - Libice nad Doubravou - Maleč - Chotěboř,3,0,0,0,CISJR:603167
-A142,R7047,603166,Chotěboř - Víska - Maleč - Klokočov - Seč,3,0,0,0,CISJR:603166
-A142,R7046,603165,Chotěboř - Libice nad Doubravou - Maleč - Běstvina - Třemošnice,3,0,0,0,CISJR:603165
-A142,R7041,603161,Radostín - Ždírec nad Doubravou - Havlíčkova Borová - Přibyslav,3,0,0,0,CISJR:603161
-A142,R7045,603164,Chotěboř - Libice nad Doubravou - Horní Bradlo,3,0,0,0,CISJR:603164
-A142,R7044,603163,Ždírec nad Doubravou - Slavíkov - Trhová Kamenice,3,0,0,0,CISJR:603163
-A142,R7043,603162,Chotěboř - Bezděkov - Slavíkov - Podmoklany - Ždírec nad Doubravou,3,0,0,0,CISJR:603162
-A142,R7042,603211,Havlíčkův Brod - Dlouhá Ves - Přibyslav,3,0,0,0,CISJR:603211
-A188,R7092,169,ACHP-žel.st.-Havlíčkova-nám.TGM-rehabilitační ústav-nám.TGM-Havlíčkova-žel.st.-ACHP,3,0,0,0,CISJR:609169
-A140,R8204,841127,"Bystřice nad Pernštejnem - Rozsochy,Kundratice - Bystřice nad Pernštejnem",3,0,0,0,CISJR:841127
-A140,R8200,841114,Velké Meziříčí - Vídeň - Bory,3,0,0,0,CISJR:841114
-A140,R8202,841123,Skorotice - Nedvědice,3,0,0,0,CISJR:841123
-A142,R8212,843168,Žďár nad Sázavou – Ždírec nad Doubravou – Pardubice – Hradec Králové,3,0,0,0,CISJR:843168
-A26,R6007,903,Soběslav-Chotěmice-Deštná-Rosička-Mnich,3,0,0,0,CISJR:390903
-A26,R6009,901,Soběslav-Košice-Choustník-Vlčeves-Černovice,3,0,0,0,CISJR:390901
-A21,R6004,926,Počátky-Horní Dubenky-Studená,3,0,0,0,CISJR:358926
-A21,R6003,925,Pelhřimov-Veselá-Počátky -Žirovnice-Stojčín-Popelín,3,0,0,0,CISJR:358925
-A21,R6006,358287,Kamenice nad Lipou-Mnich,3,0,0,0,CISJR:358287
-A21,R6005,924,Kamenice nad Lipou-Černovice-Chýnov-Tábor,3,0,0,0,CISJR:358924
-A21,R6002,358310,Horní Cerekev-Počátky-Žirovnice-Kamenice nad Lipou,3,0,0,0,CISJR:358310
-A26,R6010,902,Soběslav-Tučapy-Choustník-Hojovice-Černovice,3,0,0,0,CISJR:390902
-A21,R6088,927,Počátky-Panské Dubenky-Studená,3,0,0,0,CISJR:358927
-A21,R6087,358311,Počátky-Horní Dubenky-Batelov-Třešť,3,0,0,0,CISJR:358311
-A21,R6086,928,Žirovnice-Nová Včelnice,3,0,0,0,CISJR:358928
-A21,R6085,358286,Kamenice nad Lipou-Těmice-Černovice,3,0,0,0,CISJR:358286
-A21,R6094,292,Kamenice nad Lipou-Častrov-Bělá-Horní Cerekev,3,0,0,0,CISJR:358292
-A21,R6097,358281,Pelhřimov-Božejov-Těmice-Kamenice nad Lipou,3,0,0,0,CISJR:358281
-A21,R6096,358290,Pelhřimov-Mezná-Častrov-Žirovnice-Počátky,3,0,0,0,CISJR:358290
-A21,R6093,358325,Pelhřimov-Horní Cerekev-Horní Ves,3,0,0,0,CISJR:358325
-A22,R551,740,Čáslav - Bratčice - Golčův Jeníkov - Chotěboř,3,0,0,0,CISJR:240740|PID:L740
-A21,R6107,929,Počátky-Žirovnice-Jindřichův Hradec,3,0,0,0,CISJR:358929
-A21,R6106,294,"Počátky-Častrov,Jakubín-Žirovnice-Počátky",3,0,0,0,CISJR:358294
-A234,R7184,842144,Nové Město na Moravě-Vlachovice-Tři Studně-Fryšava-Sněžné,3,0,0,0,CISJR:842144
-A234,R7183,842143,Žďár nad Sázavou-Tři Studně-Fryšava-Sněžné-Spělkov,3,0,0,0,CISJR:842143
-A234,R7182,842139,"Nové Město na Moravě,Jiříkovice-Nové Město na Moravě-Dlouhé-Bobrová-Bobrůvka",3,0,0,0,CISJR:842139
-A234,R7176,842150,Žďár nad Sázavou-Herálec-Svratka,3,0,0,0,CISJR:842150
-A234,R7179,842140,Nové Město na Moravě-Sněžné-Svratka,3,0,0,0,CISJR:842140
-A21,R612,401,"Pelhřimov – Červená Řečice - Čechtice – Praha,Roztyly",3,0,0,0,CISJR:358401|PID:L401
-A22,R636,687,Uhlířské Janovice - Zbraslavice - Třebětín - Ledeč nad Sázavou,3,0,0,0,CISJR:240687|PID:L687
-A46,R617,357260,Humpolec-Větrný Jeníkov-Jihlava,3,0,0,0,CISJR:357260
-A48,R614,846,Dolní Kralovice - Ledeč nad Sázavou,3,0,0,0,CISJR:200846|PID:L2846
-A46,R616,357259,Humpolec-Zachotín-Pelhřimov,3,0,0,0,CISJR:357259
-A48,R613,845,Zruč nad Sázavou - Dolní Kralovice - Křelovice,3,0,0,0,CISJR:240845|PID:L2845
-A46,R615,357270,Pacov-Hořepník-Želiv-Humpolec-Dolní Město-Světlá nad Sázavou,3,0,0,0,CISJR:357270
-A46,R634,607255,Ledeč nad Sázavou-Koberovice-Humpolec-Jihlava,3,0,0,0,CISJR:607255
-A46,R633,357250,Pelhřimov-Humpolec-Havlíčkův Brod,3,0,0,0,CISJR:357250
-A21,R658,358300,Jihlava-Dušejov-Vyskytná-Pelhřimov-Leskovice-Pacov,3,0,0,0,CISJR:358300
-A46,R632,922,Pacov-Vodice-Chýnov-Tábor,3,0,0,0,CISJR:357922
-A46,R630,357251,"Humpolec-Herálec-Herálec,Mikulášov",3,0,0,0,CISJR:357251
-A46,R625,865,Pacov - Bratřice - Lukavec - Čechtice,3,0,0,0,CISJR:357865|PID:L2865
-A46,R624,867,Buřenice - Košetice - Hořice - Ježov,3,0,0,0,CISJR:357867|PID:L2867
-A46,R623,357301,Pelhřimov-Útěchovice-Hořepník-Lukavec,3,0,0,0,CISJR:357301
-A22,R642,742,Čáslav - Zbýšov - Třebětín - Ledeč nad Sázavou,3,0,0,0,CISJR:240742|PID:L742
-A46,R629,866,Košetice - Křešín - Čechtice,3,0,0,0,CISJR:359866|PID:L2866
-A46,R627,357263,Mysletín-Větrný Jeníkov,3,0,0,0,CISJR:357263
-A46,R626,357256,Kejžlice-Budíkov-Humpolec-Senožaty-Syrov,3,0,0,0,CISJR:357256
-A48,R652,406,"Praha,Roztyly - Vlašim - Pacov",3,0,0,0,CISJR:100406|PID:L406
-A234,R7040,842182,"Žďár nad Sázavou-Nížkov-Polná-Jihlava,,BOSCH Pávov-Jihlava",3,0,0,0,CISJR:842182
-A234,R7039,842185,Žďár nad Sázavou-Nové Veselí-Nížkov-Přibyslav-Hřiště,3,0,0,0,CISJR:842185
-A234,R7038,842200,Žďár nad Sázavou-Bohdalov-Jamné-Jihlava,3,0,0,0,CISJR:842200
-A140,R7185,841116,Křižanov - Jívoví - Rousměrov - Ostrov n.Osl. - Žďár nad Sázavou,3,0,0,0,CISJR:841116
-A140,R7180,841115,Bystřice nad Pernštejnem - Dolní Rožínka - Dolní Libochová - Křižanov - Martinice - Velké Meziříčí,3,0,0,0,CISJR:841115
-A234,R7058,842157,Žďár nad Sázavou-Sázava-Velká Losenice-Přibyslav,3,0,0,0,CISJR:842157
-A26,R708,904,Mladá Vožice-Smilovy Hory-Pacov,3,0,0,0,CISJR:390904
-A26,R752,900,Tábor-Turovec-Choustník-Mnich,3,0,0,0,CISJR:390900
-A21,R753,920,Pacov-Černovice-Mnich-Jindřichův Hradec,3,0,0,0,CISJR:358920
-A140,R6103,795400,Jihlava-Stonařov-Želetava-Moravské Budějovice,3,0,0,0,CISJR:795400
-A139,R6105,909,Jindřichův Hradec-Blažejov-Strmilov-Studená-Telč,3,0,0,0,CISJR:344909
-A142,R6122,353250,Humpolec - Herálec - Havlíčkův Brod,3,0,0,0,CISJR:353250
-A142,R6129,763190,Jihlava - Úsobí - Lípa - Havlíčkův Brod,3,0,0,0,CISJR:763190
-A142,R6128,603191,Havlíčkův Brod - Lípa - Úsobí - Herálec - Boňkov,3,0,0,0,CISJR:603191
-A141,R6121,350410,Počátky-Pelhřimov-Praha,3,0,0,0,CISJR:350410
-A140,R6120,912,Dačice - Budíškovice - Budeč - Krasonice - Želetava,3,0,0,0,CISJR:346912
-A138,R6014,908,Jindřichův Hradec-Jarošov nad Nežárkou-Strmilov-Panské Dubenky-Studená,3,0,0,0,CISJR:340908
-A138,R6012,919,Slavonice-Dešná-Jemnice,3,0,0,0,CISJR:340919
-A138,R6011,916,Dačice-Jemnice-Vratěnín,3,0,0,0,CISJR:340916
-A139,R6001,764330,Jihlava-Třešť-Telč,3,0,0,0,CISJR:764330
-A138,R6000,911,Dačice-Mrákotín-Telč,3,0,0,0,CISJR:340911
-A139,R6099,764338,Třešť-Růžená,3,0,0,0,CISJR:764338
-A138,R6098,931,Telč-Mrákotín-Studená,3,0,0,0,CISJR:769931
-A138,R6083,912,Dačice-Budeč-Krasonice-Želetava,3,0,0,0,CISJR:340912
-A21,R7874,768338,Třešť-Růžená,3,0,0,0,CISJR:768338
-A142,R618,603192,Havlíčkův Brod - Herálec - Větrný Jeníkov,3,0,0,0,CISJR:603192
-A142,R619,603241,Havlíčkův Brod - Lipnice nad Sázavou - Dolní Město - Ledeč nad Sázavou,3,0,0,0,CISJR:603241
-A142,R666,603240,Ledeč nad Sázavou - Světlá nad Sázavou - Okrouhlice - Havlíčkův Brod,3,0,0,0,CISJR:603240
-A139,R663,764262,Jihlava-Plandry-Vyskytná nad Jihlavou-Nový Rychnov,3,0,0,0,CISJR:764262
-A234,R7819,842136,"Žďár nad Sázavou-Nové Město na Moravě,Slavkovice-Nové Město na Moravě-Zubří",3,0,0,0,CISJR:842136
-A234,R7818,842155,Žďár nad Sázavou-Nové Veselí-Bohdalov-Pavlov-Měřín,3,0,0,0,CISJR:842155
-A234,R7816,842116,Křižanov-Jívoví-Rousměrov-Ostrov n.Osl-Žďár nad Sázavou,3,0,0,0,CISJR:842116
-A234,R7801,842117,Žďár nad Sázavou-Ostrov nad Oslavou-Radostín nad Oslavou-Bory-Velké Meziříčí,3,0,0,0,CISJR:842117
-A234,R7829,842156,Žďár nad Sázavou-Nové Veselí-Kotlasy,3,0,0,0,CISJR:842156
-A234,R7824,842180,Žďár nad Sázavou-Nížkov-Polná-Jihlava,3,0,0,0,CISJR:842180
-A140,R7997,795937,Moravské Budějovice-Domamil-Budeč,3,0,0,0,CISJR:795937
-A140,R7996,796383,Jaroměřice n.R.-Blatnice-Bohušice-Jaroměřice n.R.,3,0,0,0,CISJR:796383
-A140,R7995,795370,Třebíč - Jaroměřice nad Rokytnou - Moravské Budějovice - Jemnice,3,0,0,0,CISJR:795370
-A140,R7999,795372,Moravské Budějovice-Biskupice-Pulkov-Hrotovice,3,0,0,0,CISJR:795372
-A140,R7998,795938,Moravské Budějovice-Nové Syrovice-Budkov-Budeč-Jemnice,3,0,0,0,CISJR:795938
-A140,R7983,791483,Třebíč - Kožichovice,3,0,0,0,CISJR:791483
-A140,R7982,790200,Třebíč-Jihlava-Humpolec-Loket-Praha,3,0,0,0,CISJR:790200
-A140,R7799,796456,"Třebíč-Vladislav,Střížov",3,0,0,0,CISJR:796456
-A140,R7798,766420,Jihlava-Brtnice-Kněžice-Okříšky-Třebíč,3,0,0,0,CISJR:766420
-A140,R7797,841102,Velké Meziříčí - Rohy - Budišov - Hodov,3,0,0,0,CISJR:841102
-A140,R7796,796105,Kožichovice-Třebíč-Budišov-Tasov-Velká Bíteš,3,0,0,0,CISJR:796105
-A140,R7795,841113,Baliny - Velké Meziříčí - Ořechov - Osová Bítýška - Křoví,3,0,0,0,CISJR:841113
-A140,R7794,841106,"Velké Meziříčí - Tasov - Ruda,Lhotka",3,0,0,0,CISJR:841106
-A140,R7793,841104,"Velké Meziříčí - Velké Meziříčí,Mostiště - Netín - Radostín nad Oslavou",3,0,0,0,CISJR:841104
-A140,R7792,761100,Jihlava - Měřín - Velké Meziříčí - Velká Bíteš - Brno,3,0,0,0,CISJR:761100
-A140,R7810,841111,Velká Bíteš - Osová Bítýška - Skřinářov - Křižanov - Sviny,3,0,0,0,CISJR:841111
-A140,R7814,796423,Třebíč-Benetice-Horní Vilémovice-Bochovice-Rudíkov,3,0,0,0,CISJR:796423
-A140,R7813,796381,Třebíč - Jaroměřice nad Rokytnou - Příštpo,3,0,0,0,CISJR:796381
-A140,R7812,841109,Měřín - Netín - Blízkov - Měřín,3,0,0,0,CISJR:841109
-A140,R7811,841201,Měřín - Zhoř - Jamné - Polná,3,0,0,0,CISJR:841201
-A140,R7806,841460,Velké Meziříčí - Rudíkov - Třebíč,3,0,0,0,CISJR:841460
-A140,R7805,796454,Náměšť nad Oslavou-Sedlec-Hartvíkovice,3,0,0,0,CISJR:796454
-A140,R7804,796455,Nová Ves - Okříšky - Hartvíkovice - Mohelno - Dukovany,3,0,0,0,CISJR:796455
-A140,R7809,841112,Velká Bíteš - Osová Bítýška - Březí - Vidonín - Heřmanov - Křižanov,3,0,0,0,CISJR:841112
-A140,R7808,796452,Třebíč - Smrk - Pyšel - Ocmanice - Náměšť nad Oslavou,3,0,0,0,CISJR:796452
-A140,R7803,796450,Třebíč-Studenec-Náměšť nad Oslavou-Jinošov-Velká Bíteš,3,0,0,0,CISJR:796450
-A140,R7800,841107,Velké Meziříčí - Uhřínov - Otín - Měřín,3,0,0,0,CISJR:841107
-A139,R7802,764470,Střítež-Jihlava-Luka nad Jihlavou-Kamenice-Měřín,3,0,0,0,CISJR:764470
-A139,R7807,844109,Měřín-Netín-Blízkov-Měřín,3,0,0,0,CISJR:844109
-A140,R7875,769100,Jihlava - Velké Meziříčí - Brno,3,0,0,0,CISJR:769100
-A140,R7873,931,Telč - Mrákotín - Studená,3,0,0,0,CISJR:766931
-A140,R7872,796407,Kožichovice - Třebíč - Předín - Dlouhá Brtnice,3,0,0,0,CISJR:796407
-A140,R7871,796421,Třebíč-Heraltice-Okříšky-Přibyslavice-Třebíč,3,0,0,0,CISJR:796421
-A140,R7870,796482,Třebíč - Myslibořice - Biskupice-Pulkov - Rouchovany - Tavíkovice,3,0,0,0,CISJR:796482
-A140,R7869,795405,Jemnice-Budkov-Lesonice-Čáslavice-Třebíč,3,0,0,0,CISJR:795405
-A139,R7838,764331,Jihlava-Cejle-Kostelec-Rohozná-Batelov,3,0,0,0,CISJR:764331
-A139,R7837,933,Telč-Dačice-Jemnice,3,0,0,0,CISJR:764933
-A139,R7836,764337,Třešť-Brtnice-Okříšky-Radonín,3,0,0,0,CISJR:764337
-A139,R7835,764333,Jihlava-Třešť-Řásná-Telč,3,0,0,0,CISJR:764333
-A139,R7839,764332,"Třešť-Batelov-Batelov,Bezděčín",3,0,0,0,CISJR:764332
-A139,R7830,764202,Jihlava-Velký Beranov-Kozlov-Jamné-Nadějov-Arnolec,3,0,0,0,CISJR:764202
-A139,R7834,764336,Třešť-Pavlov-Dlouhá Brtnice,3,0,0,0,CISJR:764336
-A139,R7833,764261,Jihlava-Rantířov-Vyskytná nad Jihlavou-Dudín,3,0,0,0,CISJR:764261
-A139,R7832,764260,Větrný Jeníkov-Jihlava,3,0,0,0,CISJR:764260
-A139,R7831,844201,Měřín-Zhoř-Jamné-Polná,3,0,0,0,CISJR:844201
-A140,R7821,841101,Velké Meziříčí: Průmyslová - aut.nádr. - Hornoměstská - aut.nádr. - Průmyslová,3,0,0,0,CISJR:841101
-A140,R7820,846451,Velká Bíteš-Jasenice-Náměšť nad Oslavou,3,0,0,0,CISJR:846451
-A139,R7827,764184,Jihlava-Měšín-Střítež-Dobronín,3,0,0,0,CISJR:764184
-A139,R7826,764183,Polná-Dobronín-Kamenná-Polná,3,0,0,0,CISJR:764183
-A139,R7825,764182,"Polná-Jihlava,,Bosch Pávov-Jihlava",3,0,0,0,CISJR:764182
-A139,R7828,764186,Polná-Bohdalov-Kyjov,3,0,0,0,CISJR:764186
-A140,R7817,841108,Velké Meziříčí - Svařenov - Lavičky - Velké Meziříčí,3,0,0,0,CISJR:841108
-A140,R7815,796481,Třebíč-Dolní Vilémovice-Valeč-Hrotovice,3,0,0,0,CISJR:796481
-A139,R7823,764210,Polná-Šlapanov-Havlíčkův Brod,3,0,0,0,CISJR:764210
-A139,R7822,764181,Jihlava-Polná-Brzkov-Přibyslav,3,0,0,0,CISJR:764181
-A140,R7851,841119,Žďár nad Sázavou - Jámy - Radešínská Svratka - Mirošov - Moravec,3,0,0,0,CISJR:841119
-A140,R7855,934,Stará Říše - Nová Říše - Dačice,3,0,0,0,CISJR:766934
-A139,R7852,764472,Jihlava-Velký Beranov-Kamenice-Měřín,3,0,0,0,CISJR:764472
-A139,R7850,764471,Kamenice-Chlum-Třebíč,3,0,0,0,CISJR:764471
-A139,R7854,764932,Telč-Nová Říše-Želetava,3,0,0,0,CISJR:764932
-A139,R7853,931,Telč-Mrákotín-Studená,3,0,0,0,CISJR:764931
-A140,R7840,796422,Třebíč-Okříšky-Červená Lhota,3,0,0,0,CISJR:796422
-A139,R7849,764412,"Jihlava-Puklice-Brtnice,Přímělkov",3,0,0,0,CISJR:764412
-A139,R7848,764413,"Brtnice,Dolní Smrčné-Brtnice-Brtnice,Komárovice",3,0,0,0,CISJR:764413
-A139,R7847,764409,"Jihlava-Cerekvička-Rosice-Vílanec,Loučky",3,0,0,0,CISJR:764409
-A139,R7846,764402,Jihlava-Stonařov-Pavlov-Telč,3,0,0,0,CISJR:764402
-A139,R7841,764342,Telč-Zadní Vydří-Borovná-Telč,3,0,0,0,CISJR:764342
-A139,R7845,764410,Jihlava-Puklice-Brtnice-Předín-Želetava/Nová Ves,3,0,0,0,CISJR:764410
-A139,R7844,764403,Jihlava-Stonařov-Nová Říše,3,0,0,0,CISJR:764403
-A139,R7843,764350,Telč-Stará Říše-Předín-Třebíč,3,0,0,0,CISJR:764350
-A139,R7842,764343,Telč-Černíč-Radkov-Telč,3,0,0,0,CISJR:764343
-A234,R5612,842130,Bystřice nad Pernštejnem-Nové Město na Moravě-Žďár nad Sázavou,3,0,0,0,CISJR:842130
-A234,R5613,842118,Nové Město na Moravě-Hodíškov-Ostrov nad Oslavou-Bohdalec,3,0,0,0,CISJR:842118
-A234,R5605,842135,Nové Město na Moravě-Jimramov-Polička,3,0,0,0,CISJR:842135
-A140,R5611,841129,Bystřice nad Pernštejnem - Písečné - Dalečín - Jimramov,3,0,0,0,CISJR:841129
-A140,R5604,841128,"Bystřice nad Pernštejnem - Lísek - Věcov,Jimramovské Pavlovice",3,0,0,0,CISJR:841128
-A140,R5602,841124,Bystřice nad Pernštejnem - Štěpánov nad Svratkou - Prosetín - Olešnice,3,0,0,0,CISJR:841124
-A140,R5603,841122,Dalečín - Vír - Štěpánov nad Svratkou - Nedvědice,3,0,0,0,CISJR:841122
-A140,R5684,795380,Moravské Budějovice-Jaroměřice nad Rokytnou-Hrotovice-Dukovany,3,0,0,0,CISJR:795380
-A140,R5683,795480,Třebíč-Třebenice-Hrotovice-Rouchovany-Dukovany,3,0,0,0,CISJR:795480
+A236,R5819,842110,Žďár nad Sázavou-Bohdalec-Bobrová-Moravec-Křižanov-Velká Bíteš-Brno,3,0,0,0,CISJR:842110
+A236,R5818,842138,Nové Město na Moravě-Křídla-Dolní Rožínka-Strážek,3,0,0,0,CISJR:842138
+A139,R5999,905,Jindřichův Hradec-Nová Včelnice-Kamenice nad Lipou-Pelhřimov,3,0,0,0,CISJR:340905
+A236,R5820,842145,Velké Meziříčí-Dobrá Voda-Křižanov-Bobrůvka-Bobrová-Nové Město na Moravě,3,0,0,0,CISJR:842145
+A236,R5821,842119,Žďár nad Sázavou-Jámy-Radešínská Svratka-Mirošov-Moravec,3,0,0,0,CISJR:842119
+A141,R8008,795937,Moravské Budějovice-Domamil-Budeč,3,0,0,0,CISJR:795937
+A141,R8009,795938,Moravské Budějovice-Nové Syrovice-Budkov-Budeč-Jemnice,3,0,0,0,CISJR:795938
+A141,R8006,795370,Třebíč - Jaroměřice nad Rokytnou - Moravské Budějovice - Jemnice,3,0,0,0,CISJR:795370
+A141,R8007,796383,Jaroměřice n.R.-Blatnice-Bohušice-Jaroměřice n.R.,3,0,0,0,CISJR:796383
+A141,R8020,796384,Třebíč-Kojetice-Šebkovice-Jaroměřice nad Rokytnou,3,0,0,0,CISJR:796384
+A141,R8021,796457,Náměšť nad Oslavou-Rapotice-Březník-Mohelno-Dukovany,3,0,0,0,CISJR:796457
+A141,R8019,796382,Jarorměřice nad Rokytnou - Výčapy - Horní Újezd - Čáslavice,3,0,0,0,CISJR:796382
+A141,R8015,935,Třebíč-Želetava-Nová Říše-Dačice,3,0,0,0,CISJR:796935
+A141,R8016,795409,"Jihlava-Cerekvička-Rosice-Vílanec,Loučky",3,0,0,0,CISJR:795409
+A141,R8017,795483,Třebíč-Valeč-Račice-Hrotovice,3,0,0,0,CISJR:795483
+A141,R8018,796453,Třebíč-Vladislav-Budišov-Pyšel-Tasov,3,0,0,0,CISJR:796453
+A141,R8011,795373,Moravské Budějovice-Vysočany-Police-Jemnice,3,0,0,0,CISJR:795373
+A141,R8012,795421,Hvězdoňovice-Okříšky-Přibyslavice-Třebíč,3,0,0,0,CISJR:795421
+A141,R8013,795379,Jemnice-Jiratice,3,0,0,0,CISJR:795379
+A141,R8014,795385,Moravské Budějovice-Šebkovice-Čáslavice-Třebíč,3,0,0,0,CISJR:795385
+A141,R8010,795372,Moravské Budějovice-Biskupice-Pulkov-Hrotovice,3,0,0,0,CISJR:795372
+A141,R5832,841132,"Rovečné - Věstín,Bolešín",3,0,0,0,CISJR:841132
+A141,R5822,841133,Rovečné - Bystré - Ubušínek - Jimramov,3,0,0,0,CISJR:841133
+A141,R5815,841131,Bystřice nad Pernštejnem - Vír - Rovečné - Olešnice,3,0,0,0,CISJR:841131
+A141,R5817,841126,"Bystřice nad Pernštejnem - Rožná - Dolní Rožínka - Strážek - Moravec - Bobrová,Dolní Bobrová",3,0,0,0,CISJR:841126
+A47,R6137,357254,Humpolec-Kaliště-Dolní Město,3,0,0,0,CISJR:357254
+A21,R6150,358324,Pelhřimov-Pavlov-Černov-Horní Cerekev,3,0,0,0,CISJR:358324
+A21,R6152,923,Pacov-Pojbuky-Rodná,3,0,0,0,CISJR:358923
+A21,R6151,358326,Pelhřimov-Střítež pod Křemešníkem-Žirov,3,0,0,0,CISJR:358326
+A236,R8221,842154,Žďár nad Sázavou-Sázava-Matějov-Nové Veselí-Žďár nad Sázavou,3,0,0,0,CISJR:842154
+A236,R8222,842159,Žďár nad Sázavou-Polnička-Škrdlovice-Světnov,3,0,0,0,CISJR:842159
+A236,R8220,842151,"Žďár nad Sázavou-Hamry nad Sázavou-Hamry nad Sázavou,Šlakhamry",3,0,0,0,CISJR:842151
+A47,R6142,357305,Pacov-Leskovice-Nová Cerekev,3,0,0,0,CISJR:357305
+A47,R6140,357257,"Humpolec-Humpolec,Kletečná-Sedlice-Svépravice",3,0,0,0,CISJR:357257
+A236,R8218,842133,Ubušínek-Jimramov,3,0,0,0,CISJR:842133
+A236,R8219,842158,Žďár nad Sázavou-Polnička-Vepřová-Velká Losenice-Přibyslav,3,0,0,0,CISJR:842158
+A236,R8216,842101,Velké Meziříčí: Průmyslová-aut.nádr.-Hornoměstská-aut.nádr.-Průmyslová,3,0,0,0,CISJR:842101
+A236,R8217,842142,Sněžné-Líšná-Javorek-Jimramov,3,0,0,0,CISJR:842142
+A21,R6117,929,Počátky-Žirovnice-Jindřichův Hradec,3,0,0,0,CISJR:358929
+A21,R6116,294,"Počátky-Častrov,Jakubín-Žirovnice-Počátky",3,0,0,0,CISJR:358294
+A202,R8237,845105,Linka č. 5 Dopravní terminál-Sporten-Pohledec-Dopravní terminál,3,0,0,0,CISJR:845105
+A202,R8233,845101,Linka č. 1 Dopravní terminál-Bělisko-nemocnice-BILLA-centrum-Dopravní terminál,3,0,0,0,CISJR:845101
+A202,R8234,845102,Linka č. 2 Dopravní terminál-Kulturní dům-nemocnice-centrum-Dopravní terminál,3,0,0,0,CISJR:845102
+A202,R8235,845103,Linka č. 3 Dopravní terminál-Maršovská-Dopravní terminál,3,0,0,0,CISJR:845103
+A202,R8236,845104,Linka č. 4 centrum-Dopravní terminál-nemocnice-Petrovice-Dopravní terminál,3,0,0,0,CISJR:845104
+A21,R6147,358320,Pelhřimov-Nový Rychnov-Rohozná,3,0,0,0,CISJR:358320
+A21,R6146,358321,Pelhřimov-Vyskytná-Nový Rychnov,3,0,0,0,CISJR:358321
+A21,R6149,358302,Pelhřimov-Krasíkovice-Pelhřimov,3,0,0,0,CISJR:358302
+A21,R6148,358323,Horní Cerekev-Nový Rychnov,3,0,0,0,CISJR:358323
+A21,R6143,358280,Pelhřimov-Nová Cerekev-Černovice,3,0,0,0,CISJR:358280
+A21,R6145,304,Pacov-Černovice,3,0,0,0,CISJR:358304
+A21,R6144,358285,Kamenice nad Lipou-Těmice-Nová Cerekev,3,0,0,0,CISJR:358285
+A21,R6141,358258,"Pelhřimov-Svépravice-Želiv-Želiv,Lhotice",3,0,0,0,CISJR:358258
+A143,R7079,603222,Havlíčkův Brod - Břevnice - Čachotín - Chotěboř,3,0,0,0,CISJR:603222
+A143,R7078,603226,Vilémov - Uhelná Příbram,3,0,0,0,CISJR:603226
+A143,R7073,603215,Havlíčkův Brod - Krátká Ves  - Česká Bělá - Havlíčkova Borová,3,0,0,0,CISJR:603215
+A143,R7072,603214,Havlíčkův Brod - Ždírec - Česká Bělá - Havlíčkova Borová,3,0,0,0,CISJR:603214
+A143,R7071,603213,Chotěboř - Oudoleň - Havlíčkova Borová,3,0,0,0,CISJR:603213
+A143,R7070,603212,Havlíčkův Brod - Pohled - Přibyslav,3,0,0,0,CISJR:603212
+A143,R7077,603227,Chotěboř - Uhelná Příbram - Vepříkov - Habry,3,0,0,0,CISJR:603227
+A143,R7076,603223,Chotěboř - Česká Bělá - Přibyslav,3,0,0,0,CISJR:603223
+A143,R7075,603220,Chotěboř - Dolní Krupá - Havlíčkův Brod,3,0,0,0,CISJR:603220
+A143,R7074,603216,"Přibyslav - Šlapanov,Kněžská",3,0,0,0,CISJR:603216
+A143,R7068,603194,"Havlíčkův Brod - Okrouhlička,Skřivánek - Štoky - Jihlava",3,0,0,0,CISJR:603194
+A143,R7067,763195,"Jihlava - Štoky - Štoky,Petrovice",3,0,0,0,CISJR:763195
+A143,R7062,603221,Havlíčkův Brod - Horní Krupá - Chotěboř,3,0,0,0,CISJR:603221
+A143,R7061,603171,"Golčův Jeníkov - Skryje,Hostačov - Zvěstovice - Třemošnice",3,0,0,0,CISJR:603171
+A143,R7060,603170,Chotěboř - Vilémov - Golčův Jeníkov,3,0,0,0,CISJR:603170
+A143,R7066,603193,Havlíčkův Brod - Okrouhlička - Štoky - Šlapanov,3,0,0,0,CISJR:603193
+A143,R7065,603174,Chotěboř - Borek - Běstvina - Třemošnice,3,0,0,0,CISJR:603174
+A143,R7064,603173,"Golčův Jeníkov - Golčův Jeníkov,Kobylí Hlava  -  Golčův Jeníkov",3,0,0,0,CISJR:603173
+A143,R7063,603172,Habry - Golčův Jeníkov,3,0,0,0,CISJR:603172
+A143,R7093,603248,Světlá nad Sázavou - Dolní Město - Trpišovice - Ledeč nad Sázavou,3,0,0,0,CISJR:603248
+A143,R7092,603247,Světlá nad Sázavou - Pohleď,3,0,0,0,CISJR:603247
+A143,R7091,603246,Světlá nad Sázavou - Dolní Město - Lipnice nad Sázavou - Světlá nad Sázavou,3,0,0,0,CISJR:603246
+A143,R7090,603244,"Havlíčkův Brod - Okrouhlice - Okrouhlice,Olešnice",3,0,0,0,CISJR:603244
+A143,R7089,603242,Světlá nad Sázavou - Lučice - Havlíčkův Brod,3,0,0,0,CISJR:603242
+A143,R7084,603228,Habry - Leškovice - Vilémov,3,0,0,0,CISJR:603228
+A143,R7083,603243,Světlá nad Sázavou - Sázavka - Habry,3,0,0,0,CISJR:603243
+A143,R7082,603229,"Habry - Habry,Lubno - Chrtníč - Habry",3,0,0,0,CISJR:603229
+A143,R7081,603225,Havlíčkův Brod  - Kámen - Habry,3,0,0,0,CISJR:603225
+A143,R7088,603233,Světlá nad Sázavou - Vlkanov - Ledeč nad Sázavou,3,0,0,0,CISJR:603233
+A143,R7087,603231,"Ledeč nad Sázavou - Kožlí,Sechov - Ledeč nad Sázavou",3,0,0,0,CISJR:603231
+A143,R7086,603232,Světlá nad Sázavou - Vlkanov - Číhošť,3,0,0,0,CISJR:603232
+A143,R7085,603230,Ledeč nad Sázavou - Číhošť - Leština u Světlé - Habry,3,0,0,0,CISJR:603230
+A143,R7080,603224,Chotěboř - Kámen - Tis - Habry,3,0,0,0,CISJR:603224
+A143,R7059,603167,Chotěboř - Libice nad Doubravou - Maleč - Chotěboř,3,0,0,0,CISJR:603167
+A143,R7058,603166,Chotěboř - Víska - Maleč - Klokočov - Seč,3,0,0,0,CISJR:603166
+A143,R7057,603165,Chotěboř - Libice nad Doubravou - Maleč - Běstvina - Třemošnice,3,0,0,0,CISJR:603165
+A143,R7056,603164,Chotěboř - Libice nad Doubravou - Horní Bradlo,3,0,0,0,CISJR:603164
+A143,R7055,603163,Ždírec nad Doubravou - Slavíkov - Trhová Kamenice,3,0,0,0,CISJR:603163
+A143,R7054,603162,Chotěboř - Bezděkov - Slavíkov - Podmoklany - Ždírec nad Doubravou,3,0,0,0,CISJR:603162
+A143,R7053,603211,Havlíčkův Brod - Dlouhá Ves - Přibyslav,3,0,0,0,CISJR:603211
+A143,R7052,603161,Radostín - Ždírec nad Doubravou - Havlíčkova Borová - Přibyslav,3,0,0,0,CISJR:603161
+A143,R7048,603160,Žďár nad Sázavou - Vojnův Městec - Ždírec nad Doubravou - Chotěboř,3,0,0,0,CISJR:603160
+A143,R8223,843168,Žďár nad Sázavou – Ždírec nad Doubravou – Pardubice – Hradec Králové,3,0,0,0,CISJR:843168
+A141,R8213,841123,Skorotice - Nedvědice,3,0,0,0,CISJR:841123
+A141,R8215,841127,"Bystřice nad Pernštejnem - Rozsochy,Kundratice - Bystřice nad Pernštejnem",3,0,0,0,CISJR:841127
+A141,R8210,841103,Velké Meziříčí - Velká Bíteš,3,0,0,0,CISJR:841103
+A141,R8211,841114,Velké Meziříčí - Vídeň - Bory,3,0,0,0,CISJR:841114
+A26,R6017,903,Soběslav-Chotěmice-Deštná-Rosička-Mnich,3,0,0,0,CISJR:390903
+A26,R6019,901,Soběslav-Košice-Choustník-Vlčeves-Černovice,3,0,0,0,CISJR:390901
+A21,R6015,924,Kamenice nad Lipou-Černovice-Chýnov-Tábor,3,0,0,0,CISJR:358924
+A21,R6014,926,Počátky-Horní Dubenky-Studená,3,0,0,0,CISJR:358926
+A21,R6016,358287,Kamenice nad Lipou-Mnich,3,0,0,0,CISJR:358287
+A21,R6013,925,Pelhřimov-Veselá-Počátky -Žirovnice-Stojčín-Popelín,3,0,0,0,CISJR:358925
+A21,R6012,358310,Horní Cerekev-Počátky-Žirovnice-Kamenice nad Lipou,3,0,0,0,CISJR:358310
+A26,R6020,902,Soběslav-Tučapy-Choustník-Hojovice-Černovice,3,0,0,0,CISJR:390902
+A21,R6098,927,Počátky-Panské Dubenky-Studená,3,0,0,0,CISJR:358927
+A21,R6095,358286,Kamenice nad Lipou-Těmice-Černovice,3,0,0,0,CISJR:358286
+A21,R6097,358311,Počátky-Horní Dubenky-Batelov-Třešť,3,0,0,0,CISJR:358311
+A21,R6096,928,Žirovnice-Nová Včelnice,3,0,0,0,CISJR:358928
+A22,R555,740,Čáslav - Bratčice - Golčův Jeníkov - Chotěboř,3,0,0,0,CISJR:240740|PID:L740
+A21,R6107,358281,Pelhřimov-Božejov-Těmice-Kamenice nad Lipou,3,0,0,0,CISJR:358281
+A21,R6106,358290,Pelhřimov-Mezná-Častrov-Žirovnice-Počátky,3,0,0,0,CISJR:358290
+A21,R6103,358325,Pelhřimov-Horní Cerekev-Horní Ves,3,0,0,0,CISJR:358325
+A21,R6104,292,Kamenice nad Lipou-Častrov-Bělá-Horní Cerekev,3,0,0,0,CISJR:358292
+A236,R7187,842150,Žďár nad Sázavou-Herálec-Svratka,3,0,0,0,CISJR:842150
+A21,R616,401,"Pelhřimov – Červená Řečice - Čechtice – Praha,Roztyly",3,0,0,0,CISJR:358401|PID:L401
+A236,R7195,842144,Nové Město na Moravě-Vlachovice-Tři Studně-Fryšava-Sněžné,3,0,0,0,CISJR:842144
+A236,R7194,842143,Žďár nad Sázavou-Tři Studně-Fryšava-Sněžné-Spělkov,3,0,0,0,CISJR:842143
+A236,R7193,842139,"Nové Město na Moravě,Jiříkovice-Nové Město na Moravě-Dlouhé-Bobrová-Bobrůvka",3,0,0,0,CISJR:842139
+A236,R7190,842140,Nové Město na Moravě-Sněžné-Svratka,3,0,0,0,CISJR:842140
+A21,R633,866,Košetice - Křešín - Čechtice,3,0,0,0,CISJR:359866|PID:L2866
+A48,R618,846,Dolní Kralovice - Ledeč nad Sázavou,3,0,0,0,CISJR:200846|PID:L2846
+A47,R619,357270,Pacov-Hořepník-Želiv-Humpolec-Dolní Město-Světlá nad Sázavou,3,0,0,0,CISJR:357270
+A48,R617,845,Zruč nad Sázavou - Dolní Kralovice - Křelovice,3,0,0,0,CISJR:240845|PID:L2845
+A22,R640,687,Uhlířské Janovice - Zbraslavice - Třebětín - Ledeč nad Sázavou,3,0,0,0,CISJR:240687|PID:L687
+A47,R634,357251,"Humpolec-Herálec-Herálec,Mikulášov",3,0,0,0,CISJR:357251
+A47,R631,357263,Mysletín-Větrný Jeníkov,3,0,0,0,CISJR:357263
+A47,R630,357256,Kejžlice-Budíkov-Humpolec-Senožaty-Syrov,3,0,0,0,CISJR:357256
+A47,R638,607255,Ledeč nad Sázavou-Koberovice-Humpolec-Jihlava,3,0,0,0,CISJR:607255
+A47,R637,357250,Pelhřimov-Humpolec-Havlíčkův Brod,3,0,0,0,CISJR:357250
+A47,R636,922,Pacov-Vodice-Chýnov-Tábor,3,0,0,0,CISJR:357922
+A21,R662,358300,Jihlava-Dušejov-Vyskytná-Pelhřimov-Leskovice-Pacov,3,0,0,0,CISJR:358300
+A47,R621,357260,Humpolec-Větrný Jeníkov-Jihlava,3,0,0,0,CISJR:357260
+A22,R646,742,Čáslav - Zbýšov - Třebětín - Ledeč nad Sázavou,3,0,0,0,CISJR:240742|PID:L742
+A47,R620,357259,Humpolec-Zachotín-Pelhřimov,3,0,0,0,CISJR:357259
+A47,R629,865,Pacov - Bratřice - Lukavec - Čechtice,3,0,0,0,CISJR:357865|PID:L2865
+A47,R628,867,Buřenice - Košetice - Hořice - Ježov,3,0,0,0,CISJR:357867|PID:L2867
+A47,R627,357301,Pelhřimov-Útěchovice-Hořepník-Lukavec,3,0,0,0,CISJR:357301
+A48,R656,406,"Praha,Roztyly - Vlašim - Pacov",3,0,0,0,CISJR:100406|PID:L406
+A141,R7196,841116,Křižanov - Jívoví - Rousměrov - Ostrov n.Osl. - Žďár nad Sázavou,3,0,0,0,CISJR:841116
+A141,R7191,841115,Bystřice nad Pernštejnem - Dolní Rožínka - Dolní Libochová - Křižanov - Martinice - Velké Meziříčí,3,0,0,0,CISJR:841115
+A236,R7069,842157,Žďár nad Sázavou-Sázava-Velká Losenice-Přibyslav,3,0,0,0,CISJR:842157
+A26,R712,904,Mladá Vožice-Smilovy Hory-Pacov,3,0,0,0,CISJR:390904
+A236,R7051,842182,"Žďár nad Sázavou-Nížkov-Polná-Jihlava,,BOSCH Pávov-Jihlava",3,0,0,0,CISJR:842182
+A189,R7103,169,ACHP-žel.st.-Havlíčkova-nám.TGM-rehabilitační ústav-nám.TGM-Havlíčkova-žel.st.-ACHP,3,0,0,0,CISJR:609169
+A236,R7050,842185,Žďár nad Sázavou-Nové Veselí-Nížkov-Přibyslav-Hřiště,3,0,0,0,CISJR:842185
+A236,R7049,842200,Žďár nad Sázavou-Bohdalov-Jamné-Jihlava,3,0,0,0,CISJR:842200
+A26,R759,900,Tábor-Turovec-Choustník-Mnich,3,0,0,0,CISJR:390900
+A21,R760,920,Pacov-Černovice-Mnich-Jindřichův Hradec,3,0,0,0,CISJR:358920
+A143,R6132,353250,Humpolec - Herálec - Havlíčkův Brod,3,0,0,0,CISJR:353250
+A143,R6139,763190,Jihlava - Úsobí - Lípa - Havlíčkův Brod,3,0,0,0,CISJR:763190
+A143,R6138,603191,Havlíčkův Brod - Lípa - Úsobí - Herálec - Boňkov,3,0,0,0,CISJR:603191
+A142,R6131,350410,Počátky-Pelhřimov-Praha,3,0,0,0,CISJR:350410
+A141,R6130,912,Dačice - Budíškovice - Budeč - Krasonice - Želetava,3,0,0,0,CISJR:346912
+A140,R6109,764338,Třešť-Růžená,3,0,0,0,CISJR:764338
+A139,R6108,931,Telč-Mrákotín-Studená,3,0,0,0,CISJR:769931
+A140,R6115,909,Jindřichův Hradec-Blažejov-Strmilov-Studená-Telč,3,0,0,0,CISJR:344909
+A141,R6113,795400,Jihlava-Stonařov-Želetava-Moravské Budějovice,3,0,0,0,CISJR:795400
+A139,R6024,908,Jindřichův Hradec-Jarošov nad Nežárkou-Strmilov-Panské Dubenky-Studená,3,0,0,0,CISJR:340908
+A139,R6022,919,Slavonice-Dešná-Jemnice,3,0,0,0,CISJR:340919
+A139,R6021,916,Dačice-Jemnice-Vratěnín,3,0,0,0,CISJR:340916
+A140,R6011,764330,Jihlava-Třešť-Telč,3,0,0,0,CISJR:764330
+A139,R6010,911,Dačice-Mrákotín-Telč,3,0,0,0,CISJR:340911
+A139,R6006,917,Dačice-Staré Hobzí-Pálovice-Jemnice,3,0,0,0,CISJR:340917
+A139,R6005,915,Dačice-Budíškovice-Třebětice-Jemnice,3,0,0,0,CISJR:340915
+A139,R6000,909,Jindřichův Hradec-Blažejov-Strmilov-Studená-Telč,3,0,0,0,CISJR:340909
+A139,R6093,912,Dačice-Budeč-Krasonice-Želetava,3,0,0,0,CISJR:340912
+A21,R7885,768338,Třešť-Růžená,3,0,0,0,CISJR:768338
+A143,R622,603192,Havlíčkův Brod - Herálec - Větrný Jeníkov,3,0,0,0,CISJR:603192
+A143,R623,603241,Havlíčkův Brod - Lipnice nad Sázavou - Dolní Město - Ledeč nad Sázavou,3,0,0,0,CISJR:603241
+A140,R667,764262,Jihlava-Plandry-Vyskytná nad Jihlavou-Nový Rychnov,3,0,0,0,CISJR:764262
+A143,R670,603240,Ledeč nad Sázavou - Světlá nad Sázavou - Okrouhlice - Havlíčkův Brod,3,0,0,0,CISJR:603240
+A236,R7812,842117,Žďár nad Sázavou-Ostrov nad Oslavou-Radostín nad Oslavou-Bory-Velké Meziříčí,3,0,0,0,CISJR:842117
+A236,R7830,842136,"Žďár nad Sázavou-Nové Město na Moravě,Slavkovice-Nové Město na Moravě-Zubří",3,0,0,0,CISJR:842136
+A236,R7835,842180,Žďár nad Sázavou-Nížkov-Polná-Jihlava,3,0,0,0,CISJR:842180
+A236,R7829,842155,Žďár nad Sázavou-Nové Veselí-Bohdalov-Pavlov-Měřín,3,0,0,0,CISJR:842155
+A236,R7827,842116,Křižanov-Jívoví-Rousměrov-Ostrov n.Osl-Žďár nad Sázavou,3,0,0,0,CISJR:842116
+A141,R7994,791483,Třebíč - Kožichovice,3,0,0,0,CISJR:791483
+A141,R7993,790200,Třebíč-Jihlava-Humpolec-Loket-Praha,3,0,0,0,CISJR:790200
+A236,R7840,842156,Žďár nad Sázavou-Nové Veselí-Kotlasy,3,0,0,0,CISJR:842156
+A140,R7813,764470,Střítež-Jihlava-Luka nad Jihlavou-Kamenice-Měřín,3,0,0,0,CISJR:764470
+A141,R7811,841107,Velké Meziříčí - Uhřínov - Otín - Měřín,3,0,0,0,CISJR:841107
+A141,R7810,796456,"Třebíč-Vladislav,Střížov",3,0,0,0,CISJR:796456
+A141,R7806,841113,Baliny - Velké Meziříčí - Ořechov - Osová Bítýška - Křoví,3,0,0,0,CISJR:841113
+A141,R7805,841106,"Velké Meziříčí - Tasov - Ruda,Lhotka",3,0,0,0,CISJR:841106
+A141,R7804,841104,"Velké Meziříčí - Velké Meziříčí,Mostiště - Netín - Radostín nad Oslavou",3,0,0,0,CISJR:841104
+A141,R7803,761100,Jihlava - Měřín - Velké Meziříčí - Velká Bíteš - Brno,3,0,0,0,CISJR:761100
+A141,R7809,766420,Jihlava-Brtnice-Kněžice-Okříšky-Třebíč,3,0,0,0,CISJR:766420
+A141,R7808,841102,Velké Meziříčí - Rohy - Budišov - Hodov,3,0,0,0,CISJR:841102
+A141,R7807,796105,Kožichovice-Třebíč-Budišov-Tasov-Velká Bíteš,3,0,0,0,CISJR:796105
+A140,R7865,764932,Telč-Nová Říše-Želetava,3,0,0,0,CISJR:764932
+A140,R7864,931,Telč-Mrákotín-Studená,3,0,0,0,CISJR:764931
+A141,R7862,841119,Žďár nad Sázavou - Jámy - Radešínská Svratka - Mirošov - Moravec,3,0,0,0,CISJR:841119
+A140,R7863,764472,Jihlava-Velký Beranov-Kamenice-Měřín,3,0,0,0,CISJR:764472
+A141,R7866,934,Stará Říše - Nová Říše - Dačice,3,0,0,0,CISJR:766934
+A140,R7861,764471,Kamenice-Chlum-Třebíč,3,0,0,0,CISJR:764471
+A140,R7860,764412,"Jihlava-Puklice-Brtnice,Přímělkov",3,0,0,0,CISJR:764412
+A140,R7859,764413,"Brtnice,Dolní Smrčné-Brtnice-Brtnice,Komárovice",3,0,0,0,CISJR:764413
+A141,R7886,769100,Jihlava - Velké Meziříčí - Brno,3,0,0,0,CISJR:769100
+A141,R7884,931,Telč - Mrákotín - Studená,3,0,0,0,CISJR:766931
+A141,R7883,796407,Kožichovice - Třebíč - Předín - Dlouhá Brtnice,3,0,0,0,CISJR:796407
+A141,R7882,796421,Třebíč-Heraltice-Okříšky-Přibyslavice-Třebíč,3,0,0,0,CISJR:796421
+A141,R7881,796482,Třebíč - Myslibořice - Biskupice-Pulkov - Rouchovany - Tavíkovice,3,0,0,0,CISJR:796482
+A141,R7880,795405,Jemnice-Budkov-Lesonice-Čáslavice-Třebíč,3,0,0,0,CISJR:795405
+A141,R7831,846451,Velká Bíteš-Jasenice-Náměšť nad Oslavou,3,0,0,0,CISJR:846451
+A140,R7836,764182,"Polná-Jihlava,,Bosch Pávov-Jihlava",3,0,0,0,CISJR:764182
+A140,R7834,764210,Polná-Šlapanov-Havlíčkův Brod,3,0,0,0,CISJR:764210
+A141,R7832,841101,Velké Meziříčí: Průmyslová - aut.nádr. - Hornoměstská - aut.nádr. - Průmyslová,3,0,0,0,CISJR:841101
+A140,R7833,764181,Jihlava-Polná-Brzkov-Přibyslav,3,0,0,0,CISJR:764181
+A141,R7828,841108,Velké Meziříčí - Svařenov - Lavičky - Velké Meziříčí,3,0,0,0,CISJR:841108
+A141,R7826,796481,Třebíč-Dolní Vilémovice-Valeč-Hrotovice,3,0,0,0,CISJR:796481
+A141,R7825,796423,Třebíč-Benetice-Horní Vilémovice-Bochovice-Rudíkov,3,0,0,0,CISJR:796423
+A141,R7820,841112,Velká Bíteš - Osová Bítýška - Březí - Vidonín - Heřmanov - Křižanov,3,0,0,0,CISJR:841112
+A141,R7824,796381,Třebíč - Jaroměřice nad Rokytnou - Příštpo,3,0,0,0,CISJR:796381
+A141,R7823,841109,Měřín - Netín - Blízkov - Měřín,3,0,0,0,CISJR:841109
+A141,R7822,841201,Měřín - Zhoř - Jamné - Polná,3,0,0,0,CISJR:841201
+A141,R7821,841111,Velká Bíteš - Osová Bítýška - Skřinářov - Křižanov - Sviny,3,0,0,0,CISJR:841111
+A141,R7817,841460,Velké Meziříčí - Rudíkov - Třebíč,3,0,0,0,CISJR:841460
+A140,R7818,844109,Měřín-Netín-Blízkov-Měřín,3,0,0,0,CISJR:844109
+A141,R7816,796454,Náměšť nad Oslavou-Sedlec-Hartvíkovice,3,0,0,0,CISJR:796454
+A141,R7815,796455,Nová Ves - Okříšky - Hartvíkovice - Mohelno - Dukovany,3,0,0,0,CISJR:796455
+A141,R7814,796450,Třebíč-Studenec-Náměšť nad Oslavou-Jinošov-Velká Bíteš,3,0,0,0,CISJR:796450
+A141,R7819,796452,Třebíč - Smrk - Pyšel - Ocmanice - Náměšť nad Oslavou,3,0,0,0,CISJR:796452
+A140,R7854,764350,Telč-Stará Říše-Předín-Třebíč,3,0,0,0,CISJR:764350
+A140,R7853,764343,Telč-Černíč-Radkov-Telč,3,0,0,0,CISJR:764343
+A141,R7851,796422,Třebíč-Okříšky-Červená Lhota,3,0,0,0,CISJR:796422
+A140,R7852,764342,Telč-Zadní Vydří-Borovná-Telč,3,0,0,0,CISJR:764342
+A140,R7858,764409,"Jihlava-Cerekvička-Rosice-Vílanec,Loučky",3,0,0,0,CISJR:764409
+A140,R7857,764402,Jihlava-Stonařov-Pavlov-Telč,3,0,0,0,CISJR:764402
+A140,R7856,764410,Jihlava-Puklice-Brtnice-Předín-Želetava/Nová Ves,3,0,0,0,CISJR:764410
+A140,R7855,764403,Jihlava-Stonařov-Nová Říše,3,0,0,0,CISJR:764403
+A140,R7850,764332,"Třešť-Batelov-Batelov,Bezděčín",3,0,0,0,CISJR:764332
+A140,R7849,764331,Jihlava-Cejle-Kostelec-Rohozná-Batelov,3,0,0,0,CISJR:764331
+A140,R7848,933,Telč-Dačice-Jemnice,3,0,0,0,CISJR:764933
+A140,R7843,764260,Větrný Jeníkov-Jihlava,3,0,0,0,CISJR:764260
+A140,R7842,844201,Měřín-Zhoř-Jamné-Polná,3,0,0,0,CISJR:844201
+A140,R7841,764202,Jihlava-Velký Beranov-Kozlov-Jamné-Nadějov-Arnolec,3,0,0,0,CISJR:764202
+A140,R7847,764337,Třešť-Brtnice-Okříšky-Radonín,3,0,0,0,CISJR:764337
+A140,R7846,764333,Jihlava-Třešť-Řásná-Telč,3,0,0,0,CISJR:764333
+A140,R7845,764336,Třešť-Pavlov-Dlouhá Brtnice,3,0,0,0,CISJR:764336
+A140,R7844,764261,Jihlava-Rantířov-Vyskytná nad Jihlavou-Dudín,3,0,0,0,CISJR:764261
+A140,R7839,764186,Polná-Bohdalov-Kyjov,3,0,0,0,CISJR:764186
+A140,R7838,764184,Jihlava-Měšín-Střítež-Dobronín,3,0,0,0,CISJR:764184
+A140,R7837,764183,Polná-Dobronín-Kamenná-Polná,3,0,0,0,CISJR:764183
+A236,R5626,842118,Nové Město na Moravě-Hodíškov-Ostrov nad Oslavou-Bohdalec,3,0,0,0,CISJR:842118
+A236,R5625,842130,Bystřice nad Pernštejnem-Nové Město na Moravě-Žďár nad Sázavou,3,0,0,0,CISJR:842130
+A236,R5618,842135,Nové Město na Moravě-Jimramov-Polička,3,0,0,0,CISJR:842135
+A141,R5624,841129,Bystřice nad Pernštejnem - Písečné - Dalečín - Jimramov,3,0,0,0,CISJR:841129
+A141,R5616,841122,Dalečín - Vír - Štěpánov nad Svratkou - Nedvědice,3,0,0,0,CISJR:841122
+A141,R5617,841128,"Bystřice nad Pernštejnem - Lísek - Věcov,Jimramovské Pavlovice",3,0,0,0,CISJR:841128
+A141,R5615,841124,Bystřice nad Pernštejnem - Štěpánov nad Svratkou - Prosetín - Olešnice,3,0,0,0,CISJR:841124
+A141,R5696,795480,Třebíč-Třebenice-Hrotovice-Rouchovany-Dukovany,3,0,0,0,CISJR:795480
+A141,R5697,795380,Moravské Budějovice-Jaroměřice nad Rokytnou-Hrotovice-Dukovany,3,0,0,0,CISJR:795380
