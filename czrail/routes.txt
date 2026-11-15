@@ -1,6 +1,6 @@
 agency_id,route_id,route_short_name,route_long_name,route_type,is_night,is_regional,is_substitute_transport,relations
-A67,R1109,RB65,101 Bedřichov-Janov n.N.-Autobusové nádraží-Kokonín-Rychnov u Jablonce n.N. A ZPĚT,2,0,0,0,IDOL_GTFS:254
-A67,R1108,RB64,101 Bedřichov-Janov n.N.-Autobusové nádraží-Kokonín-Rychnov u Jablonce n.N. A ZPĚT,2,0,0,0,IDOL_GTFS:253
+A66,R1109,RB65,101 Bedřichov-Janov n.N.-Autobusové nádraží-Kokonín-Rychnov u Jablonce n.N. A ZPĚT,2,0,0,0,IDOL_GTFS:254
+A66,R1108,RB64,101 Bedřichov-Janov n.N.-Autobusové nádraží-Kokonín-Rychnov u Jablonce n.N. A ZPĚT,2,0,0,0,IDOL_GTFS:253
 A97,R2409,S4/S8,"Ostrava střed - Ostrava hl.n. - Ostrava-Svinov - Studénka - Štramberk - Veřovice - Petrovice u Karviné – Karviná hl. n. – Dětmarovice – Bohumín - Ostrava-Svinov - Studénka - Mošnov, Ostrava Airport",2,0,0,0,KADR:8004|KADR:8008
 A97,R2404,S3,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě,2,0,0,0,KADR:8003
 A97,R2405,S2/S3,Bohumín - Ostrava-Svinov - Studénka - Suchdol nad Odrou - Hranice na Moravě - Ostrava-Svinov - Bohumín - Český Těšín - Mosty u Jablunkova - Mosty u Jablunkova zastávka,2,0,0,0,KADR:8002|KADR:8003
@@ -270,11 +270,9 @@ A92,R1448,S16,Třemešná ve Slezsku – Osoblaha,2,0,0,0,KADR:8016
 A90,R1445,,Bad Schandau - Praha hlavní nádraží,2,0,0,0,
 A90,R1446,,Praha hlavní nádraží - Bad Schandau,2,0,0,0,
 A94,R1459,,Kořenov - Tanvald,2,0,0,0,
-A94,R1458,,Tanvald - Harrachov,2,0,0,0,
 A93,R1450,T8,Most – Osek – Moldava v Krušných horách,2,0,0,0,KADR:4198
 A94,R1455,,Rokytnice nad Jizerou - Martinice v Krkonoších,2,0,0,0,
 A94,R1454,,Martinice v Krkonoších - Rokytnice nad Jizerou,2,0,0,0,
-A94,R1469,,Harrachov - Tanvald,2,0,0,0,
 A94,R1468,,Kořenov - Harrachov,2,0,0,0,
 A97,R2796,Párou Posázavím,Týnec nad Sázavou - Praha-Braník,2,0,0,0,
 A94,R1463,,Křižany - Liberec,2,0,0,0,
@@ -541,7 +539,6 @@ A97,R1805,,Praha hlavní nádraží - Břeclav,2,0,0,0,
 A97,R1804,Ex3 Metropolitan Slovenská strela,Praha – Pardubice – Brno – Břeclav,2,0,0,0,KADR:3
 A97,R1809,Ex1 Kysučan,Praha – Ostrava – Návsí / Opava,2,0,0,0,KADR:1
 A97,R1807,Ex7 Jižní expres,Praha – Tábor – Č. Budějovice – Horní Dvořiště / Český Krumlov,2,0,0,0,KADR:7
-A97,R1802,Ex3 Metropolitan,Kúty - Praha Jih - Praha – Pardubice – Brno – Břeclav,2,0,0,0,KADR:3
 A97,R1801,Ex3 Metropolitan,Praha – Pardubice – Brno – Břeclav,2,0,0,0,KADR:3
 A97,R4072,,Jaroměř - Chlumec nad Cidlinou,2,0,0,0,
 A97,R1817,,Schirnding - Cheb,2,0,0,0,
@@ -549,8 +546,6 @@ A97,R1816,,Schirnding - Selb-Plößberg,2,0,0,0,
 A97,R1815,,Aš - Selb-Plößberg,2,0,0,0,
 A97,R1814,,Cheb - Plesná,2,0,0,0,
 A97,R1811,,Cheb - Bad Brambach,2,0,0,0,
-A97,R4083,,Ostrava-Svinov - Svobodné Heřmanice,2,0,0,0,
-A97,R4084,,Svobodné Heřmanice - Ostrava-Svinov,2,0,0,0,
 A103,R2752,S91,Hodonín – Strážnice – Veselí nad Moravou – Velká nad Veličkou – Vrbovce – Myjava - Veselí nad Moravou - Hodonín,2,0,0,0,KADR:6091
 A97,R1827,,Chałupki - Bohumín,2,0,0,0,
 A97,R1826,,Bohumín - Chałupki,2,0,0,0,
