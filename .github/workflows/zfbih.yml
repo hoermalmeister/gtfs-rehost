@@ -5,8 +5,6 @@ on:
   schedule:
     - cron: '0 8 1,15 * *'
   workflow_dispatch:
-  push:
-    branches: [zfbih]
 
 jobs:
   update-feed:
@@ -53,9 +51,9 @@ jobs:
           if [ -f zfbih_alert.txt ]; then BODY=$(cat zfbih_alert.txt); else BODY="Build script failed – see ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"; fi
           EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
           if [ -z "$EXISTING" ]; then
-            echo SKIP gh issue create --title "$TITLE" --body "$BODY"
+            gh issue create --title "$TITLE" --body "$BODY"
           else
-            echo SKIP gh issue comment $EXISTING --body "$BODY"
+            gh issue comment $EXISTING --body "$BODY"
           fi
           rm -f zfbih_alert.txt
 
@@ -73,7 +71,7 @@ jobs:
           BODY=$(cat expiry_alert.txt)
           EXISTING=$(gh issue list --state open --search "in:title \"$TITLE\"" --json number -q '.[0].number')
           if [ -z "$EXISTING" ]; then
-            echo SKIP gh issue create --title "$TITLE" --body "$BODY"
+            gh issue create --title "$TITLE" --body "$BODY"
           fi
           rm expiry_alert.txt
 

@@ -219,8 +219,10 @@ def build(feed, stations, overview, notes, rows):
 
     form_ids = {sid_of(n) for n in stations if sid_of(n)}
     unknown = sorted({n for r in rows for n in (r["from"], r["to"]) if not sid_of(n)})
-    if unknown:
-        warnings.append("Stanice z formuláře, které nejsou ve stops.txt (vynechány, doplňte je): " + ", ".join(unknown))
+    for n in unknown:
+        tr = sorted({r["train"] for r in rows if n in (r["from"], r["to"])}, key=int)
+        warnings.append(f"Stanice „{n}“ z formuláře není ve stops.txt – vynechána, doplňte ji "
+                        f"(stop_id, název, souřadnice). Staví v ní vlaky: {', '.join(tr)}")
 
     old_trips = {t["trip_id"]: t for t in read(feed, "trips.txt")}
     old_routes = {r["route_id"]: r for r in read(feed, "routes.txt")}
