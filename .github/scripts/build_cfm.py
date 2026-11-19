@@ -620,6 +620,8 @@ def build(feed, st_names, obs):
     with zipfile.ZipFile(os.path.join(feed, "cfm.zip"), "w", zipfile.ZIP_DEFLATED) as z:
         for n in files:
             z.write(os.path.join(feed, n), n)
+        if os.path.exists(os.path.join(feed, "LICENSE.txt")):
+            z.write(os.path.join(feed, "LICENSE.txt"), "LICENSE.txt")
     unused = [s["stop_id"] for s in stops if s["stop_id"] not in used_stops]
     if unused:
         report.append(f"Zastávek ve stops.txt bez spoje: {len(unused)}")

@@ -479,6 +479,8 @@ def build(feed, stations, overview, notes, rows):
     with zipfile.ZipFile(os.path.join(feed, "zfbih.zip"), "w", zipfile.ZIP_DEFLATED) as z:
         for n in files:
             z.write(os.path.join(feed, n), n)
+        if os.path.exists(os.path.join(feed, "LICENSE.txt")):
+            z.write(os.path.join(feed, "LICENSE.txt"), "LICENSE.txt")
     return report, warnings
 
 
