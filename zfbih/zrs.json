@@ -1,0 +1,27 @@
+{
+  "_help": [
+    "Nastavení pro build_zrs.py (zdroj https://zrs-rs.com/red-voznje).",
+    "hubs          = uzlové stanice: každý den se hledají spoje mezi všemi jejich dvojicemi.",
+    "sweep         = jednou za běh (první všední den okna) se hledá každá stanice proti uzlům své trati, aby se našly",
+    "                i vlaky, které začínají/končí jinde; true/false.",
+    "aliases       = název na webu ŽRS -> stop_id, když se liší od stops.txt.",
+    "holidays      = svátky každý rok (MM-DD) + holiday_dates (RRRR-MM-DD): za koncem okna, které web ukazuje",
+    "                (asi 17 dní), se v nich nepočítá s vlaky, které nejezdí v sobotu ani v neděli.",
+    "easter_orthodox = dny kolem pravoslavných Velikonoc jako posun od Velikonoční neděle (-2 = Veliký pátek,",
+    "                1 = Velikonoční pondělí); počítá se automaticky pro každý rok. Obdobně easter_catholic.",
+    "extend_days   = na kolik dní od dneška se kalendář protáhne podle dnů v týdnu.",
+    "max_minutes   = časový rozpočet procházení; po něm se zbylé dny vynechají a feed se sestaví z toho, co je."
+  ],
+  "hubs": ["Banja Luka", "Doboj", "Novi Grad", "Dobrljin", "Petrovo Novo", "Prijedor"],
+  "sweep": true,
+  "aliases": {
+    "Niševići": "NISE",
+    "Suvo Polje": "SUHO",
+    "Snjegotina": "SNJE"
+  },
+  "holidays": ["01-01", "01-02", "01-07", "01-09", "05-01", "05-02", "05-09", "11-21"],
+  "holiday_dates": [],
+  "easter_orthodox": [-2, -1, 0, 1],
+  "extend_days": 60,
+  "max_minutes": 150
+}

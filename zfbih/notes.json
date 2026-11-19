@@ -1,0 +1,64 @@
+{
+  "_help": [
+    "Význam poznámek (hvězdiček) z https://www.zfbh.ba/en/time-table/ pro skript build_zfbih.py.",
+    "text     = přesné znění poznámky z webu (mezery nehrají roli). Když se na webu objeví text, který tu není,",
+    "           skript založí issue a vlakům s danou hvězdičkou nechá dosavadní kalendář.",
+    "trains   = čísla vlaků, kterých se poznámka týká; vynechat = všechny vlaky se stejným počtem hvězdiček.",
+    "periods  = období v pořadí; pozdější období přepíše dřívější v rozsahu svých dat.",
+    "           days = Po..Ne jako 7 číslic, from / until = RRRR-MM-DD (vynechat = od začátku / do konce feedu),",
+    "           holidays = false → nejede ve svátky (seznam holidays níže).",
+    "           Mimo všechna období vlak nejede.",
+    "Vlak bez hvězdičky jede denně včetně svátků.",
+    "holidays      = svátky každý rok (MM-DD); holiday_dates = další jednotlivé dny (RRRR-MM-DD).",
+    "easter_orthodox / easter_catholic = dny kolem Velikonoc jako posun od Velikonoční neděle, např. [-2, 0, 1];",
+    "                počítá se automaticky pro každý rok (zatím nevyplněno, ŽFBH je v poznámkách nezmiňuje)."
+  ],
+  "holidays": ["01-01", "01-02", "03-01", "05-01", "05-02", "11-25"],
+  "holiday_dates": [],
+  "notes": [
+    {
+      "text": "* Trains 390 and 391 operate on Sundays until 25.06.2025.",
+      "trains": ["390", "391"],
+      "periods": [{"days": "0000001", "until": "2026-06-25"}],
+      "comment": "rok 2025 je na webu nejspíš překlep (u 392/393 je 2026)"
+    },
+    {
+      "text": "Train 392 operates on Saturdays until 25.06.2026.",
+      "trains": ["392"],
+      "periods": [{"days": "0000010", "until": "2026-06-25"}]
+    },
+    {
+      "text": "Train 393 operates on Fridays until 25.06.2026.",
+      "trains": ["393"],
+      "periods": [{"days": "0000100", "until": "2026-06-25"}]
+    },
+    {
+      "text": "** Trains operate from 26.06. to 27.09.2026. on Fridays, Saturdays and Sundays.",
+      "periods": [{"days": "0000111", "from": "2026-06-26", "until": "2026-09-27"}]
+    },
+    {
+      "text": "*** Trains do not operate on weekends and public holidays.",
+      "periods": [{"days": "1111100", "holidays": false}]
+    },
+    {
+      "text": "**** Train number 2158 operates from 26.06.2026. to 27.09.2026. on Fridays, Saturdays and Sundays.",
+      "trains": ["2158"],
+      "periods": [{"days": "0000111", "from": "2026-06-26", "until": "2026-09-27"}]
+    },
+    {
+      "text": "***** Trains 2170 and 2171 operate every day, except from 26.06.2026. until 27.09.2026., when they do not operate on Friday, Saturday and Sunday.",
+      "trains": ["2170", "2171"],
+      "periods": [{"days": "1111111"}, {"days": "1111000", "from": "2026-06-26", "until": "2026-09-27"}]
+    },
+    {
+      "text": "****** Train 710 does not operate on Saturdays.",
+      "trains": ["710"],
+      "periods": [{"days": "1111101"}]
+    },
+    {
+      "text": "******* Train 711 does not operate on Sundays.",
+      "trains": ["711"],
+      "periods": [{"days": "1111110"}]
+    }
+  ]
+}
