@@ -17,6 +17,12 @@ that exist only in the feed (e.g. 4000001 on the Kiev line) are kept at the same
 offset from the previous station. Shapes are cut from an existing shape when the trip
 lies on it, otherwise routed with brouter.de (profile rail).
 
+FEED_DIR/manual_trains.json overrides the widget for selected trains (e.g. times from
+uz.gov.ua for the Ukrainian part and the change of train number at Mohyliv-Podilskyi):
+listed stations take the given times, other widget stations of the train are placed
+proportionally between them, and with "renumber" the train is split into two trips
+linked by block_id. See "_help" in the file.
+
 Things that need a human (a new Moldovan station without coordinates, an unknown
 day pattern) are written to cfm_alert.txt; the feed is still built.
 """
@@ -274,6 +280,101 @@ def tmin(s):
     return int(h) * 60 + int(m)
 
 
+# ---------------------------------------------------------------- manual trains
+
+def load_manual(feed, warnings):
+    path = os.path.join(feed, "manual_trains.json")
+    if not os.path.exists(path):
+        return {}
+    data = json.load(open(path, encoding="utf-8"))
+    today = date.today().isoformat()
+    out = {}
+    for t in data.get("trains", []):
+        if t.get("valid_to") and t["valid_to"] < today:
+            warnings.append(f"manual_trains.json: úprava vlaku {t['cfm_train']} platila do {t['valid_to']} – "
+                            "už se nepoužívá, aktualizujte ji nebo smažte")
+            continue
+        if t.get("valid_from") and t["valid_from"] > today:
+            continue
+        out[t["cfm_train"]] = t
+    return out
+
+
+def json_timeline(stops):
+    """[(stop_id, arr, dep)] in minutes, growing through midnight."""
+    out, last, day = [], None, 0
+    for s in stops:
+        vals = []
+        for key in ("arr", "dep"):
+            v = parse_time(s[key]) if s.get(key) else None
+            if v is not None:
+                v += day
+                if last is not None and v < last:
+                    day += 1440
+                    v += 1440
+                last = v
+            vals.append(v)
+        arr, dep = vals
+        out.append([s["stop_id"], arr if arr is not None else dep, dep if dep is not None else arr])
+    return out
+
+
+def apply_manual(kept, man, coord, warnings):
+    """Merge widget stops with the manual timetable. Returns [(number, stops)]."""
+    js = [k for k in json_timeline(man["stops"]) if k[0] in coord]
+    for s in man["stops"]:
+        if s["stop_id"] not in coord:
+            warnings.append(f"manual_trains.json: stanice {s['stop_id']} ({s.get('name', '')}) není ve stops.txt")
+    wid = {k[0]: k for k in kept}
+    common = [k for k in js if k[0] in wid]
+    # put the manual timeline on the same day as the widget data
+    if common:
+        diff = wid[common[0][0]][2] - common[0][2]
+        shift = round(diff / 1440) * 1440
+    else:
+        shift = (kept[0][2] // 1440) * 1440 if kept else 0
+    for k in js:
+        k[1] += shift
+        k[2] += shift
+    # widget time -> manual time, piecewise linear through the common stations
+    pts = sorted({(wid[k[0]][1], k[1]) for k in common} | {(wid[k[0]][2], k[2]) for k in common})
+    pts = [p for i, p in enumerate(pts) if i == 0 or (p[0] > pts[i - 1][0] and p[1] >= pts[i - 1][1])]
+
+    def remap(t):
+        if not pts:
+            return t
+        if t <= pts[0][0]:
+            return t + pts[0][1] - pts[0][0]
+        if t >= pts[-1][0]:
+            return t + pts[-1][1] - pts[-1][0]
+        for (x0, y0), (x1, y1) in zip(pts, pts[1:]):
+            if x0 <= t <= x1:
+                return round(y0 + (y1 - y0) * (t - x0) / (x1 - x0))
+        return t
+
+    in_json = {k[0] for k in js}
+    merged = [list(k) for k in js]
+    for sid, arr, dep in kept:
+        if sid not in in_json:
+            merged.append([sid, remap(arr), remap(dep)])
+    merged.sort(key=lambda k: (k[1], k[2]))
+    merged[0][1] = merged[0][2]
+    merged[-1][2] = merged[-1][1]
+
+    rn = man.get("renumber")
+    if not rn:
+        return [(man["cfm_train"], merged)]
+    at = next((i for i, k in enumerate(merged) if k[0] == rn["at"]), None)
+    if at is None:
+        warnings.append(f"manual_trains.json: stanice přečíslování {rn['at']} není ve vlaku {man['cfm_train']}")
+        return [(man["cfm_train"], merged)]
+    first = [list(k) for k in merged[:at + 1]]
+    second = [list(k) for k in merged[at:]]
+    first[-1][2] = first[-1][1]
+    second[0][1] = second[0][2]
+    return [(rn["before"], first), (rn["after"], second)]
+
+
 # ---------------------------------------------------------------- main
 
 def build(feed, st_names, obs):
@@ -295,6 +396,10 @@ def build(feed, st_names, obs):
     if not obs:
         raise SystemExit("Widget nevrátil žádný spoj – nic neměním.")
     trains = rebuild(obs, warnings, report)
+    manual = load_manual(feed, warnings)
+    for num in manual:
+        if num not in trains:
+            warnings.append(f"manual_trains.json: vlak {num} widget nevrací – úprava nepoužita")
 
     missing = set()
     trips, st_rows, routes, services = [], [], [], set()
@@ -308,15 +413,25 @@ def build(feed, st_names, obs):
             else:
                 missing.add(sid)
         # extra stops known only to the feed (not in the widget's station list)
-        old = old_st.get(tid, [])
+        old = [r for t2, o in old_trips.items() if t2 == tid or o.get("block_id") == num
+               for r in old_st.get(t2, [])]
+        old.sort(key=lambda r: (tmin(r["arrival_time"]), tmin(r["departure_time"])))
         for i, r in enumerate(old):
             if r["stop_id"] in st_names or r["stop_id"] not in coord:
                 continue
             prev = next((old[j] for j in range(i - 1, -1, -1) if old[j]["stop_id"] in st_names), None)
+            nxt = next((old[j] for j in range(i + 1, len(old)) if old[j]["stop_id"] in st_names), None)
             anchor = next((k for k in kept if prev and k[0] == prev["stop_id"]), None)
+            after = next((k for k in kept if nxt and k[0] == nxt["stop_id"]), None)
             if anchor:
-                delta = anchor[2] - tmin(prev["departure_time"])
-                kept.append([r["stop_id"], tmin(r["arrival_time"]) + delta, tmin(r["departure_time"]) + delta])
+                p0 = tmin(prev["departure_time"])
+                if after and tmin(nxt["arrival_time"]) > p0:
+                    # same relative position between the neighbouring stations
+                    f = (after[1] - anchor[2]) / (tmin(nxt["arrival_time"]) - p0)
+                    pos = lambda x: round(anchor[2] + (x - p0) * f)
+                else:
+                    pos = lambda x: x + anchor[2] - p0
+                kept.append([r["stop_id"], pos(tmin(r["arrival_time"])), pos(tmin(r["departure_time"]))])
         kept.sort(key=lambda k: (k[1], k[2]))
         if len(kept) < 2:
             continue
@@ -330,46 +445,66 @@ def build(feed, st_names, obs):
             k[2] -= shift
 
         service = service_for(num, t["mask"], warnings)
+        segments = [(num, kept)]
+        block = ""
+        if num in manual:
+            man = manual[num]
+            segments = apply_manual(kept, man, coord, warnings)
+            if man.get("days"):
+                service = NAMED_MASKS.get(man["days"], "w" + man["days"])
+            if len(segments) > 1:
+                block = num
+            report.append(f"Vlak {num}: použity časy z manual_trains.json ({man.get('source', '')})")
         services.add(service)
         a, _, b = t["route"].partition(" -")
-        routes.append({"route_id": num, "agency_id": "CFM",
-                       "route_long_name": f"{a.strip()} - {b.strip()}" if b else t["route"],
-                       "route_type": "2", "route_short_name": num})
+        long_name = f"{a.strip()} - {b.strip()}" if b else t["route"]
+        names = {s_["stop_id"]: s_["stop_name"] for s_ in stops}
+        for seg_num, kept in segments:
+            if len(kept) < 2:
+                continue
+            tid = f"trip_{num}" if seg_num == num else f"trip_{seg_num}_{num}"
+            if seg_num == num:
+                rname = long_name
+            else:
+                rname = f"{names[kept[0][0]]} - {names[kept[-1][0]]}"
+            if not any(r["route_id"] == seg_num for r in routes):
+                routes.append({"route_id": seg_num, "agency_id": "CFM", "route_long_name": rname,
+                               "route_type": "2", "route_short_name": seg_num})
+            old = old_st.get(tid, [])
+            seq = [k[0] for k in kept]
+            cs = [coord[s] for s in seq]
+            shape_id = None
+            if tid in old_trips and old_trips[tid].get("shape_id") in shapes \
+                    and fit_shape(shapes[old_trips[tid]["shape_id"]], cs):
+                shape_id = old_trips[tid]["shape_id"]
+            if not shape_id:
+                for sid_, pts in list(shapes.items()):
+                    idx = fit_shape(pts, cs)
+                    if idx:
+                        if idx[0] <= 2 and idx[-1] >= len(pts) - 3:
+                            shape_id = sid_
+                        else:
+                            shape_id = f"{seq[0]}-{seq[-1]}"
+                            if shape_id not in shapes:
+                                shapes[shape_id] = pts[idx[0]:idx[-1] + 1]
+                                report.append(f"  shape {shape_id} vyříznut z {sid_}")
+                        break
+            if not shape_id:
+                shape_id = f"{seq[0]}-{seq[-1]}"
+                shapes[shape_id] = brouter(cs)
+                report.append(f"  shape {shape_id} z brouter.de")
 
-        seq = [k[0] for k in kept]
-        cs = [coord[s] for s in seq]
-        shape_id = None
-        if tid in old_trips and old_trips[tid].get("shape_id") in shapes \
-                and fit_shape(shapes[old_trips[tid]["shape_id"]], cs):
-            shape_id = old_trips[tid]["shape_id"]
-        if not shape_id:
-            for sid_, pts in list(shapes.items()):
-                idx = fit_shape(pts, cs)
-                if idx:
-                    if idx[0] <= 2 and idx[-1] >= len(pts) - 3:
-                        shape_id = sid_
-                    else:
-                        shape_id = f"{seq[0]}-{seq[-1]}"
-                        if shape_id not in shapes:
-                            shapes[shape_id] = pts[idx[0]:idx[-1] + 1]
-                            report.append(f"  shape {shape_id} vyříznut z {sid_}")
-                    break
-        if not shape_id:
-            shape_id = f"{seq[0]}-{seq[-1]}"
-            shapes[shape_id] = brouter(cs)
-            report.append(f"  shape {shape_id} z brouter.de")
-
-        if tid not in old_trips:
-            report.append(f"Nový spoj {num} {t['route']} ({service})")
-        else:
-            old_times = [(r["stop_id"], tmin(r["arrival_time"]), tmin(r["departure_time"])) for r in old]
-            if old_times != [tuple(k) for k in kept] or old_trips[tid]["service_id"] != service:
-                report.append(f"Změna spoje {num} {t['route']}")
-        trips.append({"route_id": num, "service_id": service, "trip_id": tid, "direction_id": "",
-                      "shape_id": shape_id})
-        for n, (sid, arr, dep) in enumerate(kept, 1):
-            st_rows.append({"trip_id": tid, "arrival_time": fmt(arr), "departure_time": fmt(dep),
-                            "stop_id": sid, "stop_sequence": str(n)})
+            if tid not in old_trips:
+                report.append(f"Nový spoj {seg_num} {rname} ({service})")
+            else:
+                old_times = [(r["stop_id"], tmin(r["arrival_time"]), tmin(r["departure_time"])) for r in old]
+                if old_times != [tuple(k) for k in kept] or old_trips[tid]["service_id"] != service:
+                    report.append(f"Změna spoje {seg_num} {rname}")
+            trips.append({"route_id": seg_num, "service_id": service, "trip_id": tid, "direction_id": "",
+                          "block_id": block, "shape_id": shape_id})
+            for n, (sid, arr, dep) in enumerate(kept, 1):
+                st_rows.append({"trip_id": tid, "arrival_time": fmt(arr), "departure_time": fmt(dep),
+                                "stop_id": sid, "stop_sequence": str(n)})
     for tid in old_trips:
         if tid not in {t["trip_id"] for t in trips}:
             report.append(f"Spoj {tid[5:]} už widget nevrací – odstraněn")
@@ -411,7 +546,7 @@ def build(feed, st_names, obs):
     used = {t["shape_id"] for t in trips}
     used_stops = {r["stop_id"] for r in st_rows}
     write(feed, "routes.txt", ["route_id", "agency_id", "route_long_name", "route_type", "route_short_name"], routes)
-    write(feed, "trips.txt", ["route_id", "service_id", "trip_id", "direction_id", "shape_id"], trips)
+    write(feed, "trips.txt", ["route_id", "service_id", "trip_id", "direction_id", "block_id", "shape_id"], trips)
     write(feed, "stop_times.txt", ["trip_id", "arrival_time", "departure_time", "stop_id", "stop_sequence"], st_rows)
     write(feed, "calendar.txt", ["service_id", "monday", "tuesday", "wednesday", "thursday", "friday",
                                  "saturday", "sunday", "start_date", "end_date"], cal)

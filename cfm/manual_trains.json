@@ -1,0 +1,53 @@
+{
+  "_help": [
+    "Ruční úpravy vlaků CFM, které mají přednost před daty z widgetu cfm.md.",
+    "cfm_train   = číslo vlaku tak, jak ho vrací widget (např. 351Щ).",
+    "valid_from / valid_to = platnost (RRRR-MM-DD). Po valid_to se úprava přestane používat a skript založí issue.",
+    "days        = Po..Ne jako 7 číslic (1111111 = denně); vynechat = podle widgetu.",
+    "renumber    = v této stanici vlak mění číslo: before = číslo před stanicí, after = za ní.",
+    "stops       = stanice v pořadí jízdy; stop_id ze stops.txt, name je jen pro čtení.",
+    "              arr / dep = HH:MM místního času, null u první/poslední stanice. Přes půlnoc se počítá samo.",
+    "Stanice, které jsou ve widgetu a tady chybí, zůstanou a jejich čas se dopočítá mezi sousedními stanicemi z tohoto seznamu."
+  ],
+  "trains": [
+    {
+      "cfm_train": "351Щ",
+      "source": "uz.gov.ua – vlak 353 Bessarabyia Kyshyneu – Kyiv",
+      "valid_from": "2026-11-16",
+      "valid_to": "2026-12-12",
+      "days": "1111111",
+      "renumber": {"at": "2200280", "before": "351Щ", "after": "353"},
+      "stops": [
+        {"stop_id": "2300000", "name": "Kishineu",        "arr": null,    "dep": "19:52"},
+        {"stop_id": "2300574", "name": "Bel'tsi-Gor.",    "arr": "00:34", "dep": "00:36"},
+        {"stop_id": "2300547", "name": "Volchinec",       "arr": "04:46", "dep": "05:34"},
+        {"stop_id": "2200280", "name": "Mohyliv-Podilskyi", "arr": "05:47", "dep": "06:42"},
+        {"stop_id": "2200247", "name": "Bar",             "arr": "08:12", "dep": "08:14"},
+        {"stop_id": "2200270", "name": "Zhmerynka",       "arr": "08:50", "dep": "09:10"},
+        {"stop_id": "2200200", "name": "Vinnytsia",       "arr": "09:47", "dep": "09:50"},
+        {"stop_id": "2200302", "name": "Koziatyn I",      "arr": "10:41", "dep": "10:43"},
+        {"stop_id": "2200001", "name": "Kyiv-Pas.",       "arr": "12:38", "dep": null}
+      ]
+    },
+    {
+      "cfm_train": "351Ф",
+      "source": "uz.gov.ua – vlak 353 Bessarabyia Kyiv – Revaka",
+      "valid_from": "2026-11-16",
+      "valid_to": "2026-12-12",
+      "days": "1111111",
+      "renumber": {"at": "2200280", "before": "353", "after": "351Ф"},
+      "stops": [
+        {"stop_id": "2200001", "name": "Kyiv-Pas.",       "arr": null,    "dep": "17:04"},
+        {"stop_id": "2200302", "name": "Koziatyn I",      "arr": "19:07", "dep": "19:09"},
+        {"stop_id": "2200200", "name": "Vinnytsia",       "arr": "19:56", "dep": "19:59"},
+        {"stop_id": "2200270", "name": "Zhmerynka",       "arr": "20:35", "dep": "20:55"},
+        {"stop_id": "2200247", "name": "Bar",             "arr": "21:34", "dep": "21:36"},
+        {"stop_id": "2200280", "name": "Mohyliv-Podilskyi", "arr": "23:08", "dep": "00:34"},
+        {"stop_id": "2300547", "name": "Volchinec",       "arr": "00:47", "dep": "01:35"},
+        {"stop_id": "2300574", "name": "Bel'tsi-Gor.",    "arr": "05:53", "dep": "05:55"},
+        {"stop_id": "2300000", "name": "Kishineu",        "arr": "10:35", "dep": "10:41"},
+        {"stop_id": "2301582", "name": "Revaka",          "arr": "10:51", "dep": null}
+      ]
+    }
+  ]
+}
