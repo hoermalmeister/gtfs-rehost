@@ -16,7 +16,7 @@
       "valid_from": "2026-11-16",
       "valid_to": "2026-12-12",
       "days": "1111111",
-      "renumber": {"at": "2200280", "before": "351Щ", "after": "353"},
+      "renumber": {"at": "2200280", "before": "351Щ", "after": "353Щ"},
       "stops": [
         {"stop_id": "2300000", "name": "Kishineu",        "arr": null,    "dep": "19:52"},
         {"stop_id": "2300574", "name": "Bel'tsi-Gor.",    "arr": "00:34", "dep": "00:36"},
@@ -35,7 +35,7 @@
       "valid_from": "2026-11-16",
       "valid_to": "2026-12-12",
       "days": "1111111",
-      "renumber": {"at": "2200280", "before": "353", "after": "351Ф"},
+      "renumber": {"at": "2200280", "before": "353Ф", "after": "351Ф"},
       "stops": [
         {"stop_id": "2200001", "name": "Kyiv-Pas.",       "arr": null,    "dep": "17:04"},
         {"stop_id": "2200302", "name": "Koziatyn I",      "arr": "19:07", "dep": "19:09"},
