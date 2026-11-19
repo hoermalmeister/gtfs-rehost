@@ -44,22 +44,29 @@ window.__zrs = {
   txt: e => (e ? e.textContent.replace(/ /g, ' ').replace(/\s+/g, ' ').trim() : ''),
   async pick(inputName, label) {
     const dd = document.querySelector(`input[name="${inputName}"]`).closest('.rz-dropdown');
-    dd.click(); await this.sleep(400);
+    if (this.txt(dd.querySelector('.rz-dropdown-label')) === label) return;
+    dd.click();
     const list = () => document.getElementById(dd.getAttribute('aria-controls'));
+    for (let k = 0; k < 30 && !(list() && list().querySelector('li[role="option"]')); k++) await this.sleep(100);
+    await this.sleep(200);
     const panel = list().closest('.rz-dropdown-panel');
     const search = panel && panel.querySelector('input[type="text"]');
     if (search) {
       search.focus(); search.value = label;
       search.dispatchEvent(new Event('input', {bubbles: true}));
-      for (let k = 0; k < 20; k++) {
+      for (let k = 0; k < 40; k++) {
         await this.sleep(150);
         if ([...list().querySelectorAll('li[role="option"]')].some(l => (l.getAttribute('aria-label') || '').trim() === label)) break;
       }
     }
     const li = [...list().querySelectorAll('li[role="option"]')].find(l => (l.getAttribute('aria-label') || '').trim() === label);
     if (!li) throw new Error('station not in list: ' + label);
-    li.click(); await this.sleep(300);
-    if (this.txt(dd.querySelector('.rz-dropdown-label')) !== label) throw new Error('could not select ' + label);
+    li.click();
+    for (let k = 0; k < 50; k++) {
+      await this.sleep(100);
+      if (this.txt(dd.querySelector('.rz-dropdown-label')) === label) return;
+    }
+    throw new Error('could not select ' + label);
   },
   stations() {
     const dd = document.querySelector('input[name="PocetnaStanicaDropDown"]').closest('.rz-dropdown');
