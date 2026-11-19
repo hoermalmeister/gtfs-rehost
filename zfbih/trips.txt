@@ -4,10 +4,8 @@ route_id,service_id,trip_id,trip_headsign,shape_id,bikes_allowed
 6401,R1,6401,Doboj,BLDo,1
 6421,R1,6421,Banja Luka,NGBL,1
 6600,R1,6600,Doboj,PNDo,1
-6420,R2,6420,Dobrljin,BLDb,1
-6420,R3,6420_2,Dobrljin,BLDb,1
-6423,R2,6423,Banja Luka,DbBL,1
-6423,R3,6423_2,Banja Luka,DbBL,1
+6420,R1,6420,Dobrljin,BLDb,1
+6423,R1,6423,Banja Luka,DbBL,1
 6603,R1,6603,Petrovo Novo,DoPN,1
 6422,R1,6422,Novi Grad,BLNG,1
 6402,R1,6402,Banja Luka,DoBL,1
