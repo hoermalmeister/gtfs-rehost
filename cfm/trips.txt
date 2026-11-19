@@ -1,9 +1,9 @@
 route_id,service_id,trip_id,direction_id,shape_id
-6831,daily,trip_6831,,ChUn
-105Ь,daily,trip_105Ь,,ChUn
-821Ь,weekend,trip_821Ь,,ChUn
-351Щ,pare,trip_351Щ,,ChKy
-824Ь,weekend,trip_824Ь,,UnCh
 6826,daily,trip_6826,,UnCh
+821Ь,weekend,trip_821Ь,,2300000-2301600
+351Ф,daily,trip_351Ф,,KyCh
+105Ь,daily,trip_105Ь,,ChUn
+824Ь,weekend,trip_824Ь,,2301600-2300000
+6831,daily,trip_6831,,ChUn
 106Ь,daily,trip_106Ь,,UnCh
-351Ф,impare,trip_351Ф,,KyCh
+351Щ,daily,trip_351Щ,,ChKy

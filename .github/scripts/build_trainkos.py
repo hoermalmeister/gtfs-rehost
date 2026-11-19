@@ -115,6 +115,13 @@ def fetch_pages(html_dir):
         r = s.get(f"{BASE}/orari/detajet/{i}", timeout=60)
         r.raise_for_status()
         pages[i] = r.text
+    dump = os.path.join(os.environ.get("GITHUB_WORKSPACE", "."), "trainkos_pages")
+    os.makedirs(dump, exist_ok=True)                 # saved for debugging (artifact)
+    with open(os.path.join(dump, "orari.html"), "w", encoding="utf-8") as f:
+        f.write(overview)
+    for i, h in pages.items():
+        with open(os.path.join(dump, f"detajet_{i}.html"), "w", encoding="utf-8") as f:
+            f.write(h)
     return overview, pages
 
 
@@ -132,10 +139,15 @@ def parse_line(html, line_id):
     h1 = soup.select_one(".page-hero h1")
     title = h1.get_text(strip=True) if h1 else f"line {line_id}"
     cards = soup.select(".sched-card")
-    oos = bool(soup.select_one(".jr-oos")) or "out of service" in soup.get_text(" ").lower()
+    text = norm(soup.get_text(" "))
+    oos = bool(soup.select_one(".jr-oos")) or any(
+        norm(p) in text for p in ("Out Of Service", "Jashtë Shërbimit", "jashtë funksionit",
+                                  "Van saobraćaja", "Van funkcije", "Izvan saobraćaja"))
     if oos and not cards:
         return title, True, []
     if not cards:
+        main = soup.find("main")
+        print(f"--- detajet/{line_id} text ---\n" + (main or soup).get_text(" ", strip=True)[:1500])
         raise NeedsHuman(f"Linka {line_id} ({title}) není označená jako mimo provoz, ale nemá žádný jízdní řád.")
 
     headings = [h.get_text(" ", strip=True) for h in soup.select(".section-title h2")]
