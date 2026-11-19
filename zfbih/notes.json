@@ -9,7 +9,9 @@
     "           holidays = false → nejede ve svátky (seznam holidays níže).",
     "           Mimo všechna období vlak nejede.",
     "Vlak bez hvězdičky jede denně včetně svátků.",
-    "holidays      = svátky každý rok (MM-DD); holiday_dates = další jednotlivé dny (RRRR-MM-DD), např. pohyblivé svátky."
+    "holidays      = svátky každý rok (MM-DD); holiday_dates = další jednotlivé dny (RRRR-MM-DD).",
+    "easter_orthodox / easter_catholic = dny kolem Velikonoc jako posun od Velikonoční neděle, např. [-2, 0, 1];",
+    "                počítá se automaticky pro každý rok (zatím nevyplněno, ŽFBH je v poznámkách nezmiňuje)."
   ],
   "holidays": ["01-01", "01-02", "03-01", "05-01", "05-02", "11-25"],
   "holiday_dates": [],

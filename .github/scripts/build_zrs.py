@@ -32,7 +32,7 @@ from datetime import date, datetime, timedelta
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_cfm import brouter, fit_shape, fmt, read, tmin, write  # noqa: E402
-from build_zfbih import calendar_rows  # noqa: E402
+from build_zfbih import calendar_rows, holiday_set  # noqa: E402
 
 URL = "https://zrs-rs.com/red-voznje"
 AGENCY = "RSR"
@@ -386,9 +386,7 @@ def build(feed, cfg, data):
     today = date.today()
     w0, w1 = date.fromisoformat(window[0]), date.fromisoformat(window[-1])
     end = max(w1, today + timedelta(days=cfg.get("extend_days", 60)))
-    hol = set(cfg.get("holiday_dates", []))
-    for y in range(w0.year, end.year + 1):
-        hol |= {f"{y}-{md}" for md in cfg.get("holidays", [])}
+    hol = holiday_set(cfg, w0, end)
 
     def extend(days):
         ds = sorted(date.fromisoformat(x) for x in days)

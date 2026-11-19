@@ -155,10 +155,37 @@ def crawl(workers, cache):
 
 # ---------------------------------------------------------------- calendar
 
+def easter(year, orthodox=False):
+    """Easter Sunday: Gregorian (Catholic) or Julian (Orthodox, returned as a Gregorian date)."""
+    if orthodox:                                  # Meeus, Julian calendar
+        a, b, c = year % 4, year % 7, year % 19
+        d = (19 * c + 15) % 30
+        e = (2 * a + 4 * b - d + 34) % 7
+        month, day = divmod(d + e + 114, 31)
+        julian = date(year, month, day + 1)
+        return julian + timedelta(days=year // 100 - year // 400 - 2)
+    a = year % 19                                  # anonymous Gregorian algorithm
+    b, c = divmod(year, 100)
+    d, e = divmod(b, 4)
+    g = (8 * b + 13) // 25
+    h = (19 * a + b - d - g + 15) % 30
+    i, k = divmod(c, 4)
+    l = (32 + 2 * e + 2 * i - h - k) % 7
+    m = (a + 11 * h + 22 * l) // 451
+    month, day = divmod(h + l - 7 * m + 114, 31)
+    return date(year, month, day + 1)
+
+
 def holiday_set(cfg, start, end):
+    """Fixed holidays (MM-DD), single dates and days around Easter:
+    "easter_orthodox" / "easter_catholic" = offsets from Easter Sunday, e.g. [-2, -1, 0, 1]
+    for Good Friday .. Easter Monday."""
     out = set(cfg.get("holiday_dates", []))
     for y in range(start.year, end.year + 1):
         out |= {f"{y}-{md}" for md in cfg.get("holidays", [])}
+        for key, orth in (("easter_orthodox", True), ("easter_catholic", False)):
+            for off in cfg.get(key, []):
+                out.add((easter(y, orth) + timedelta(days=off)).isoformat())
     return out
 
 
