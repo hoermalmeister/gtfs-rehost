@@ -1,0 +1,22 @@
+{
+  "1": {
+    "title": "Pristina - Peja - Pristina",
+    "status": "active",
+    "trips": [
+      "4201",
+      "761",
+      "4401",
+      "760",
+      "4200",
+      "4402"
+    ]
+  },
+  "2": {
+    "title": "Prishtinë - Shkup - Prishtinë",
+    "status": "out_of_service",
+    "trips": [
+      "891",
+      "892"
+    ]
+  }
+}

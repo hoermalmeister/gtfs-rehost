@@ -14,7 +14,7 @@ jobs:
 
     env:
       SITE_NAME: trainkos
-      SITE_URL: https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/
+      SITE_URL: https://www.trainkos.com/orari
 
     steps:
       - name: Checkout repository
