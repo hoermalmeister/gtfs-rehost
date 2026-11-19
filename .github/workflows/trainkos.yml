@@ -33,6 +33,14 @@ jobs:
         continue-on-error: true
         run: python .github/scripts/build_trainkos.py ${{ env.FEED_FOLDER }}
 
+      - name: Keep downloaded pages for debugging
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: trainkos-pages
+          path: trainkos_pages
+          if-no-files-found: ignore
+
       - name: Notify via GitHub Issue (build problem)
         if: steps.build.outcome != 'success'
         env:
