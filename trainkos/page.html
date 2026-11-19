@@ -1,900 +1,2294 @@
+
 <!DOCTYPE html>
-<!--[if IE 6]>
-<html id="ie6" lang="sq-AL">
-<![endif]-->
-<!--[if IE 7]>
-<html id="ie7" lang="sq-AL">
-<![endif]-->
-<!--[if IE 8]>
-<html id="ie8" lang="sq-AL">
-<![endif]-->
-<!--[if !(IE 6) | !(IE 7) | !(IE 8)  ]><!-->
-<html lang="sq-AL">
-<!--<![endif]-->
+<html lang="sq">
 <head>
-	<link rel="stylesheet" type="text/css" media="all" href="https://www.trainkos.com/wp-content/themes/trainkos/style.css" />
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-	<title>
-	Orari i trenave | TRAINKOS	</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Orari i Trenave - Trainkos</title>
+    <link rel="icon" type="image/jpeg" href="/assets/img/logo.jpg" />
+    <meta name="description" content="Trainkos, operatori komb&#xEB;tar hekurudhor i Kosov&#xEB;s: orari i trenave, planifikuesi i udh&#xEB;timit, sh&#xEB;rbimet p&#xEB;r pasagjer&#xEB; dhe mallra, lajme dhe informata kontakti." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="/css/trainkos.css?v=ibPZhBPizLco12dMGIurHvhWParbvZZlZBhzLaI23Ow" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    
+    <style>
+        /* ===== Header — Trainkos brand refresh (real colors from template) ===== */
 
-<!--[if lt IE 9]>
-<script src="https://www.trainkos.com/wp-content/themes/trainkos/js/html5.js" type="text/javascript"></script>
-<![endif]-->
-<link rel='dns-prefetch' href='//s.w.org' />
-<link rel="alternate" type="application/rss+xml" title="TRAINKOS &raquo; Orari i trenave Comments Feed" href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/feed/" />
-		<script type="text/javascript">
-			window._wpemojiSettings = {"baseUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/72x72\/","ext":".png","svgUrl":"https:\/\/s.w.org\/images\/core\/emoji\/11.2.0\/svg\/","svgExt":".svg","source":{"concatemoji":"https:\/\/www.trainkos.com\/wp-includes\/js\/wp-emoji-release.min.js?ver=5.1.19"}};
-			!function(e,a,t){var n,r,o,i=a.createElement("canvas"),p=i.getContext&&i.getContext("2d");function s(e,t){var a=String.fromCharCode;p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,e),0,0);e=i.toDataURL();return p.clearRect(0,0,i.width,i.height),p.fillText(a.apply(this,t),0,0),e===i.toDataURL()}function c(e){var t=a.createElement("script");t.src=e,t.defer=t.type="text/javascript",a.getElementsByTagName("head")[0].appendChild(t)}for(o=Array("flag","emoji"),t.supports={everything:!0,everythingExceptFlag:!0},r=0;r<o.length;r++)t.supports[o[r]]=function(e){if(!p||!p.fillText)return!1;switch(p.textBaseline="top",p.font="600 32px Arial",e){case"flag":return s([55356,56826,55356,56819],[55356,56826,8203,55356,56819])?!1:!s([55356,57332,56128,56423,56128,56418,56128,56421,56128,56430,56128,56423,56128,56447],[55356,57332,8203,56128,56423,8203,56128,56418,8203,56128,56421,8203,56128,56430,8203,56128,56423,8203,56128,56447]);case"emoji":return!s([55358,56760,9792,65039],[55358,56760,8203,9792,65039])}return!1}(o[r]),t.supports.everything=t.supports.everything&&t.supports[o[r]],"flag"!==o[r]&&(t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&t.supports[o[r]]);t.supports.everythingExceptFlag=t.supports.everythingExceptFlag&&!t.supports.flag,t.DOMReady=!1,t.readyCallback=function(){t.DOMReady=!0},t.supports.everything||(n=function(){t.readyCallback()},a.addEventListener?(a.addEventListener("DOMContentLoaded",n,!1),e.addEventListener("load",n,!1)):(e.attachEvent("onload",n),a.attachEvent("onreadystatechange",function(){"complete"===a.readyState&&t.readyCallback()})),(n=t.source||{}).concatemoji?c(n.concatemoji):n.wpemoji&&n.twemoji&&(c(n.twemoji),c(n.wpemoji)))}(window,document,window._wpemojiSettings);
-		</script>
-		<style type="text/css">
-img.wp-smiley,
-img.emoji {
-	display: inline !important;
-	border: none !important;
-	box-shadow: none !important;
-	height: 1em !important;
-	width: 1em !important;
-	margin: 0 .07em !important;
-	vertical-align: -0.1em !important;
-	background: none !important;
-	padding: 0 !important;
-}
-</style>
-	<link rel='stylesheet' id='wp-block-library-css'  href='https://www.trainkos.com/wp-includes/css/dist/block-library/style.min.css?ver=5.1.19' type='text/css' media='all' />
-<link rel='stylesheet' id='alo-easymail-css'  href='https://www.trainkos.com/wp-content/plugins/alo-easymail/alo-easymail.css?ver=5.1.19' type='text/css' media='all' />
-<link rel='stylesheet' id='contact-form-7-css'  href='https://www.trainkos.com/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.1.6' type='text/css' media='all' />
-<link rel='stylesheet' id='wp-pagenavi-css'  href='https://www.trainkos.com/wp-content/plugins/wp-pagenavi/pagenavi-css.css?ver=2.70' type='text/css' media='all' />
-<link rel='stylesheet' id='lightboxStyle-css'  href='https://www.trainkos.com/wp-content/plugins/lightbox-plus/css/shadowed/colorbox.min.css?ver=2.7.2' type='text/css' media='screen' />
-<script type='text/javascript' src='https://www.trainkos.com/wp-includes/js/jquery/jquery.js?ver=1.12.4'></script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-<link rel='https://api.w.org/' href='https://www.trainkos.com/wp-json/' />
-<link rel="EditURI" type="application/rsd+xml" title="RSD" href="https://www.trainkos.com/xmlrpc.php?rsd" />
-<link rel="wlwmanifest" type="application/wlwmanifest+xml" href="https://www.trainkos.com/wp-includes/wlwmanifest.xml" /> 
-<meta name="generator" content="WordPress 5.1.19" />
-<link rel="canonical" href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/" />
-<link rel='shortlink' href='https://www.trainkos.com/?p=358' />
-<link rel="alternate" type="application/json+oembed" href="https://www.trainkos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.trainkos.com%2Fsherbimet%2Ftransporti-i-udhetareve%2Forari-i-trenave%2F" />
-<link rel="alternate" type="text/xml+oembed" href="https://www.trainkos.com/wp-json/oembed/1.0/embed?url=https%3A%2F%2Fwww.trainkos.com%2Fsherbimet%2Ftransporti-i-udhetareve%2Forari-i-trenave%2F&#038;format=xml" />
-<script type='text/javascript' src='https://www.trainkos.com/wp-includes/js/tw-sack.min.js?ver=1.6.1'></script>
-	<script type="text/javascript">
-		//<![CDATA[
-				function alo_em_pubblic_form ()
-		{
+        :root {
+            --primary: #AC1F15; /* confirmed via DevTools: rgb(172, 31, 21) */
+            --accent: #DB3024; /* confirmed via DevTools: rgb(219, 48, 36) */
+            --border-soft: rgba(0,0,0,0.08);
+            --text-muted: #6b7280;
+        }
+        /* ===== Footer ===== */
+        .site-footer {
+            background: var(--primary);
+            color: #fff;
+        }
 
-			var alo_cf_array = new Array();
-									document.alo_easymail_widget_form.submit.value="sending...";
-			document.alo_easymail_widget_form.submit.disabled = true;
-			document.getElementById('alo_em_widget_loading').style.display = "inline";
-			document.getElementById('alo_easymail_widget_feedback').innerHTML = "";
+        .footer-grid {
+            display: grid;
+            grid-template-columns: 1.5fr repeat(auto-fit, minmax(140px, 1fr));
+            gap: 36px;
+            padding: 54px 0;
+        }
 
-			var alo_em_sack = new sack("https://www.trainkos.com/wp-admin/admin-ajax.php" );
+        .footer-brand {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 12px;
+        }
 
-			alo_em_sack.execute = 1;
-			alo_em_sack.method = 'POST';
-			alo_em_sack.setVar( "action", "alo_em_pubblic_form_check" );
-						alo_em_sack.setVar( "alo_em_opt_name", document.alo_easymail_widget_form.alo_em_opt_name.value );
-						alo_em_sack.setVar( "alo_em_opt_email", document.alo_easymail_widget_form.alo_em_opt_email.value );
+            .footer-brand .brand-mark {
+                width: 40px;
+                height: 40px;
+                border-radius: 50%;
+                background: rgba(255,255,255,0.15);
+                flex-shrink: 0;
+            }
 
-			alo_em_sack.setVar( "alo_em_privacy_agree", ( document.getElementById('alo_em_privacy_agree').checked ? 1 : 0 ) );
+        .footer-grid strong {
+            font-size: 1.05rem;
+            font-weight: 700;
+            line-height: 1.3;
+            letter-spacing: 0.02em;
+        }
 
-						alo_em_sack.setVar( "alo_easymail_txt_generic_error", 'Error during operation.' );
-			alo_em_sack.setVar( "alo_em_error_email_incorrect", "The e-mail address is not correct");
-			alo_em_sack.setVar( "alo_em_error_name_empty", "The name field is empty");
-			alo_em_sack.setVar( "alo_em_error_privacy_empty", "The Privacy Policy field is empty");
-						alo_em_sack.setVar( "alo_em_error_email_added", "Warning: this email address has already been subscribed, but not activated. We are now sending another activation email");
-			alo_em_sack.setVar( "alo_em_error_email_activated", "Warning: this email address has already been subscribed");
-			alo_em_sack.setVar( "alo_em_error_on_sending", "Error during sending: please try again");
-			alo_em_sack.setVar( "alo_em_txt_ok", "Your subscription was successfully activated. You will receive the next newsletter. Thank you.");
-			alo_em_sack.setVar( "alo_em_txt_subscribe", "Subscribe");
-			alo_em_sack.setVar( "alo_em_lang_code", "sq");
+            .footer-grid strong small {
+                display: block;
+                font-size: 0.7rem;
+                font-weight: 500;
+                opacity: 0.75;
+                text-transform: none;
+                letter-spacing: 0.02em;
+            }
 
-			var cbs = document.getElementById('alo_easymail_widget_form').getElementsByTagName('input');
-			var length = cbs.length;
-			var lists = "";
-			for (var i=0; i < length; i++) {
-				if (cbs[i].name == 'alo_em_form_lists' +'[]' && cbs[i].type == 'checkbox') {
-					if ( cbs[i].checked ) lists += cbs[i].value + ",";
-				}
-			}
-			alo_em_sack.setVar( "alo_em_form_lists", lists );
-			alo_em_sack.setVar( "alo_em_nonce", '1298eae1e5' );
-			alo_em_sack.runAJAX();
+        .footer-grid p {
+            font-size: 0.875rem;
+            line-height: 1.6;
+            opacity: 0.85;
+            margin: 0 0 16px;
+        }
 
-			return true;
+        .footer-grid .socials {
+            position: relative; /* contact popups anchor here, so they can't overflow the column */
+            display: flex;
+            flex-wrap: wrap;
+            align-items: flex-start;
+            gap: 10px;
+        }
 
-		}
-				//]]>
-	</script>
-	 
-		<style type="text/css">
-			.social-ring:after {
-				 clear: both;
-			}
-				   
-			.social-ring:before,
-			.social-ring:after {
-				 content: "";
-				 display: table;
-			}
-			
-			.social-ring {
-				margin: 0 0 0.5em !important;
-				padding: 0 !important;
-				line-height: 20px !important;
-				height: auto;
-				font-size: 11px;
-			}
-			.social-ring-button {
-				float: left !important;
-								height: 30px;
-								margin: 0 5px 0 0 !important;
-				padding: 0 !important;
-			}
-			.social-ring .social-ring-button iframe {
-				max-width: none !important;
-			}
-		</style>
-	<!-- <meta name="NextGEN" version="3.2.23" /> -->
-<style type="text/css">
-.qtranxs_flag_sq {background-image: url(https://www.trainkos.com/wp-content/plugins/qtranslate-x/flags/al.png); background-repeat: no-repeat;}
-.qtranxs_flag_en {background-image: url(https://www.trainkos.com/wp-content/plugins/qtranslate-x/flags/gb.png); background-repeat: no-repeat;}
-.qtranxs_flag_sr {background-image: url(https://www.trainkos.com/wp-content/plugins/qtranslate-x/flags/yu.png); background-repeat: no-repeat;}
-</style>
-<link hreflang="sq" href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/?lang=sq" rel="alternate" />
-<link hreflang="en" href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/?lang=en" rel="alternate" />
-<link hreflang="sr" href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/?lang=sr" rel="alternate" />
-<link hreflang="x-default" href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/" rel="alternate" />
-<meta name="generator" content="qTranslate-X 3.4.6.8" />
-<link id='MediaRSS' rel='alternate' type='application/rss+xml' title='NextGEN Gallery RSS Feed' href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/xml/media-rss.php' />
-<script type="text/javascript">
-<!-- hide from non JavaScript Browsers
+            .footer-grid .socials a {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 32px;
+                height: 32px;
+                border-radius: 50%;
+                background: rgba(255,255,255,0.12);
+                color: #fff;
+                text-decoration: none;
+                font-size: 0.8rem;
+                margin: 0;
+                transition: background 0.15s;
+            }
 
-Image1= new Image()
-Image1.src = "https://www.trainkos.com/wp-content/themes/trainkos/images/box_pare.jpg"
+                .footer-grid .socials a:hover {
+                    background: rgba(255,255,255,0.25);
+                }
 
-Image2 = new Image()
-Image2.src = "https://www.trainkos.com/wp-content/themes/trainkos/images/box_pare_hover.jpg"
+        .footer-grid section h3 {
+            font-size: 0.8rem;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            margin: 0 0 16px;
+            opacity: 0.9;
+        }
 
-Image3= new Image()
-Image3.src = "https://www.trainkos.com/wp-content/themes/trainkos/images/box_dy.jpg"
+        .footer-grid section a,
+        .footer-grid section p {
+            display: block;
+            font-size: 0.875rem;
+            color: #fff;
+            opacity: 0.8;
+            text-decoration: none;
+            margin-bottom: 12px;
+            line-height: 1.5;
+        }
 
-Image4 = new Image()
-Image4.src = "https://www.trainkos.com/wp-content/themes/trainkos/images/box_dy_hover.jpg"
+            .footer-grid section a:hover {
+                opacity: 1;
+                text-decoration: none;
+            }
 
-Image5= new Image()
-Image5.src = "https://www.trainkos.com/wp-content/themes/trainkos/images/box_tre.jpg"
+        /* One icon per contact type; with several numbers it opens a small list */
+        .footer-grid .socials .contact-pop {
+            position: static;
+            width: 32px;
+            height: 32px;
+            margin: 0;
+        }
 
-Image6 = new Image()
-Image6.src = "https://www.trainkos.com/wp-content/themes/trainkos/images/box_tre_hover.jpg"
+        .footer-grid .socials .contact-pop-toggle {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            margin: 0;
+            padding: 0;
+            border: none;
+            border-radius: 50%;
+            background: rgba(255,255,255,0.12);
+            color: #fff;
+            font-size: 0.8rem;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
 
-// End Hiding -->
+            .footer-grid .socials .contact-pop-toggle:hover {
+                background: rgba(255,255,255,0.25);
+            }
+
+        .footer-grid .socials .contact-pop-menu {
+            display: none;
+            position: absolute;
+            bottom: calc(100% + 8px);
+            left: 0;
+            min-width: min(190px, 100%);
+            width: max-content;
+            max-width: 100%;
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.2);
+            padding: 4px 0;
+            z-index: 60;
+        }
+
+        .footer-grid .socials .contact-pop.open .contact-pop-menu {
+            display: block;
+        }
+
+        .footer-grid .socials .contact-pop-menu a {
+            display: block;
+            width: auto;
+            height: auto;
+            border-radius: 0;
+            background: none;
+            color: #1f2937;
+            opacity: 1;
+            margin: 0;
+            padding: 10px 16px;
+            font-size: 0.875rem;
+            white-space: nowrap;
+            text-align: left;
+        }
+
+            .footer-grid .socials .contact-pop-menu a:hover {
+                background: #f3f4f6;
+            }
+
+        .footer-grid .socials .contact-pop-note {
+            display: block;
+            padding: 10px 16px;
+            color: #6b7280;
+            font-size: 0.875rem;
+            white-space: normal;
+            overflow-wrap: anywhere;
+        }
+
+        .footer-grid .socials .contact-pop-unavailable {
+            opacity: 0.6;
+        }
+
+        .footer-bottom {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 8px;
+            padding: 18px 0;
+            border-top: 1px solid rgba(255,255,255,0.15);
+            font-size: 0.8rem;
+            opacity: 0.75;
+        }
+            /* Lock page scroll while the mobile menu is open. Only on html:
+               overflow:hidden on body makes body its own scroll box, and the
+               sticky header then sticks to the top of the page instead of the
+               screen, so it vanished when opened after scrolling down. */
+            html:has(.nav-links.open) {
+                overflow: hidden;
+            }
+
+            .site-header:has(.nav-links.open) {
+                z-index: 10000;
+            }
+
+            .nav-backdrop {
+                touch-action: none;
+            }
+
+            .nav-links.open {
+                overscroll-behavior: contain;
+            }
+        /* Serach for train lines a */
+        .jr-card--warning {
+            background: #fffbeb;
+            border: 1px solid #f59e0b;
+        }
+
+        .jr-oos {
+            display: flex;
+            align-items: flex-start;
+            gap: 12px;
+            padding: 14px 16px;
+            color: #92400e;
+        }
+
+            .jr-oos svg {
+                flex: 0 0 20px;
+                color: #f59e0b;
+                margin-top: 2px;
+            }
+
+            .jr-oos strong {
+                display: block;
+                margin-bottom: 4px;
+            }
+
+            .jr-oos p {
+                margin: 0 0 8px;
+                font-size: 14px;
+                line-height: 1.5;
+            }
+
+        .jr-oos-link {
+            font-size: 13px;
+            font-weight: 700;
+            color: #b45309;
+            text-decoration: none;
+        }
+
+        .pdf-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin: 18px 0 4px;
+        }
+
+        .pdf-btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 10px 18px;
+            border-radius: 8px;
+            font-size: 0.875rem;
+            font-weight: 600;
+            text-decoration: none;
+            white-space: nowrap;
+            transition: background 0.15s, opacity 0.15s;
+        }
+
+            .pdf-btn svg {
+                flex: 0 0 18px;
+            }
+
+        .pdf-btn-view {
+            background: var(--primary);
+            color: #fff;
+        }
+
+            .pdf-btn-view:hover {
+                opacity: 0.9;
+            }
+
+        .pdf-btn-download {
+            background: #fff;
+            color: var(--primary);
+            border: 1.5px solid var(--primary);
+        }
+
+            .pdf-btn-download:hover {
+                background: rgba(172,31,21,0.06);
+            }
+
+        @media (max-width: 480px) {
+            .pdf-actions {
+                flex-direction: column;
+            }
+
+            .pdf-btn {
+                width: 100%;
+                justify-content: center;
+            }
+        }
+
+        .jr-oos-link:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .footer-grid {
+                grid-template-columns: 1fr;
+                gap: 28px;
+                padding: 36px 0;
+            }
+
+            .footer-bottom {
+                flex-direction: column;
+                text-align: center;
+            }
+        }
+
+        .topbar {
+            background: var(--primary);
+            color: #fff;
+            font-size: 0.8rem;
+            padding: 6px 0;
+        }
+
+            .topbar.split {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+            }
+        /* The topbar is visible from 601px up; let its two halves wrap rather
+                               than squeeze on narrow tablets.
+                                .topbar .split {
+                                    flex-wrap: wrap;
+                                    row-gap: 2px;
+                                }
+
+                            @media (max-width: 900px) {
+                                .topbar {
+                                    font-size: 0.72rem;
+                                }
+                            }
+
+                            .site-header .nav {
+                                display: flex;
+                                align-items: center;
+                                justify-content: space-between;
+                                height: 64px;
+                                padding: 0 1rem;
+                                box-sizing: border-box;
+                            }
+
+                                .site-header .nav * {
+                                    box-sizing: border-box;
+                                }
+
+                            /* Logo */
+        .brand {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            text-decoration: none;
+            flex-shrink: 0;
+        }
+
+        /* Right-side actions (language + Orari) */
+        .nav-actions {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex-shrink: 0;
+        }
+
+        .nav-mail-btn {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 36px;
+            height: 36px;
+            border-radius: 8px;
+            color: #1f2937;
+            text-decoration: none;
+            transition: background 0.15s, color 0.15s;
+        }
+
+            .nav-mail-btn:hover {
+                color: var(--primary);
+                background: rgba(172,31,21,0.05);
+            }
+
+        .brand-mark {
+            width: 55px;
+            height: 55px;
+            border-radius: 50%;
+            overflow: hidden;
+            border: 2px solid rgba(172,31,21,0.2);
+            background: #b93e37;
+            flex-shrink: 0;
+        }
+
+            .brand-mark img {
+                width: 85%;
+                height: 85%;
+                object-fit: contain;
+            }
+
+        .brand strong {
+            display: block;
+            font-size: 1.05rem;
+            font-weight: 700;
+            color: var(--primary);
+            letter-spacing: 0.03em;
+            line-height: 1.2;
+        }
+
+        .brand small {
+            display: block;
+            font-size: 10px;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.12em;
+            color: var(--text-muted);
+            line-height: 1.2;
+        }
+
+        /* Nav links (centered menu zone) */
+        .nav-links {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-wrap: nowrap;
+            flex: 1 1 auto;
+            gap: 4px;
+            min-width: 0;
+        }
+
+            .nav-links > a {
+                padding: 8px 12px;
+                border-radius: 6px;
+                font-size: 0.875rem;
+                font-weight: 500;
+                color: #1f2937;
+                text-decoration: none;
+                white-space: nowrap;
+                transition: background 0.15s, color 0.15s;
+            }
+
+                .nav-links > a:hover {
+                    color: var(--primary);
+                    background: rgba(172,31,21,0.05);
+                }
+
+                .nav-links > a.active {
+                    color: var(--primary);
+                    background: rgba(172,31,21,0.08);
+                    font-weight: 600;
+                }
+
+        /* Dropdown (hover-based on desktop, click-accordion on mobile) */
+        .nav-dropdown {
+            position: relative;
+            display: flex;
+            align-items: center;
+            border-radius: 6px;
+            transition: background 0.15s;
+        }
+
+            .nav-dropdown:hover {
+                background: rgba(172,31,21,0.05);
+            }
+
+            .nav-dropdown > a {
+                padding: 8px 2px 8px 12px;
+                font-size: 0.875rem;
+                font-weight: 500;
+                text-decoration: none;
+                color: #1f2937;
+                white-space: nowrap;
+            }
+
+            .nav-dropdown:hover > a {
+                color: var(--primary);
+            }
+
+            .nav-dropdown > .dropdown-toggle {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 26px;
+                height: 26px;
+                padding: 0;
+                margin-right: 6px;
+                border-radius: 999px;
+                border: none;
+                background: none;
+                cursor: pointer;
+                color: #6b7280;
+                transition: color 0.15s;
+            }
+
+            .nav-dropdown:hover > .dropdown-toggle {
+                color: var(--primary);
+            }
+
+        .dropdown-chevron {
+            width: 14px;
+            height: 14px;
+            stroke-width: 2.25;
+            transition: transform 0.2s ease;
+        }
+
+        .nav-dropdown:hover > a .dropdown-chevron,
+        .nav-dropdown:hover > .dropdown-toggle .dropdown-chevron {
+            transform: rotate(180deg);
+        }
+
+        .dropdown-menu {
+            position: absolute;
+            top: 100%;
+            left: 0;
+            margin-top: 4px;
+            width: 210px;
+            background: #fff;
+            border: 1px solid var(--border-soft);
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            padding: 4px 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(4px);
+            transition: opacity 0.15s, transform 0.15s, visibility 0.15s;
+            z-index: 50;
+        }
+
+        .nav-dropdown:hover > .dropdown-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .dropdown-menu a {
+            display: block;
+            padding: 10px 16px;
+            font-size: 0.875rem;
+            color: #1f2937;
+            text-decoration: none;
+        }
+
+            .dropdown-menu a:hover {
+                background: #f3f4f6;
+            }
+
+        .nav-dropdown--nested {
+            position: relative;
+            width: 100%;
+        }
+
+        .dropdown-menu--nested {
+            top: -30px;
+            left: 100%;
+            margin-top: 0;
+            margin-left: -1px;
+        }
+
+        .nav-dropdown--nested > a {
+            flex: 1;
+        }
+
+        /* Language switcher — single collapsed dropdown (matches template) */
+        .language-switcher {
+            position: relative;
+            margin-right: 4px;
+        }
+
+        .language-toggle {
+            display: flex;
+            align-items: center;
+            gap: 6px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            border: none;
+            background: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #1f2937;
+            cursor: pointer;
+            transition: background 0.15s;
+        }
+
+            .language-toggle:hover {
+                background: #f3f4f6;
+            }
+
+            .language-toggle svg {
+                width: 16px;
+                height: 16px;
+                opacity: 0.6;
+            }
+
+            .language-toggle .chevron {
+                width: 14px;
+                height: 14px;
+                transition: transform 0.15s;
+            }
+
+        .language-switcher.open .language-toggle .chevron {
+            transform: rotate(180deg);
+        }
+
+        .language-menu {
+            position: absolute;
+            top: 100%;
+            right: 0;
+            margin-top: 4px;
+            width: 130px;
+            background: #fff;
+            border: 1px solid var(--border-soft);
+            border-radius: 10px;
+            box-shadow: 0 8px 24px rgba(0,0,0,0.08);
+            padding: 4px 0;
+            opacity: 0;
+            visibility: hidden;
+            transform: translateY(4px);
+            transition: opacity 0.15s, transform 0.15s, visibility 0.15s;
+            z-index: 50;
+        }
+
+        .language-switcher.open .language-menu {
+            opacity: 1;
+            visibility: visible;
+            transform: translateY(0);
+        }
+
+        .language-menu button {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 8px 16px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: #1f2937;
+            background: none;
+            border: none;
+            cursor: pointer;
+        }
+
+            .language-menu button:hover {
+                background: #f3f4f6;
+            }
+
+            .language-menu button.active {
+                color: var(--primary);
+                font-weight: 600;
+            }
+
+        /* CTA button ("Orari") */
+        .button-accent {
+            background: var(--accent);
+            color: #fff;
+            font-weight: 600;
+            font-size: 0.875rem;
+            padding: 10px 18px;
+            border-radius: 8px;
+            text-decoration: none;
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            transition: background 0.15s;
+        }
+
+            .button-accent:hover {
+                background: color-mix(in srgb, var(--accent) 90%, black);
+            }
+
+        /* CTA shown only inside the mobile nav panel - desktop already has one in nav-actions */
+        .nav-cta-mobile {
+            display: none;
+        }
+
+        /* ===== Mobile hamburger — animates into an X ===== */
+        .menu-toggle {
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 5px;
+            width: 42px;
+            height: 42px;
+            padding: 0;
+            border: 1px solid var(--border-soft);
+            border-radius: 12px;
+            background: #fff;
+            cursor: pointer;
+            -webkit-tap-highlight-color: transparent;
+            transition: background 0.2s, border-color 0.2s;
+        }
+
+            .menu-toggle:hover {
+                background: #faf5f5;
+            }
+
+            .menu-toggle:focus-visible {
+                outline: 2px solid var(--accent);
+                outline-offset: 2px;
+            }
+
+            .menu-toggle[aria-expanded="true"] {
+                background: rgba(172,31,21,0.08);
+                border-color: rgba(172,31,21,0.2);
+            }
+
+        .hamburger-line {
+            display: block;
+            width: 20px;
+            height: 2px;
+            background: #1f2937;
+            border-radius: 2px;
+            transition: transform 0.3s cubic-bezier(.65,0,.35,1), opacity 0.2s ease, width 0.3s ease, margin 0.3s ease, background 0.2s;
+        }
+
+            /* Shorter middle line, right-aligned */
+            .hamburger-line:nth-child(2) {
+                width: 14px;
+                margin-left: 6px;
+            }
+
+        .menu-toggle[aria-expanded="true"] .hamburger-line {
+            background: var(--primary);
+        }
+
+            .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(1) {
+                transform: translateY(7px) rotate(45deg);
+            }
+
+            .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(2) {
+                opacity: 0;
+                width: 0;
+                margin-left: 0;
+            }
+
+            .menu-toggle[aria-expanded="true"] .hamburger-line:nth-child(3) {
+                transform: translateY(-7px) rotate(-45deg);
+            }
+
+        /* Mobile-only pieces of the drawer */
+        .nav-backdrop,
+        .nav-drawer-footer {
+            display: none;
+        }
+
+        /* ===== Mobile breakpoint: menu becomes a drawer sliding in from the right ===== */
+        @media (max-width: 1024px) {
+            .menu-toggle {
+                display: flex;
+                order: 2;
+            }
+
+            .nav-actions {
+                order: 1;
+                margin-left: auto;
+                gap: 8px;
+            }
+
+            /* "Orari" menu link is hidden on mobile; the drawer has its own Orari button */
+            .nav-links .nav-hide-mobile {
+                display: none !important;
+            }
+
+            /* --nav-top is the header's height (taller while the topbar shows),
+               set by trainkos.js so the drawer always starts right under it. */
+            .nav-links,
+            .nav-links.open {
+                display: flex;
+                flex-direction: column;
+                align-items: stretch;
+                justify-content: flex-start;
+                flex-wrap: nowrap;
+                gap: 2px;
+                position: fixed;
+                top: var(--nav-top, 64px);
+                right: 0;
+                bottom: 0;
+                left: auto;
+                width: min(400px, 88vw);
+                margin: 0;
+                padding: 12px 12px calc(16px + env(safe-area-inset-bottom));
+                background: #fff;
+                border-top: 1px solid var(--border-soft);
+                border-left: 1px solid var(--border-soft);
+                box-shadow: -16px 0 40px rgba(17,24,39,0.12);
+                overflow-y: auto;
+                overscroll-behavior: contain;
+                z-index: 100;
+            }
+
+            /* Closing is quicker than opening and accelerates out, so it never
+               lingers; opening decelerates in for a soft landing. */
+            .nav-links {
+                transform: translateX(100%);
+                visibility: hidden;
+                transition: transform 0.28s cubic-bezier(.4,0,.6,1), visibility 0s linear 0.28s;
+            }
+
+                .nav-links.open {
+                    transform: none;
+                    visibility: visible;
+                    transition: transform 0.42s cubic-bezier(.32,.72,0,1), visibility 0s;
+                }
+
+                /* Items glide in one after another (--i is set by trainkos.js)
+                   and all fade out together, fast, on close. */
+                .nav-links > * {
+                    opacity: 0;
+                    transform: translateX(18px);
+                    transition: opacity 0.15s ease, transform 0.2s ease;
+                }
+
+                .nav-links.open > * {
+                    opacity: 1;
+                    transform: none;
+                    transition: opacity 0.3s ease, transform 0.42s cubic-bezier(.32,.72,0,1);
+                    transition-delay: calc(0.08s + min(var(--i, 0), 12) * 0.035s);
+                }
+
+            .nav-backdrop {
+                display: block;
+                position: fixed;
+                inset: var(--nav-top, 64px) 0 0 0;
+                background: rgba(17,24,39,0.4);
+                -webkit-backdrop-filter: blur(3px);
+                backdrop-filter: blur(3px);
+                opacity: 0;
+                visibility: hidden;
+                transition: opacity 0.25s ease, visibility 0s linear 0.25s;
+                z-index: 90;
+            }
+
+                .nav-links.open ~ .nav-backdrop {
+                    opacity: 1;
+                    visibility: visible;
+                    transition: opacity 0.35s ease, visibility 0s;
+                }
+
+            .nav-links > a,
+            .nav-dropdown {
+                width: 100%;
+            }
+
+                /* Top-level rows: big rounded touch targets */
+                /* Rows keep their natural height: the drawer is a full-height
+                   flex column, so growing would spread the spare height between
+                   plain links, and shrinking would squash rows in long menus. */
+                .nav-links > * {
+                    flex: 0 0 auto;
+                }
+
+                .nav-links > a,
+                .nav-dropdown > a {
+                    display: flex;
+                    align-items: center;
+                    flex: 0 0 auto;
+                    min-height: 52px;
+                    padding: 14px 16px;
+                    border: none;
+                    border-radius: 12px;
+                    font-size: 1rem;
+                    font-weight: 500;
+                    color: #1f2937;
+                    white-space: normal;
+                    -webkit-tap-highlight-color: transparent;
+                }
+
+                .nav-dropdown > a {
+                    padding-right: 56px; /* room for the toggle */
+                }
+
+                    .nav-links > a:active,
+                    .nav-dropdown > a:active {
+                        background: rgba(172,31,21,0.06);
+                    }
+
+                    .nav-links > a.active,
+                    .nav-dropdown > a.active {
+                        color: var(--primary);
+                        background: rgba(172,31,21,0.08);
+                        box-shadow: inset 3px 0 0 var(--primary);
+                        font-weight: 600;
+                    }
+
+            .nav-dropdown {
+                flex-direction: column;
+                align-items: stretch;
+                position: relative;
+                border-radius: 12px;
+                transition: background 0.25s;
+            }
+
+                .nav-dropdown.open:not(.nav-dropdown--nested) {
+                    background: #fbf6f6;
+                }
+
+                .nav-dropdown.open > a {
+                    color: var(--primary);
+                    font-weight: 600;
+                }
+
+                .nav-dropdown > .dropdown-toggle {
+                    position: absolute;
+                    top: 8px;
+                    right: 8px;
+                    width: 36px;
+                    height: 36px;
+                    margin: 0;
+                    border-radius: 10px;
+                    background: rgba(0,0,0,0.04);
+                    color: #6b7280;
+                    -webkit-tap-highlight-color: transparent;
+                    transition: background 0.2s, color 0.2s;
+                }
+
+                .nav-dropdown.open > .dropdown-toggle {
+                    background: rgba(172,31,21,0.1);
+                    color: var(--primary);
+                }
+
+                    .nav-dropdown.open > .dropdown-toggle .dropdown-chevron {
+                        transform: rotate(180deg);
+                    }
+
+                /* Phones keep :hover on the last tapped item, so the desktop
+                   hover look (red text, flipped arrow) stayed after closing and
+                   the item looked open. In the mobile menu only .open counts. */
+                .nav-dropdown:not(.open):hover {
+                    background: transparent;
+                }
+
+                .nav-dropdown:not(.open):hover > a {
+                    color: #1f2937;
+                }
+
+                .nav-dropdown:not(.open):hover > .dropdown-toggle {
+                    color: #6b7280;
+                }
+
+                .nav-dropdown:not(.open):hover > a .dropdown-chevron,
+                .nav-dropdown:not(.open):hover > .dropdown-toggle .dropdown-chevron {
+                    transform: none;
+                }
+
+            /* Submenus: smooth accordion with a brand-colour guide line */
+            .dropdown-menu,
+            .dropdown-menu--nested {
+                position: static;
+                display: block;
+                width: auto;
+                max-height: 0;
+                overflow: hidden;
+                margin: 0 8px 0 22px;
+                padding: 0 0 0 6px;
+                background: none;
+                border: none;
+                border-left: 2px solid rgba(172,31,21,0.15);
+                border-radius: 0;
+                box-shadow: none;
+                opacity: 1;
+                visibility: visible;
+                pointer-events: auto;
+                transform: none;
+                /* trainkos.js animates max-height between 0 and the menu's real
+                   height, so open and close both move for the whole duration. */
+                transition: max-height 0.3s cubic-bezier(.4,0,.2,1);
+            }
+
+            .dropdown-menu--nested {
+                margin: 0 0 0 14px;
+                border-left-color: rgba(172,31,21,0.25);
+            }
+
+            /* Fallback if the script hasn't set a height yet */
+            .nav-dropdown.open > .dropdown-menu {
+                max-height: 1000px;
+            }
+
+                /* Always there (hidden while collapsed), so the menu's height
+                   doesn't jump by 8px the moment it starts closing. */
+                .nav-dropdown > .dropdown-menu > :last-child {
+                    margin-bottom: 8px;
+                }
+
+                /* Submenu items fade and drop in slightly as the menu opens */
+                .nav-dropdown > .dropdown-menu > * {
+                    opacity: 0;
+                    transform: translateY(-4px);
+                    transition: opacity 0.15s ease, transform 0.2s ease;
+                }
+
+                .nav-dropdown.open > .dropdown-menu > * {
+                    opacity: 1;
+                    transform: none;
+                    transition: opacity 0.25s ease 0.05s, transform 0.3s cubic-bezier(.32,.72,0,1) 0.05s;
+                }
+
+            .dropdown-menu a {
+                padding: 11px 14px;
+                border-radius: 10px;
+                font-size: 0.925rem;
+                color: #4b5563;
+            }
+
+                .dropdown-menu a:hover,
+                .dropdown-menu a:active {
+                    padding-left: 14px;
+                    color: var(--primary);
+                    background: rgba(172,31,21,0.06);
+                }
+
+            .nav-dropdown--nested > a {
+                min-height: 44px;
+                padding: 10px 52px 10px 14px;
+                font-size: 0.925rem;
+                font-weight: 500;
+            }
+
+            .nav-dropdown--nested > .dropdown-toggle {
+                top: 4px;
+                right: 4px;
+                background: transparent;
+            }
+
+            /* Bottom of the drawer: contact shortcuts */
+            .nav-drawer-footer {
+                display: flex;
+                flex-direction: column;
+                gap: 2px;
+                order: 99;
+                margin-top: auto;
+                padding-top: 12px;
+                border-top: 1px solid var(--border-soft);
+            }
+
+                .nav-drawer-footer a {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+                    padding: 8px;
+                    border-radius: 10px;
+                    font-size: 0.875rem;
+                    color: #4b5563;
+                    text-decoration: none;
+                }
+
+                    .nav-drawer-footer a:active {
+                        background: #f3f4f6;
+                    }
+
+                .nav-drawer-footer .nav-drawer-icon {
+                    display: grid;
+                    place-items: center;
+                    width: 34px;
+                    height: 34px;
+                    flex-shrink: 0;
+                    border-radius: 10px;
+                    background: rgba(172,31,21,0.08);
+                    color: var(--primary);
+                }
+        }
+
+        /* Below 900px the Orari button leaves the top bar, so the drawer shows its own */
+        @media (max-width: 900px) {
+            /* Highlighted card right under the menu items: red icon tile,
+               label, and an arrow that nudges forward when tapped. */
+            .nav-links .nav-cta-mobile {
+                display: flex;
+                order: 97;
+                align-items: center;
+                gap: 12px;
+                width: 100%;
+                min-height: 0;
+                margin-top: 12px;
+                padding: 8px 14px 8px 8px;
+                border: 1px solid rgba(172,31,21,0.14);
+                border-radius: 14px;
+                background: linear-gradient(135deg, rgba(172,31,21,0.08), rgba(219,48,36,0.03));
+                box-shadow: none;
+                color: var(--primary);
+                font-size: 0.95rem;
+                font-weight: 600;
+                text-decoration: none;
+            }
+
+                .nav-links .nav-cta-mobile:active {
+                    background: rgba(172,31,21,0.12);
+                }
+
+            .nav-cta-icon {
+                display: grid;
+                place-items: center;
+                width: 38px;
+                height: 38px;
+                flex-shrink: 0;
+                border-radius: 10px;
+                background: linear-gradient(135deg, var(--accent), var(--primary));
+                color: #fff;
+                box-shadow: 0 4px 10px rgba(172,31,21,0.25);
+            }
+
+            .nav-cta-label {
+                flex: 1;
+            }
+
+            .nav-cta-arrow {
+                flex-shrink: 0;
+                opacity: 0.7;
+                transition: transform 0.2s ease, opacity 0.2s ease;
+            }
+
+            .nav-links .nav-cta-mobile:hover .nav-cta-arrow,
+            .nav-links .nav-cta-mobile:active .nav-cta-arrow {
+                transform: translateX(3px);
+                opacity: 1;
+            }
+        }
+
+        @media (prefers-reduced-motion: reduce) {
+            .nav-links,
+            .nav-links > *,
+            .nav-backdrop,
+            .hamburger-line,
+            .dropdown-menu,
+            .dropdown-menu > * {
+                transition-duration: 0.01s !important;
+                transition-delay: 0s !important;
+            }
+        }
+
+        /* ===== Very small phones: keep the brand row from crowding the hamburger ===== */
+        @media (max-width: 380px) {
+            .site-header .nav {
+                padding: 0 12px;
+                gap: 8px;
+            }
+
+            .brand {
+                gap: 0.5rem;
+                min-width: 0;
+            }
+
+            .brand-mark {
+                width: 38px;
+                height: 38px;
+            }
+
+            .brand strong {
+                font-size: 0.95rem;
+            }
+
+            .language-toggle {
+                padding: 6px 8px;
+            }
+
+            .nav-actions {
+                gap: 4px;
+            }
+        }
+
+        /* Below 425px only, the language switcher relocates into the mobile nav
+           drawer (via JS) and shows as a segmented control; from 425px up to the
+           1024px hamburger breakpoint it stays in the top nav-actions bar. */
+        @media (max-width: 425px) {
+            .nav-links .language-switcher {
+                order: 98;
+                width: 100%;
+                margin: 12px 0 0;
+                padding: 0;
+            }
+
+            .nav-links .language-toggle {
+                display: none;
+            }
+
+            .nav-links .language-menu {
+                position: static;
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                gap: 4px;
+                width: 100%;
+                margin: 0;
+                padding: 4px;
+                background: #f5f3f3;
+                border: 1px solid var(--border-soft);
+                border-radius: 14px;
+                box-shadow: none;
+                opacity: 1;
+                visibility: visible;
+                transform: none;
+            }
+
+                .nav-links .language-menu button {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 5px;
+                    min-height: 40px;
+                    padding: 8px 4px;
+                    border-radius: 10px;
+                    font-size: 0.85rem;
+                    font-weight: 500;
+                    text-align: center;
+                    color: #4b5563;
+                    -webkit-tap-highlight-color: transparent;
+                    transition: background 0.2s, color 0.2s, box-shadow 0.2s;
+                }
+
+                    /* Names alone read cleaner in the narrow drawer */
+                    .nav-links .language-menu .lang-code {
+                        display: none;
+                    }
+
+                    .nav-links .language-menu button:active {
+                        background: rgba(255,255,255,0.6);
+                    }
+
+                    .nav-links .language-menu button.active {
+                        background: #fff;
+                        color: var(--primary);
+                        font-weight: 600;
+                        box-shadow: 0 1px 2px rgba(0,0,0,0.06), 0 2px 8px rgba(172,31,21,0.12);
+                    }
+
+                        /* Small red dot on the current language */
+                        .nav-links .language-menu button.active::before {
+                            content: "";
+                            width: 6px;
+                            height: 6px;
+                            border-radius: 50%;
+                            background: var(--accent);
+                        }
+        }
+
+        .footer-grid .socials a i,
+        .footer-grid .socials .contact-pop-toggle i {
+            font-size: 1.15rem;
+        }
+
+        /* Submit buttons while a request is in flight: spinner + no clicks */
+        .button.is-loading {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            opacity: 0.75;
+            cursor: wait;
+            pointer-events: none;
+        }
+
+            .button.is-loading::before {
+                content: "";
+                width: 14px;
+                height: 14px;
+                border: 2px solid currentColor;
+                border-right-color: transparent;
+                border-radius: 50%;
+                animation: button-spin 0.7s linear infinite;
+            }
+
+        @keyframes button-spin {
+            to { transform: rotate(360deg); }
+        }
+
+        /* Document links inside CMS text (class added by HtmlContentHelper):
+           a small file-type badge so readers can see the link is a file. */
+        /* One file per row, as a small card: badge · name · arrow. */
+        a.doc-link {
+            display: flex !important;
+            align-items: center;
+            gap: 12px;
+            width: fit-content !important;
+            max-width: 100% !important;
+            margin: 8px 0 !important;
+            padding: 10px 14px 10px 10px;
+            border: 1px solid #e5e7eb;
+            border-radius: 10px;
+            background: #fff;
+            box-shadow: 0 1px 2px rgba(0,0,0,0.04);
+            color: var(--primary, #ac1f15) !important;
+            font-size: 0.95rem;
+            font-weight: 500;
+            line-height: 1.4;
+            text-decoration: none !important;
+            overflow-wrap: anywhere;
+            transition: border-color .15s, box-shadow .15s, transform .15s;
+        }
+
+            a.doc-link:hover {
+                border-color: var(--primary, #ac1f15);
+                box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+                transform: translateY(-1px);
+            }
+
+            a.doc-link::before {
+                flex-shrink: 0;
+                min-width: 38px;
+                padding: 6px 0;
+                border-radius: 6px;
+                color: #fff;
+                font-size: 10.5px;
+                font-weight: 800;
+                letter-spacing: .05em;
+                line-height: 1;
+                text-align: center;
+            }
+
+            a.doc-link::after {
+                content: "↗";
+                flex-shrink: 0;
+                margin-left: 4px;
+                color: #9ca3af;
+                font-size: 0.9rem;
+            }
+
+            a.doc-link:hover::after {
+                color: var(--primary, #ac1f15);
+            }
+
+        a.doc-link--pdf::before { content: "PDF"; background: #dc2626; }
+        a.doc-link--doc::before { content: "DOC"; background: #2563eb; }
+        a.doc-link--xls::before { content: "XLS"; background: #16a34a; }
+        a.doc-link--ppt::before { content: "PPT"; background: #ea580c; }
+        a.doc-link--other::before { content: attr(data-ext); background: #6b7280; }
+
+        /* CMS text often wraps the link text in spans with their own inline
+           underline/colour/background; the card styling wins over those. */
+        a.doc-link * {
+            color: inherit !important;
+            background: none !important;
+            text-decoration: none !important;
+            font-size: inherit !important;
+        }
+
+        /* A list of documents: the card replaces the bullet, so drop the dot
+           and the list indent. */
+        li:has(> a.doc-link) {
+            list-style: none !important;
+        }
+
+        /* :not(#_) adds id-level weight so this beats page rules that force a
+           list indent with !important (e.g. .svc-main .content-text ul). */
+        ul:has(> li > a.doc-link):not(#_),
+        ol:has(> li > a.doc-link):not(#_) {
+            padding-left: 0 !important;
+        }
+    </style>
+    
+</head>
+<body>
+    <header b-s1r2cb011v class="site-header" id="siteHeader">
+        <div b-s1r2cb011v class="topbar">
+            <div b-s1r2cb011v class="shell split">
+                <span b-s1r2cb011v>Hekurudhat e Kosov&#xEB;s - Trainkos Sh.A.</span>
+                <span b-s1r2cb011v>Tel: 038/606-839 &nbsp; <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="1a73747c755a6e687b737471756934797577">[email&#160;protected]</a></span>
+            </div>
+        </div>
+        <nav b-s1r2cb011v class="shell nav" aria-label="Main navigation">
+            <a b-s1r2cb011v class="brand" href="/">
+                <span b-s1r2cb011v class="brand-mark"><img src="/assets/img/logo.jpg" alt="Trainkos logos" /></span>
+                <span b-s1r2cb011v><strong b-s1r2cb011v>TRAINKOS</strong></span>
+            </a>
+            <button b-s1r2cb011v class="menu-toggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+                <span b-s1r2cb011v class="hamburger-line"></span>
+                <span b-s1r2cb011v class="hamburger-line"></span>
+                <span b-s1r2cb011v class="hamburger-line"></span>
+            </button>
+            <div b-s1r2cb011v class="nav-links" id="navLinks">
+                        <a b-s1r2cb011v href="/" class=" ">Ballina</a>
+                        <a b-s1r2cb011v href="/timetable" class=" nav-hide-mobile">Orari</a>
+                        <div b-s1r2cb011v class="nav-dropdown">
+                            <a b-s1r2cb011v href="#" class="">Sh&#xEB;rbimet tona</a>
+                            <button b-s1r2cb011v class="dropdown-toggle" aria-label="toggle submenu">
+                                <svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-chevron"><path b-s1r2cb011v d="m6 9 6 6 6-6"></path></svg>
+                            </button>
+
+                            <div b-s1r2cb011v class="dropdown-menu">
+                                        <a b-s1r2cb011v href="/sherbimet/transporti-i-udhtarve">Transporti i udh&#xEB;tar&#xEB;ve</a>
+                                        <a b-s1r2cb011v href="/sherbimet/transporti-i-mallrave">Transporti i mallrave</a>
+                                        <a b-s1r2cb011v href="/sherbimet/transporti-i-kontejnerve">Transporti i kontejner&#xEB;ve</a>
+                                        <a b-s1r2cb011v href="/sherbimet/mirmbajtja-e-ml-s">Mir&#xEB;mbajtja e ML-s&#xEB;</a>
+                            </div>
+                        </div>
+                        <div b-s1r2cb011v class="nav-dropdown">
+                            <a b-s1r2cb011v href="#" class="">Rreth Nesh</a>
+                            <button b-s1r2cb011v class="dropdown-toggle" aria-label="toggle submenu">
+                                <svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-chevron"><path b-s1r2cb011v d="m6 9 6 6 6-6"></path></svg>
+                            </button>
+
+                            <div b-s1r2cb011v class="dropdown-menu">
+                                        <a b-s1r2cb011v href="/about">Rreth Nesh</a>
+                                        <a b-s1r2cb011v href="/boardmembers">Bordi i Drejtor&#xEB;ve</a>
+                                        <a b-s1r2cb011v href="/chiefexecutive">Zyrtar&#xEB;t e Lart&#xEB;</a>
+                                        <div b-s1r2cb011v class="nav-dropdown nav-dropdown--nested">
+                                            <a b-s1r2cb011v href="#">Menaxhmenti</a>
+                                            <button b-s1r2cb011v class="dropdown-toggle" aria-label="toggle submenu"><span b-s1r2cb011v></span></button>
+                                            <div b-s1r2cb011v class="dropdown-menu dropdown-menu--nested">
+                                                        <a b-s1r2cb011v href="/management">Menaxhmenti</a>
+                                                        <a b-s1r2cb011v href="/Pages/kabineti-i-kryeshefit">Kabineti i Kryeshefit</a>
+                                                        <a b-s1r2cb011v href="/Pages/departamenti-i-financave">Departamenti i Financave</a>
+                                                        <a b-s1r2cb011v href="/Pages/departamenti-i-operimeve-hekurudhore">Departamenti p&#xEB;r Operime Hekurudhore</a>
+                                                        <a b-s1r2cb011v href="/Pages/departamenti-pr-planifikim-dhe-zhvillim-t-biznesit">Departamenti p&#xEB;r Planifikim dhe Zhvillim t&#xEB; Biznesit</a>
+                                                        <a b-s1r2cb011v href="/Pages/departamenti-i-administrats">Departamenti i Administrat&#xEB;s</a>
+                                                        <a b-s1r2cb011v href="/Pages/dep-i-prokurimit">Zyra e Prokurimit</a>
+                                            </div>
+                                        </div>
+                                        <a b-s1r2cb011v href="/Pages/organogram">Organogrami</a>
+                                        <a b-s1r2cb011v href="/Pages/legjislacioni">Legjislacioni</a>
+                                        <a b-s1r2cb011v href="/Pages/linqet">Linqet</a>
+                            </div>
+                        </div>
+                        <div b-s1r2cb011v class="nav-dropdown">
+                            <a b-s1r2cb011v href="#" class="">Publikime &amp; Transparenc&#xEB;</a>
+                            <button b-s1r2cb011v class="dropdown-toggle" aria-label="toggle submenu">
+                                <svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="dropdown-chevron"><path b-s1r2cb011v d="m6 9 6 6 6-6"></path></svg>
+                            </button>
+
+                            <div b-s1r2cb011v class="dropdown-menu">
+                                        <a b-s1r2cb011v href="/publications">Publikime &amp; Transparenc&#xEB;</a>
+                                        <a b-s1r2cb011v href="/NewsLetter">Buletini</a>
+                            </div>
+                        </div>
+                        <a b-s1r2cb011v href="/news" class=" ">Lajme &amp; Ngjarje</a>
+                        <a b-s1r2cb011v href="/contactus" class=" ">Na Kontaktoni</a>
+                <a b-s1r2cb011v class="nav-cta-mobile" href="/timetable">
+                    <span b-s1r2cb011v class="nav-cta-icon"><svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect b-s1r2cb011v width="16" height="16" x="4" y="3" rx="2"></rect><path b-s1r2cb011v d="M4 11h16"></path><path b-s1r2cb011v d="M12 3v8"></path><path b-s1r2cb011v d="m8 19-2 3"></path><path b-s1r2cb011v d="m18 22-2-3"></path><path b-s1r2cb011v d="M8 15h.01"></path><path b-s1r2cb011v d="M16 15h.01"></path></svg></span>
+                    <span b-s1r2cb011v class="nav-cta-label">Orari</span>
+                    <svg b-s1r2cb011v class="nav-cta-arrow" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path b-s1r2cb011v d="M5 12h14"></path><path b-s1r2cb011v d="m12 5 7 7-7 7"></path></svg>
+                </a>
+                <div b-s1r2cb011v class="nav-drawer-footer">
+                    <a b-s1r2cb011v href="tel:+38338606839">
+                        <span b-s1r2cb011v class="nav-drawer-icon"><svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path b-s1r2cb011v d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg></span>
+                        038/606-839
+                    </a>
+                    <a b-s1r2cb011v href="/cdn-cgi/l/email-protection#660f080009261214070f080d09154805090b">
+                        <span b-s1r2cb011v class="nav-drawer-icon"><svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect b-s1r2cb011v width="20" height="16" x="2" y="4" rx="2"></rect><path b-s1r2cb011v d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg></span>
+                        <span class="__cf_email__" data-cfemail="640d0a020b241016050d0a0f0b174a070b09">[email&#160;protected]</span>
+                    </a>
+                </div>
+            </div>
+            <div b-s1r2cb011v class="nav-actions">
+                    <a b-s1r2cb011v href="https://webmail.trainkos.com/owa" class="nav-mail-btn" title="Posta Elektronike" target="_blank" rel="noopener">
+                        <svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect b-s1r2cb011v width="20" height="16" x="2" y="4" rx="2"></rect><path b-s1r2cb011v d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path></svg>
+                    </a>
+                <div b-s1r2cb011v class="language-switcher" id="languageSwitcher">
+                    <button b-s1r2cb011v class="language-toggle" id="languageToggle" aria-haspopup="listbox" aria-expanded="false">
+                        <svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle b-s1r2cb011v cx="12" cy="12" r="10"></circle><path b-s1r2cb011v d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"></path><path b-s1r2cb011v d="M2 12h20"></path></svg>
+                        <span b-s1r2cb011v>SQ</span>
+                        <svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="chevron"><path b-s1r2cb011v d="m6 9 6 6 6-6"></path></svg>
+                    </button>
+                    <div b-s1r2cb011v class="language-menu" role="listbox">
+                        <button b-s1r2cb011v role="option" class="active" onclick="changeLanguage('sq-AL')">Shqip <span b-s1r2cb011v class="lang-code">(SQ)</span></button>
+                        <button b-s1r2cb011v role="option" class="" onclick="changeLanguage('en-GB')">English <span b-s1r2cb011v class="lang-code">(EN)</span></button>
+                        <button b-s1r2cb011v role="option" class="" onclick="changeLanguage('sr-Latn-RS')">Srpski <span b-s1r2cb011v class="lang-code">(SR)</span></button>
+                    </div>
+                </div>
+                <a b-s1r2cb011v class="button button-small button-accent" href="/timetable">
+                    <svg b-s1r2cb011v xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect b-s1r2cb011v width="16" height="16" x="4" y="3" rx="2"></rect><path b-s1r2cb011v d="M4 11h16"></path><path b-s1r2cb011v d="M12 3v8"></path><path b-s1r2cb011v d="m8 19-2 3"></path><path b-s1r2cb011v d="m18 22-2-3"></path><path b-s1r2cb011v d="M8 15h.01"></path><path b-s1r2cb011v d="M16 15h.01"></path></svg>
+                    Orari
+                </a>
+            </div>
+            <div b-s1r2cb011v class="nav-backdrop" id="navBackdrop"></div>
+        </nav>
+    </header>
+
+    <main b-s1r2cb011v>
+
+<section class="page-hero">
+    <div class="shell">
+        <span class="page-hero-badge"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect width="16" height="16" x="4" y="3" rx="2"></rect><path d="M4 11h16"></path><path d="M12 3v8"></path><path d="m8 19-2 3"></path><path d="m18 22-2-3"></path><path d="M8 15h.01"></path><path d="M16 15h.01"></path></svg>Trainkos</span>
+        <h1>Orari i Trenave</h1>
+        <p>Planifikoni udh&#xEB;timin tuaj leht&#xEB;. K&#xEB;rkoni trenat e disponuesh&#xEB;m sipas stacionit dhe dat&#xEB;s.</p>
+    </div>
+</section>
+
+<section class="shell section">
+    <div class="planner">
+    <div class="planner-title"><b>♟</b><div><h2>Planifiko Udh&#xEB;timin</h2><p>Gjeni trenin e p&#xEB;rshtatsh&#xEB;m p&#xEB;r udh&#xEB;timin tuaj</p></div></div>
+    <form id="journeyForm" class="planner-form">
+        <div class="pf-row pf-row-1">
+            <label class="pf-field">Nga<span class="combo pf-inputwrap"><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></i><input id="journeyFrom" autocomplete="off" placeholder="Zgjidh stacionin" required /></span></label>
+            <button class="swap" type="button" aria-label="Nd&#xEB;rro stacionet">⇄</button>
+            <label class="pf-field">N&#xEB;<span class="combo pf-inputwrap"><i><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg></i><input id="journeyTo" autocomplete="off" placeholder="Zgjidh stacionin" required /></span></label>
+        </div>
+        <div class="pf-row pf-row-2">
+            <label class="pf-field pf-date">Data<span class="date-field"><input id="journeyDateText" type="text" readonly placeholder="dd/mm/vvvv" /><input id="journeyDate" type="hidden" /><i class="date-ico">📅</i></span></label>
+            <button class="button button-primary pf-search" type="submit">🔍 K&#xEB;rko Trenin</button>
+        </div>
+    </form>
+    <div id="journeyResults" class="journey-results"></div>
+</div>
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+       window.TK_I18N = {
+        lang: 'sq-AL',
+        searching: "Duke k\u00EBrkuar\u2026",
+        noTrains: "Nuk u gjet asnj\u00EB tren p\u00EBr",
+        somethingWrong: "Ndodhi nj\u00EB gabim. Provoni p\u00EBrs\u00EBri.",
+        pickTwo: "Zgjidhni dy stacione t\u00EB ndryshme.",
+        pickValid: "Zgjidhni stacione t\u00EB vlefshme nga lista.",
+        noStation: "Nuk u gjet asnj\u00EB stacion.",
+        departs: "Niset",
+        arrives: "Arrin",
+        reserve: "Rezervo",
+        searchResults: "Rezultatet e k\u00EBrkimit",
+        direct: "Direkte",
+        stopSingular: "ndales\u00EB",
+        stopPlural: "ndalesa",
+        outOfService: "Jasht\u00EB Sh\u00EBrbimit",
+        seeMore: "Shiko m\u00EB shum\u00EB"
+    };
 </script>
 
-<link rel='stylesheet' id='nextgen_widgets_style-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/widget/static/widgets.css?ver=3.2.23' type='text/css' media='all' />
-<link rel='stylesheet' id='nextgen_basic_slideshow_style-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/ngg_basic_slideshow.css?ver=3.2.23' type='text/css' media='all' />
-<link rel='stylesheet' id='ngg_basic_slideshow_style-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/ngg_basic_slideshow.css?ver=3.2.23' type='text/css' media='all' />
-<link rel='stylesheet' id='ngg_slick_slideshow_style-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/slick/slick.css?ver=3.2.23' type='text/css' media='all' />
-<link rel='stylesheet' id='ngg_slick_slideshow_theme-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/slick/slick-theme.css?ver=3.2.23' type='text/css' media='all' />
-<link rel='stylesheet' id='ngg_trigger_buttons-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/trigger_buttons.css?ver=3.2.23' type='text/css' media='all' />
-<link rel='stylesheet' id='shutter-0-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter/shutter.css?ver=3.2.23' type='text/css' media='all' />
-<link rel='stylesheet' id='fontawesome_v4_shim_style-css'  href='https://use.fontawesome.com/releases/v5.3.1/css/v4-shims.css?ver=5.1.19' type='text/css' media='all' />
-<link rel='stylesheet' id='fontawesome-css'  href='https://use.fontawesome.com/releases/v5.3.1/css/all.css?ver=5.1.19' type='text/css' media='all' />
-<link rel='stylesheet' id='nggallery-css'  href='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ngglegacy/css/nggallery.css?ver=3.2.23' type='text/css' media='all' />
-</head>
 
-<body class="page-template page-template-shebimet page-template-shebimet-php page page-id-358 page-child parent-pageid-27">
-	<div id="wrapper">
-        <div id="wrapper_header">
-            <div id="header">
-                <div id="logo">
-					<img align="left" style="margin-top: 10px; margin-left: 50px;" src="https://www.trainkos.com/wp-content/themes/trainkos/images/logo.jpg" alt="">
+    <div>
+        <div class="section-title" style="margin-top:18px;">
+            <h2>🚆 Orari i Rregullt</h2>
+        </div>
+
+            <div class="timetable-grid">
+                        <div class="sched-card">
+                            <h3 class="sched-title">Prishtin&#xEB; &rarr; Pej&#xEB;</h3>
+                            <div class="sched-times">
+                                    <span class="sched-chip"><b>07:50</b></span>
+                                    <span class="sched-chip"><b>16:30</b></span>
+                                    <span class="sched-chip"><b>14:30</b></span>
+                            </div>
+                            <a class="button button-small button-primary sched-btn" href="/orari/detajet/1">Shiko Orarin</a>
+                        </div>
+                        <div class="sched-card">
+                            <h3 class="sched-title">Pej&#xEB; &rarr; Prishtin&#xEB;</h3>
+                            <div class="sched-times">
+                                    <span class="sched-chip"><b>05:32</b></span>
+                                    <span class="sched-chip"><b>12:10</b></span>
+                            </div>
+                            <a class="button button-small button-primary sched-btn" href="/orari/detajet/1">Shiko Orarin</a>
+                        </div>
+                        <div class="sched-card sched-card--warning">
+                            <h3 class="sched-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-3px;"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+                                Prishtin&#xEB; &rarr; Shkup
+                            </h3>
+
+                            
+                            <span class="sched-oos-badge">Jasht&#xEB; Sh&#xEB;rbimit</span>
+
+                            
+                            
+
+                            
+                            <a class="button button-small button-primary sched-btn" href="/orari/detajet/2">
+                                Shiko Detajet
+                            </a>
+                        </div>
+                        <div class="sched-card sched-card--warning">
+                            <h3 class="sched-title">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="vertical-align:-3px;"><path d="m21.73 18-8-14a2 2 0 0 0-3.48 0l-8 14A2 2 0 0 0 4 21h16a2 2 0 0 0 1.73-3"></path><path d="M12 9v4"></path><path d="M12 17h.01"></path></svg>
+                                Shkup &rarr; Prishtin&#xEB;
+                            </h3>
+
+                            
+                            <span class="sched-oos-badge">Jasht&#xEB; Sh&#xEB;rbimit</span>
+
+                            
+                            
+
+                            
+                            <a class="button button-small button-primary sched-btn" href="/orari/detajet/2">
+                                Shiko Detajet
+                            </a>
+                        </div>
+            </div>
+            <p class="sched-note">* Oraret mund t&#xEB; ndryshojn&#xEB; gjat&#xEB; fundjavave dhe festave. Kontrolloni gjithmon&#xEB; para udh&#xEB;timit.</p>
+    </div>
+</section>
+
+<style>
+    /* Kartela e paralajmërimit */
+    .sched-card--warning {
+        background: #fffbeb;
+        border: 1px solid #f59e0b;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100%;
+        box-sizing: border-border-box;
+    }
+
+        .sched-card--warning .sched-title {
+            color: #b45309;
+            display: flex;
+            align-items: center;
+            gap: 6px;
+        }
+
+    /* Badge "Jashtë Shërbimit" poshtë titullit */
+    .sched-oos-badge {
+        display: inline-block;
+        align-self: flex-start;
+        background: #fef3c7;
+        color: #b45309;
+        border: 1px solid #fcd34d;
+        font-size: 11px;
+        font-weight: 700;
+        text-transform: uppercase;
+        padding: 3px 8px;
+        border-radius: 4px;
+        margin-top: 4px;
+        margin-bottom: 8px;
+    }
+
+    /* Teksti i arsyes i kufizuar me 3 rreshta */
+    .sched-oos-reason {
+        margin: 4px 0 14px;
+        color: #92400e;
+        font-size: 13.5px;
+        line-height: 1.45;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-word;
+    }
+
+    /* Stilimi i butonit që të jetë identik me butonin e kartelave normale */
+    .sched-card--warning .sched-btn {
+        margin-top: auto;
+        width: fit-content; /* Ose hiqe këtë rresht nëse butoni i zakonshëm merr 100% gjerësi */
+        align-self: flex-start; /* E ruan rreshtimin fiks si butoni Shiko Orarin */
+    }
+
+    /* Banner-i te Details.cshtml */
+    .oos-banner {
+        display: flex;
+        align-items: flex-start;
+        gap: 14px;
+        padding: 16px 20px;
+        background: #fffbeb;
+        border: 1px solid #f59e0b;
+        border-left-width: 5px;
+        border-radius: 8px;
+        color: #92400e;
+    }
+
+        .oos-banner svg {
+            flex: 0 0 28px;
+            color: #f59e0b;
+        }
+
+        .oos-banner p {
+            margin: 4px 0 0;
+        }
+</style></main>
+    <footer b-s1r2cb011v class="site-footer">
+        <div b-s1r2cb011v class="shell footer-grid">
+            <section b-s1r2cb011v>
+                <div b-s1r2cb011v class="footer-brand">
+                    <span b-s1r2cb011v class="brand-mark"><img src="/assets/img/logo.jpg" alt="Trainkos logos" /></span>
+                    <strong b-s1r2cb011v>TRAINKOS<br />Sh.A.</strong>
                 </div>
-				<div id="menu_gjuha_search">
-					<div id="gjuha_search">
-						<div id="gjuha">
-							
-<ul class="language-chooser language-chooser-text qtranxs_language_chooser" id="qtranslate-chooser">
-<li class="lang-sq active"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/?lang=sq" hreflang="sq" title="Shqip (sq)" class="qtranxs_text qtranxs_text_sq"><span>Shqip</span></a></li>
-<li class="lang-en"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/?lang=en" hreflang="en" title="English (en)" class="qtranxs_text qtranxs_text_en"><span>English</span></a></li>
-<li class="lang-sr"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/?lang=sr" hreflang="sr" title="Srpski (sr)" class="qtranxs_text qtranxs_text_sr"><span>Srpski</span></a></li>
-</ul><div class="qtranxs_widget_end"></div>
-						</div>
-						<div id="search_linqe">
-							<div id="search">
-                                <form method="get" id="searchform" action="https://www.trainkos.com">
-									<div id=pres></div>
-                                    <input id="s" type="text" name="s" value="" />
-                                    <input id="searchsubmit" type="submit" name="submit" value="" />
-                                </form>
+                <p b-s1r2cb011v>Trainkos Sh.A. &#xEB;sht&#xEB; operatori komb&#xEB;tar hekurudhor i Kosov&#xEB;s, i themeluar m&#xEB; 1 shtator 2011.</p>
+                <div b-s1r2cb011v class="socials">
+                        <a b-s1r2cb011v href="https://www.facebook.com/Trainkos/" target="_blank" rel="noopener" title="Facebook">
+                            <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z'/></svg>
+                        </a>
+                        <a b-s1r2cb011v href="https://www.linkedin.com/company/trainkos-sh-a/" target="_blank" rel="noopener" title="LinkedIn">
+                            <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><path d='M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z'/><rect width='4' height='12' x='2' y='9'/><circle cx='4' cy='4' r='2'/></svg>
+                        </a>
+                        <a b-s1r2cb011v href="https://www.instagram.com/trainkos/?hl=en" target="_blank" rel="noopener" title="Instagram">
+                            <svg xmlns='http://www.w3.org/2000/svg' width='16' height='16' viewBox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'><rect width='20' height='20' x='2' y='2' rx='5' ry='5'/><path d='M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z'/><line x1='17.5' x2='17.51' y1='6.5' y2='6.5'/></svg>
+                        </a>
+                            <div b-s1r2cb011v class="contact-pop">
+                                <button b-s1r2cb011v type="button" class="contact-pop-toggle contact-pop-unavailable" aria-haspopup="true" aria-expanded="false" title="Viber">
+                                    <i b-s1r2cb011v class="fab fa-viber"></i>
+                                </button>
+                                <div b-s1r2cb011v class="contact-pop-menu">
+                                    <span b-s1r2cb011v class="contact-pop-note">Ky sh&#xEB;rbim nuk &#xEB;sht&#xEB; i disponuesh&#xEB;m</span>
+                                </div>
                             </div>
-                            <div id="linqe">
-								<a class="first" href="#">MAP</a>
-								<a href="https://www.trainkos.com/linqet/">Linqet</a>
-								<a href="https://www.trainkos.com/kontakti/">Kontakti</a>
+                            <div b-s1r2cb011v class="contact-pop">
+                                <button b-s1r2cb011v type="button" class="contact-pop-toggle contact-pop-unavailable" aria-haspopup="true" aria-expanded="false" title="WhatsApp">
+                                    <i b-s1r2cb011v class="fab fa-whatsapp"></i>
+                                </button>
+                                <div b-s1r2cb011v class="contact-pop-menu">
+                                    <span b-s1r2cb011v class="contact-pop-note">Ky sh&#xEB;rbim nuk &#xEB;sht&#xEB; i disponuesh&#xEB;m</span>
+                                </div>
                             </div>
-						</div>
-						<a href="https://webmail.trainkos.com/owa">Trainkos MAIL</a>
-                    </div>	
-					<div id="menu">
-						<div class="menu-menu-kryesore-container"><ul id="menu-menu-kryesore" class="menu"><li id="menu-item-31" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-home menu-item-31"><a href="https://www.trainkos.com/">Ballina</a></li>
-<li id="menu-item-37" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-37"><a href="https://www.trainkos.com/rreth-nesh/">Rreth Nesh</a></li>
-<li id="menu-item-33" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-33"><a href="https://www.trainkos.com/sherbimet/">Shërbimet</a></li>
-<li id="menu-item-61" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-61"><a href="https://www.trainkos.com/publikimet/">Publikimet</a></li>
-<li id="menu-item-62" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-62"><a href="https://www.trainkos.com/lajmet-ngjarjet/">Lajmet &#038; Ngjarjet</a></li>
-</ul></div>					</div>
-				</div>
-			</div>
-        </div><!-- end of wrapper_header -->
-		<div class="separator"></div>
-			
-		<div id="wrapper_content">
-                
-	<div id="content">
-		<div id="sidebar">
-			<div class="aktivitete">
-				<div class="top">
-					<div class="left"></div>
-					<div class="title">
-											-- Sh&euml;rbimet --
-						
-					</div>
-					<div class="right"></div>
-				</div>
-				<div class="pixel">
-					<ul>
-						<div class="menu-sherbimet-container"><ul id="menu-sherbimet" class="menu"><li id="menu-item-121" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-121"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/">Transporti i mallrave</a>
-<ul class="sub-menu">
-	<li id="menu-item-307" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-307"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/transporti-konvencional/">Transporti konvencional</a></li>
-	<li id="menu-item-306" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-306"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/transporti-i-kombinuar/">Transporti i kombinuar</a></li>
-	<li id="menu-item-305" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-305"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/harta/">Harta</a></li>
-	<li id="menu-item-308" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-308"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/arritja-e-mallit/">Arritja e mallit</a></li>
-	<li id="menu-item-309" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-309"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/kapacitetet-e-vagoneve/">Kapacitetet e vagonëve</a></li>
-	<li id="menu-item-318" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-318"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/pergatitja-e-dergeses/">Përgatitja e dërgesës</a></li>
-	<li id="menu-item-317" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-317"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/porosia-e-vagoneve/">Porosia e vagonëve</a></li>
-	<li id="menu-item-316" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-316"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/ngarkimi-i-dergesave/">Ngarkimi i dërgesave</a></li>
-	<li id="menu-item-348" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-348"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/pikat-doganore/">Pikat doganore</a></li>
-	<li id="menu-item-1979" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1979"><a href="https://www.trainkos.com/sherbimet/transporti-i-mallrave/cmimorja/">Çmimorja</a></li>
-</ul>
-</li>
-<li id="menu-item-122" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor current-menu-ancestor current-menu-parent current-page-parent current_page_parent current_page_ancestor menu-item-has-children menu-item-122"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/">Transporti i udhëtarëve</a>
-<ul class="sub-menu">
-	<li id="menu-item-356" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-356"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/kushtet-e-pergjithshme/">Kushtet e përgjithshme</a></li>
-	<li id="menu-item-366" class="menu-item menu-item-type-post_type menu-item-object-page current-menu-item page_item page-item-358 current_page_item menu-item-366"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/" aria-current="page">Orari i trenave</a></li>
-	<li id="menu-item-369" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-369"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/llojet-e-biletave/">Llojet e biletave</a></li>
-	<li id="menu-item-373" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-373"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/cmimet-e-biletave/">Çmimet e biletave</a></li>
-	<li id="menu-item-381" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-381"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/beneficionet/">Beneficionet</a></li>
-	<li id="menu-item-384" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-384"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/pagesat-shtese/">Pagesat shtesë</a></li>
-	<li id="menu-item-393" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-393"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/veprimet-e-denueshme/">Veprimet e dënueshme</a></li>
-	<li id="menu-item-392" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-392"><a href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/harta/">Harta</a></li>
-</ul>
-</li>
-<li id="menu-item-120" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-120"><a href="https://www.trainkos.com/sherbimet/transporti-i-kontejnereve/">Transporti i kontejnerëve</a>
-<ul class="sub-menu">
-	<li id="menu-item-426" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-426"><a href="https://www.trainkos.com/sherbimet/transporti-i-kontejnereve/dimensionet-e-kontejnereve/">Dimensionet e kontejnerëve</a></li>
-	<li id="menu-item-425" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-425"><a href="https://www.trainkos.com/sherbimet/transporti-i-kontejnereve/pergatitja-e-dergeses/">Përgatitja e dërgesës</a></li>
-	<li id="menu-item-424" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-424"><a href="https://www.trainkos.com/sherbimet/transporti-i-kontejnereve/cmimet-e-transportit/">Çmimet e transportit</a></li>
-	<li id="menu-item-422" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-422"><a href="https://www.trainkos.com/sherbimet/transporti-i-kontejnereve/harta/">Harta</a></li>
-	<li id="menu-item-421" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-421"><a href="https://www.trainkos.com/sherbimet/transporti-i-kontejnereve/pikat-doganore/">Pikat doganore</a></li>
-</ul>
-</li>
-<li id="menu-item-1976" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-has-children menu-item-1976"><a href="https://www.trainkos.com/sherbimet/mirembajtja-e-ml-se/">Mirëmbajtja e ML-së</a>
-<ul class="sub-menu">
-	<li id="menu-item-1991" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1991"><a href="https://www.trainkos.com/sherbimet/mirembajtja-e-ml-se/mjetet-levizese/">Mjetet lëvizëse</a></li>
-	<li id="menu-item-1990" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1990"><a href="https://www.trainkos.com/sherbimet/mirembajtja-e-ml-se/trenat-motorik/">Trenat Motorik</a></li>
-	<li id="menu-item-1989" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1989"><a href="https://www.trainkos.com/sherbimet/mirembajtja-e-ml-se/mirembajteja-e-vagoneve/">Mirëmbajtëja e vagonëve</a></li>
-	<li id="menu-item-1988" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-1988"><a href="https://www.trainkos.com/sherbimet/mirembajtja-e-ml-se/gdhendja-e-rrotave/">Gdhendja e rrotave</a></li>
-</ul>
-</li>
-</ul></div>	
-					</ul>
-				</div>
-			</div>
-			<div class="aktivitete">
-				<div class="top">
-					<div class="left"></div>
-					<div class="title">
-											-- Ofertat --
-						
-					</div>
-					<div class="right"></div>
-				</div>
-				<div class="pixel">
-					<ul>
-						<div class="menu-ofertat-container"><ul id="menu-ofertat" class="menu"><li id="menu-item-732" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-732"><a href="https://www.trainkos.com/sherbimet/ofertat-e-pergjithshme/">Ofertat e përgjithshme</a></li>
-<li id="menu-item-734" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-734"><a href="https://www.trainkos.com/sherbimet/pakoja-e-transportit-te-udhetareve/">Pako TU</a></li>
-<li id="menu-item-737" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-737"><a href="https://www.trainkos.com/sherbimet/pakoja-e-transportit-te-kontenjereve/">Pako TK</a></li>
-<li id="menu-item-738" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-738"><a href="https://www.trainkos.com/sherbimet/sherbimet-shtes/">Shërbimet shtesë</a></li>
-</ul></div>	
-					</ul>
-				</div>
-			</div>
-			<div class="aktivitete">
-				<div class="top">
-					<div class="left"></div>
-					<div class="title">
-											-- Galeria --
-						
-					</div>
-					<div class="right"></div>
-				</div>
-				<div class="galeria">
-					<ul>
-						<li id="slideshow-3" class="widget widget_slideshow"><h2 class="widgettitle">Slideshow</h2>
-<div class="ngg_slideshow widget">
-    
+                </div>
+            </section>
 
-<div class="ngg-galleryoverview ngg-slideshow"
-	 id="ngg-slideshow-27ed131714238904b867f2dc1ed724da-16818779980"
-     data-gallery-id="27ed131714238904b867f2dc1ed724da"
-     style="max-width: 200px; max-height: 200px;">
 
- 	<div id="ngg-image-0" class="ngg-gallery-slideshow-image" style="height:200px">
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-10.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-10.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-10.jpg"
-           data-image-id="1"
-           data-title="foto-10"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+                <section b-s1r2cb011v>
+                    <h3 b-s1r2cb011v>Sh&#xEB;rbimet</h3>
+                        <a b-s1r2cb011v href="/sherbimet/transporti-i-udhtarve">Transporti i udh&#xEB;tar&#xEB;ve</a>
+                        <a b-s1r2cb011v href="/sherbimet/transporti-i-mallrave">Transporti i mallrave</a>
+                        <a b-s1r2cb011v href="/sherbimet/transporti-i-kontejnerve">Transporti i kontejner&#xEB;ve</a>
+                        <a b-s1r2cb011v href="/sherbimet/mirmbajtja-e-ml-s">Mir&#xEB;mbajtja e ML-s&#xEB;</a>
+                </section>
+                <section b-s1r2cb011v>
+                    <h3 b-s1r2cb011v>Linqet t&#xEB; Shpejta</h3>
+                        <a b-s1r2cb011v href="/timetable">Orari</a>
+                        <a b-s1r2cb011v href="/about">Rreth nesh</a>
+                        <a b-s1r2cb011v href="/publications">Publikime &amp; Transparenc&#xEB;</a>
+                        <a b-s1r2cb011v href="/news">Lajme dhe Ngjarje</a>
+                        <a b-s1r2cb011v href="/NewsLetter">Buletin</a>
+                        <a b-s1r2cb011v href="/contactus">Na Kontaktoni</a>
+                </section>
+                <section b-s1r2cb011v>
+                    <h3 b-s1r2cb011v>Kontaktoni me ne</h3>
+                        <p b-s1r2cb011v>Salih Pu&#xE7;olli, Fush&#xEB; Kosov&#xEB;, 12000, Kosov&#xEB;</p>
+                        <a b-s1r2cb011v href="tel:038/606-839">038/606-839</a>
+                        <a b-s1r2cb011v href="tel:038/606-838">038/606-838</a>
+                        <a b-s1r2cb011v href="/cdn-cgi/l/email-protection#026b6c646d427670636b6c696d712c616d6f"><span class="__cf_email__" data-cfemail="bbd2d5ddd4fbcfc9dad2d5d0d4c895d8d4d6">[email&#160;protected]</span></a>
+                        <a b-s1r2cb011v href="/cdn-cgi/l/email-protection#355854475e50415c5b52754147545c5b5e5a461b565a58"><span class="__cf_email__" data-cfemail="5934382b323c2d30373e192d2b38303732362a773a3634">[email&#160;protected]</span></a>
+                </section>
+        </div>
+        <div b-s1r2cb011v class="footer-bottom shell">
+            <span b-s1r2cb011v>© 2026 TRAINKOS Sh.A.. T&#xEB; gjitha t&#xEB; drejtat e rezervuara.</span>
+            <span b-s1r2cb011v class="footer-legal-links">
+                <a b-s1r2cb011v href="/privacy">Privat&#xEB;sia</a> &nbsp;
+                <a b-s1r2cb011v href="/terms">Kushtet</a> &nbsp;
+                <a b-s1r2cb011v href="/cookies">Cookies</a>
+            </span>
+        </div>
+    </footer>
 
-            <img data-image-id='1'
-                 title=""
-                 alt="foto-10"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-10.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+    <div b-s1r2cb011v class="toast" id="toast" role="status"></div>
+    <style>
 
-        </div> 
-<div id="ngg-image-1" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-chatbot-messages {
+    overscroll-behavior: contain;      /* stops scroll chaining to the page */
+    -webkit-overflow-scrolling: touch;
+}
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-11_0.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-11_0.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-11_0.jpg"
-           data-image-id="2"
-           data-title="foto-11_0"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+.tk-chatbot-window {
+    overscroll-behavior: contain;
+}
 
-            <img data-image-id='2'
-                 title=""
-                 alt="foto-11_0"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-11_0.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+body.tk-chat-lock {
+    position: fixed;
+    width: 100%;
+    overflow: hidden;
+}
+    .tk-chatbot-container {
+        position: fixed;
+        bottom: calc(30px + env(safe-area-inset-bottom, 0px));
+        right: calc(30px + env(safe-area-inset-bottom, 0px));
+        z-index: 9999;
+    }
 
-        </div> 
-<div id="ngg-image-2" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-chatbot-toggle {
+        background: linear-gradient(135deg, #C32026 0%, #a01a1f 100%);
+        border: none;
+        border-radius: 18px;
+        width: 62px;
+        height: 62px;
+        padding: 0;
+        cursor: pointer;
+        box-shadow: 0 4px 20px rgba(195, 32, 38, 0.4);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-size: 22px;
+        position: relative;
+        transition: all 0.3s ease;
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-12.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-12.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-12.jpg"
-           data-image-id="3"
-           data-title="foto-12"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+        .tk-chatbot-toggle:hover {
+            transform: scale(1.06) rotate(-4deg);
+            box-shadow: 0 6px 25px rgba(195, 32, 38, 0.5);
+        }
 
-            <img data-image-id='3'
-                 title=""
-                 alt="foto-12"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-12.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+        .tk-chatbot-toggle span {
+            display: none;
+        }
 
-        </div> 
-<div id="ngg-image-3" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-pulse-dot {
+        position: absolute;
+        top: 8px;
+        right: 8px;
+        width: 9px;
+        height: 9px;
+        background: #fff;
+        border-radius: 50%;
+        animation: tk-pulse 2s infinite;
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-15.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-15.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-15.jpg"
-           data-image-id="4"
-           data-title="foto-15"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+    @keyframes tk-pulse {
+        0%, 100% {
+            opacity: 1;
+            transform: scale(1);
+        }
 
-            <img data-image-id='4'
-                 title=""
-                 alt="foto-15"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-15.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+        50% {
+            opacity: 0.5;
+            transform: scale(1.2);
+        }
+    }
 
-        </div> 
-<div id="ngg-image-4" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-chatbot-window {
+        display: none;
+        position: fixed;
+        bottom: calc(105px + env(safe-area-inset-bottom, 0px));
+        right: 20px;
+        width: 380px;
+        max-width: calc(100vw - 40px);
+        height: 540px;
+        max-height: calc(100vh - 130px);
+        background: white;
+        border-radius: 24px 24px 6px 24px;
+        box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+        flex-direction: column;
+        overflow: hidden;
+        border: 1px solid rgba(195,32,38,0.08);
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-16.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-16.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-16.jpg"
-           data-image-id="5"
-           data-title="foto-16"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+        .tk-chatbot-window.active {
+            display: flex;
+        }
 
-            <img data-image-id='5'
-                 title=""
-                 alt="foto-16"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-16.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+    .tk-chatbot-header {
+        background: linear-gradient(135deg, #C32026 0%, #a01a1f 100%);
+        color: white;
+        padding: 20px 22px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        border-radius: 24px 24px 0 0;
+    }
 
-        </div> 
-<div id="ngg-image-5" class="ngg-gallery-slideshow-image" style="height:200px">
+        .tk-chatbot-header h3 {
+            margin: 0;
+            font-size: 16px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            color: white;
+        }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-17.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-17.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-17.jpg"
-           data-image-id="6"
-           data-title="foto-17"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+    .tk-chatbot-close {
+        background: rgba(255,255,255,0.15);
+        border: none;
+        color: white;
+        font-size: 16px;
+        cursor: pointer;
+        width: 30px;
+        height: 30px;
+        border-radius: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: background 0.2s ease;
+    }
 
-            <img data-image-id='6'
-                 title=""
-                 alt="foto-17"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-17.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+        .tk-chatbot-close:hover {
+            background: rgba(255,255,255,0.28);
+        }
 
-        </div> 
-<div id="ngg-image-6" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-chatbot-messages {
+        flex: 1;
+        overflow-y: auto;
+        padding: 20px 16px;
+        background: #fdf7f7;
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-2.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-2.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-2.jpg"
-           data-image-id="7"
-           data-title="foto-2"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+    .tk-chat-message {
+        margin-bottom: 16px;
+        animation: tk-fadeIn 0.3s ease;
+    }
 
-            <img data-image-id='7'
-                 title=""
-                 alt="foto-2"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-2.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+    @keyframes tk-fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(8px);
+        }
 
-        </div> 
-<div id="ngg-image-7" class="ngg-gallery-slideshow-image" style="height:200px">
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-21.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-21.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-21.jpg"
-           data-image-id="8"
-           data-title="foto-21"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+    .tk-message-bot {
+        display: flex;
+        gap: 10px;
+    }
 
-            <img data-image-id='8'
-                 title=""
-                 alt="foto-21"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-21.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+    .tk-bot-avatar {
+        width: 32px;
+        height: 32px;
+        border-radius: 10px;
+        background: #C32026;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-shrink: 0;
+        color: white;
+        font-size: 14px;
+    }
 
-        </div> 
-<div id="ngg-image-8" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-message-content {
+        background: white;
+        padding: 12px 16px;
+        border-radius: 4px 16px 16px 16px;
+        max-width: 78%;
+        box-shadow: 0 2px 6px rgba(0,0,0,0.07);
+        line-height: 1.5;
+        font-size: 14px;
+        color: #111827;
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-3.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-3.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-3.jpg"
-           data-image-id="9"
-           data-title="foto-3"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+    .tk-message-user .tk-message-content {
+        background: #C32026;
+        color: white;
+        margin-left: auto;
+        border-radius: 16px 4px 16px 16px;
+    }
 
-            <img data-image-id='9'
-                 title=""
-                 alt="foto-3"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-3.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+    .tk-quick-questions {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        margin-top: 10px;
+    }
 
-        </div> 
-<div id="ngg-image-9" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-quick-question-btn {
+        background: white;
+        border: 1.5px solid #C32026;
+        color: #C32026;
+        padding: 10px 14px;
+        border-radius: 4px 14px 14px 14px;
+        cursor: pointer;
+        font-size: 13px;
+        font-weight: 500;
+        text-align: left;
+        transition: all 0.2s ease;
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto-5.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-5.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto-5.jpg"
-           data-image-id="10"
-           data-title="foto-5"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+        .tk-quick-question-btn:hover {
+            background: #C32026;
+            color: white;
+            transform: translateX(2px);
+        }
 
-            <img data-image-id='10'
-                 title=""
-                 alt="foto-5"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto-5.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+    .tk-typing-indicator {
+        display: flex;
+        gap: 4px;
+        padding: 10px;
+    }
 
-        </div> 
-<div id="ngg-image-10" class="ngg-gallery-slideshow-image" style="height:200px">
+    .tk-typing-dot {
+        width: 7px;
+        height: 7px;
+        border-radius: 50%;
+        background: #999;
+        animation: tk-typing 1.4s infinite;
+    }
 
-        <a href="https://www.trainkos.com/wp-content/gallery/home-foto/foto1.jpg"
-           title=""
-           data-src="https://www.trainkos.com/wp-content/gallery/home-foto/foto1.jpg"
-           data-thumbnail="https://www.trainkos.com/wp-content/gallery/home-foto/thumbs/thumbs_foto1.jpg"
-           data-image-id="11"
-           data-title="foto1"
-           data-description=""
-           class="shutterset_27ed131714238904b867f2dc1ed724da">
+        .tk-typing-dot:nth-child(2) {
+            animation-delay: 0.2s;
+        }
 
-            <img data-image-id='11'
-                 title=""
-                 alt="foto1"
-                 src="https://www.trainkos.com/wp-content/gallery/home-foto/foto1.jpg"
-                 style="max-height: 180px;"/>
-        </a>
+        .tk-typing-dot:nth-child(3) {
+            animation-delay: 0.4s;
+        }
 
-        </div> 
+    @keyframes tk-typing {
+        0%, 60%, 100% {
+            transform: translateY(0);
+        }
+
+        30% {
+            transform: translateY(-8px);
+        }
+    }
+
+    @media (max-width: 480px) {
+        .tk-chatbot-window {
+            width: calc(100vw - 20px);
+            height: calc(100vh - 110px);
+            right: 10px;
+            bottom: calc(95px + env(safe-area-inset-bottom, 0px));
+        }
+    }
+</style>
+
+<div class="tk-chatbot-container">
+    <button class="tk-chatbot-toggle" id="tkChatbotToggle">
+        <i class="fas fa-comments" id="tkToggleIcon"></i>
+        <span style="color:white;">Bisedo Me Ne</span>
+        <div class="tk-pulse-dot" id="tkPulseDot"></div>
+    </button>
+
+    <div class="tk-chatbot-window" id="tkChatbotWindow">
+        <div class="tk-chatbot-header">
+            <h3>Bisedo Me Ne</h3>
+            <button class="tk-chatbot-close" id="tkChatbotClose">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+
+        <div class="tk-chatbot-messages" id="tkChatbotMessages">
+            <div class="tk-chat-message tk-message-bot">
+                <div class="tk-bot-avatar"><i class="fas fa-robot"></i></div>
+                <div>
+                    <div class="tk-message-content">
+                        P&#xEB;rsh&#xEB;ndetje! Si mund t&#x27;ju ndihmoj sot?
+                    </div>
+                    <div class="tk-quick-questions" id="tkQuickQuestions"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
+<script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
+    (function () {
+    const toggle = document.getElementById('tkChatbotToggle');
+    const win = document.getElementById('tkChatbotWindow');
+    const closeBtn = document.getElementById('tkChatbotClose');
+    const messages = document.getElementById('tkChatbotMessages');
+    const quickQuestionsContainer = document.getElementById('tkQuickQuestions');
+    const toggleIcon = document.getElementById('tkToggleIcon');
+    const pulseDot = document.getElementById('tkPulseDot');
 
+    let faqs = [];
+    let savedScrollY = 0;
 
-</div>
-</li>
-					</ul>
-				</div>
-			</div>
+    const isMobile = () => window.matchMedia('(max-width: 480px)').matches;
 
-		</div><!-- end of sidebar -->
-		<div class="line_separator"></div>
-		<div id="page">
-			
-				<div id="item">
-					<div id="title">
-						Orari i trenave					</div>
-					<div class="separator"></div>
-					<div class="pagetitle_sep"></div>
-					<div class="separator"></div>
-					<div id="artikulli" >
-						<div style="text-align: justify;">
-<p><strong>Orari i Trenave Vendor</strong></p>
-<p>Trainkos SH.A. – Operon me këta trena të rregullt ditor. Për tu njoftuar me orarin e lëvizjes së trenave ju lutem shtypni mbi&nbsp; relacionet e mëposhtme:</p>
-</div>
-<p><a href="https://www.trainkos.com/wp-content/uploads/2025/12/Orari-Prishtinë-Pejë-Prishtinë-2026-1.pdf">Orari Prishtinë &#8211; Pejë &#8211; Prishtinë 2026</a></p>
-<p><a href="https://www.trainkos.com/wp-content/uploads/2025/12/Orari-Prishtinë-Shkup-Prishtinë-2026.pdf">Orari Prishtinë &#8211; Shkup &#8211; Prishtinë 2026</a></p>
-<p>&nbsp;</p>
-<div style="text-align: justify;">
-<p><strong>Orari i Trenave Ndërkombëtar</strong></p>
-<p><strong>Eurorailways&nbsp; – </strong>mundëson përzgjedhjen e stacioneve fillestare dhe të arritjes nëpër qytetet e Unionit Evropian. Per të shikuar p<strong>lanifikimin e&nbsp; udhëtimeve në Hekurudhat&nbsp; Evropiane&nbsp; ju lutem vizitoni linkun&nbsp; e mëposhtëm: </strong></p>
-<p><a title="http://www.eurorailways.com/timetable/index.htm" href="http://www.eurorailways.com/timetable/index.htm">http://www.eurorailways.com/timetable/index.htm</a></p>
-</div>
-<!-- Social Ring Buttons Start --><div class="social-ring">
-<div class="social-ring-button"><fb:like href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/" showfaces="false" layout="button_count" action="like"></fb:like></div>
-<div class="social-ring-button"><a href="https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/" target="_blank"
-							onclick="window.open('https://www.facebook.com/sharer/sharer.php?s=100&p[url]=https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/', 'newwindow', 'width=600, height=450'); return false;" >
-							<img style="display:block; background: none; padding: 0px; border:0px;" src="https://www.trainkos.com/wp-content/plugins/wordpress-social-ring/includes/../admin/images/sr-fb-share.png" alt="Share"/>
-						</a></div>
-<div class="social-ring-button"><a rel="nofollow" href="https://twitter.com/share" lang="en" data-url="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/" data-text="Orari i trenave" data-count="horizontal" class="sr-twitter-button twitter-share-button"></a></div>
-<div class="social-ring-button"><div class="g-plusone" data-href="https://www.trainkos.com/sherbimet/transporti-i-udhetareve/orari-i-trenave/" data-size="medium" ></div></div>
-<div class="social-ring-button"><a rel="nofollow" href="https://pinterest.com/pin/create/button/?url=https%3A%2F%2Fwww.trainkos.com%2Fsherbimet%2Ftransporti-i-udhetareve%2Forari-i-trenave%2F&media=https%3A%2F%2Fwww.trainkos.com%2Fwp-content%2Fuploads%2F2025%2F02%2FOrari-Prishtin%C3%AB-Shkup-Prishitn%C3%AB-2025--150x150.jpg&description=Orari+i+trenave" class="pin-it-button" count-layout="horizontal"></a></div>
-</div><!-- Social Ring Buttons End -->
-					</div>
-						   
-			  </div><!-- end of item -->
-		</div>
-	</div><!-- end of content -->
-               
-		    </div><!-- end of wrapper_content -->
-            <div class="separator"></div>
-            <div id="wrapper_footer">
-				             </div><!-- end of wrapper_footer -->
-    </div><!-- end of wrapper -->
-		<script type='text/javascript' src="https://www.trainkos.com/wp-content/themes/trainkos/js/jquery-1.6.1.js"></script>
-		<script type='text/javascript' src="https://www.trainkos.com/wp-content/themes/trainkos/js/jquery.hoverIntent.js"></script>
-		<script type='text/javascript' src="https://www.trainkos.com/wp-content/themes/trainkos/js/jquery-1.3.1.min.js"></script>
-		
-		<script type="text/javascript">
-			var $jq = $jq || {};
-			$jq.jQuery = jQuery.noConflict(true);
-		</script>
-		<script type="text/javascript" src="https://www.trainkos.com/wp-content/themes/trainkos/js/easySlider.js"></script>
-		<script type="text/javascript">
-				jQuery("#slider").easySlider({
-					//controlsBefore:	'<p id="controls">',
-					//controlsAfter:	'</p>',
-					
-					auto: true,
-					continuous: true,
-					speed: 7000,
-					nextId: "slider1next",
-					prevId: "slider1prev",
-					prevText: '',
-					nextText: ''
-				});
-		</script>
-	    <script type="text/javascript">
-            $(document).ready(function() {
-                //Execute the slideShow
-                    slideShow();
+    function lockPage() {
+    if (!isMobile() || document.body.classList.contains('tk-chat-lock')) return;
+    savedScrollY = window.scrollY;
+    document.body.style.top = `-${savedScrollY}px`;
+    document.body.classList.add('tk-chat-lock');
+    }
 
+    function unlockPage() {
+    if (!document.body.classList.contains('tk-chat-lock')) return;
+    document.body.classList.remove('tk-chat-lock');
+    document.body.style.top = '';
+    window.scrollTo(0, savedScrollY);
+    }
+
+    function openChat() {
+    win.classList.add('active');
+    toggleIcon.classList.remove('fa-comments');
+    toggleIcon.classList.add('fa-times');
+    if (pulseDot) pulseDot.style.display = 'none';
+    lockPage();
+    if (faqs.length === 0) loadFaqs();
+    }
+
+    function closeChat() {
+    win.classList.remove('active');
+    toggleIcon.classList.remove('fa-times');
+    toggleIcon.classList.add('fa-comments');
+    if (pulseDot) pulseDot.style.display = '';
+    unlockPage();
+    }
+
+    async function loadFaqs() {
+    try {
+    const res = await fetch('/Home/GetAllFAQs');
+    const data = await res.json();
+    faqs = data.data || [];
+    renderQuickQuestions();
+    } catch (e) {
+    console.error('Error loading FAQs', e);
+    quickQuestionsContainer.innerHTML = '<p style="color:#999;font-size:13px;">Na vjen keq, di&#xE7;ka shkoi keq gjat&#xEB; ngarkimit t&#xEB; pyetjeve.</p>';
+    }
+    }
+
+    function renderQuickQuestions() {
+    if (faqs.length === 0) {
+    quickQuestionsContainer.innerHTML = '<p style="color:#999;font-size:13px;">Duke ngarkuar&#xD;&#xA;...</p>';
+    return;
+    }
+    quickQuestionsContainer.innerHTML = faqs.map((faq, i) =>
+    `<button class="tk-quick-question-btn" data-idx="${i}">${escapeHtml(faq.question)}</button>`
+    ).join('');
+    quickQuestionsContainer.querySelectorAll('.tk-quick-question-btn').forEach(btn => {
+    btn.addEventListener('click', () => handleQuickQuestion(faqs[parseInt(btn.dataset.idx)]));
+    });
+    }
+
+    function addFollowUpQuestions() {
+    if (faqs.length === 0) return;
+    const div = document.createElement('div');
+    div.className = 'tk-chat-message tk-message-bot';
+    const buttonsHtml = faqs.map((faq, i) =>
+    `<button class="tk-quick-question-btn" data-idx="${i}">${escapeHtml(faq.question)}</button>`
+    ).join('');
+    div.innerHTML = `
+    <div class="tk-bot-avatar"><i class="fas fa-robot"></i></div>
+    <div>
+    <div class="tk-message-content"> A ka di&#xE7;ka tjet&#xEB;r me t&#xEB; cil&#xEB;n mund t&#x27;ju ndihmoj?</div>
+    <div class="tk-quick-questions">${buttonsHtml}</div>
+    </div>`;
+    messages.appendChild(div);
+    div.querySelectorAll('.tk-quick-question-btn').forEach(btn => {
+    btn.addEventListener('click', () => handleQuickQuestion(faqs[parseInt(btn.dataset.idx)]));
+    });
+    scrollToBottom();
+    }
+
+    function handleQuickQuestion(faq) {
+    addUserMessage(faq.question);
+    setTimeout(() => addBotMessage(faq.answer, true), 500);
+    }
+
+    function addUserMessage(text) {
+    const div = document.createElement('div');
+    div.className = 'tk-chat-message tk-message-user';
+    div.innerHTML = `<div class="tk-message-content">${escapeHtml(text)}</div>`;
+    messages.appendChild(div);
+    scrollToBottom();
+    }
+
+    // `html` is an FAQ answer, already sanitized server-side by Home/GetAllFAQs.
+    function addBotMessage(html, showFollowUp) {
+    showTyping();
+    setTimeout(() => {
+    removeTyping();
+    const div = document.createElement('div');
+    div.className = 'tk-chat-message tk-message-bot';
+    div.innerHTML = `
+    <div class="tk-bot-avatar"><i class="fas fa-robot"></i></div>
+    <div class="tk-message-content">${html}</div>`;
+    messages.appendChild(div);
+    scrollToBottom();
+    if (showFollowUp) setTimeout(addFollowUpQuestions, 8000);
+    }, 4000);
+    }
+
+    function showTyping() {
+    const div = document.createElement('div');
+    div.id = 'tkTyping';
+    div.className = 'tk-chat-message tk-message-bot';
+    div.innerHTML = `
+    <div class="tk-bot-avatar"><i class="fas fa-robot"></i></div>
+    <div class="tk-message-content tk-typing-indicator">
+    <div class="tk-typing-dot"></div><div class="tk-typing-dot"></div><div class="tk-typing-dot"></div>
+    </div>`;
+    messages.appendChild(div);
+    scrollToBottom();
+    }
+
+    function removeTyping() {
+    const el = document.getElementById('tkTyping');
+    if (el) el.remove();
+    }
+
+    function escapeHtml(text) {
+    const d = document.createElement('div');
+    d.textContent = text;
+    return d.innerHTML;
+    }
+
+    function scrollToBottom() {
+    messages.scrollTop = messages.scrollHeight;
+    }
+
+    toggle.addEventListener('click', () => {
+    if (win.classList.contains('active')) {
+    closeChat();
+    } else {
+    openChat();
+    }
+    });
+
+    closeBtn.addEventListener('click', closeChat);
+
+    window.addEventListener('resize', () => {
+    if (!isMobile()) unlockPage();
+    });
+
+    loadFaqs();
+    })();
+</script>
+    <script>
+        function changeLanguage(newLanguage) {
+            window.location.href = "/Account/ChangeLanguage?language=" + newLanguage + "&url=" + encodeURIComponent(window.location.href);
+        }
+
+        // ===== Footer contact numbers — popup list when a type has several numbers =====
+        (() => {
+            const closeAll = except => {
+                document.querySelectorAll('.contact-pop.open').forEach(p => {
+                    if (p === except) return;
+                    p.classList.remove('open');
+                    p.querySelector('.contact-pop-toggle')?.setAttribute('aria-expanded', 'false');
+                });
+            };
+
+            document.querySelectorAll('.contact-pop').forEach(pop => {
+                const btn = pop.querySelector('.contact-pop-toggle');
+                // The "not available" note closes itself; number lists stay open to be tapped.
+                const autoClose = btn?.classList.contains('contact-pop-unavailable');
+                let timer;
+
+                btn?.addEventListener('click', e => {
+                    e.stopPropagation();
+                    closeAll(pop);
+                    const open = pop.classList.toggle('open');
+                    btn.setAttribute('aria-expanded', String(open));
+
+                    clearTimeout(timer);
+                    if (open && autoClose) {
+                        timer = setTimeout(() => {
+                            pop.classList.remove('open');
+                            btn.setAttribute('aria-expanded', 'false');
+                        }, 3000);
+                    }
+                });
             });
 
-            function slideShow() {
+            document.addEventListener('click', () => closeAll(null));
+            document.addEventListener('keydown', e => { if (e.key === 'Escape') closeAll(null); });
+        })();
 
-                    //Set the opacity of all images to 0
-                    $('#banner a').css({opacity: 0.0});
-                    //Get the first image and display it (set it to full opacity)
-                    $('#banner a:first').css({opacity: 1.0});
-                    //Set the caption background to semi-transparent
-                    $('#banner .caption').css({opacity: 0.7});
-                    //Resize the width of the caption according to the image width
-                    $('#banner .caption').css({width: $('#banner a').find('img').css('width')});
-                    //Get the caption of the first image from REL attribute and display it
-                    $('#banner .content').html($('#banner a:first').find('img').attr('rel'))
-                    .animate({opacity: 0.7}, 400);
-                    //Call the gallery function to run the slideshow, 6000 = change to next image after 6 seconds
-                    setInterval('gallery()',8000);
+        // ===== Language switcher — collapsed dropdown toggle =====
+        (() => {
+            const q = s => document.querySelector(s);
 
+            const switcher = q('#languageSwitcher');
+            const toggleBtn = q('#languageToggle');
+
+            if (switcher && toggleBtn) {
+                toggleBtn.addEventListener('click', e => {
+                    e.stopPropagation();
+                    const isOpen = switcher.classList.contains('open');
+                    document.querySelectorAll('.nav-dropdown.open, .nav-dropdown--nested.open')
+                        .forEach(d => d.classList.remove('open'));
+
+                    switcher.classList.toggle('open', !isOpen);
+                    toggleBtn.setAttribute('aria-expanded', String(!isOpen));
+                });
+
+                document.addEventListener('click', e => {
+                    if (!switcher.contains(e.target)) {
+                        switcher.classList.remove('open');
+                        toggleBtn.setAttribute('aria-expanded', 'false');
+                    }
+                });
+
+                document.addEventListener('keydown', e => {
+                    if (e.key === 'Escape') {
+                        switcher.classList.remove('open');
+                        toggleBtn.setAttribute('aria-expanded', 'false');
+                    }
+                });
             }
-            function gallery() {
-
-                    //if no IMGs have the show class, grab the first image
-                    var current = ($('#banner a.show')?  $('#banner a.show') : $('#banner a:first'));
-
-                    //Get next image, if it reached the end of the slideshow, rotate it back to the first image
-                    var next = ((current.next().length) ? ((current.next().hasClass('caption'))? $('#banner  a:first') :current.next()) : $('#banner a:first'));
-
-                    //Get next image caption
-                    var caption = next.find('img').attr('rel');
-
-                    //Set the fade in effect for the next image, show class has higher z-index
-                    next.css({opacity: 0.0})
-                    .addClass('show')
-                    .animate({opacity: 1.0}, 1000);
-
-                    //Hide the current image
-                    current.animate({opacity: 0.0}, 1000)
-                    .removeClass('show');
-
-                    //Set the opacity to 0 and height to 1px
-                    $('#banner .caption').animate({opacity: 0.0}, { queue:false, duration:0 }).animate({height: '1px'}, { queue:true, duration:500 });
-
-                    //Animate the caption, opacity to 0.7 and heigth to 100px, a slide up effect
-                    $('#banner .caption').animate({opacity: 0.7},100 ).animate({height: '50px'},500 );
-
-                    //Display the content
-                    $('#banner .content').html(caption);
-            }
+        })();
     </script>
-		<script type="text/javascript" >
-		    $jq.jQuery(document).ready(function(){
-			jQuery("#qtranslate-chooser li:first").css("background-image","none");
-			jQuery("div.box_pare").hover(function(){
-
-					  var cssObj = {
-									'background-image': 'url(https://www.trainkos.com/wp-content/themes/trainkos/images/box_pare_hover.jpg)',
-									'background-repeat': 'no-repeat',
-									'width': '287px',
-									'height': '191px',
-									'margin-right': '14px'
-								   }
-									jQuery(this).css(cssObj);
-
-
-					}, function(){
-
-						var cssObj = {
-									'background-image': 'url(https://www.trainkos.com/wp-content/themes/trainkos/images/box_pare.jpg)',
-									'background-repeat': 'no-repeat',
-									'width': '287px',
-									'height': '191px',
-									'margin-right': '14px'
-								   }
-									jQuery(this).css(cssObj);
-
-					});
-					jQuery("div.box_dy").hover(function(){
-
-					  var cssObj = {
-									'background-image': 'url(https://www.trainkos.com/wp-content/themes/trainkos/images/box_dy_hover.jpg)',
-									'background-repeat': 'no-repeat',
-									'width': '287px',
-									'height': '191px',
-									'margin-right': '14px'
-								   }
-									jQuery(this).css(cssObj);
-
-
-					}, function(){
-
-						var cssObj = {
-									'background-image': 'url(https://www.trainkos.com/wp-content/themes/trainkos/images/box_dy.jpg)',
-									'background-repeat': 'no-repeat',
-									'width': '287px',
-									'height': '191px',
-									'margin-right': '14px'
-								   }
-									jQuery(this).css(cssObj);
-
-					});
-					jQuery("div.box_tre").hover(function(){
-
-					  var cssObj = {
-									'background-image': 'url(https://www.trainkos.com/wp-content/themes/trainkos/images/box_tre_hover.jpg)',
-									'background-repeat': 'no-repeat',
-									'width': '287px',
-									'height': '191px',
-									'margin-right': '14px'
-								   }
-									jQuery(this).css(cssObj);
-
-
-					}, function(){
-
-						var cssObj = {
-									'background-image': 'url(https://www.trainkos.com/wp-content/themes/trainkos/images/box_tre.jpg)',
-									'background-repeat': 'no-repeat',
-									'width': '287px',
-									'height': '191px',
-									'margin-right': '14px'
-								   }
-									jQuery(this).css(cssObj);
-
-					});
-
-					jQuery("#udhetaret").click(function(){
-
-					window.location = "http://www.trainkos.com/sherbimet/transporti-i-udhetareve/";
-
-				});
-
-					jQuery("#mallrat").click(function(){
-
-					window.location = "http://www.trainkos.com/sherbimet/transporti-i-mallrave/";
-
-				});
-
-					jQuery("#kontanjer").click(function(){
-
-					window.location = "http://www.trainkos.com/sherbimet/transporti-i-kontejnereve/";
-
-				});
-			  });
-		</script>
-		
-		
-<script type="text/javascript">
-
-	$jq.jQuery(document).ready(function() {
-  
-		jQuery('.aktivitete .pixel ul li ul').hide();
-	
-     
-      function show() {
-         var menu = jQuery(this);
-         menu.children("ul").slideDown();
-       }
-      
-      function hide() { 
-       var menu = jQuery(this);
-        menu.children("ul").slideUp();
-      }
+    <script src="/js/trainkos.js?v=AmW7kBJ-ErNs-tVks0Pk53rebzBOroqNXD_dshF-46U"></script>
+    <script src="https://unpkg.com/lucide@latest"></script>
+    <script>lucide.createIcons();</script>
     
-      jQuery(".aktivitete .pixel ul li").hoverIntent({
-       sensitivity: 1, // number = sensitivity threshold (must be 1 or higher)
-        interval: 50,   // number = milliseconds for onMouseOver polling interval
-        over: show,     // function = onMouseOver callback (required)
-      timeout: 300,   // number = milliseconds delay before onMouseOut
-       out: hide       // function = onMouseOut callback (required)
-     });
-     		
-		
-		//jQuery('.aktivitete .pixel ul li.current_page_item').next().find('a').css("background-image","none");
-		
-	  
-	  if ($jq.jQuery.browser.msie)
-	  {
-		if(parseInt($jq.jQuery.browser.version)<8)
-		{
-			$jq.jQuery(".aktivitete .pixel ul ul li:first-child").css("background-image","none");			
-			$jq.jQuery(".aktivitete ul li:first-child a").css("background-image","none");
-		}
-		else if (parseInt(jQuery.browser.version)==8)
-		{
-			$jq.jQuery(".wp-polls p strong").css("font-weight","bold");
-			$jq.jQuery(".wp-polls p strong").css("font-style","normal !important");
-			$jq.jQuery(".wp-polls p strong").css("font-variant","normal !important");
-		}
-	  }
-	  
-  });
-	</script>
-	<script type="text/javascript">
-	  var _gaq = _gaq || [];
-	  _gaq.push(['_setAccount', 'UA-28803630-1']);
-	  _gaq.push(['_trackPageview']);
-
-	  (function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-	  })();
-	</script>
-	    <style type="text/css">
-			html { margin-top: 0px !important; }
-			* html body { margin-top: 0px !important; }
-    </style>
-	
-	<!-- ngg_resource_manager_marker --><script type='text/javascript' src='https://www.trainkos.com/wp-includes/js/comment-reply.min.js?ver=5.1.19'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var wpcf7 = {"apiSettings":{"root":"https:\/\/www.trainkos.com\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"}};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/contact-form-7/includes/js/scripts.js?ver=5.1.6'></script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/lightbox-plus/js/jquery.colorbox.1.5.9-min.js?ver=1.5.9'></script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-includes/js/wp-embed.min.js?ver=5.1.19'></script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/slick/slick.min.js?ver=3.2.23'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-var photocrati_ajax = {"url":"https:\/\/www.trainkos.com\/index.php?photocrati_ajax=1","wp_home_url":"https:\/\/www.trainkos.com","wp_site_url":"https:\/\/www.trainkos.com","wp_root_url":"https:\/\/www.trainkos.com","wp_plugins_url":"https:\/\/www.trainkos.com\/wp-content\/plugins","wp_content_url":"https:\/\/www.trainkos.com\/wp-content","wp_includes_url":"https:\/\/www.trainkos.com\/wp-includes\/","ngg_param_slug":"nggallery"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/ajax/static/ajax.min.js?ver=3.2.23'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-
-var galleries = {};
-galleries.gallery_27ed131714238904b867f2dc1ed724da = {"id":null,"ids":null,"source":"galleries","src":"","container_ids":["1"],"gallery_ids":[],"album_ids":[],"tag_ids":[],"display_type":"photocrati-nextgen_basic_slideshow","display":"","exclusions":[],"order_by":"sortorder","order_direction":"ASC","image_ids":[],"entity_ids":[],"tagcloud":false,"returns":"included","slug":"widget-slideshow-3","sortorder":[],"display_settings":{"gallery_width":200,"gallery_height":200,"cycle_effect":"fade","cycle_interval":"10","show_thumbnail_link":false,"thumbnail_link_text":"[Show picture list]","use_lightbox_effect":true,"thumbnail_width":100,"thumbnail_height":75,"effect_code":"class=\"shutterset_%GALLERY_NAME%\"","template":"","ngg_triggers_display":"never","_errors":[],"display_view":"default","autoplay":1,"pauseonhover":1,"arrows":0,"interval":3000,"transition_speed":300,"transition_style":"fade","entity_types":["image"],"show_slideshow_link":false,"use_imagebrowser_effect":false},"excluded_container_ids":[],"maximum_entity_count":500,"__defaults_set":true,"_errors":[],"ID":"27ed131714238904b867f2dc1ed724da"};
-galleries.gallery_27ed131714238904b867f2dc1ed724da.wordpress_page_root = "https:\/\/www.trainkos.com\/sherbimet\/transporti-i-udhetareve\/orari-i-trenave\/";
-var nextgen_lightbox_settings = {"static_path":"https:\/\/www.trainkos.com\/wp-content\/plugins\/nextgen-gallery\/products\/photocrati_nextgen\/modules\/lightbox\/static\/{placeholder}","context":"nextgen_images"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_gallery_display/static/common.js?ver=3.2.23'></script>
-<script type='text/javascript'>
-            var nggLastTimeoutVal = 1000;
-
-			var nggRetryFailedImage = function(img) {
-				setTimeout(function(){
-					img.src = img.src;
-				}, nggLastTimeoutVal);
-			
-				nggLastTimeoutVal += 500;
-			}
-        
-</script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/nextgen_basic_gallery/static/slideshow/ngg_basic_slideshow.js?ver=3.2.23'></script>
-<script type='text/javascript'>
-/* <![CDATA[ */
-
-var nextgen_shutter_i18n = {"msgLoading":"L O A D I N G","msgClose":"Click to Close"};
-/* ]]> */
-</script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/lightbox_context.js?ver=3.2.23'></script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter/shutter.js?ver=3.2.23'></script>
-<script type='text/javascript' src='https://www.trainkos.com/wp-content/plugins/nextgen-gallery/products/photocrati_nextgen/modules/lightbox/static/shutter/nextgen_shutter.js?ver=3.2.23'></script>
-<script type='text/javascript' src='https://use.fontawesome.com/releases/v5.3.1/js/v4-shims.js?ver=5.3.1'></script>
-<script type='text/javascript' defer integrity="sha384-kW+oWsYx3YpxvjtZjFXqazFpA7UP/MbiY4jvs+RWZo2+N94PFZ36T6TFkc9O3qoB" crossorigin="anonymous" data-auto-replace-svg="false" data-keep-original-source="false" data-search-pseudo-elements src='https://use.fontawesome.com/releases/v5.3.1/js/all.js?ver=5.3.1'></script>
-			<!-- Social Ring JS Start -->
-			<div id="fb-root"></div><script src="https://connect.facebook.net/en_US/all.js#xfbml=1"></script><script type='text/javascript' src="https://platform.twitter.com/widgets.js"></script><script type="text/javascript">
-								window.___gcfg = {
-								  lang: 'en-US'
-								};
-								(function() {
-									var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
-									po.src = 'https://apis.google.com/js/plusone.js';
-									var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
-								})();
-							</script>
-							<script type='text/javascript' src='https://apis.google.com/js/plusone.js'></script><script type="text/javascript" src="https://assets.pinterest.com/js/pinit.js"></script>		<!-- Social Ring JS End -->
-	<!-- Lightbox Plus Colorbox v2.7.2/1.5.9 - 2013.01.24 - Message: 0-->
-<script type="text/javascript">
-jQuery(document).ready(function($){
-  $("a[rel*=lightbox]").colorbox({speed:350,initialWidth:"300",initialHeight:"100",opacity:0.8,loop:false,scrolling:false,escKey:false,arrowKey:false,top:false,right:false,bottom:false,left:false});
-});
-</script>
-    </body>
+</body>
 </html>
-			
