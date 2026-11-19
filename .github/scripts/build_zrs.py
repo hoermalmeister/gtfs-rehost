@@ -372,6 +372,14 @@ def build(feed, cfg, data):
         warnings.append(f"Stanice „{n}“ (ŽRS) není ve stops.txt nebo nemá souřadnice – vynechána, doplňte ji "
                         f"nebo alias do zfbih/zrs.json. Staví v ní vlaky: {', '.join(sorted(tr))}")
 
+    # ---- stations that should get trains from some date on (zrs.json "expect")
+    served = {s for st in runs.values() for s in st}
+    for ex in cfg.get("expect", []):
+        sid = sid_of(ex["name"])
+        if ex.get("from", "0000") <= window[-1] and sid not in served:
+            warnings.append(f"{ex['name']}: od {ex.get('from', '?')} tam mají jezdit vlaky ({ex.get('note', '')}), "
+                            f"web ŽRS je ale do {window[-1]} neukazuje – zkontrolujte web nebo doplňte jízdní řád ručně.")
+
     # ---- variants: days with identical times
     variants = {}  # train -> {signature: set(dates)}
     for (d, train), st in runs.items():
@@ -391,15 +399,20 @@ def build(feed, cfg, data):
     def extend(days):
         ds = sorted(date.fromisoformat(x) for x in days)
         out = {x.strftime("%Y%m%d") for x in ds}
-        if (w1 - ds[-1]).days > 6:          # not seen in the last week of the window: ended
-            return out
-        first = ds[0]
+        first, last = ds[0], ds[-1]
         mask = []
         for wd in range(7):
-            occ = [first + timedelta(days=k) for k in range((w1 - first).days + 1)
+            occ = [first + timedelta(days=k) for k in range((last - first).days + 1)
                    if (first + timedelta(days=k)).weekday() == wd]
             on = sum(1 for x in occ if x in ds)
-            mask.append(bool(occ) and on * 2 >= len(occ) and on > 0)
+            mask.append(None if not occ else (on * 2 >= len(occ) and on > 0))
+        # weekdays not seen yet (variant started near the end of the window): daily if it ran every day seen
+        every_day = all(m for m in mask if m is not None)
+        mask = [every_day if m is None else m for m in mask]
+        # ended: after its last run there was a day in the window it should have run on
+        gap = [last + timedelta(days=k) for k in range(1, (w1 - last).days + 1)]
+        if any(mask[x.weekday()] and x.isoformat() not in hol for x in gap):
+            return out
         workday_only = not mask[5] and not mask[6]
         d = w1 + timedelta(days=1)
         while d <= end:
