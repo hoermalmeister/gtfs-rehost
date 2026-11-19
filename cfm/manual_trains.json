@@ -7,7 +7,9 @@
     "renumber    = v této stanici vlak mění číslo: before = číslo před stanicí, after = za ní.",
     "stops       = stanice v pořadí jízdy; stop_id ze stops.txt, name je jen pro čtení.",
     "              arr / dep = HH:MM místního času, null u první/poslední stanice. Přes půlnoc se počítá samo.",
-    "Stanice, které jsou ve widgetu a tady chybí, zůstanou a jejich čas se dopočítá mezi sousedními stanicemi z tohoto seznamu."
+    "Chybějící časy se interpolují: stanici, která je ve widgetu a tady chybí (nebo je tu bez časů, arr i dep null),",
+    "              skript posune poměrně mezi sousední stanice s časem z tohoto seznamu podle odstupu ve widgetu;",
+    "              stanice bez času v obou zdrojích dostane čas podle vzdálenosti mezi sousedními časovanými stanicemi."
   ],
   "trains": [
     {

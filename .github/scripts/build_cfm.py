@@ -306,7 +306,7 @@ def json_timeline(stops):
     for s in stops:
         vals = []
         for key in ("arr", "dep"):
-            v = parse_time(s[key]) if s.get(key) else None
+            v = parse_time(s[key]) if s.get(key) else None   # missing time -> interpolated later
             if v is not None:
                 v += day
                 if last is not None and v < last:
@@ -316,24 +316,33 @@ def json_timeline(stops):
             vals.append(v)
         arr, dep = vals
         out.append([s["stop_id"], arr if arr is not None else dep, dep if dep is not None else arr])
+    # a station with neither arr nor dep stays [stop_id, None, None]
     return out
 
 
 def apply_manual(kept, man, coord, warnings):
-    """Merge widget stops with the manual timetable. Returns [(number, stops)]."""
+    """Merge widget stops with the manual timetable. Returns [(number, stops)].
+
+    Times come from, in this order: the manual timetable; the widget time of the station
+    mapped proportionally between the neighbouring manual stations; the distance between
+    the neighbouring timed stations (station without a time in either source)."""
     js = [k for k in json_timeline(man["stops"]) if k[0] in coord]
     for s in man["stops"]:
         if s["stop_id"] not in coord:
             warnings.append(f"manual_trains.json: stanice {s['stop_id']} ({s.get('name', '')}) není ve stops.txt")
     wid = {k[0]: k for k in kept}
-    common = [k for k in js if k[0] in wid]
+    timed = [k for k in js if k[1] is not None]
+    if not timed:
+        warnings.append(f"manual_trains.json: vlak {man['cfm_train']} nemá žádný čas – úprava nepoužita")
+        return [(man["cfm_train"], kept)]
+    common = [k for k in timed if k[0] in wid]
     # put the manual timeline on the same day as the widget data
     if common:
         diff = wid[common[0][0]][2] - common[0][2]
         shift = round(diff / 1440) * 1440
     else:
         shift = (kept[0][2] // 1440) * 1440 if kept else 0
-    for k in js:
+    for k in timed:
         k[1] += shift
         k[2] += shift
     # widget time -> manual time, piecewise linear through the common stations
@@ -352,12 +361,62 @@ def apply_manual(kept, man, coord, warnings):
                 return round(y0 + (y1 - y0) * (t - x0) / (x1 - x0))
         return t
 
+    # manual stations without a time: use the widget time if the widget has one
+    for k in js:
+        if k[1] is None and k[0] in wid:
+            k[1], k[2] = remap(wid[k[0]][1]), remap(wid[k[0]][2])
+
     in_json = {k[0] for k in js}
-    merged = [list(k) for k in js]
+    merged = [list(k) for k in js if k[1] is not None]
     for sid, arr, dep in kept:
         if sid not in in_json:
             merged.append([sid, remap(arr), remap(dep)])
     merged.sort(key=lambda k: (k[1], k[2]))
+    # manual stations without any time: between their neighbours from the manual list,
+    # at the place with the smallest detour (widget-only stations may lie in between)
+    for i, k in enumerate(js):
+        if k[1] is not None:
+            continue
+        ids = [m[0] for m in merged]
+        prev = next((js[j][0] for j in range(i - 1, -1, -1) if js[j][0] in ids), None)
+        nxt = next((js[j][0] for j in range(i + 1, len(js)) if js[j][0] in ids), None)
+        lo = ids.index(prev) + 1 if prev else 0
+        hi = ids.index(nxt) if nxt else len(merged)
+        c = coord[k[0]]
+
+        def detour(pos):
+            a = coord[merged[pos - 1][0]] if pos > 0 else None
+            b = coord[merged[pos][0]] if pos < len(merged) else None
+            if a and b:
+                return dist(a, c) + dist(c, b) - dist(a, b)
+            return dist(a or b, c)
+
+        pos = min(range(lo, max(hi, lo) + 1), key=detour)
+        merged.insert(pos, [k[0], None, None])
+    # ... and timed by distance between the neighbouring timed stations
+    n = 0
+    while n < len(merged):
+        if merged[n][1] is not None:
+            n += 1
+            continue
+        e = n
+        while e < len(merged) and merged[e][1] is None:
+            e += 1
+        if n == 0 or e == len(merged):
+            sid = merged[n][0]
+            warnings.append(f"manual_trains.json: stanici {sid} u vlaku {man['cfm_train']} nejde dopočítat "
+                            "čas (chybí časovaná stanice před ní nebo za ní) – vynechána")
+            del merged[n]
+            continue
+        chain = merged[n - 1:e + 1]
+        d = [0.0]
+        for x, y in zip(chain, chain[1:]):
+            d.append(d[-1] + dist(coord[x[0]], coord[y[0]]))
+        t0, t1 = chain[0][2], chain[-1][1]
+        for j in range(1, len(chain) - 1):
+            t = round(t0 + (t1 - t0) * d[j] / d[-1]) if d[-1] else t0
+            chain[j][1] = chain[j][2] = t
+        n = e
     merged[0][1] = merged[0][2]
     merged[-1][2] = merged[-1][1]
 
