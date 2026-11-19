@@ -1,35 +1,49 @@
 route_id,service_id,trip_id,trip_headsign,shape_id,bikes_allowed
-2150,WD,2150,Zenica,SrZe,1
+6400,R1,6400,Banja Luka,DoBL,1
+6601,R1,6601,Petrovo Novo,DoPN,1
+6401,R1,6401,Doboj,BLDo,1
+6421,R1,6421,Banja Luka,NGBL,1
+6600,R1,6600,Doboj,PNDo,1
+6420,R2,6420,Dobrljin,BLDb,1
+6420,R3,6420_2,Dobrljin,BLDb,1
+6423,R2,6423,Banja Luka,DbBL,1
+6423,R3,6423_2,Banja Luka,DbBL,1
+6603,R1,6603,Petrovo Novo,DoPN,1
+6422,R1,6422,Novi Grad,BLNG,1
+6402,R1,6402,Banja Luka,DoBL,1
+6403,R1,6403,Doboj,BLDo,1
+6602,R1,6602,Doboj,PNDo,1
 2101,AL,2101,Zenica,MaZe,1
+2102,AL,2102,Maglaj,ZeMa,1
+2150,WD,2150,Zenica,SrZe,1
 2151,AL,2151,Sarajevo,ZeSr,1
+2156,WD,2156,Zenica,SrZe,1
+2157,WD,2157,Sarajevo,ZeSr,1
 2160,WD,2160,Visoko,SrVi,1
-720,AL,720,Sarajevo,CaSr,1
-711,N7_711,711,Sarajevo,MaSr,1
-2402,WD,2402,Sarajevo,PaSr,1
 2161,WD,2161,Sarajevo,ViSr,1
-723,AL,723,Čapljina,SrCa,1
-2403,AL,2403,Pazarić,SrPa,1
 2162,WD,2162,Visoko,SrVi,1
-2404,WD,2404,Sarajevo,PaSr,1
 2163,WD,2163,Sarajevo,ViSr,1
+2168,WD,2168,Visoko,SrVi,1
+2169,WD,2169,Sarajevo,ViSr,1
+2170,AL,2170,Visoko,SrVi,1
+2171,AL,2171,Sarajevo,ViSr,1
+2172,AL,2172,Visoko,SrVi,1
+2173,AL,2173,Sarajevo,ViSr,1
+2402,WD,2402,Sarajevo,PaSr,1
+2403,AL,2403,Pazarić,SrPa,1
+2404,WD,2404,Sarajevo,PaSr,1
 2405,WD,2405,Pazarić,SrPa,1
 2406,AL,2406,Sarajevo,PaSr,1
 2407,AL,2407,Pazarić,SrPa,1
 2408,WD,2408,Sarajevo,PaSr,1
 2409,WD,2409,Pazarić,SrPa,1
-2157,WD,2157,Sarajevo,ZeSr,1
-2102,AL,2102,Maglaj,ZeMa,1
-2156,WD,2156,Zenica,SrZe,1
 2410,AL,2410,Sarajevo,PaSr,1
-710,N6_710,710,Maglaj,SrMa,1
-722,AL,722,Sarajevo,CaSr,1
-721,AL,721,Čapljina,SrCa,1
 2411,WD,2411,Pazarić,SrPa,1
-2168,WD,2168,Visoko,SrVi,1
 2412,WD,2412,Sarajevo,PaSr,1
-2169,WD,2169,Sarajevo,ViSr,1
 2413,AL,2413,Pazarić,SrPa,1
-2170,AL,2170,Visoko,SrVi,1
-2171,AL,2171,Sarajevo,ViSr,1
-2172,AL,2172,Visoko,SrVi,1
-2173,AL,2173,Sarajevo,ViSr,1
+710,N6_710,710,Maglaj,SrMa,1
+711,N7_711,711,Sarajevo,MaSr,1
+720,AL,720,Sarajevo,CaSr,1
+721,AL,721,Čapljina,SrCa,1
+722,AL,722,Sarajevo,CaSr,1
+723,AL,723,Čapljina,SrCa,1
