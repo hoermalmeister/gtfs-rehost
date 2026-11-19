@@ -167,7 +167,7 @@ class Browser:
             except Exception as e:
                 if attempt == retries:
                     raise
-                print(f"  retry after error: {str(e)[:120]}")
+                print(f"  opakuji po chybě: {str(e)[:120]}", flush=True)
                 self.open()
 
     def close(self):
@@ -181,11 +181,29 @@ def crawl(cfg):
     dates = b.call("() => __zrs.dates()")
     if not stations or not dates:
         raise SystemExit("Stránka nevrátila seznam stanic nebo dnů.")
-    print(f"{len(stations)} stanic, dny {dates[0]} … {dates[-1]}")
+    print(f"{len(stations)} stanic, dny {dates[0]} … {dates[-1]}", flush=True)
     hubs = [h for h in cfg["hubs"] if h in stations]
     seen = {}            # row key -> legs
     obs = []             # {date, from, to, rows: [{key}], }
     n_search = n_expand = 0
+
+    t_start = time.time()
+    budget = cfg.get("max_minutes", 150) * 60
+    state = {"planned": 0}
+
+    def progress(force=False):
+        if force or n_search % 25 == 0:
+            el = time.time() - t_start
+            left = max(state["planned"] - n_search, 0)
+            eta = el / n_search * left if n_search else 0
+            print(f"  [{el / 60:5.1f} min] hledání {n_search}/{state['planned']}, rozbaleno {n_expand}, "
+                  f"vlaků {len({l['train'] for v in seen.values() for l in v})}, zbývá cca {eta / 60:.0f} min", flush=True)
+
+    def save():
+        ws = os.environ.get("GITHUB_WORKSPACE", ".")
+        with open(os.path.join(ws, "zrs_observations.json"), "w", encoding="utf-8") as f:
+            json.dump({"stations": stations, "dates": sorted({o["date"] for o in obs}), "seen": seen, "obs": obs},
+                      f, ensure_ascii=False)
 
     def run(a, b_, d):
         nonlocal n_search, n_expand
@@ -202,26 +220,28 @@ def crawl(cfg):
                 n_expand += 1
             out.append(key)
         obs.append({"date": d, "from": a, "to": b_, "rows": out})
+        progress()
         return out
 
     def extents():
-        """(first, last) station of every train seen so far."""
+        """(first, last) station of every train seen so far, from all its known segments."""
         ex = {}
         for legs in seen.values():
             for leg in legs:
-                if leg["stops"]:
-                    t = ex.setdefault(leg["train"], [])
-                    t.append((leg["stops"][0]["name"], leg["stops"][-1]["name"]))
-        pairs = set()
-        for segs in ex.values():
-            pairs.add((segs[0][0], segs[-1][1]))
-            pairs.update(segs)
-        return pairs
+                for n, a, d in leg_minutes(leg["stops"]):
+                    lo, hi = ex.setdefault(leg["train"], [(n, a), (n, d)])
+                    if a < lo[1]:
+                        ex[leg["train"]][0] = (n, a)
+                    if d > hi[1]:
+                        ex[leg["train"]][1] = (n, d)
+        return {(lo[0], hi[0]) for lo, hi in ex.values() if lo[0] != hi[0]}
 
     hub_pairs = [(x, y) for x in hubs for y in hubs if x != y]
     sweep_day = next((d for d in dates if date.fromisoformat(d).weekday() < 5), dates[0])
     if cfg.get("sweep", True):
         t0 = time.time()
+        print(f"Fáze 1: hledání vlaků (den {sweep_day})", flush=True)
+        state["planned"] = len(hub_pairs) + 6 * len(stations) + len(dates) * 40
         for a, b_ in hub_pairs:
             run(a, b_, sweep_day)
         # hubs on the same line as each station (from the trains found between hubs)
@@ -238,17 +258,28 @@ def crawl(cfg):
             for h in sorted(line_hubs.get(s) or hubs):
                 run(s, h, sweep_day)
                 run(h, s, sweep_day)
-        print(f"sweep {sweep_day}: {n_search} hledání, {n_expand} rozbalení, {time.time() - t0:.0f} s")
+        print(f"Fáze 1 hotová: {n_search} hledání, {n_expand} rozbalení, {(time.time() - t0) / 60:.1f} min", flush=True)
+        save()
+    pairs = sorted((set(hub_pairs) | extents()) & {(x, y) for x in stations for y in stations})
+    state["planned"] = n_search + len(pairs) * len(dates)
+    print(f"Fáze 2: {len(dates)} dní × {len(pairs)} dvojic", flush=True)
+    done_dates = []
     for d in dates:
+        if time.time() - t_start > budget:
+            print(f"Překročen časový rozpočet {budget / 60:.0f} min – zbylé dny vynechány", flush=True)
+            break
         t0 = time.time()
-        pairs = set(hub_pairs) | {p for p in extents() if p[0] != p[1]}
         done = {(o["from"], o["to"]) for o in obs if o["date"] == d}
-        for a, b_ in sorted(pairs - done):
-            if a in stations and b_ in stations:
+        for a, b_ in pairs:
+            if (a, b_) not in done:
                 run(a, b_, d)
-        print(f"{d}: {len(pairs)} dvojic, celkem {n_search} hledání / {n_expand} rozbalení, {time.time() - t0:.0f} s")
+        done_dates.append(d)
+        save()
+        print(f"  den {d} hotový za {(time.time() - t0) / 60:.1f} min", flush=True)
+        progress(force=True)
     b.close()
-    return {"stations": stations, "dates": dates, "seen": seen, "obs": obs}
+    return {"stations": stations, "dates": done_dates, "seen": seen, "obs": [o for o in obs if o["date"] in done_dates],
+            "incomplete": len(done_dates) < len(dates)}
 
 
 # ---------------------------------------------------------------- build
@@ -282,6 +313,9 @@ def build(feed, cfg, data):
         return by_name.get(norm(n))
 
     seen, obs, window = data["seen"], data["obs"], data["dates"]
+    if data.get("incomplete"):
+        warnings.append(f"Procházení ŽRS nestihlo celé okno v časovém rozpočtu – zpracováno jen {len(window)} dní "
+                        f"({window[0]} … {window[-1]}).")
     if not obs:
         raise SystemExit("Web nevrátil žádné výsledky – nic neměním.")
 
