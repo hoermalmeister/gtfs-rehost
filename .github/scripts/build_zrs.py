@@ -183,7 +183,8 @@ def crawl(cfg):
         raise SystemExit("Stránka nevrátila seznam stanic nebo dnů.")
     print(f"{len(stations)} stanic, dny {dates[0]} … {dates[-1]}", flush=True)
     hubs = [h for h in cfg["hubs"] if h in stations]
-    seen = {}            # row key -> legs
+    seen = {}            # row key -> legs ([] = skipped, nothing new)
+    known = {}           # train -> station -> (arr, dep) as text
     obs = []             # {date, from, to, rows: [{key}], }
     n_search = n_expand = 0
 
@@ -216,8 +217,19 @@ def crawl(cfg):
         for r in rows:
             key = f"{r['train']}|{r['from']}|{r['dep']}|{r['to']}|{r['arr']}"
             if key not in seen:
-                seen[key] = b.call("([i]) => __zrs.expand(i)", r["i"])
-                n_expand += 1
+                st = known.get(r["train"], {})
+                if st.get(r["from"], (None, None))[1] == r["dep"] and st.get(r["to"], (None, None))[0] == r["arr"]:
+                    seen[key] = []      # nothing new: same train, same times at both stations
+                else:
+                    seen[key] = b.call("([i]) => __zrs.expand(i)", r["i"])
+                    n_expand += 1
+                    for leg in seen[key]:
+                        for s_ in leg["stops"]:
+                            t = s_["times"]
+                            if t:
+                                k = known.setdefault(leg["train"], {})
+                                a0, d0 = k.get(s_["name"], (None, None))
+                                k[s_["name"]] = (a0 or t[0], d0 or t[-1])
             out.append(key)
         obs.append({"date": d, "from": a, "to": b_, "rows": out})
         progress()
@@ -229,6 +241,8 @@ def crawl(cfg):
         for legs in seen.values():
             for leg in legs:
                 for n, a, d in leg_minutes(leg["stops"]):
+                    a = a if a is not None else d
+                    d = d if d is not None else a
                     lo, hi = ex.setdefault(leg["train"], [(n, a), (n, d)])
                     if a < lo[1]:
                         ex[leg["train"]][0] = (n, a)
@@ -285,19 +299,26 @@ def crawl(cfg):
 # ---------------------------------------------------------------- build
 
 def leg_minutes(stops):
-    """[(name, arr, dep)] in minutes, growing through midnight."""
+    """[(name, arr, dep)] in minutes, growing through midnight; the first stop of a leg has
+    no arrival and the last one no departure (None) - the leg says nothing about them."""
     out, last, day = [], None, 0
-    for s in stops:
+    for i, s in enumerate(stops):
         vals = []
-        for t in (s["times"][:1] + s["times"][-1:]) if s["times"] else []:
+        for t in ((s["times"][:1] + s["times"][-1:]) if s["times"] else []):
             v = tmin(t + ":00") + day
             if last is not None and v < last:
                 day += 1440
                 v += 1440
             last = v
             vals.append(v)
-        if vals:
-            out.append((s["name"], vals[0], vals[-1]))
+        if not vals:
+            continue
+        arr, dep = vals[0], vals[-1]
+        if i == 0 and len(s["times"]) < 2:
+            arr = None
+        if i == len(stops) - 1 and len(s["times"]) < 2:
+            dep = None
+        out.append((s["name"], arr, dep))
     return out
 
 
@@ -336,17 +357,17 @@ def build(feed, cfg, data):
                 for n, a, d in ms:
                     s = sid_of(n)
                     if s in cur:
-                        shift = round((cur[s][1] - d) / 1440) * 1440
+                        known_t = next(x for x in (cur[s][1], cur[s][0]) if x is not None)
+                        shift = round((known_t - next(x for x in (d, a) if x is not None)) / 1440) * 1440
                         break
                 for n, a, d in ms:
                     s = sid_of(n)
-                    if not s:
+                    if not s or s not in coord:
                         unknown.setdefault(n, set()).add(leg["train"])
                         continue
-                    if s not in coord:
-                        unknown.setdefault(n, set()).add(leg["train"])
-                        continue
-                    cur.setdefault(s, (a + shift, d + shift))
+                    old_a, old_d = cur.get(s, (None, None))
+                    cur[s] = (old_a if old_a is not None else (a + shift if a is not None else None),
+                              old_d if old_d is not None else (d + shift if d is not None else None))
     for n, tr in sorted(unknown.items()):
         warnings.append(f"Stanice „{n}“ (ŽRS) není ve stops.txt nebo nemá souřadnice – vynechána, doplňte ji "
                         f"nebo alias do zfbih/zrs.json. Staví v ní vlaky: {', '.join(sorted(tr))}")
@@ -354,6 +375,7 @@ def build(feed, cfg, data):
     # ---- variants: days with identical times
     variants = {}  # train -> {signature: set(dates)}
     for (d, train), st in runs.items():
+        st = {k: (a if a is not None else dp, dp if dp is not None else a) for k, (a, dp) in st.items()}
         if len(st) < 2:
             continue
         seq = sorted(st.items(), key=lambda x: (x[1][0], x[1][1]))
