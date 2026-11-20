@@ -5,15 +5,18 @@ route_id,service_id,trip_id,direction_id,shape_id,trip_headsign
 1,FULLWEEK,1_4,,1,AK Poreč
 1,FULLWEEK,1_5,,1,AK Poreč
 1,FULLWEEK,1_6,,1,AK Poreč
-1,FULLWEEK,1_7,,1,AK Poreč
-1,FULLWEEK,1_8,,1,AK Poreč
-1,FULLWEEK,1_9,,1,AK Poreč
-2,FULLWEEK,2_10,,2,Červar-Porat
-2,FULLWEEK,2_11,,2,Červar-Porat
-2,FULLWEEK,2_12,,2,Červar-Porat
-2,FULLWEEK,2_13,,2,Červar-Porat
-2,FULLWEEK,2_14,,2,Červar-Porat
-2,FULLWEEK,2_15,,2,Červar-Porat
-2,FULLWEEK,2_16,,2,Červar-Porat
-2,FULLWEEK,2_17,,2,Červar-Porat
-2,FULLWEEK,2_18,,2,Červar-Porat
+1,WORKDAY,1_7,,1,AK Poreč
+2,FULLWEEK,2_1,,2,Červar-Porat
+2,FULLWEEK,2_2,,2,Červar-Porat
+2,FULLWEEK,2_3,,2,Červar-Porat
+2,FULLWEEK,2_4,,2,Červar-Porat
+2,FULLWEEK,2_5,,2,Červar-Porat
+2,FULLWEEK,2_6,,2,Červar-Porat
+2,WORKDAY,2_7,,2,Červar-Porat
+3,WORKDAY,3_1,,3,Baderna
+3,FULLWEEK,3_2,,3,Baderna
+3,FULLWEEK,3_3,,3,Baderna
+3,FULLWEEK,3_4,,3,Baderna
+3,FULLWEEK,3_5,,3,Baderna
+3,FULLWEEK,3_6,,3,Baderna
+3,FULLWEEK,3_7,,3,Baderna
