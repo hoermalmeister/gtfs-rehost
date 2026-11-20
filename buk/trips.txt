@@ -1,0 +1,107 @@
+route_id,service_id,trip_id,direction_id,trip_headsign,shape_id
+90-1,S,90-1-1,0,Międzygórze Pętla,90-1-337564
+90-1,K,90-1-2,0,Międzygórze Pętla,90-1-06677e
+90-1,25d,90-1-3,0,Międzygórze Pętla,90-1-06677e
+90-1,S,90-1-4,0,Międzygórze Pętla,90-1-337564
+90-1,S,90-1-5,0,Międzygórze Pętla,90-1-337564
+90-1,S,90-1-6,0,Międzygórze Pętla,90-1-337564
+90-1,KCdw,90-1-7,0,Międzygórze Pętla,90-1-06677e
+90-1,KCdw,90-1-8,0,Międzygórze Pętla,90-1-06677e
+90-1,K,90-1-9,0,Międzygórze Pętla,90-1-06677e
+90-2,S,90-2-1,1,Bystrzyca Kłodzka Centrum,90-2-77453f
+90-2,K,90-2-2,1,Bystrzyca Kłodzka Centrum,90-2-9a9a57
+90-2,25d,90-2-3,1,Bystrzyca Kłodzka Centrum,90-2-9a9a57
+90-2,S,90-2-4,1,Bystrzyca Kłodzka Centrum,90-2-77453f
+90-2,S,90-2-5,1,Bystrzyca Kłodzka Centrum,90-2-77453f
+90-2,S,90-2-6,1,Bystrzyca Kłodzka Centrum,90-2-77453f
+90-2,KCdw,90-2-7,1,Bystrzyca Kłodzka Centrum,90-2-9a9a57
+90-2,KCdw,90-2-8,1,Bystrzyca Kłodzka Centrum,90-2-9a9a57
+90-2,K,90-2-9,1,Bystrzyca Kłodzka Centrum,90-2-9a9a57
+91-1,S,91-1-1,0,Poręba II,91-1-2a35a0
+91-1,25d,91-1-2,0,Ponikwa II,91-1-4a8b99
+91-1,25Kd,91-1-3,0,Ponikwa II,91-1-4a8b99
+91-1,S,91-1-4,0,Poręba II,91-1-051a0d
+91-1,S,91-1-5,0,Poręba II,91-1-051a0d
+91-1,S,91-1-6,0,Poręba II,91-1-051a0d
+91-1,KCdw,91-1-7,0,Długopole Zdrój,91-1-99ff0d
+91-1,KCdw,91-1-8,0,Długopole Zdrój,91-1-99ff0d
+91-2,S,91-2-1,1,Bystrzyca Kłodzka Centrum,91-2-c43ab3
+91-2,25d,91-2-2,1,Bystrzyca Kłodzka Centrum,91-2-0af494
+91-2,25Kd,91-2-3,1,Bystrzyca Kłodzka Centrum,91-2-0af494
+91-2,S,91-2-4,1,Bystrzyca Kłodzka Centrum,91-2-b58f3d
+91-2,S,91-2-5,1,Bystrzyca Kłodzka Centrum,91-2-b58f3d
+91-2,S,91-2-6,1,Bystrzyca Kłodzka Centrum,91-2-b58f3d
+91-2,KCdw,91-2-7,1,Bystrzyca Kłodzka Centrum,91-2-f0e933
+91-2,KCdw,91-2-8,1,Bystrzyca Kłodzka Centrum,91-2-f0e933
+92-1,S,92-1-1,0,Pokrzywno (?),92-1-0986cc
+92-1,S,92-1-2,0,Pokrzywno (?),92-1-d522cd
+92-1,S,92-1-3,0,Szklarka,92-1-3d7f78
+92-1,S,92-1-4,0,Pokrzywno (?),92-1-d522cd
+92-2,S,92-2-1,1,Bystrzyca Kłodzka Centrum,92-2-b4a222
+92-2,S,92-2-2,1,Bystrzyca Kłodzka Centrum,92-2-44d4a6
+92-2,S,92-2-3,1,Bystrzyca Kłodzka Centrum,92-2-c02ddc
+92-2,S,92-2-4,1,Bystrzyca Kłodzka Centrum,92-2-44d4a6
+93M-1,S,93M-1-1,0,Młoty Leśniczówka,93M-1-b9db6d
+93M-1,25d,93M-1-2,0,Młoty Leśniczówka,93M-1-b9db6d
+93M-1,25Kd,93M-1-3,0,Młoty Leśniczówka,93M-1-b9db6d
+93M-1,S,93M-1-4,0,Młoty Leśniczówka,93M-1-b9db6d
+93M-1,S,93M-1-5,0,Młoty Leśniczówka,93M-1-b9db6d
+93M-2,S,93M-2-1,1,Bystrzyca Kłodzka Centrum,93M-2-cf7578
+93M-2,25d,93M-2-2,1,Bystrzyca Kłodzka Centrum,93M-2-cf7578
+93M-2,25Kd,93M-2-3,1,Bystrzyca Kłodzka Centrum,93M-2-cf7578
+93M-2,S,93M-2-4,1,Bystrzyca Kłodzka Centrum,93M-2-cf7578
+93M-2,S,93M-2-5,1,Bystrzyca Kłodzka Centrum,93M-2-cf7578
+93L-1,S,93L-1-1,0,Lasówka II Kościoł,93L-1-2e3487
+93L-1,25Kd,93L-1-2,0,Lasówka II Kościoł,93L-1-2e3487
+93L-1,S,93L-1-3,0,Lasówka II Kościoł,93L-1-2e3487
+93L-1,25Kd,93L-1-4,0,Lasówka II Kościoł,93L-1-2e3487
+93L-1,S,93L-1-5,0,Lasówka II Kościoł,93L-1-2e3487
+93L-1,S,93L-1-6,0,Lasówka II Kościoł,93L-1-2e3487
+93L-2,S,93L-2-1,1,Bystrzyca Kłodzka Centrum,93L-2-003dcd
+93L-2,25Kd,93L-2-2,1,Bystrzyca Kłodzka Centrum,93L-2-003dcd
+93L-2,S,93L-2-3,1,Bystrzyca Kłodzka Centrum,93L-2-003dcd
+93L-2,25Kd,93L-2-4,1,Bystrzyca Kłodzka Centrum,93L-2-003dcd
+93L-2,S,93L-2-5,1,Bystrzyca Kłodzka Centrum,93L-2-003dcd
+93L-2,S,93L-2-6,1,Bystrzyca Kłodzka Centrum,93L-2-003dcd
+94-1,S,94-1-1,0,Kamienna,94-1-f31221
+94-1,S,94-1-2,0,Kamienna,94-1-e136a5
+94-1,25Kd,94-1-3,0,Kamienna,94-1-f31221
+94-1,S,94-1-4,0,Kamienna,94-1-f31221
+94-1,25Kd,94-1-5,0,Kamienna,94-1-f31221
+94-1,S,94-1-6,0,Kamienna,94-1-f31221
+94-1,7,94-1-7,0,Góra Igliczna,94-1-58c516
+94-2,S,94-2-1,1,Bystrzyca Kłodzka Centrum,94-2-73edec
+94-2,S,94-2-2,1,Bystrzyca Kłodzka Centrum,94-2-73edec
+94-2,25Kd,94-2-3,1,Bystrzyca Kłodzka Centrum,94-2-73edec
+94-2,S,94-2-4,1,Bystrzyca Kłodzka Centrum,94-2-5f92b3
+94-2,25Kd,94-2-5,1,Bystrzyca Kłodzka Centrum,94-2-73edec
+94-2,S,94-2-6,1,Bystrzyca Kłodzka Centrum,94-2-5f92b3
+94-2,7,94-2-7,1,Bystrzyca Kłodzka Centrum,94-2-2fa7ce
+95-1,S,95-1-1,0,Nowy Waliszów Dom Kultury,95-1-14b052
+95-1,S,95-1-2,0,Nowy Waliszów Dom Kultury,95-1-14b052
+95-1,S,95-1-3,0,Nowy Waliszów Dom Kultury,95-1-14b052
+95-1,S,95-1-4,0,Nowy Waliszów Dom Kultury,95-1-14b052
+95-2,S,95-2-1,1,Bystrzyca Kłodzka Centrum,95-2-2ef91f
+95-2,S,95-2-2,1,Bystrzyca Kłodzka Centrum,95-2-2ef91f
+95-2,S,95-2-3,1,Bystrzyca Kłodzka Centrum,95-2-2ef91f
+95-2,S,95-2-4,1,Bystrzyca Kłodzka Centrum,95-2-2ef91f
+96-1,S,96-1-1,0,Gorzanów Kłodzka,96-1-657520
+96-1,S,96-1-2,0,Gorzanów Kłodzka,96-1-657520
+96-1,S,96-1-3,0,Gorzanów Kłodzka,96-1-657520
+96-1,S,96-1-4,0,Gorzanów Kłodzka,96-1-657520
+96-2,S,96-2-1,1,Bystrzyca Kłodzka Centrum,96-2-112ddd
+96-2,S,96-2-2,1,Bystrzyca Kłodzka Centrum,96-2-112ddd
+96-2,S,96-2-3,1,Bystrzyca Kłodzka Centrum,96-2-112ddd
+96-2,S,96-2-4,1,Bystrzyca Kłodzka Centrum,96-2-112ddd
+97-1,S,97-1-1,0,Wyszki Skrzyżowanie,97-1-7656ed
+97-1,S,97-1-2,0,Wyszki Skrzyżowanie,97-1-7656ed
+97-1,S,97-1-3,0,Wyszki Skrzyżowanie,97-1-7656ed
+97-2,S,97-2-1,1,Bystrzyca Kłodzka Centrum,97-2-0a3d88
+97-2,S,97-2-2,1,Bystrzyca Kłodzka Centrum,97-2-0a3d88
+97-2,S,97-2-3,1,Bystrzyca Kłodzka Centrum,97-2-0a3d88
+98-1,D,98-1-1,0,Długopole Zdrój,98-1-9a50b5
+98-1,D,98-1-2,0,Długopole Zdrój,98-1-9a50b5
+98-1,D,98-1-3,0,Długopole Zdrój,98-1-9a50b5
+98-2,D,98-2-1,1,Bystrzyca Kłodzka Centrum,98-2-a262b2
+98-2,D,98-2-2,1,Bystrzyca Kłodzka Centrum,98-2-a262b2
+98-2,D,98-2-3,1,Bystrzyca Kłodzka Centrum,98-2-a262b2
