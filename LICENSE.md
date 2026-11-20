@@ -1,14 +1,14 @@
 # Licence feedů / Feed licenses
 
-## Vlastní feedy – CC BY-NC-ND 4.0
+## Vlastní feedy – CC BY-NC-SA 4.0
 
 Následující GTFS feedy sestavil Petr Novák a jsou licencovány pod
-[Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0)](https://creativecommons.org/licenses/by-nc-nd/4.0/).
-Smíte je sdílet pro nekomerční účely, beze změn, s uvedením autora (Petr Novák)
-a odkazem na licenci. Každá složka i každý zip obsahuje soubor `LICENSE.txt`.
+[Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+Smíte je sdílet i upravovat pro nekomerční účely, s uvedením autora (Petr Novák)
+a odkazem na licenci; upravené verze musí být šířeny pod stejnou licencí. Každá složka i každý zip obsahuje soubor `LICENSE.txt`.
 
 The following GTFS feeds were compiled by Petr Novák and are licensed under
-CC BY-NC-ND 4.0. Each folder and each zip contains a `LICENSE.txt`.
+CC BY-NC-SA 4.0. Each folder and each zip contains a `LICENSE.txt`.
 
 | Složka / Folder | Feed |
 |---|---|
@@ -28,10 +28,10 @@ CC BY-NC-ND 4.0. Each folder and each zip contains a `LICENSE.txt`.
 ## Převzaté feedy – licence zdroje
 
 Tyto feedy se jen stahují (případně filtrují) z oficiálních zdrojů. Data patří
-jejich vydavatelům a platí pro ně podmínky zdroje, ne CC BY-NC-ND 4.0.
+jejich vydavatelům a platí pro ně podmínky zdroje, ne CC BY-NC-SA 4.0.
 
 These feeds are only downloaded (and possibly filtered) from official sources;
-the source's terms apply, not CC BY-NC-ND 4.0.
+the source's terms apply, not CC BY-NC-SA 4.0.
 
 | Složka / Folder | Zdroj / Source |
 |---|---|
