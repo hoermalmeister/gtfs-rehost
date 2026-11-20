@@ -1,0 +1,11 @@
+{
+ "_comment": "Školní kalendář pro dolnośląskie (S = dni nauki szkolnej). 'no_school' = rozsahy bez výuky ve všední dny (prázdniny, ferie, přestávky). 'd_excluded' = svátky, kdy nejezdí spoje s 'd' (MM-DD nebo 'easter'). Feed končí posledním dnem 'school_years'.",
+ "school_years": [["2025-09-01", "2026-06-26"], ["2026-09-01", "2027-06-25"]],
+ "no_school": [
+  ["2025-12-22", "2025-12-31"], ["2026-02-02", "2026-02-15"], ["2026-04-02", "2026-04-07"],
+  ["2026-10-14", "2026-10-14"], ["2026-12-23", "2026-12-31"], ["2027-01-18", "2027-01-31"],
+  ["2027-03-25", "2027-03-30"], ["2027-10-14", "2027-10-14"]
+ ],
+ "d_excluded": ["01-01", "easter", "12-25"],
+ "feed_end_extra_days": 0
+}

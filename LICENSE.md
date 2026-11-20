@@ -12,6 +12,7 @@ CC BY-NC-SA 4.0. Each folder and each zip contains a `LICENSE.txt`.
 
 | Složka / Folder | Feed |
 |---|---|
+| `buk/` | BUK Bystrzyca Kłodzka |
 | `cfm/` | CFM – Calea Ferată din Moldova |
 | `crikvenica/` | Crikvenica |
 | `manikar/` | Manikar (Stronie Śląskie) |
