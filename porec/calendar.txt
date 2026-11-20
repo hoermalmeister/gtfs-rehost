@@ -1,2 +1,3 @@
 service_id,monday,tuesday,wednesday,thursday,friday,saturday,sunday,start_date,end_date
-FULLWEEK,1,1,1,1,1,1,1,20260615,20261006
+FULLWEEK,1,1,1,1,1,1,1,20261007,20270614
+WORKDAY,1,1,1,1,1,0,0,20261007,20270614
