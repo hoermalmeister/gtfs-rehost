@@ -56,7 +56,6 @@ A67,R1145,RB65,101 Bedřichov-Janov n.N.-Autobusové nádraží-Kokonín-Rychnov
 A67,R1144,RB64,101 Bedřichov-Janov n.N.-Autobusové nádraží-Kokonín-Rychnov u Jablonce n.N. A ZPĚT,2,0,0,0,IDOL_GTFS:253
 A95,R2446,L61,Liberec – Jindřichovice pod Smrkem,2,0,0,0,KADR:5061
 A95,R2448,S18,Kolín – Ledečko – Sázava,2,0,0,0,KADR:1018
-A95,R2449,,Děčín hl. n. - Česká Kamenice,2,0,0,0,
 A95,R2445,L6,Liberec – Černousy,2,0,0,0,KADR:5006
 A103,R3385,Leo Express,Ostrava hlavní nádraží - Bohumín,2,0,0,0,
 A95,R2457,S75,Beroun – Rakovník,2,0,0,0,KADR:1075
@@ -154,7 +153,6 @@ A95,R2342,S14,"Km 52,900 - Jihlava - Slavonice – Telč",2,0,0,0,KADR:3114
 A95,R2358,V23,Hradec Králové - Týniště nad Orlicí - Doudleby nad Orlicí - Potštejn / Rokytnice v Orlických horách,2,0,0,0,KADR:5223
 A95,R2354,S10/S15,Krnov – Třemešná ve Slezsku – Jindřichov ve Slezsku – Mikulovice – Jeseník - Opava východ - Krnov,2,0,0,0,KADR:8010|KADR:8015
 A95,R2355,U8,Děčín – Česká Kamenice – Rumburk,2,0,0,0,KADR:4008
-A95,R2356,,Děčín hl. n. - Rumburk,2,0,0,0,
 A95,R2357,S5,Ostrava hl. n. – Ostrava-Svinov – Ostrava-Vítkovice – Frýdek-Místek – Frýdlant nad Ostravicí - Ostravice,2,0,0,0,KADR:8005
 A95,R2350,S10,Tábor – Bechyně ,2,0,0,0,KADR:3110
 A95,R2353,Sp1,Přerov – Otrokovice – Zlín (– Vizovice),2,0,0,0,KADR:7210
@@ -241,7 +239,6 @@ A95,R2561,P13/P22,Plzeň – Bezdružice - Plzeň – Radnice,2,0,0,0,KADR:3213|
 A95,R2562,P22,Plzeň – Radnice,2,0,0,0,KADR:3222
 A100,R2179,RegioJet,Opava východ - Praha-Zahradní Město,2,0,0,0,
 A100,R2178,,Návsí - Praha-Zahradní Město,2,0,0,0,
-A95,R2574,,Děčín hl. n. - Varnsdorf,2,0,0,0,
 A95,R2575,S76,Zadní Třebáň – Lochovice,2,0,0,0,KADR:1076
 A95,R2576,S76 Brdy,Zadní Třebáň – Lochovice,2,0,0,0,KADR:1076
 A95,R2577,S7/S76,Praha – Beroun - Zadní Třebáň – Lochovice,2,0,0,0,KADR:1007|KADR:1076
@@ -486,7 +483,6 @@ A95,R1800,R10 Hradečan,Praha – Hradec Králové – Trutnov / Letohrad,2,0,0,
 A95,R1804,R13 Moravan,Brno – Břeclav – Přerov – Olomouc,2,0,0,0,KADR:13
 A95,R1803,R13,Brno – Břeclav – Hodonín,2,0,0,0,KADR:6013
 A95,R1801,R16 Berounka,Praha – Plzeň – Klatovy – Železná Ruda,2,0,0,0,KADR:16
-A101,R2724,,Lipov - Veselí nad Moravou,2,0,0,0,
 A101,R2723,,Veselí nad Moravou - Strážnice,2,0,0,0,
 A95,R1818,Ex1 Cracovia,Praha – Ostrava – Návsí / Opava,2,0,0,0,KADR:1
 A95,R1817,Ex1 Silesia,Praha – Ostrava – Návsí / Opava,2,0,0,0,KADR:1
