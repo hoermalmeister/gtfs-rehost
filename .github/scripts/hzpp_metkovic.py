@@ -7,8 +7,9 @@ time is taken as given (calendars are not compared):
   towards Bosnia:  HŽPP arrival in Metković .. ŽFBH departure from Čapljina
   towards Croatia: ŽFBH arrival in Čapljina .. HŽPP departure from Metković
 
-Metković – Čapljina takes RUN minutes; the rest of the interval is split into equally long
-stops in both stations.
+Metković – Čapljina takes RUN minutes, the stop in Metković is METK_STOP minutes and
+Čapljina gets the rest; when that would be shorter than MIN_CAPL, the Metković stop is
+shortened instead.
 
 Standalone: python hzpp_metkovic.py FEED_DIR [hzpp_gtfs.zip]  (rewrites the current feed)
 """
@@ -23,6 +24,8 @@ HZPP_URL = ("https://gitlab.com/api/v4/projects/vekejsn%2Fgtfs-generators/packag
             "hzpp-gtfs/latest/hzpp_gtfs.zip")
 CAPL, METK, PLOC = "CAPL", "METK", "PLOC"
 RUN = 6
+METK_STOP = 20
+MIN_CAPL = 10
 WINDOW = 120   # longest accepted Čapljina <-> Metković interval, minutes
 
 
@@ -71,6 +74,11 @@ def load_events(src=None):
     return {k: sorted(v) for k, v in ev.items()}
 
 
+def _metk_stop(rest):
+    """Stop in Metković out of `rest` minutes of standing time in both stations."""
+    return min(METK_STOP, max(0, rest - MIN_CAPL))
+
+
 def adjust(kept, ev):
     """kept: [[stop_id, arr, dep], ...] in minutes (may exceed 1440). Returns (kept, note)."""
     # drop Ploče (and Metković, rebuilt below) at either end
@@ -84,8 +92,7 @@ def adjust(kept, ev):
         cand = [a for a in cand if RUN <= c - a <= WINDOW]
         if cand:
             a = max(cand)
-            rest = c - a - RUN
-            dm = rest // 2
+            dm = _metk_stop(c - a - RUN)
             kept = [[METK, a, a + dm], [CAPL, a + dm + RUN, c]] + kept[1:]
             return kept, f"z Metkoviće {a % 1440 // 60:02d}:{a % 60:02d}"
         return kept, "žádný navazující vlak HŽPP v Metkoviću"
@@ -95,8 +102,7 @@ def adjust(kept, ev):
         cand = [d for d in cand if RUN <= d - c <= WINDOW]
         if cand:
             d = min(cand)
-            rest = d - c - RUN
-            dc = rest // 2
+            dc = d - c - RUN - _metk_stop(d - c - RUN)
             kept = kept[:-1] + [[CAPL, c, c + dc], [METK, c + dc + RUN, d]]
             return kept, f"do Metkoviće, odjezd {d % 1440 // 60:02d}:{d % 60:02d}"
         return kept, "žádný navazující vlak HŽPP v Metkoviću"
