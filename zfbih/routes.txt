@@ -15,11 +15,11 @@ route_id,agency_id,route_short_name,route_long_name,route_type
 2101,FBH,P 2101,Maglaj – Zenica,2
 2151,FBH,P 2151,Zenica – Sarajevo,2
 2160,FBH,P 2160,Sarajevo – Visoko,2
-720,FBH,B 720,Čapljina – Sarajevo,2
+720,FBH,B 720,Metković – Sarajevo,2
 711,FBH,B 711,Maglaj – Sarajevo,2
 2402,FBH,P 2402,Pazarić – Sarajevo,2
 2161,FBH,P 2161,Visoko – Sarajevo,2
-723,FBH,B 723,Sarajevo – Čapljina,2
+723,FBH,B 723,Sarajevo – Metković,2
 2403,FBH,P 2403,Sarajevo – Pazarić,2
 2162,FBH,P 2162,Sarajevo – Visoko,2
 2404,FBH,P 2404,Pazarić – Sarajevo,2
@@ -34,8 +34,8 @@ route_id,agency_id,route_short_name,route_long_name,route_type
 2156,FBH,P 2156,Sarajevo – Zenica,2
 2410,FBH,P 2410,Pazarić – Sarajevo,2
 710,FBH,B 710,Sarajevo – Maglaj,2
-722,FBH,B 722,Čapljina – Sarajevo,2
-721,FBH,B 721,Sarajevo – Čapljina,2
+722,FBH,B 722,Metković – Sarajevo,2
+721,FBH,B 721,Sarajevo – Metković,2
 2411,FBH,P 2411,Sarajevo – Pazarić,2
 2168,FBH,P 2168,Sarajevo – Visoko,2
 2412,FBH,P 2412,Pazarić – Sarajevo,2

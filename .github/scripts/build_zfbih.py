@@ -11,6 +11,8 @@ rebuilt like in build_cfm.py (shared helpers are imported from there).
     first/last station; termini outside the form's station list (Ploče) come from it
   * stations known only to the feed (Metković) are put back between the neighbouring
     stations, at the same relative position as in an existing trip
+  * Ploče – Metković is in the HŽPP feed: trains to/from Ploče start/end in Metković,
+    timed from the HŽPP feed (see hzpp_metkovic.py)
   * days of operation come from the notes (* ** *** ...) below the overview table,
     interpreted by FEED_DIR/notes.json; a note that is not in notes.json raises an issue
     and the trains concerned keep their previous calendar
@@ -32,6 +34,7 @@ from datetime import date, timedelta
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from build_cfm import (brouter, dist, fit_shape, fmt, read, rebuild, tmin,  # noqa: E402
                        write)
+import hzpp_metkovic  # noqa: E402
 
 URL = "https://www.zfbh.ba/en/time-table/"
 AGENCY = "FBH"
@@ -323,6 +326,13 @@ def build(feed, stations, overview, notes, rows):
         dates = dates_for(cand[0]["periods"], start, end, hol)
         return f"N{stars}" + ("_" + num if cand[0].get("trains") else ""), dates, None
 
+    try:
+        hz = hzpp_metkovic.load_events()
+        report.append("HŽPP Metković: vlaky " + ", ".join(hz["trains"]))
+    except Exception as e:  # noqa: BLE001
+        hz = None
+        warnings.append(f"Feed HŽPP se nepodařilo načíst ({e}) – úsek Čapljina–Metković beze změny")
+
     trips, st_rows, routes = [], [], []
     for num in sorted(trains, key=lambda n: trains[n]["stops"][0][2]):
         kept = [list(k) for k in trains[num]["stops"] if k[0] in coord]
@@ -366,6 +376,15 @@ def build(feed, stations, overview, notes, rows):
             continue
         kept[0][1] = kept[0][2]
         kept[-1][2] = kept[-1][1]
+        via_metk = False
+        if hz:
+            ends = (kept[0][0], kept[-1][0])
+            kept, note = hzpp_metkovic.adjust(kept, hz)
+            via_metk = hzpp_metkovic.METK in (kept[0][0], kept[-1][0])
+            if note and not via_metk:
+                warnings.append(f"Vlak {num}: {note}")
+            elif hzpp_metkovic.PLOC in ends:
+                report.append(f"Vlak {num}: zkrácen do Metkoviće (Ploče–Metković je ve feedu HŽPP)")
         shift = (kept[0][2] // 1440) * 1440
         for k in kept:
             k[1] -= shift
@@ -391,7 +410,7 @@ def build(feed, stations, overview, notes, rows):
                 services[dates] = sid
 
         typ = TYPES.get(ov["type"].lower(), "P") if ov else "P"
-        long_name = (f"{ov['origin']} – {ov['dest']}" if ov
+        long_name = (f"{ov['origin']} – {ov['dest']}" if ov and not via_metk
                      else f"{names[kept[0][0]]} – {names[kept[-1][0]]}")
         routes.append({"route_id": num, "agency_id": AGENCY, "route_short_name": f"{typ} {num}",
                        "route_long_name": long_name, "route_type": "2"})
